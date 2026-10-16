@@ -19,33 +19,30 @@ OUT = ROOT / "out"
 SEND = ROOT / "send"
 SHOTS = SEND / "скрины"
 
-FULL = ("Здравствуйте! Увидел «{acc}» в 2ГИС: у вас {rating} и {reviews}, но нет сайта{extra}. "
-        "Набросал, как мог бы выглядеть ваш сайт, скрины прикрепил.")
-SHORT = "Здравствуйте! Увидел «{acc}» в 2ГИС, а сайта у вас нет. Набросал, как мог бы выглядеть ваш сайт, скрины прикрепил."
-MIDDLE = "Кто ищет {what}, открывает пару {who} на картах и звонит тому, у кого видно {seen} и цены."
-TAIL = ("Я Ярослав, делаю сайты для местного бизнеса. Откуда к вам сейчас чаще приходят клиенты? "
-        "Если интересно, покажу макет целиком за 15 минут.")
+# Тексты из BRIEF.md: вариант A при рейтинге 4,6 и выше, вариант B для остальных. «Скрин» стал «скрины»: уходит альбом.
+HELLO = "Здравствуйте! Я Ярослав, делаю сайты для местного бизнеса в Краснодаре. "
+A = HELLO + "Увидел «{acc}» в 2ГИС: {rating}, {reviews}, а сайта нет{extra}. Набросал, как он мог бы выглядеть, скрины ниже. Интересно посмотреть целиком?"
+B = HELLO + "Посмотрел «{acc}» в 2ГИС и набросал, как мог бы выглядеть ваш сайт{works}. Скрины ниже. Интересно посмотреть целиком?"
+WORKS = ": с вашими работами и расчётом стоимости"
+NO_WORKS = " с расчётом стоимости"  # фото работ нет, про работы не пишем
 
 # порядок карточек = порядок отправки
 FIRMS = [
-    dict(id="simmetriya", what="кухню"),
-    dict(id="lerom", what="кухню", who="мебельных салонов",
-         first="Здравствуйте! Увидел вашу «Фабрику мебели» на 1 Мая в 2ГИС: у вас 4,9 и 154 отзыва. "
-               "Набросал, как мог бы выглядеть сайт именно вашего салона, скрины прикрепил.",
+    dict(id="simmetriya"),
+    dict(id="lerom",
+         text=HELLO + "Увидел вашу «Фабрику мебели» на 1 Мая в 2ГИС: 4,9 и 154 отзыва. "
+                      "Набросал, как мог бы выглядеть сайт именно вашего салона, скрины ниже. Интересно посмотреть целиком?",
          flags=["без «нет сайта»: у бренда Лером сайт есть"]),
-    dict(id="stepmebel", what="кухню", extra=", только Telegram-канал"),
-    dict(id="insi", what="детскую мебель", tg_by_phone=True,
-         flags=["фото похожи на каталог, это осознанное исключение"]),
-    dict(id="interer-yug", what="диван или шкаф",
-         flags=["Telegram на втором номере, +7 918 692-85-92"]),
-    dict(id="leo", what="мебель на заказ", tg_by_phone=True),
-    dict(id="stultop", what="обеденный стол", who="магазинов", seen="столы"),
-    dict(id="pyatyy-element", what="кухню или шкаф", tg_by_phone=True),
-    dict(id="vivat", what="кухню", short=True, flags=["в макете нет фото работ, только заглушки"]),
-    dict(id="ars-mebel", what="диван", who="мебельных салонов", seen="модели", short=True,
-         flags=["тот же адрес, что у «Стиля»: если это одна фирма, пиши только одной"]),
-    dict(id="mebelnaya-tema", what="кухню", short=True, tg_by_phone=True),
-    dict(id="stil", what="диван", who="мебельных салонов", seen="модели", short=True,
+    dict(id="stepmebel", extra=", только Telegram-канал"),
+    dict(id="insi", tg_by_phone=True, flags=["фото похожи на каталог, это осознанное исключение"]),
+    dict(id="interer-yug", flags=["Telegram на втором номере, +7 918 692-85-92"]),
+    dict(id="leo", tg_by_phone=True),
+    dict(id="stultop"),
+    dict(id="pyatyy-element", tg_by_phone=True),
+    dict(id="vivat", no_works=True, flags=["в макете нет фото работ, только заглушки"]),
+    dict(id="ars-mebel", flags=["тот же адрес, что у «Стиля»: если это одна фирма, пиши только одной"]),
+    dict(id="mebelnaya-tema", tg_by_phone=True),
+    dict(id="stil", no_works=True,
          flags=["сначала открой mebelstyleshop.ru: этот адрес на их вывеске. Если там их сайт, не пиши",
                 "в макете нет фото работ, только заглушки"]),
 ]
@@ -60,18 +57,14 @@ def plural(n, one, few, many):
 
 
 def message(f, c):
-    if f.get("first"):
-        first = f["first"]
-    elif f.get("short"):
-        first = SHORT.format(acc=c["acc"])
-    else:
-        r = c["rating"]
-        rating = "пятёрка" if r == 5 else f"{r:.1f}".replace(".", ",")
-        n = c["reviews"]
-        first = FULL.format(acc=c["acc"], rating=rating, reviews=f'{n} {plural(n, "отзыв", "отзыва", "отзывов")}',
-                            extra=f.get("extra", ""))
-    middle = MIDDLE.format(what=f["what"], who=f.get("who", "мебельщиков"), seen=f.get("seen", "работы"))
-    return "\n".join([first, middle, TAIL])
+    if f.get("text"):
+        return f["text"]
+    r = c.get("rating")
+    if r is None or r < 4.6:
+        return B.format(acc=c["acc"], works=NO_WORKS if f.get("no_works") else WORKS)
+    n = c["reviews"]
+    rating = "пятёрка" if r == 5 else f"{r:.1f}".replace(".", ",")
+    return A.format(acc=c["acc"], rating=rating, reviews=f'{n} {plural(n, "отзыв", "отзыва", "отзывов")}', extra=f.get("extra", ""))
 
 
 def album(cid):
