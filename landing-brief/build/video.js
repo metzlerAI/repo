@@ -1,5 +1,5 @@
 // Снимает короткое видео-демо макета для Telegram: out/<id>/demo.mp4
-//   компьютер 1440x900, 30 кадров/с, без звука, около 17 секунд.
+//   компьютер 1440x900, 30 кадров/с, без звука (тихая дорожка), около 19 секунд.
 //   Сцены: первый экран, «Работы», квиз (курсор отвечает на 2 вопроса), цены, отзывы, контакты.
 // Видео собирается покадрово (scrollTo + скриншот на каждый кадр), потом ffmpeg в H.264.
 // Запуск: node video.js [id ...]   (без аргументов снимает все папки в ../out)
@@ -152,9 +152,11 @@ async function shootDemo(browser, id) {
   for (const e of ENCODES) {
     used = e;
     const vf = e.w === W ? [] : ['-vf', `scale=${e.w}:${e.h}:flags=lanczos`];
+    // тихая аудиодорожка нужна: видео без звука Telegram отправляет как GIF
     execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-framerate', String(FPS), '-i', path.join(framesDir, 'f%05d.png'),
+      '-f', 'lavfi', '-i', 'anullsrc=r=44100:cl=stereo',
       ...vf, '-c:v', 'libx264', '-preset', 'slow', '-crf', String(e.crf), '-pix_fmt', 'yuv420p',
-      '-movflags', '+faststart', '-an', file]);
+      '-c:a', 'aac', '-b:a', '32k', '-shortest', '-movflags', '+faststart', file]);
     size = fs.statSync(file).size;
     if (size <= MAX_BYTES) break;
   }
