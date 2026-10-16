@@ -62,21 +62,20 @@ h2 { font-size: var(--head); }
 .intro { padding: 72px var(--m) 24px; }
 .intro p { max-width: 24ch; }
 
-/* works: scatter */
+/* works: even grid. Phone: first and last photo full width, the rest two in a row (6 = 1 + 2 + 2 + 1).
+   Desktop: three in a row. One aspect ratio, square corners, caption under every photo. */
 .works { padding: 40px var(--m) 72px; }
 .works h2 { margin-bottom: 36px; }
-.wk { display: flex; flex-direction: column; gap: 8px; margin-bottom: 56px; }
-.wk .t { font-size: var(--small); color: var(--muted); font-weight: 400; }
-.wk .ph { aspect-ratio: 3 / 2; background: var(--paper-2); overflow: hidden; }
+.wks { display: grid; grid-template-columns: 1fr 1fr; column-gap: 12px; row-gap: 32px; }
+.wk { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.wk:first-child, .wk:last-child:nth-child(even) { grid-column: 1 / -1; }
+.wk .ph { aspect-ratio: 5 / 4; background: var(--paper-2); overflow: hidden; }
 .wk .ph img { width: 100%; height: 100%; object-fit: cover; }
-.wk .d { font-size: 16px; line-height: 1.4; max-width: 38ch; }
-.wk:nth-child(3n+2) { width: 70%; margin-left: auto; }
-.wk:nth-child(3n+2) .ph { aspect-ratio: 4 / 5; }
-.wk:nth-child(3n) { width: 84%; }
-.wk:nth-child(3n) .ph { aspect-ratio: 16 / 10; }
-.wk.empty .ph { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: var(--muted); text-align: center; }
+.wk .t { display: block; font-size: 16px; line-height: 1.3; font-weight: 400; }
+.wk .d { display: block; font-size: 14px; line-height: 1.4; color: var(--muted); margin-top: 4px; max-width: 38ch; }
+.wk.empty .ph { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; padding: 12px; color: var(--muted); text-align: center; font-size: 14px; line-height: 1.3; }
 .wk.empty .ph svg { width: 34px; height: 34px; }
-.remark { font-size: var(--lead); line-height: 1.25; max-width: 18ch; margin: 8px 0 56px; }
+.remark { font-size: var(--lead); line-height: 1.25; max-width: 18ch; margin: -16px 0 36px; }
 
 /* quiz */
 .quiz-sec { background: var(--accent); color: var(--accent-ink); padding: 64px var(--m); }
@@ -167,12 +166,11 @@ html.shot .mbar { display: none; }
   .intro p { grid-column: 4 / 11; max-width: 30ch; font-size: clamp(1.75rem, 1rem + 1.6vw, 2.5rem); }
   .works { padding: 80px var(--m) 120px; }
   .works h2 { margin-bottom: 56px; }
-  .wks { display: grid; grid-template-columns: repeat(12, 1fr); column-gap: 24px; }
-  .wk, .wk:nth-child(3n+2), .wk:nth-child(3n) { width: auto; margin: 0 0 96px; }
-  .wk:nth-child(3n+1) { grid-column: 1 / 7; }
-  .wk:nth-child(3n+2) { grid-column: 9 / 13; margin-top: 160px; }
-  .wk:nth-child(3n) { grid-column: 3 / 10; }
-  .remark { grid-column: 9 / 13; align-self: center; margin: 0; }
+  .wks { grid-template-columns: repeat(3, 1fr); column-gap: 24px; row-gap: 56px; }
+  .wk:first-child, .wk:last-child:nth-child(even) { grid-column: auto; }
+  .wk .t { font-size: 18px; }
+  .wk .d { font-size: 16px; }
+  .remark { margin: -32px 0 56px; }
   .quiz-sec { padding: 120px var(--m); display: grid; grid-template-columns: repeat(12, 1fr); column-gap: 24px; }
   .quiz-sec h2, .quiz-sec > p { grid-column: 1 / 6; }
   .quiz-sec > p { margin-bottom: 0; }
@@ -233,36 +231,31 @@ html.shot .mbar { display: none; }
 
 <section class="works sec" id="works">
   <h2>Работы</h2>
+  
   <div class="wks">
   
   
-  
-  <figure class="wk"><span class="t">Угловая кухня</span><div class="ph"><img src="img/w1.jpg" alt="Угловая кухня"></div><figcaption class="d">Фасады цвета шалфея, верхние шкафы под дерево до потолка.</figcaption></figure>
-  
+  <figure class="wk"><div class="ph"><img src="img/w1.jpg" alt="Угловая кухня"></div><figcaption><span class="t">Угловая кухня</span><span class="d">Фасады цвета шалфея, верхние шкафы под дерево до потолка.</span></figcaption></figure>
   
   
   
-  <figure class="wk"><span class="t">Прихожая</span><div class="ph"><img src="img/w2.jpg" alt="Прихожая"></div><figcaption class="d">Шкаф до потолка, столик с зеркалом и банкетка.</figcaption></figure>
+  <figure class="wk"><div class="ph"><img src="img/w2.jpg" alt="Прихожая"></div><figcaption><span class="t">Прихожая</span><span class="d">Шкаф до потолка, столик с зеркалом и банкетка.</span></figcaption></figure>
   
   
   
-  
-  <figure class="wk"><span class="t">Кухня с обеденной зоной</span><div class="ph"><img src="img/w3.jpg" alt="Кухня с обеденной зоной"></div><figcaption class="d">Белый низ, верх под дерево, тёмная столешница.</figcaption></figure>
-  
+  <figure class="wk"><div class="ph"><img src="img/w3.jpg" alt="Кухня с обеденной зоной"></div><figcaption><span class="t">Кухня с обеденной зоной</span><span class="d">Белый низ, верх под дерево, тёмная столешница.</span></figcaption></figure>
   
   
   
-  <figure class="wk"><span class="t">Детская</span><div class="ph"><img src="img/w4.jpg" alt="Детская"></div><figcaption class="d">Шкаф с арками и мягкое изголовье во всю стену.</figcaption></figure>
+  <figure class="wk"><div class="ph"><img src="img/w4.jpg" alt="Детская"></div><figcaption><span class="t">Детская</span><span class="d">Шкаф с арками и мягкое изголовье во всю стену.</span></figcaption></figure>
   
   
   
-  
-  <figure class="wk"><span class="t">Туалетный столик</span><div class="ph"><img src="img/w5.jpg" alt="Туалетный столик"></div><figcaption class="d">Стеллаж с аркой и круглое зеркало с подсветкой.</figcaption></figure>
-  
+  <figure class="wk"><div class="ph"><img src="img/w5.jpg" alt="Туалетный столик"></div><figcaption><span class="t">Туалетный столик</span><span class="d">Стеллаж с аркой и круглое зеркало с подсветкой.</span></figcaption></figure>
   
   
   
-  <figure class="wk"><span class="t">Классическая кухня</span><div class="ph"><img src="img/w6.jpg" alt="Классическая кухня"></div><figcaption class="d">Серые фасады с филёнкой, столешница под мрамор.</figcaption></figure>
+  <figure class="wk"><div class="ph"><img src="img/w6.jpg" alt="Классическая кухня"></div><figcaption><span class="t">Классическая кухня</span><span class="d">Серые фасады с филёнкой, столешница под мрамор.</span></figcaption></figure>
   
   
   </div>
