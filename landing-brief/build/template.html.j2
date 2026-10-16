@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ c.name }}: {{ t.title }}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #F6F1E9;
+  --bg-2: #EDE5D8;
+  --card: #FBF8F3;
+  --ink: #221E19;
+  --muted: #6E655B;
+  --line: #DDD2C2;
+  --accent: #9A5428;
+  --accent-hover: #844621;
+  --dark: #1F2C25;
+  --dark-ink: #F3EEE5;
+  --dark-muted: #AFB8B0;
+  --star: #E0A43A;
+  --wa: #25A55F;
+  --radius: 18px;
+  --serif: "Lora", Georgia, serif;
+  --sans: "Manrope", system-ui, sans-serif;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-text-size-adjust: 100%; }
+body { background: var(--bg); color: var(--ink); font: 400 16px/1.55 var(--sans); }
+img { display: block; max-width: 100%; }
+a { color: inherit; text-decoration: none; }
+.wrap { max-width: 1200px; margin: 0 auto; padding: 0 16px; }
+h1, h2, h3 { font-family: var(--serif); font-weight: 600; letter-spacing: -0.01em; line-height: 1.12; }
+h2 { font-size: 30px; }
+.lead { color: var(--muted); font-size: 16px; max-width: 560px; }
+.eyebrow { font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
+section { padding: 48px 0; }
+.works-sec { padding-top: 24px; }
+.sec-head { display: flex; flex-direction: column; gap: 10px; margin-bottom: 28px; }
+
+/* buttons */
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; height: 54px; padding: 0 24px; border-radius: 999px; font: 700 16px/1 var(--sans); cursor: pointer; border: 0; white-space: nowrap; }
+.btn-main { background: var(--accent); color: #fff; }
+.btn-main:hover { background: var(--accent-hover); }
+.btn-ghost { background: transparent; color: var(--ink); box-shadow: inset 0 0 0 1.5px var(--line); }
+.btn-wa { background: var(--wa); color: #fff; }
+.btn svg { width: 20px; height: 20px; flex: none; }
+.btn-sm { height: 42px; padding: 0 18px; font-size: 14px; }
+
+/* header */
+.top { position: sticky; top: 0; z-index: 10; background: rgba(246,241,233,.92); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
+.top .wrap { display: flex; align-items: center; justify-content: space-between; height: 64px; gap: 16px; }
+.logo { font-family: var(--serif); font-size: 22px; font-weight: 600; }
+.top-right { display: flex; align-items: center; gap: 20px; }
+.top-phone { font-weight: 700; font-size: 15px; display: none; }
+
+/* hero */
+.hero { padding: 16px 0 28px; }
+.hero-grid { display: grid; gap: 22px; }
+.hero-photo { position: relative; border-radius: var(--radius); overflow: hidden; aspect-ratio: 4 / 3; background: var(--bg-2); }
+.hero-photo img { width: 100%; height: 100%; object-fit: cover; }
+.hero-photo figcaption { position: absolute; left: 12px; bottom: 12px; background: rgba(251,248,243,.94); color: var(--ink); font-size: 13px; font-weight: 600; padding: 7px 12px; border-radius: 999px; }
+.hero-text { display: flex; flex-direction: column; gap: 14px; }
+.hero h1 { font-size: 34px; }
+.hero .lead { font-size: 16px; }
+.rating { display: inline-flex; align-items: center; gap: 10px; align-self: flex-start; background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 7px 14px 7px 10px; font-size: 14px; }
+.rating .stars { color: var(--star); letter-spacing: 1px; font-size: 15px; }
+.rating b { font-weight: 700; }
+.rating .gis { font-weight: 700; color: #2E9E3E; }
+.hero-cta { display: grid; grid-template-columns: 1fr auto; gap: 10px; margin-top: 4px; }
+.hero-cta .btn-wa span { display: none; }
+.hero-cta .btn-wa { width: 54px; padding: 0; }
+
+/* works */
+.works { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.work { display: flex; flex-direction: column; gap: 8px; }
+.work .ph { border-radius: 14px; overflow: hidden; aspect-ratio: 1; background: var(--bg-2); }
+.work .ph img { width: 100%; height: 100%; object-fit: cover; }
+.work:first-child { grid-column: span 2; }
+.work:first-child .ph, .work:last-child .ph { aspect-ratio: 4 / 3; }
+.work:last-child { grid-column: span 2; }
+.work p { font-size: 14px; font-weight: 600; line-height: 1.35; }
+.work.empty .ph { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; background: var(--bg-2); border: 1.5px dashed var(--line); color: var(--muted); text-align: center; padding: 16px; }
+.work.empty .ph svg { width: 34px; height: 34px; opacity: .7; }
+.work.empty .ph span { font-size: 14px; font-weight: 600; }
+
+/* quiz */
+.quiz-sec { background: var(--bg-2); }
+.quiz { background: var(--card); border-radius: 22px; padding: 22px 18px; box-shadow: 0 18px 40px -24px rgba(60,40,20,.35); max-width: 760px; }
+.q-progress { height: 4px; border-radius: 4px; background: var(--line); overflow: hidden; }
+.q-progress i { display: block; height: 100%; background: var(--accent); border-radius: 4px; transition: width .3s; }
+.q-step { font-size: 12px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin: 16px 0 6px; }
+.q-title { font-family: var(--serif); font-size: 22px; font-weight: 600; margin-bottom: 16px; }
+.q-opts { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.q-opt { display: flex; flex-direction: column; gap: 8px; text-align: left; background: var(--bg); border: 1.5px solid var(--line); border-radius: 14px; padding: 14px; cursor: pointer; font: inherit; color: inherit; }
+.q-opt svg { width: 44px; height: 32px; color: var(--muted); }
+.q-opt b { font-size: 15px; font-weight: 700; }
+.q-opt small { font-size: 12.5px; color: var(--muted); line-height: 1.3; }
+.q-opt.on { border-color: var(--accent); background: #fff; box-shadow: 0 0 0 3px rgba(154,84,40,.12); }
+.q-opt.on svg { color: var(--accent); }
+.q-foot { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--line); }
+.q-note { font-size: 13px; color: var(--muted); }
+.q-done { display: none; flex-direction: column; gap: 14px; padding: 8px 0; }
+.quiz.finished .q-body { display: none; }
+.quiz.finished .q-done { display: flex; }
+
+/* price */
+.price { display: grid; gap: 18px; background: var(--card); border: 1px solid var(--line); border-radius: 22px; padding: 26px 20px; }
+.price .num { font-family: var(--serif); font-size: 40px; font-weight: 600; line-height: 1.05; }
+.blank { display: inline-block; width: 2.2em; border-bottom: 3px dashed var(--accent); height: .8em; margin: 0 .1em; vertical-align: baseline; }
+.price .num small { display: block; margin-top: 6px; font-family: var(--sans); font-size: 16px; font-weight: 600; color: var(--muted); }
+.price ul { list-style: none; display: grid; gap: 8px; color: var(--muted); font-size: 15px; }
+.price li::before { content: ""; display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--accent); margin: 0 10px 2px 0; }
+
+/* steps */
+.steps { display: grid; gap: 12px; counter-reset: s; }
+.step { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 20px; display: grid; grid-template-columns: 44px 1fr; gap: 4px 14px; }
+.step::before { counter-increment: s; content: counter(s); grid-row: span 2; width: 44px; height: 44px; border-radius: 50%; background: var(--bg-2); color: var(--accent); font: 600 20px/44px var(--serif); text-align: center; }
+.step h3 { font-size: 19px; }
+.step p { color: var(--muted); font-size: 14.5px; }
+
+/* reviews */
+.rev-sec { background: var(--dark); color: var(--dark-ink); }
+.rev-sec .lead { color: var(--dark-muted); }
+.rev-sec .eyebrow { color: #E2B98F; }
+.rev-score { display: flex; align-items: center; gap: 12px; font-size: 15px; color: var(--dark-muted); }
+.rev-score .big { font-family: var(--serif); font-size: 44px; font-weight: 600; color: var(--dark-ink); line-height: 1; }
+.rev-score .stars { color: var(--star); font-size: 18px; letter-spacing: 2px; }
+.revs { display: grid; gap: 14px; }
+.rev { background: rgba(255,255,255,.05); border: 1px solid rgba(255,255,255,.1); border-radius: 18px; padding: 22px; display: flex; flex-direction: column; gap: 16px; }
+.rev q { font-family: var(--serif); font-size: 18px; line-height: 1.5; quotes: "«" "»"; }
+.rev .who { display: flex; justify-content: space-between; align-items: center; font-size: 13.5px; color: var(--dark-muted); margin-top: auto; }
+.rev .who b { color: var(--dark-ink); font-weight: 700; }
+.rev-cta { margin-top: 28px; }
+
+/* contacts */
+.contact { display: grid; gap: 18px; }
+.c-card { background: var(--card); border: 1px solid var(--line); border-radius: 22px; padding: 24px 20px; display: flex; flex-direction: column; gap: 18px; }
+.c-phone { font-family: var(--serif); font-size: 28px; font-weight: 600; }
+.c-row { display: flex; flex-direction: column; gap: 4px; }
+.c-row span { font-size: 13px; color: var(--muted); }
+.c-row b { font-size: 16px; font-weight: 600; }
+.c-btns { display: grid; gap: 10px; }
+.btn-tg { background: #2AABEE; color: #fff; }
+.map { border-radius: 22px; overflow: hidden; border: 1px solid var(--line); min-height: 260px; background: var(--bg-2); position: relative; }
+.map img { width: 100%; height: 100%; object-fit: cover; }
+.foot { padding: 28px 0 100px; color: var(--muted); font-size: 13px; border-top: 1px solid var(--line); }
+.foot .wrap { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+
+/* при съёмке скриншотов прячем закреплённые элементы */
+html.shot .mbar { display: none; }
+html.shot .top { position: static; }
+
+/* sticky mobile bar */
+.mbar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; padding: 10px 16px calc(10px + env(safe-area-inset-bottom)); background: rgba(246,241,233,.96); border-top: 1px solid var(--line); display: grid; grid-template-columns: 1fr 54px; gap: 10px; transform: translateY(110%); transition: transform .25s; }
+.mbar.show { transform: none; }
+.mbar .btn-wa { padding: 0; }
+
+@media (min-width: 900px) {
+  .wrap { padding: 0 32px; }
+  section { padding: 88px 0; }
+  .works-sec { padding-top: 40px; }
+  h2 { font-size: 40px; }
+  .top-phone { display: inline; }
+  .hero { padding: 40px 0 72px; }
+  .hero-grid { grid-template-columns: 1fr 1.2fr; gap: 56px; align-items: center; }
+  .hero-text { order: -1; gap: 20px; }
+  .hero h1 { font-size: 58px; }
+  .hero .lead { font-size: 18px; }
+  .hero-photo { aspect-ratio: 5 / 4; border-radius: 26px; }
+  .hero-cta { display: flex; }
+  .hero-cta .btn-wa { width: auto; padding: 0 24px; }
+  .hero-cta .btn-wa span { display: inline; }
+  .works { grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .work:last-child { grid-column: auto; }
+  .work:last-child .ph { aspect-ratio: 1; }
+  .work:first-child { grid-column: span 2; grid-row: span 2; }
+  .work:first-child .ph { aspect-ratio: auto; height: 100%; }
+  .work p { font-size: 15px; }
+  .quiz { padding: 34px 36px; max-width: none; }
+  .q-opts { grid-template-columns: repeat(4, 1fr); }
+  .q-title { font-size: 26px; }
+  .price { grid-template-columns: 1.2fr 1fr auto; align-items: center; padding: 36px 40px; gap: 40px; }
+  .price .num { font-size: 52px; }
+  .price .num small { display: inline; margin: 0; }
+  .steps { grid-template-columns: repeat(4, 1fr); gap: 16px; }
+  .step { grid-template-columns: 1fr; padding: 26px; gap: 12px; }
+  .step::before { grid-row: auto; }
+  .revs { grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .contact { grid-template-columns: 1fr 1.4fr; gap: 24px; }
+  .c-card { padding: 34px; }
+  .map { min-height: 420px; }
+  .mbar { display: none; }
+  .foot { padding-bottom: 28px; }
+}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#">{{ c.name }}</a>
+    <div class="top-right">
+      <a class="top-phone" href="tel:{{ c.phone_raw }}">{{ c.phone }}</a>
+      <a class="btn btn-main btn-sm" href="#quiz">Рассчитать</a>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap hero-grid">
+    <figure class="hero-photo">
+      {% if d.hero %}<img src="img/hero.jpg" alt="{{ d.hero.caption }}">
+      <figcaption>{{ d.hero.caption }}</figcaption>{% endif %}
+    </figure>
+    <div class="hero-text">
+      <span class="eyebrow">{{ t.eyebrow }}</span>
+      <h1>{{ t.h1 }}</h1>
+      <p class="lead">{{ t.sub }}</p>
+      {% if show_rating %}
+      <div class="rating"><span class="stars">★★★★★</span><span><b>{{ rating_str }}</b> · {{ reviews_str }} в <span class="gis">2ГИС</span></span></div>
+      {% endif %}
+      <div class="hero-cta">
+        <a class="btn btn-main" href="#quiz">Рассчитать стоимость</a>
+        <a class="btn btn-wa" href="{{ c.wa }}" aria-label="Написать в WhatsApp">{{ wa_icon|safe }}<span>Написать в WhatsApp</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="works-sec" id="works">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Наши работы</span>
+      <h2>{{ t.works_h }}</h2>
+    </div>
+    <div class="works">
+      {% for g in gallery %}
+      {% if g.empty %}
+      <div class="work empty"><div class="ph">{{ cam_icon|safe }}<span>Здесь будут<br>ваши работы</span></div><p>&nbsp;</p></div>
+      {% else %}
+      <figure class="work"><div class="ph"><img src="img/w{{ loop.index }}.jpg" alt="{{ g.caption }}"></div><p>{{ g.caption }}</p></figure>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="quiz-sec" id="quiz">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Расчёт за 1 минуту</span>
+      <h2>{{ quiz.h }}</h2>
+      <p class="lead">{{ quiz.n }} вопроса, и пришлём ориентир по цене в WhatsApp. Ни к чему не обязывает.</p>
+    </div>
+    <div class="quiz" data-wa="{{ c.wa_num }}">
+      <div class="q-progress"><i style="width: {{ (100 / (quiz.n + 1))|round }}%"></i></div>
+      <div class="q-body">
+        <div class="q-step">Шаг <span class="q-i">1</span> из {{ quiz.n }}</div>
+        <div class="q-title">{{ quiz.steps[0].q }}</div>
+        <div class="q-opts">
+          {% for o in quiz.steps[0].opts %}
+          <button class="q-opt{% if loop.index == quiz.pre %} on{% endif %}" type="button">{% if o.icon %}{{ o.icon|safe }}{% endif %}<b>{{ o.t }}</b><small>{{ o.d }}</small></button>
+          {% endfor %}
+        </div>
+        <div class="q-foot">
+          <span class="q-note">Ответы видите только вы и мастер</span>
+          <button class="btn btn-main btn-sm q-next" type="button">Далее</button>
+        </div>
+      </div>
+      <div class="q-done">
+        <div class="q-title">Готово! Отправьте ответы, и мы посчитаем стоимость</div>
+        <a class="btn btn-wa q-send" href="{{ c.wa }}">{{ wa_icon|safe }}Получить расчёт в WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="price-sec">
+  <div class="wrap">
+    <div class="price">
+      <div>
+        <span class="eyebrow">Цены</span>
+        <div class="num">от <span class="blank"></span> ₽ <small>{{ t.price_unit }}</small></div>
+      </div>
+      <ul>
+        <li>Точная цена после бесплатного замера</li>
+        <li>3D-проект до начала работ</li>
+      </ul>
+      <a class="btn btn-main" href="#quiz">Рассчитать стоимость</a>
+    </div>
+  </div>
+</section>
+
+<section class="steps-sec">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Как заказать</span>
+      <h2>{{ t.steps_h }}</h2>
+    </div>
+    <div class="steps">
+      {% for s in t.steps %}
+      <div class="step"><h3>{{ s[0] }}</h3><p>{{ s[1] }}</p></div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% if show_rating and d.reviews %}
+<section class="rev-sec">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Отзывы</span>
+      <h2>Что пишут клиенты</h2>
+      <div class="rev-score"><span class="big">{{ rating_str }}</span><span><span class="stars">★★★★★</span><br>{{ reviews_str }} в 2ГИС</span></div>
+    </div>
+    <div class="revs">
+      {% for r in d.reviews %}
+      <figure class="rev"><q>{{ r.text }}</q><figcaption class="who"><b>{{ r.name }}</b><span>отзыв с 2ГИС</span></figcaption></figure>
+      {% endfor %}
+    </div>
+    <div class="rev-cta"><a class="btn btn-main" href="#quiz">Рассчитать стоимость</a></div>
+  </div>
+</section>
+{% endif %}
+
+<section class="contact-sec" id="contacts">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Контакты</span>
+      <h2>Приезжайте или напишите</h2>
+    </div>
+    <div class="contact">
+      <div class="c-card">
+        <a class="c-phone" href="tel:{{ c.phone_raw }}">{{ c.phone }}</a>
+        <div class="c-row"><span>Адрес</span><b>Краснодар, {{ c.address }}</b></div>
+        <div class="c-btns">
+          <a class="btn btn-wa" href="{{ c.wa }}">{{ wa_icon|safe }}Написать в WhatsApp</a>
+          {% if c.tg %}<a class="btn btn-tg" href="{{ c.tg }}">{{ tg_icon|safe }}Написать в Telegram</a>{% endif %}
+        </div>
+      </div>
+      <a class="map" href="{{ c.card }}">{% if has_map %}<img src="img/map.png" alt="{{ c.name }} на карте">{% endif %}</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap"><span>{{ c.name }} · {{ t.foot }}</span><span>Краснодар, {{ c.address }}</span></div>
+</footer>
+
+<div class="mbar">
+  <a class="btn btn-main" href="#quiz">Рассчитать стоимость</a>
+  <a class="btn btn-wa" href="{{ c.wa }}" aria-label="WhatsApp">{{ wa_icon|safe }}</a>
+</div>
+
+<script>
+const QUIZ = {{ quiz_json|safe }};
+(function () {
+  const box = document.querySelector('.quiz');
+  const bar = box.querySelector('.q-progress i');
+  const title = box.querySelector('.q-title');
+  const opts = box.querySelector('.q-opts');
+  const idx = box.querySelector('.q-i');
+  const answers = [];
+  let i = 0;
+  function bind() {
+    opts.querySelectorAll('.q-opt').forEach(b => b.onclick = () => {
+      opts.querySelectorAll('.q-opt').forEach(x => x.classList.remove('on'));
+      b.classList.add('on');
+    });
+  }
+  function render() {
+    const s = QUIZ.steps[i];
+    idx.textContent = i + 1;
+    title.textContent = s.q;
+    opts.innerHTML = s.opts.map(o => `<button class="q-opt" type="button">${o.icon || ''}<b>${o.t}</b><small>${o.d}</small></button>`).join('');
+    bar.style.width = Math.round(100 * (i + 1) / (QUIZ.steps.length + 1)) + '%';
+    bind();
+  }
+  box.querySelector('.q-next').onclick = () => {
+    const on = opts.querySelector('.q-opt.on');
+    if (!on) return;
+    answers.push(QUIZ.steps[i].q + ' ' + on.querySelector('b').textContent);
+    i++;
+    if (i < QUIZ.steps.length) return render();
+    box.classList.add('finished');
+    bar.style.width = '100%';
+    const text = 'Здравствуйте! Хочу расчёт.\n' + answers.join('\n');
+    box.querySelector('.q-send').href = 'https://wa.me/' + box.dataset.wa + '?text=' + encodeURIComponent(text);
+  };
+  bind();
+  const mbar = document.querySelector('.mbar');
+  const hero = document.querySelector('.hero');
+  addEventListener('scroll', () => mbar.classList.toggle('show', scrollY > hero.offsetHeight), { passive: true });
+})();
+</script>
+</body>
+</html>
