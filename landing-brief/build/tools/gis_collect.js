@@ -28,6 +28,21 @@ function hoursText(schedule) {
   return parts.join(', ');
 }
 
+// JSON-объект, который начинается сразу после prefix в позиции at: скобки считаются парами, строки пропускаются
+function balanced(text, at, prefix) {
+  if (at < 0) return null;
+  const start = at + prefix.length;
+  let depth = 0, str = false;
+  for (let i = start; i < text.length; i++) {
+    const ch = text[i];
+    if (str) { if (ch === '\\') i++; else if (ch === '"') str = false; continue; }
+    if (ch === '"') str = true;
+    else if (ch === '{') depth++;
+    else if (ch === '}' && --depth === 0) return text.slice(start, i + 1);
+  }
+  return null;
+}
+
 (async () => {
   fs.mkdirSync(DRAFTS, { recursive: true });
   const browser = await chromium.launch();
@@ -50,7 +65,7 @@ function hoursText(schedule) {
       const photoKey = (seen.find(u => u.includes('api.photo.2gis.com')) || '').match(/key=([^&]+)/);
       const revKey = (seen.find(u => u.includes('public-api.reviews.2gis.com')) || '').match(/key=([^&]+)/);
       const point = html.match(/"point":\{"lat":([\d.]+),"lon":([\d.]+)\}/);
-      const sched = html.match(/"schedule":(\{"(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)".*?\}\]\}\})/);
+      const sched = balanced(html, html.search(/"schedule":\{"(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)"/), '"schedule":');
       const name = html.match(/"name_ex":(\{[^}]*\})/);
 
       // Запросы к API делаем из контекста страницы 2ГИС: так их пропускают как обычные запросы сайта
@@ -82,7 +97,7 @@ function hoursText(schedule) {
         id: c.id,
         name_ex: name ? JSON.parse(name[1]) : null,
         point: point ? { lat: +point[1], lon: +point[2] } : null,
-        hours: sched ? hoursText(JSON.parse(sched[1])) : null,
+        hours: sched ? hoursText(JSON.parse(sched)) : null,
         counts: data.photos.reduce((a, p) => (a[p.source] = (a[p.source] || 0) + 1, a), {}),
         photos: data.photos,
         reviews: data.reviews,

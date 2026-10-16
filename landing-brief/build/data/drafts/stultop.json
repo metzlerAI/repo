@@ -1,0 +1,316 @@
+{
+ "id": "stultop",
+ "name_ex": {
+  "extension": "торгово-производственная компания",
+  "primary": "Стултоп",
+  "short_name": "Стултоп"
+ },
+ "point": {
+  "lat": 45.070931,
+  "lon": 38.986918
+ },
+ "hours": "Ежедневно 10:00-17:00",
+ "counts": {
+  "2gis_owner": 36,
+  "user": 1
+ },
+ "photos": [
+  {
+   "url": "https://i6.photo.2gis.com/photo-gallery/371df186-074a-4e1f-b8c1-d13e7393abfe.jpg",
+   "w": 1600,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2026-07-07"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/photo-gallery/936df2a3-e5d0-47f7-a78d-b1faf18c28f5.jpg",
+   "w": 3024,
+   "h": 3024,
+   "source": "2gis_owner",
+   "date": "2026-07-07"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/photo-gallery/dfd214f7-c80e-45c2-ae59-a7cd662b1fc8.jpg",
+   "w": 1280,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-07-07"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/47d3e842-e108-4ae5-9d48-313299a03a5b.jpg",
+   "w": 1280,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-07-07"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/photo-gallery/2f29a0f2-8fe3-40b0-bb0e-03ed484cce0f.jpg",
+   "w": 1280,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-07-07"
+  },
+  {
+   "url": "https://i0.photo.2gis.com/photo-gallery/1ee52e44-2b1d-4077-8e8c-e97d2ba09392.jpg",
+   "w": 1280,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-07-07"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/photo-gallery/2b70a10b-0891-48ed-ba93-f2262d134b57.jpg",
+   "w": 1280,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-07-07"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/photo-gallery/d176dde8-1b83-4057-83e1-4a5a8b4663d3.jpg",
+   "w": 1280,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-07-07"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/photo-gallery/4b017be1-0819-43da-a06d-9f6d3e68f930.jpg",
+   "w": 1600,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2026-07-07"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/photo-gallery/62f1d96c-4461-48a7-a023-4da4ae2e4ed7.jpg",
+   "w": 1280,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-07-07"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/0c8effea-c1ed-4d44-b78d-7de9a416cced.jpg",
+   "w": 3024,
+   "h": 3024,
+   "source": "2gis_owner",
+   "date": "2026-07-07"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/photo-gallery/ed695b02-f9c0-4e1a-87de-6f63aa8d13c0.jpg",
+   "w": 3024,
+   "h": 3024,
+   "source": "2gis_owner",
+   "date": "2026-07-07"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/photo-gallery/1d2e62a5-c99e-4d50-80d6-e2f03a31d1de.jpg",
+   "w": 3024,
+   "h": 3024,
+   "source": "2gis_owner",
+   "date": "2026-07-07"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/photo-gallery/367f71b7-b867-4aa4-960c-b0f31b03b4cc.jpg",
+   "w": 3024,
+   "h": 3024,
+   "source": "2gis_owner",
+   "date": "2026-07-08"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/3660a534-59cb-4e92-9be7-ad6faac4d8ce.jpg",
+   "w": 3024,
+   "h": 3024,
+   "source": "2gis_owner",
+   "date": "2026-07-07"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/photo-gallery/89dfd21f-7d4a-4049-907c-107b6e850291.jpg",
+   "w": 3024,
+   "h": 3024,
+   "source": "2gis_owner",
+   "date": "2026-07-07"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/photo-gallery/025cd053-3e90-456e-874c-fa4399e437ba.jpg",
+   "w": 1280,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-07-07"
+  },
+  {
+   "url": "https://i2.photo.2gis.com/photo-gallery/81a305df-36c4-4f9d-9886-94fd9f7ab317.jpg",
+   "w": 1600,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2026-07-07"
+  },
+  {
+   "url": "https://i2.photo.2gis.com/photo-gallery/8d779a6c-62ac-48c8-bfff-000b18119e20.jpg",
+   "w": 1280,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-07-07"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/photo-gallery/feca4833-d308-4976-b98d-fb43ed3cd683.jpg",
+   "w": 1200,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2026-07-07"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/photo-gallery/51144c80-e746-4250-94ee-c3cd18d38089.jpg",
+   "w": 1280,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-07-07"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/23b4f6ca-7d26-4f77-9dda-30ea7d11fe83.jpg",
+   "w": 3024,
+   "h": 3024,
+   "source": "2gis_owner",
+   "date": "2026-07-07"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/photo-gallery/9c3db05d-af0e-4d7a-8bb6-8f1b1f5fd422.jpg",
+   "w": 3024,
+   "h": 3024,
+   "source": "2gis_owner",
+   "date": "2026-07-07"
+  },
+  {
+   "url": "https://i2.photo.2gis.com/photo-gallery/3020d149-4ace-416f-abb8-3f3219a328b7.jpg",
+   "w": 3024,
+   "h": 3024,
+   "source": "2gis_owner",
+   "date": "2026-07-08"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/photo-gallery/1acbb3ba-8ca5-47c4-9d24-37bbd3ce8820.jpg",
+   "w": 1280,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-07-07"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/photo-gallery/03bb5183-7681-46e5-941c-193ffe602bde.jpg",
+   "w": 3024,
+   "h": 3024,
+   "source": "2gis_owner",
+   "date": "2026-07-08"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/6fdf835a-953a-4ec8-a209-72167eb0f241.jpg",
+   "w": 3024,
+   "h": 3024,
+   "source": "2gis_owner",
+   "date": "2026-07-07"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/photo-gallery/b2c186d5-deaf-463d-85cd-5605b9af9db1.jpg",
+   "w": 3024,
+   "h": 3024,
+   "source": "2gis_owner",
+   "date": "2026-07-07"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/photo-gallery/85756491-aedc-43d3-94fe-a34576258402.jpg",
+   "w": 3024,
+   "h": 3024,
+   "source": "2gis_owner",
+   "date": "2026-07-07"
+  },
+  {
+   "url": "https://i2.photo.2gis.com/photo-gallery/38a65791-5ede-463e-8a6c-f61f1811bccf.jpg",
+   "w": 1600,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2026-07-07"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/photo-gallery/dd580a9a-6f87-422b-9d07-cfa4e517dc88.jpg",
+   "w": 3024,
+   "h": 3024,
+   "source": "2gis_owner",
+   "date": "2026-07-08"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/photo-gallery/6e216836-03f5-44cd-80ae-ff930359b986.jpg",
+   "w": 1600,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2026-07-07"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/c2e5c1c8-2adb-4229-ba1b-6783e52da19c.jpg",
+   "w": 1200,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2026-07-07"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/630b76e7-b1cd-446d-a0e3-80b81c8bda24.jpg",
+   "w": 960,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-07-07"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/photo-gallery/f8191a56-d81c-4078-8e04-1a7d43d04763.jpg",
+   "w": 960,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-07-07"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/cb116c80-2aad-4cea-bc13-9ba2d6f897a5.jpg",
+   "w": 1200,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2026-07-07"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/images/geo/23/3236962268751197_bf94.jpg",
+   "w": 1600,
+   "h": 1200,
+   "source": "user",
+   "date": "2018-12-10"
+  }
+ ],
+ "reviews": [
+  {
+   "rating": 5,
+   "date": "2025-05-09",
+   "name": "Владимир Яковлев",
+   "text": "Отличный магазин, есть небольшая выставка различных столов и стульев, ценник я вам скажу, не кусачий, даже чуть дешевле чем в других магазинах "
+  },
+  {
+   "rating": 5,
+   "date": "2025-02-06",
+   "name": "Галина Непочатых",
+   "text": "Отличный магазин! Огромное спасибо менеджеру Людмиле, за ее терпение, доброжелательность и позитив. Помогла определиться с цветовой гаммой и размером; брала отдельно кухонный стол и мягкие стулья с высокой спинкой. Все это изумительно смотрится на моей кухне. Рекомендую и в случае необходимости , обязательно еще обращусь!!!"
+  },
+  {
+   "rating": 5,
+   "date": "2025-01-31",
+   "name": "Ирина Красс",
+   "text": "Хороший магазин с хорошими ценами и приятным обслуживанием. Людмила рассказала , объяснила, подсказала. В итоге приобрели крепкие стулья и хорошее настроение."
+  },
+  {
+   "rating": 5,
+   "date": "2025-01-30",
+   "name": "злая собака",
+   "text": "Отличный магазин с хорошим выбором столов и стульев , хочу выразить благодарность Людмиле , за то что помогла с выбором , приобрели стулья и стол , которые идеально вписались в нашу кухню , спасибо огромное )"
+  },
+  {
+   "rating": 5,
+   "date": "2024-12-05",
+   "name": "Артур",
+   "text": "Отличный магазин , приметные цены и ассортимент стульев и столов"
+  },
+  {
+   "rating": 5,
+   "date": "2022-10-30",
+   "name": "Lucky Space",
+   "text": "Брали стул,Шикарный ассортимент по приятным ценам, обслуживание на высоте,спасибо большое, успехов и процветания!"
+  }
+ ]
+}

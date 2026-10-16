@@ -1,0 +1,25 @@
+{
+ "id": "vivat",
+ "variant": "auto",
+ "accent": "#e0cfc4",
+ "point": {
+  "lat": 45.081534,
+  "lon": 38.900147
+ },
+ "hours": "Ежедневно 11:00-19:00",
+ "hero": {
+  "src": "https://i9.photo.2gis.com/images/branch/0/30258560096264749_079e.jpg",
+  "caption": "Салон VIVAT",
+  "src_desktop": "https://i9.photo.2gis.com/images/branch/0/30258560096264749_079e.jpg",
+  "crop": [
+   0.2,
+   0,
+   0.7,
+   1
+  ]
+ },
+ "gallery": [],
+ "steps_photos": [],
+ "storefront": "https://i2.photo.2gis.com/images/branch/0/30258560170756181_1330.jpg",
+ "reviews": []
+}

@@ -1,0 +1,105 @@
+{
+ "id": "stil",
+ "name_ex": {
+  "extension": "салон мебели",
+  "primary": "Стиль",
+  "short_name": "Стиль"
+ },
+ "point": {
+  "lat": 45.024156,
+  "lon": 39.045725
+ },
+ "hours": "Ежедневно 10:00-21:00",
+ "counts": {
+  "instagram": 9,
+  "user": 1,
+  "2gis": 1
+ },
+ "photos": [
+  {
+   "url": "https://i2.photo.2gis.com/images/branch/0/30258560086743373_d420.jpg",
+   "w": 1080,
+   "h": 1080,
+   "source": "instagram",
+   "date": "2022-01-06"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/images/branch/0/30258560084771123_7ed3.jpg",
+   "w": 760,
+   "h": 760,
+   "source": "instagram",
+   "date": "2021-09-03"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/images/branch/0/30258560081700600_a73f.jpg",
+   "w": 1078,
+   "h": 1081,
+   "source": "instagram",
+   "date": "2021-09-19"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/images/branch/0/30258560086680706_6373.jpg",
+   "w": 848,
+   "h": 848,
+   "source": "instagram",
+   "date": "2021-09-03"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/images/branch/0/30258560080715089_8f3f.jpg",
+   "w": 1080,
+   "h": 1080,
+   "source": "instagram",
+   "date": "2021-09-19"
+  },
+  {
+   "url": "https://i2.photo.2gis.com/images/branch/0/30258560086718268_9ca6.jpg",
+   "w": 1080,
+   "h": 1080,
+   "source": "instagram",
+   "date": "2021-09-29"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/images/branch/0/30258560082626981_39ea.jpg",
+   "w": 1080,
+   "h": 1080,
+   "source": "instagram",
+   "date": "2022-02-17"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/images/branch/0/30258560082803969_1acb.jpg",
+   "w": 1080,
+   "h": 1080,
+   "source": "instagram",
+   "date": "2021-10-31"
+  },
+  {
+   "url": "https://i2.photo.2gis.com/images/branch/0/30258560084699449_2efa.jpg",
+   "w": 1080,
+   "h": 1080,
+   "source": "instagram",
+   "date": "2021-10-31"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/images/branch/0/30258560165077416_1a36.jpg",
+   "w": 3120,
+   "h": 4160,
+   "source": "user",
+   "date": "2023-12-13"
+  },
+  {
+   "url": "https://i8.photo.2gis.com/images/branch/0/30258560067135185_41c9.jpg",
+   "w": 4000,
+   "h": 3000,
+   "source": "2gis",
+   "date": "2021-12-10"
+  }
+ ],
+ "reviews": [
+  {
+   "rating": 5,
+   "date": "2026-10-14",
+   "name": "Ринат Шакиров",
+   "text": "Помогаем бизнесу усиливать репутацию в Яндекс и 2ГИС.\n\n2ГИС — 50 отзывов: 3 700 ₽\nЯндекс — 50 отзывов: 4 400 ₽\n100 отзывов — от 6 000 ₽\n\nПонятные условия\nПостепенная работа\nСопровождение до результата\n\nПосмотрите, как это работает:\nнаш сайт fin-up.online\n\nИли просто напишите нам — подскажем, с чего лучше начать.\n\nTelegram: указан на нашем сайте.\nWhatsApp: +7 702 807 54 07"
+  }
+ ]
+}

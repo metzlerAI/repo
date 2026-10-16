@@ -1,0 +1,56 @@
+{
+ "id": "mebelnaya-tema",
+ "variant": "auto",
+ "accent": "#e4d6d0",
+ "point": {
+  "lat": 45.104016,
+  "lon": 39.059452
+ },
+ "hours": "пн выходной, вт-вс 10:00-19:00",
+ "hero": {
+  "src": "https://i4.photo.2gis.com/photo-gallery/1f23d16e-b33d-40df-94ac-fddeab38d5d4.jpg",
+  "caption": "Кухня в салоне",
+  "src_desktop": "https://i6.photo.2gis.com/photo-gallery/be03e622-1695-4749-a6b6-eac26ea1bb24.jpg",
+  "crop_desktop": [
+   0,
+   0.25,
+   1,
+   0.8
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i6.photo.2gis.com/photo-gallery/be03e622-1695-4749-a6b6-eac26ea1bb24.jpg",
+   "title": "Кухня без ручек",
+   "text": "Светлые фасады, подсветка над столешницей."
+  },
+  {
+   "src": "https://i4.photo.2gis.com/photo-gallery/1f23d16e-b33d-40df-94ac-fddeab38d5d4.jpg",
+   "title": "Кухня у окна",
+   "text": "Шкафы до потолка, столешница под камень."
+  },
+  {
+   "src": "https://i7.photo.2gis.com/photo-gallery/379e4f89-9da3-4e97-b9dd-aaf742883d1c.jpg",
+   "title": "Комод",
+   "text": "Рельефные фасады и золотая вставка."
+  },
+  {
+   "src": "https://i8.photo.2gis.com/photo-gallery/ddca6423-c196-45b6-9507-cdf64841ce32.jpg",
+   "title": "Образцы в салоне",
+   "text": "Мягкие панели и фасады разных цветов."
+  }
+ ],
+ "steps_photos": [],
+ "review_photo": "https://i7.photo.2gis.com/photo-gallery/762978c1-d749-42aa-a625-3a85f814cc41.jpg",
+ "storefront": "https://i5.photo.2gis.com/photo-gallery/1b4d8415-2b35-4e07-8240-8f3f1940e454.jpg",
+ "reviews": [
+  {
+   "name": "Ангелина Ш.",
+   "text": "Во-первых, ну это просто красиво!😻 \nВо-вторых, сделано все качественно! Без нареканий."
+  },
+  {
+   "name": "Виктория Ш.",
+   "text": "Заказывала мебель в этой фирме. Осталась довольна."
+  }
+ ]
+}

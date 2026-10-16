@@ -1,0 +1,63 @@
+{
+ "id": "ars-mebel",
+ "variant": "soft",
+ "accent": "#c7d8cc",
+ "point": {
+  "lat": 45.024486,
+  "lon": 39.045346
+ },
+ "hours": "Ежедневно 10:00-21:00",
+ "hero": {
+  "src": "https://i6.photo.2gis.com/images/branch/0/30258560084935089_54b2.jpg",
+  "caption": "Диван в салоне",
+  "src_desktop": "https://i6.photo.2gis.com/images/branch/0/30258560084935089_54b2.jpg",
+  "crop_desktop": [
+   0,
+   0.25,
+   1,
+   0.75
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i6.photo.2gis.com/images/branch/0/30258560084935089_54b2.jpg",
+   "title": "Диван",
+   "text": "Модульный диван с мягкой обивкой."
+  },
+  {
+   "src": "https://i6.photo.2gis.com/images/branch/0/30258560085338627_f205.jpg",
+   "title": "Гостиная",
+   "text": "Белая стенка с витринами и тумба."
+  },
+  {
+   "src": "https://i4.photo.2gis.com/images/branch/0/30258560080805025_54fb.jpg",
+   "title": "Кровать",
+   "text": "Зелёное мягкое изголовье."
+  }
+ ],
+ "steps_photos": [],
+ "storefront": "https://i6.photo.2gis.com/images/branch/0/30258560066447081_a5f9.jpg",
+ "reviews": [],
+ "texts": {
+  "line": "Мебельный салон в Краснодаре",
+  "intro": "Диваны, кровати и мебель для гостиной. Всё можно посмотреть в салоне.",
+  "steps": [
+   [
+    "Пишете",
+    "Оставляете заявку или пишете в WhatsApp."
+   ],
+   [
+    "Выбор",
+    "Подбираем модель, размер и обивку."
+   ],
+   [
+    "Цена",
+    "Называем стоимость и сроки."
+   ],
+   [
+    "Доставка",
+    "Привозим к вам домой."
+   ]
+  ]
+ }
+}
