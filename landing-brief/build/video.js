@@ -66,7 +66,8 @@ async function shootDemo(browser, id) {
     const quiz = document.querySelector('.quiz').getBoundingClientRect();
     return {
       max,
-      works: top('#works'),
+      // если в «Работах» одни заглушки, на них не останавливаемся
+      works: document.querySelector('#works .wk:not(.empty)') ? top('#works') : null,
       quiz: Math.round(quiz.top + scrollY - (innerHeight - quiz.height) / 2),
       prices: top('#prices'),
       revs: top('.revs'),
@@ -113,12 +114,14 @@ async function shootDemo(browser, id) {
   }
 
   // 1. первый экран
-  await hold(2);
+  await hold(pos.works != null ? 2 : 2.5);
   // 2. «Работы»: прокрутка и пауза на сетке
-  await scrollTo(pos.works, 1.4);
-  await hold(1.4);
+  if (pos.works != null) {
+    await scrollTo(pos.works, 1.4);
+    await hold(1.4);
+  }
   // 3. квиз
-  await scrollTo(pos.quiz, 2.2); // «Работы» длинные, проезжаем их медленнее
+  await scrollTo(pos.quiz, pos.works != null ? 2.2 : 2.8); // «Работы» длинные, проезжаем их медленнее
   await hold(0.3);
   const q0 = await page.locator('.q-title').first().textContent();
   for (const pick of [2, 1]) { // шаг 1: третий вариант, шаг 2: второй вариант
