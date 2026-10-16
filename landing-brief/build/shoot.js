@@ -45,11 +45,13 @@ function cuts(bounds, total, { max: MAX_PART, min: MIN_PART }) {
 }
 
 async function shootParts(page, dir, prefix, width, limits) {
-  const { bounds, total } = await page.evaluate(() => ({
+  const { bounds, total, foot } = await page.evaluate(() => ({
     bounds: [...document.querySelectorAll('.sec')].map(e => ({ top: e.offsetTop, height: e.offsetHeight })),
     total: document.documentElement.scrollHeight,
+    foot: (document.querySelector('.foot') || {}).offsetTop,
   }));
-  const pts = cuts(bounds, total, limits);
+  // подвал отдельной картинкой выглядит как обрезок, поэтому он всегда идёт вместе с контактами
+  const pts = cuts(bounds, total, limits).filter(p => !foot || p < foot || p === total);
   for (let i = 0; i < pts.length - 1; i++) {
     await page.screenshot({
       path: path.join(dir, `${prefix}-${String(i + 1).padStart(2, '0')}.png`),
