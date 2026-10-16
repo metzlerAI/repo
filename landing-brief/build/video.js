@@ -120,6 +120,7 @@ async function shootDemo(browser, id) {
   // 3. квиз
   await scrollTo(pos.quiz, 2.2); // «Работы» длинные, проезжаем их медленнее
   await hold(0.3);
+  const q0 = await page.locator('.q-title').first().textContent();
   for (const pick of [2, 1]) { // шаг 1: третий вариант, шаг 2: второй вариант
     const opt = await center('.q-opt', pick);
     await moveTo(opt.x, opt.y, 0.7);
@@ -130,6 +131,8 @@ async function shootDemo(browser, id) {
     await click();
     await hold(0.5);
   }
+  const q2 = await page.locator('.q-title').first().textContent();
+  if (q0 === q2) console.warn(id, 'внимание: квиз не переключился');
   // курсор уходит в сторону, чтобы не закрывать текст
   await moveTo(W - 50, H - 50, 0.5);
   // 4. цены, отзывы, контакты
