@@ -1,22 +1,75 @@
 {
-  "id": "simmetriya",
-  "variant": "kitchen",
-  "point": {"lat": 45.092438, "lon": 38.90127},
-  "hero": {
-    "src": "https://i8.photo.2gis.com/photo-gallery/159ff483-e91b-4f19-8b4d-7334d1aeef49.jpg",
-    "caption": "Угловая кухня, фасады цвета шалфея и дерево"
-  },
-  "gallery": [
-    {"src": "https://i5.photo.2gis.com/photo-gallery/76accb13-5761-4009-99ca-5e6b3b57b171.jpg", "caption": "Кухня-гостиная с островом"},
-    {"src": "https://i0.photo.2gis.com/photo-gallery/f107c342-2c3a-42e1-a1df-9626185d626c.jpg", "caption": "Кухня с обеденной зоной"},
-    {"src": "https://i5.photo.2gis.com/photo-gallery/23028eb3-c8fc-4ffd-840a-a4f079deb4db.jpg", "caption": "ТВ-зона с рейками и подсветкой"},
-    {"src": "https://i7.photo.2gis.com/photo-gallery/2486e897-dcf6-4d1b-861a-1d66677a603b.jpg", "caption": "Детская: шкаф с арками"},
-    {"src": "https://i8.photo.2gis.com/photo-gallery/36821154-9fd2-477f-93f5-af56636a341e.jpg", "caption": "Прихожая со столиком"},
-    {"src": "https://i4.photo.2gis.com/photo-gallery/ebca57dd-1bfd-42f5-a928-a6175770dbff.jpg", "caption": "Кухня в классическом стиле"}
-  ],
-  "reviews": [
-    {"name": "Наталья Б.", "text": "Заказывали кухню, площадь очень маленькая, но нужно было все вместить. Кухня получилась лучше, чем я ожидала! Материал очень качественный, сделано все безумно красиво и практично."},
-    {"name": "Ольга", "text": "Единственная из компаний (а мы обошли не мало), в которой мне смогли предложить достойный вариант с индивидуальной особенностью (откидной стол) для небольшой по площади квартиры! Всё изготовлено и собрано в сроки."},
-    {"name": "Виктория Д.", "text": "Заказываем уже третий раз в этой фирме (шкаф, кухня, прихожая). Сопровождение договором, сроки соблюдены, все аккуратно. Рекомендую!"}
+ "id": "simmetriya",
+ "variant": "auto",
+ "accent": "#d3e3c4",
+ "point": {
+  "lat": 45.092438,
+  "lon": 38.90127
+ },
+ "hours": "Ежедневно с 10:00 до 19:00",
+ "hero": {
+  "src": "https://i5.photo.2gis.com/photo-gallery/76accb13-5761-4009-99ca-5e6b3b57b171.jpg",
+  "caption": "Кухня-гостиная с островом",
+  "src_desktop": "https://i5.photo.2gis.com/photo-gallery/76accb13-5761-4009-99ca-5e6b3b57b171.jpg",
+  "crop_desktop": [
+   0,
+   0.08,
+   1,
+   0.63
   ]
+ },
+ "gallery": [
+  {
+   "src": "https://i8.photo.2gis.com/photo-gallery/159ff483-e91b-4f19-8b4d-7334d1aeef49.jpg",
+   "title": "Угловая кухня",
+   "text": "Фасады цвета шалфея, верхние шкафы под дерево до потолка."
+  },
+  {
+   "src": "https://i8.photo.2gis.com/photo-gallery/36821154-9fd2-477f-93f5-af56636a341e.jpg",
+   "title": "Прихожая",
+   "text": "Шкаф до потолка, столик с зеркалом и банкетка."
+  },
+  {
+   "src": "https://i0.photo.2gis.com/photo-gallery/f107c342-2c3a-42e1-a1df-9626185d626c.jpg",
+   "title": "Кухня с обеденной зоной",
+   "text": "Белый низ, верх под дерево, тёмная столешница."
+  },
+  {
+   "src": "https://i7.photo.2gis.com/photo-gallery/2486e897-dcf6-4d1b-861a-1d66677a603b.jpg",
+   "title": "Детская",
+   "text": "Шкаф с арками и мягкое изголовье во всю стену."
+  },
+  {
+   "src": "https://i1.photo.2gis.com/photo-gallery/403e31da-6202-4329-a937-fe3dc17f26ce.jpg",
+   "title": "Туалетный столик",
+   "text": "Стеллаж с аркой и круглое зеркало с подсветкой."
+  },
+  {
+   "src": "https://i4.photo.2gis.com/photo-gallery/ebca57dd-1bfd-42f5-a928-a6175770dbff.jpg",
+   "title": "Классическая кухня",
+   "text": "Серые фасады с филёнкой, столешница под мрамор."
+  }
+ ],
+ "steps_photos": [
+  "https://i3.photo.2gis.com/photo-gallery/50c61788-142d-4814-9720-9c4e6da80e29.jpg",
+  "https://i7.photo.2gis.com/photo-gallery/341038f7-2de5-4c0d-a375-13e4ac3c6884.jpg",
+  "https://i8.photo.2gis.com/photo-gallery/e7420725-4b2b-452e-a2d4-091f6512b561.jpg",
+  "https://i5.photo.2gis.com/photo-gallery/23028eb3-c8fc-4ffd-840a-a4f079deb4db.jpg"
+ ],
+ "review_photo": "https://i9.photo.2gis.com/photo-gallery/026e900c-8fbd-4f09-b2ed-29dd5ec1a3d8.jpg",
+ "storefront": "https://i1.photo.2gis.com/photo-gallery/6448b108-bd2d-4211-9166-8e484f2ce679.jpg",
+ "reviews": [
+  {
+   "name": "Наталья Б.",
+   "text": "Заказывали кухню, площадь очень маленькая, но нужно было все вместить. Кухня получилась лучше, чем я ожидала! Материал очень качественный, сделано все безумно красиво и практично."
+  },
+  {
+   "name": "Ольга",
+   "text": "Единственная из компаний (а мы обошли не мало), в которой мне смогли предложить достойный вариант с индивидуальной особенностью (откидной стол) для небольшой по площади квартиры! Всё изготовлено и собрано в сроки."
+  },
+  {
+   "name": "Виктория Д.",
+   "text": "Заказываем уже третий раз в этой фирме (шкаф, кухня, прихожая). Сопровождение договором, сроки соблюдены, все аккуратно. Рекомендую!"
+  }
+ ]
 }
