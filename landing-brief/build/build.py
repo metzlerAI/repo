@@ -89,14 +89,14 @@ UI_RU = dict(
     placeholder="Здесь будут ваши работы", quiz_private="Ответы увидит только мастер", next="Дальше",
     quiz_done="Готово. Отправьте ответы, и мы посчитаем стоимость.", quiz_send="Получить расчёт в WhatsApp",
     price_html='от <span class="blank"></span> ₽', how="Как заказать", review_src="отзыв в 2ГИС",
-    entrance="вход", city="Краснодар", on_map="на карте", route="Маршрут в 2ГИС", write_wa="Написать в WhatsApp",
+    entrance="вход", city="Краснодар", messenger="WhatsApp", on_map="на карте", route="Маршрут в 2ГИС", write_wa="Написать в WhatsApp",
     wa_text="Здравствуйте! Хочу расчёт.")
 UI_EN = dict(
     lang="en-GB", works="Our work", prices="Prices", contacts="Contact", on_source="on Google", cta="Get a price",
     placeholder="Your photos go here", quiz_private="Only we see your answers", next="Next",
     quiz_done="Done. Send your answers and we'll work out a price.", quiz_send="Get a price on WhatsApp",
     price_html='from £<span class="blank"></span>', how="How it works", review_src="Google review",
-    entrance="outside", city="", on_map="on the map", route="Directions on Google Maps", write_wa="Message on WhatsApp",
+    entrance="outside", city="", messenger="WhatsApp", on_map="on the map", route="Directions on Google Maps", write_wa="Message on WhatsApp",
     wa_text="Hi! I'd like a price.")
 
 STEPS_KITCHEN_EN = [
@@ -244,6 +244,20 @@ QUIZZES = {
             dict(t="As soon as possible", d=""), dict(t="Within a month", d=""),
             dict(t="In 1-3 months", d=""), dict(t="Just looking", d="")]),
     ]),
+    "wardrobe": dict(h="Сколько будет стоить ваша мебель", pre=1, steps=[
+        dict(q="Что нужно?", opts=[
+            dict(t="Шкаф-купе", d=""), dict(t="Распашной шкаф", d=""),
+            dict(t="Прихожая", d=""), dict(t="Диван", d="")]),
+        dict(q="Где будет стоять?", opts=[
+            dict(t="Прихожая", d=""), dict(t="Спальня", d=""),
+            dict(t="Гостиная", d=""), dict(t="Детская", d="")]),
+        dict(q="Какая ширина места?", opts=[
+            dict(t="До 1,5 м", d=""), dict(t="1,5-2 м", d=""),
+            dict(t="2-3 м", d=""), dict(t="Больше 3 м", d="во всю стену")]),
+        dict(q="Когда нужна мебель?", opts=[
+            dict(t="Как можно скорее", d=""), dict(t="В течение месяца", d=""),
+            dict(t="Через 1-3 месяца", d=""), dict(t="Пока присматриваюсь", d="")]),
+    ]),
     "tables": dict(h="Подберём стол за минуту", pre=2, steps=[
         dict(q="Сколько человек за столом?", opts=[
             dict(t="2-4", d=""), dict(t="4-6", d=""), dict(t="6-8", d=""), dict(t="Больше 8", d="")]),
@@ -365,6 +379,8 @@ def build(cid, companies, env):
     t.setdefault("price_note", PRICE_NOTE)
     t.setdefault("visit_h", "Приезжайте в салон")
     t.setdefault("remark", "")
+    if c.get("city_in"):  # фирмы не из Краснодара: город в строке «что и где»
+        t["line"] = t["line"].replace("в Краснодаре", c["city_in"])
     t.update(d.get("texts", {}))
 
     hero = d.get("hero") or {}
@@ -383,6 +399,8 @@ def build(cid, companies, env):
     steps = []
     photos = d.get("steps_photos", [])
     for i, (verb, text) in enumerate(t["steps"]):
+        if not UK and not c.get("wa"):
+            text = text.replace("WhatsApp", "Telegram")
         s = {"verb": verb, "text": text, "img": None}
         if i < len(photos):
             save_photo(photos[i], img / f"s{i + 1}.jpg", max_w=900)
@@ -397,7 +415,8 @@ def build(cid, companies, env):
     has_map = bool(d.get("point")) and save_map(d["point"], img / "map.png")
 
     c["phone_raw"] = c.get("tel") or "+" + re.sub(r"\D", "", c["phone"])
-    c["wa_num"] = re.sub(r"\D", "", c["wa"])
+    c["wa_num"] = re.sub(r"\D", "", c.get("wa") or "")
+    c["msg"] = c.get("wa") or c.get("tg")  # нет WhatsApp в 2ГИС: все кнопки ведут в Telegram
     rating = c.get("rating")
     n = c["reviews"]
     quiz = dict(QUIZZES[var])
@@ -409,6 +428,11 @@ def build(cid, companies, env):
         score_str = f"★ {rating_str} out of 5 from {reviews_str} on Google"
     else:
         ui = dict(UI_RU, quiz_p=f"{quiz['n']} вопроса, а ответ с ценой пришлём в WhatsApp. Ни к чему не обязывает.")
+        if c.get("city"):
+            ui["city"] = c["city"]
+        if not c.get("wa"):
+            ui.update(messenger="Telegram", write_wa="Написать в Telegram", quiz_send="Получить расчёт в Telegram",
+                      quiz_p=ui["quiz_p"].replace("WhatsApp", "Telegram"))
         rating_str = f"{rating:.1f}".replace(".", ",") if rating else ""
         reviews_str = f'{n} {plural(n, "отзыв", "отзыва", "отзывов")}'
         score_str = f'★ {rating_str} из 5 по {n} {plural(n, "отзыву", "отзывам", "отзывам")} в 2ГИС'

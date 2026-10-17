@@ -220,7 +220,7 @@ html.shot .mbar { display: none; }
     {% if show_rating %}<p class="rate"><b>★ {{ rating_str }}</b> · {{ reviews_str }} {{ ui.on_source }}</p>{% endif %}
     <div class="acts">
       <a class="btn" href="#quiz">{{ ui.cta }}</a>
-      <a class="link" href="{{ c.wa }}">WhatsApp</a>
+      <a class="link" href="{{ c.msg }}">{{ ui.messenger }}</a>
     </div>
   </div>
 </section>
@@ -262,7 +262,7 @@ html.shot .mbar { display: none; }
     </div>
     <div class="q-done">
       <div class="q-title">{{ ui.quiz_done }}</div>
-      <a class="btn btn-dark q-send" href="{{ c.wa }}">{{ ui.quiz_send }}</a>
+      <a class="btn btn-dark q-send" href="{{ c.msg }}">{{ ui.quiz_send }}</a>
     </div>
   </div>
 </section>
@@ -314,8 +314,8 @@ html.shot .mbar { display: none; }
     {% if d.hours %}<p class="hrs">{{ d.hours }}</p>{% endif %}
     <a class="ph" href="tel:{{ c.phone_raw }}">{{ c.phone }}</a>
     {% if has_map %}<a class="map" href="{{ c.card }}"><img src="img/map.png" alt="{{ c.name }} {{ ui.on_map }}"></a>{% endif %}
-    <div class="links">{% if c.tg %}<a class="link" href="{{ c.tg }}">Telegram</a>{% endif %}<a class="link" href="{{ c.card }}">{{ ui.route }}</a></div>
-    <a class="btn" href="{{ c.wa }}">{{ ui.write_wa }}</a>
+    <div class="links">{% if c.tg and c.wa %}<a class="link" href="{{ c.tg }}">Telegram</a>{% endif %}<a class="link" href="{{ c.card }}">{{ ui.route }}</a></div>
+    <a class="btn" href="{{ c.msg }}">{{ ui.write_wa }}</a>
   </div>
 </section>
 
@@ -324,7 +324,7 @@ html.shot .mbar { display: none; }
   <p>{{ t.line }} · {{ c.address }} · {{ c.phone }}</p>
 </footer>
 
-<div class="mbar"><a class="btn" href="#quiz">{{ ui.cta }}</a><a class="wa" href="{{ c.wa }}">WhatsApp</a></div>
+<div class="mbar"><a class="btn" href="#quiz">{{ ui.cta }}</a><a class="wa" href="{{ c.msg }}">{{ ui.messenger }}</a></div>
 
 <script>
 const QUIZ = {{ quiz_json|safe }};
@@ -353,7 +353,7 @@ const QUIZ = {{ quiz_json|safe }};
     if (++i < QUIZ.steps.length) return render();
     box.classList.add('finished');
     bar.style.width = '100%';
-    box.querySelector('.q-send').href = 'https://wa.me/' + box.dataset.wa + '?text=' + encodeURIComponent({{ ui.wa_text|tojson }} + '\n' + answers.join('\n'));
+    if (box.dataset.wa) box.querySelector('.q-send').href = 'https://wa.me/' + box.dataset.wa + '?text=' + encodeURIComponent({{ ui.wa_text|tojson }} + '\n' + answers.join('\n'));
   };
   bind();
   const mbar = document.querySelector('.mbar');
