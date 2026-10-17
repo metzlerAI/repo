@@ -5,3 +5,4 @@
 - Дизайн-скилл против «ИИ-вида»: `.claude/skills/taste-skill` (MIT, сторонний).
 - Playwright: `PLAYWRIGHT_MODULE=/opt/node-tools/node_modules/playwright`.
 - Не выдумывать факты о фирмах: цены, сроки, гарантии, офферы.
+- После каждой пачки макетов всегда собирать страницу рассылки `python3 landing-brief/build/tools/send_page.py <пачка>`: по каждой фирме название, кнопка перехода в Telegram и готовый текст сообщения. Новую пачку добавлять в `PACKS` этого скрипта.

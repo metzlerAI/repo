@@ -1,14 +1,15 @@
 """Страница рассылки пачки: по карточке на фирму с текстом, кнопками и альбомом скринов.
 
-Запуск: python3 tools/send_page.py
+Запуск: python3 tools/send_page.py [пачка]   (пачки: 1 — Краснодар, rossiya — фирмы из baza-rossiya.xlsx; по умолчанию 1)
 Берёт companies.json и out/<id>/desktop-NN.png (их делает shoot.js).
-Кладёт в landing-brief/send/: пачка-1.html, видео/<id>.mp4 (если есть out/<id>/demo.mp4), скрины/<id>/01.jpg…
-и пачка-1.zip со всем этим. Видео, которого ещё нет, страница помечает жёлтым.
-Тексты сообщений и пометки по фирмам лежат ниже, в FIRMS.
+Кладёт в landing-brief/send/: пачка-<пачка>.html, видео/<id>.mp4 (если есть out/<id>/demo.mp4), скрины/<id>/01.jpg…
+и пачка-<пачка>.zip со всем этим. Видео, которого ещё нет, страница помечает жёлтым.
+Тексты сообщений и пометки по фирмам лежат ниже, в PACKS.
 """
 import html
 import json
 import re
+import sys
 import zipfile
 from pathlib import Path
 from urllib.parse import quote
@@ -28,7 +29,30 @@ A = HELLO + "Увидел «{acc}» в 2ГИС: {rating}, {reviews}, а сайт
 B = HELLO + "Посмотрел «{acc}» в 2ГИС и собрал черновик сайта на ваших фото, " + VIDEO
 B_NO_WORKS = HELLO + "Посмотрел «{acc}» в 2ГИС и набросал, как мог бы выглядеть ваш сайт с расчётом стоимости, " + VIDEO  # фото работ нет
 
+# Россия: город в первой фразе не пишем, у фирм с умершим сайтом своя фраза (решения Ярослава 17.10.2026)
+HELLO_RU = "Здравствуйте! Я Ярослав, делаю сайты для местного бизнеса. "
+DEAD = HELLO_RU + "Увидел «{acc}» в 2ГИС: {rating} и {reviews}. Заметил, что сайт больше не открывается. Собрал черновик нового сайта на ваших фото, " + VIDEO
+
 # порядок карточек = порядок отправки
+FIRMS_RU = [
+    dict(id="tochka-mebeli", hello=HELLO_RU, dead=True, flags=["тот же адрес, что у «Мастерской дизайна»", "часть фото: рендеры и каталог из Instagram"]),
+    dict(id="siti-mebel", hello=HELLO_RU, dead=True, flags=["фото похожи на рендеры"]),
+    dict(id="koncept-56", hello=HELLO_RU, extra=", только Taplink"),
+    dict(id="diamant", hello=HELLO_RU),
+    dict(id="masterskaya-dizayna", hello=HELLO_RU, flags=["тот же адрес, что у «Точки мебели»: если это одна фирма, пиши только одной"]),
+    dict(id="mebelm", hello=HELLO_RU, extra=", только Telegram-канал"),
+    dict(id="sandera", hello=HELLO_RU),
+    dict(id="mebelissimo", hello=HELLO_RU, tg_by_phone=True),
+    dict(id="kukhni-teyge", hello=HELLO_RU),
+    dict(id="reroom", hello=HELLO_RU),
+    dict(id="studiya-72", hello=HELLO_RU),
+    dict(id="prestizh", hello=HELLO_RU, flags=["рейтинг 4,5: вариант B, на сайте рейтинг и отзывы скрыты"]),
+    dict(id="marle", hello=HELLO_RU, extra=", только Telegram-канал"),
+    dict(id="indom", hello=HELLO_RU, extra=", только Taplink", tg_by_phone=True,
+         flags=["Telegram в 2ГИС ведёт в группу, лучше писать в WhatsApp"]),
+    dict(id="tekstura", hello=HELLO_RU),
+]
+
 FIRMS = [
     dict(id="simmetriya"),
     dict(id="lerom",
@@ -61,12 +85,16 @@ def plural(n, one, few, many):
 def message(f, c):
     if f.get("text"):
         return f["text"]
+    hello = f.get("hello", HELLO)
     r = c.get("rating")
     if r is None or r < 4.6:
-        return (B_NO_WORKS if f.get("no_works") else B).format(acc=c["acc"])
+        return (B_NO_WORKS if f.get("no_works") else B).replace(HELLO, hello).format(acc=c["acc"])
     n = c["reviews"]
     rating = "пятёрка" if r == 5 else f"{r:.1f}".replace(".", ",")
-    return A.format(acc=c["acc"], rating=rating, reviews=f'{n} {plural(n, "отзыв", "отзыва", "отзывов")}', extra=f.get("extra", ""))
+    reviews = f'{n} {plural(n, "отзыв", "отзыва", "отзывов")}'
+    if f.get("dead"):
+        return DEAD.format(acc=c["acc"], rating=rating, reviews=reviews)
+    return A.replace(HELLO, hello).format(acc=c["acc"], rating=rating, reviews=reviews, extra=f.get("extra", ""))
 
 
 def album(cid):
@@ -100,20 +128,20 @@ def card(n, f, c):
     vid = video(cid)
     if not vid:
         f.setdefault("flags", []).insert(0, "видео ещё не готово: текст про видео, без него не отправляй")
-    phone_raw = re.sub(r"\D", "", c["wa"])
-    if c.get("tg"):
+    phone_raw = re.sub(r"\D", "", c.get("wa") or c["phone"])
+    if c.get("tg") and not f.get("tg_by_phone"):
         tg, how = c["tg"], "Telegram"
     elif f.get("tg_by_phone"):
         tg, how = f"https://t.me/+{phone_raw}", "Telegram по номеру WhatsApp"
-        f.setdefault("flags", []).append("в 2ГИС Telegram не указан: если чат не откроется, пиши в WhatsApp")
+        f.setdefault("flags", []).append("Telegram не из 2ГИС, а по номеру WhatsApp: если чат не откроется, пиши в WhatsApp")
     else:
         tg, how = None, "WhatsApp"
-    wa = f'{c["wa"]}?text={quote(text)}'
+    wa = f'{c["wa"]}?text={quote(text)}' if c.get("wa") else None
     flags = "".join(f'<span class="fl">{html.escape(x)}</span>' for x in f.get("flags", []))
     thumbs = "".join(f'<a href="{p}" target="_blank"><img src="{p}" alt="{i}"></a>' for i, p in enumerate(imgs, 1))
     buttons = (f'<a class="b1" href="{tg}" target="_blank">1. Открыть чат ({how})</a>' if tg else
                f'<a class="b1" href="{wa}" target="_blank">1. Открыть чат (WhatsApp)</a>')
-    if tg:
+    if tg and wa:
         buttons += f'<a href="{wa}" target="_blank">или WhatsApp</a>'
     js_text = html.escape(json.dumps(text, ensure_ascii=False))
     if vid:
@@ -130,7 +158,7 @@ def card(n, f, c):
 <small>{step3} Скрины выше пригодятся на созвоне, они лежат в папке <b>скрины/{cid}</b>.</small></div></div></div>"""
 
 
-PAGE = """<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Пачка 1</title><style>
+PAGE = """<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{title}</title><style>
 :root{color-scheme:light}
 body{font:15px/1.5 -apple-system,Inter,sans-serif;background:#f4f4f2;color:#1b1b1b;max-width:980px;margin:0 auto;padding:24px 16px}
 h1{font-size:22px} .rule{background:#fff;border-radius:12px;padding:14px 18px;margin:14px 0 22px} .rule p{margin:8px 0}
@@ -144,7 +172,7 @@ h1{font-size:22px} .rule{background:#fff;border-radius:12px;padding:14px 18px;ma
 .strip{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:6px} .strip img{display:block;width:84px;height:56px;object-fit:cover;object-position:top;border-radius:6px;border:1px solid #ddd}
 small{opacity:.7;display:block}
 @media(max-width:640px){.body{flex-direction:column} .cover img,video.cover{width:100%;height:200px}}
-</style></head><body><h1>Пачка 1: 12 сообщений</h1>
+</style></head><body><h1>{title}: {count} сообщений</h1>
 <div class="rule"><b>Правила:</b> с рабочего Telegram, не больше 10-15 новых в день. Порядок: открыть чат, перетащить видео, в поле «Подпись» вставить текст, отправить, поставить галочку. Видео и текст уходят одним сообщением.
 <p><b>Если ответили «да»:</b> «Отлично! Давайте созвонимся на 10-15 минут: покажу макет с экрана и расскажу, как он может приводить заявки. Вам удобнее сегодня или завтра?»</p>
 <p><b>Пинг</b> тем, кто прочитал и молчит, через день-два: «Здравствуйте! Успели глянуть макет? Могу доделать его на ваших фото и показать за 15 минут.»</p>
@@ -159,17 +187,25 @@ const s=()=>c.closest('.card').classList.toggle('done',c.checked);s();c.onchange
 """
 
 
+PACKS = {"1": ("Пачка 1", FIRMS), "rossiya": ("Пачка «Россия»", FIRMS_RU)}
+
+
 def main():
+    pack = sys.argv[1] if len(sys.argv) > 1 else "1"
+    title, firms = PACKS[pack]
     companies = {c["id"]: c for c in json.loads((ROOT / "companies.json").read_text(encoding="utf-8"))}
     SHOTS.mkdir(parents=True, exist_ok=True)
-    cards = "\n".join(card(i, f, companies[f["id"]]) for i, f in enumerate(FIRMS, 1))
-    page = SEND / "пачка-1.html"
-    page.write_text(PAGE.replace("{cards}", cards), encoding="utf-8")
-    with zipfile.ZipFile(SEND / "пачка-1.zip", "w", zipfile.ZIP_DEFLATED) as z:
+    cards = "\n".join(card(i, f, companies[f["id"]]) for i, f in enumerate(firms, 1))
+    page = SEND / f"пачка-{pack}.html"
+    page.write_text(PAGE.replace("{cards}", cards).replace("{title}", title).replace("{count}", str(len(firms))), encoding="utf-8")
+    ids = {f["id"] for f in firms}
+    with zipfile.ZipFile(SEND / f"пачка-{pack}.zip", "w", zipfile.ZIP_DEFLATED) as z:
         z.write(page, page.name)
         for p in sorted(SHOTS.rglob("*.jpg")) + sorted(VIDEOS.glob("*.mp4")):
-            z.write(p, p.relative_to(SEND).as_posix())
-    print(page, "и", SEND / "пачка-1.zip")
+            cid = p.parent.name if p.suffix == ".jpg" else p.stem
+            if cid in ids:
+                z.write(p, p.relative_to(SEND).as_posix())
+    print(page, "и", SEND / f"пачка-{pack}.zip")
 
 
 if __name__ == "__main__":
