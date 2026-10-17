@@ -9,7 +9,7 @@ const path = require('path');
 const fs = require('fs');
 const { chromium } = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
 
-const OUT = path.resolve(__dirname, '..', 'out');
+const OUT = process.env.OUT_DIR ? path.resolve(process.env.OUT_DIR) : path.resolve(__dirname, '..', 'out');
 const DESKTOP = { max: 1320, min: 420 }; // самая высокая часть нарезки (блок «Работы» целиком) и порог приклеивания, px
 const MOBILE = { max: 844, min: 300 };   // экран телефона
 const ids = process.argv.slice(2).length ? process.argv.slice(2)

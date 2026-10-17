@@ -2,6 +2,8 @@
 
 Запуск: python3 build.py [id ...]   (без аргументов собирает все фирмы, у которых есть data/<id>.json)
 Результат: ../out/<id>/index.html и ../out/<id>/img/*
+Британские фирмы: python3 build.py --uk [id ...]  берёт ../../uk-brief/companies.json и uk-brief/data/<id>.json,
+пишет в uk-brief/out/<id>/, тексты на английском, карта из OpenStreetMap.
 
 Правило текстов: никаких непроверенных обещаний (бесплатный замер, 3D-проект, сроки, гарантии, цены).
 """
@@ -17,10 +19,12 @@ from jinja2 import Environment, FileSystemLoader
 from PIL import Image, ImageOps
 
 HERE = Path(__file__).resolve().parent
-ROOT = HERE.parent
+UK = "--uk" in sys.argv
+ROOT = HERE.parent.parent / "uk-brief" if UK else HERE.parent
+DATA = ROOT / "data" if UK else HERE / "data"
 OUT = ROOT / "out"
 GALLERY_SIZE = 6
-WATERMARK_CROP = 0.07  # 2ГИС ставит водяной знак в правый нижний угол, срезаем низ кадра
+WATERMARK_CROP = 0 if UK else 0.07  # 2ГИС ставит водяной знак в правый нижний угол, срезаем низ кадра
 DEFAULT_ACCENT = "#d6e6c3"
 
 # ---------- тексты по рубрике ----------
@@ -78,6 +82,42 @@ TEXTS_TABLES = dict(
     price_note="Цена зависит от размера, столешницы и комплектации.",
     visit_h="Приезжайте в шоурум")
 
+# ---------- тексты для Великобритании ----------
+
+UI_RU = dict(
+    lang="ru", works="Работы", prices="Цены", contacts="Контакты", on_source="в 2ГИС", cta="Рассчитать стоимость",
+    placeholder="Здесь будут ваши работы", quiz_private="Ответы увидит только мастер", next="Дальше",
+    quiz_done="Готово. Отправьте ответы, и мы посчитаем стоимость.", quiz_send="Получить расчёт в WhatsApp",
+    price_html='от <span class="blank"></span> ₽', how="Как заказать", review_src="отзыв в 2ГИС",
+    entrance="вход", city="Краснодар", on_map="на карте", route="Маршрут в 2ГИС", write_wa="Написать в WhatsApp",
+    wa_text="Здравствуйте! Хочу расчёт.")
+UI_EN = dict(
+    lang="en-GB", works="Our work", prices="Prices", contacts="Contact", on_source="on Google", cta="Get a price",
+    placeholder="Your photos go here", quiz_private="Only we see your answers", next="Next",
+    quiz_done="Done. Send your answers and we'll work out a price.", quiz_send="Get a price on WhatsApp",
+    price_html='from £<span class="blank"></span>', how="How it works", review_src="Google review",
+    entrance="outside", city="", on_map="on the map", route="Directions on Google Maps", write_wa="Message on WhatsApp",
+    wa_text="Hi! I'd like a price.")
+
+STEPS_KITCHEN_EN = [
+    ("Message", "Send a message or a few photos on WhatsApp."),
+    ("Visit", "We come round and measure up."),
+    ("Design", "We agree the design and the price."),
+    ("Fit", "We fit your new kitchen."),
+]
+MENU_KITCHEN_EN = [
+    ("Kitchens", [("Supply and fit", "full kitchen"), ("Fit only", "you supply the units")]),
+    ("Extras", [("Worktops", "laminate, wood or stone"), ("Doors and handles", "kitchen refresh")]),
+]
+TEXTS_EN = {
+    "Kitchens": dict(
+        line="Kitchens fitted in Greater Manchester",
+        intro="We design and fit kitchens around your home and the way you use it.",
+        steps=STEPS_KITCHEN_EN, menu=MENU_KITCHEN_EN,
+        price_note="The exact price depends on the size, units and worktops. We'll give you a quote after a visit.",
+        visit_h="Visit us"),
+}
+
 # ---------- квизы ----------
 
 def ico(body):
@@ -127,6 +167,23 @@ QUIZZES = {
             dict(t="Как можно скорее", d=""), dict(t="В течение месяца", d=""),
             dict(t="Через 1-3 месяца", d=""), dict(t="Пока присматриваюсь", d="")]),
     ]),
+    "kitchen_en": dict(h="What would your kitchen cost?", pre=2, steps=[
+        dict(q="What's the layout?", opts=[
+            dict(t="Single wall", d="along one wall", icon=ico('<rect x="2" y="3" width="40" height="6"/>')),
+            dict(t="L-shaped", d="two walls", icon=ico('<rect x="2" y="3" width="40" height="6"/><rect x="2" y="3" width="6" height="25"/>')),
+            dict(t="U-shaped", d="three walls", icon=ico('<rect x="2" y="3" width="40" height="6"/><rect x="2" y="3" width="6" height="25"/><rect x="36" y="3" width="6" height="25"/>')),
+            dict(t="With an island", d="worktop in the middle", icon=ico('<rect x="2" y="3" width="40" height="6"/><rect x="2" y="3" width="6" height="25"/><rect x="18" y="19" width="16" height="8"/>')),
+        ]),
+        dict(q="How long are the runs of units?", opts=[
+            dict(t="Up to 2 m", d="small kitchen"), dict(t="2-3 m", d=""),
+            dict(t="3-4 m", d=""), dict(t="Over 4 m", d="open-plan")]),
+        dict(q="Which door style do you like?", opts=[
+            dict(t="Shaker", d=""), dict(t="Handleless", d=""),
+            dict(t="Gloss", d=""), dict(t="Not sure yet", d="we'll help")]),
+        dict(q="When do you need it?", opts=[
+            dict(t="As soon as possible", d=""), dict(t="Within a month", d=""),
+            dict(t="In 1-3 months", d=""), dict(t="Just looking", d="")]),
+    ]),
     "tables": dict(h="Подберём стол за минуту", pre=2, steps=[
         dict(q="Сколько человек за столом?", opts=[
             dict(t="2-4", d=""), dict(t="4-6", d=""), dict(t="6-8", d=""), dict(t="Больше 8", d="")]),
@@ -145,6 +202,8 @@ QUIZZES = {
 def variant_for(c, d):
     if d.get("variant") and d["variant"] != "auto":
         return d["variant"]
+    if UK:
+        return "kitchen_en"
     return {"Детская мебель": "kids", "Мягкая мебель": "soft"}.get(c["rubric"], "kitchen")
 
 CAM_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 8h3l1.5-2h7L17 8h3v11H4z" stroke-linejoin="round"/><circle cx="12" cy="13" r="3.5"/></svg>'
@@ -174,9 +233,40 @@ def save_photo(url, dst, max_w=1600, crop=None):
         im = im.resize((max_w, round(im.height * max_w / im.width)), Image.LANCZOS)
     im.save(dst, quality=84, optimize=True)
 
+def save_map_osm(point, dst, zoom=16, cols=5, rows=5):
+    """Карта из плиток OpenStreetMap с меткой в центре (для фирм вне России, где нет 2ГИС)."""
+    import math
+    from PIL import ImageDraw
+    n = 2 ** zoom
+    x = (point["lon"] + 180) / 360 * n
+    y = (1 - math.asinh(math.tan(math.radians(point["lat"]))) / math.pi) / 2 * n
+    x0, y0 = int(x) - cols // 2, int(y) - rows // 2
+    im = Image.new("RGB", (cols * 256, rows * 256))
+    for i in range(cols):
+        for j in range(rows):
+            req = urllib.request.Request(f"https://tile.openstreetmap.org/{zoom}/{x0 + i}/{y0 + j}.png",
+                                         headers={"User-Agent": "local-landing-mockup/1.0 (demo mockups)"})
+            im.paste(Image.open(io.BytesIO(urllib.request.urlopen(req, timeout=40).read())).convert("RGB"), (i * 256, j * 256))
+    px, py = (x - x0) * 256, (y - y0) * 256
+    w, h = 960, 540
+    im = im.crop((int(px - w / 2), int(py - h / 2), int(px + w / 2), int(py + h / 2)))
+    dr = ImageDraw.Draw(im)
+    dr.ellipse((w / 2 - 13, h / 2 - 13, w / 2 + 13, h / 2 + 13), fill="#0f0f0f", outline="#ffffff", width=4)
+    note = "© OpenStreetMap contributors"
+    dr.rectangle((w - 8 - 6 * len(note), h - 18, w, h), fill="#ffffff")
+    dr.text((w - 4 - 6 * len(note), h - 15), note, fill="#333333")
+    im.save(dst)
+
 def save_map(point, dst):
     if dst.exists():
         return True
+    if UK:
+        try:
+            save_map_osm(point, dst)
+            return True
+        except Exception as e:
+            print("  карта не скачалась:", e)
+            return False
     url = f"https://static.maps.2gis.com/1.0?zoom=16&size=960,540&markers={point['lon']},{point['lat']}"
     try:
         dst.write_bytes(fetch(url))
@@ -200,13 +290,16 @@ def display_vw(name):
 
 def build(cid, companies, env):
     c = dict(companies[cid])
-    d = json.loads((HERE / "data" / f"{cid}.json").read_text(encoding="utf-8"))
+    d = json.loads((DATA / f"{cid}.json").read_text(encoding="utf-8"))
     out = OUT / cid
     img = out / "img"
     img.mkdir(parents=True, exist_ok=True)
 
     var = variant_for(c, d)
-    t = dict(TEXTS_TABLES if var == "tables" else TEXTS.get(c["rubric"], TEXTS["Мебель на заказ"]))
+    if UK:
+        t = dict(TEXTS_EN.get(c["rubric"], TEXTS_EN["Kitchens"]))
+    else:
+        t = dict(TEXTS_TABLES if var == "tables" else TEXTS.get(c["rubric"], TEXTS["Мебель на заказ"]))
     t.setdefault("steps", STEPS_FURNITURE)
     t.setdefault("menu", MENU_FURNITURE)
     t.setdefault("price_note", PRICE_NOTE)
@@ -243,22 +336,30 @@ def build(cid, companies, env):
         save_photo(d["storefront"], img / "place.jpg", max_w=2000)
     has_map = bool(d.get("point")) and save_map(d["point"], img / "map.png")
 
-    c["phone_raw"] = "+" + re.sub(r"\D", "", c["phone"])
+    c["phone_raw"] = c.get("tel") or "+" + re.sub(r"\D", "", c["phone"])
     c["wa_num"] = re.sub(r"\D", "", c["wa"])
     rating = c.get("rating")
     n = c["reviews"]
     quiz = dict(QUIZZES[var])
     quiz["n"] = len(quiz["steps"])
+    if UK:
+        ui = dict(UI_EN, quiz_p=f"{quiz['n']} quick questions, and we'll send you a price on WhatsApp. No obligation.")
+        rating_str = f"{rating:.1f}" if rating else ""
+        reviews_str = f'{n} {"review" if n == 1 else "reviews"}'
+        score_str = f"★ {rating_str} out of 5 from {reviews_str} on Google"
+    else:
+        ui = dict(UI_RU, quiz_p=f"{quiz['n']} вопроса, а ответ с ценой пришлём в WhatsApp. Ни к чему не обязывает.")
+        rating_str = f"{rating:.1f}".replace(".", ",") if rating else ""
+        reviews_str = f'{n} {plural(n, "отзыв", "отзыва", "отзывов")}'
+        score_str = f'★ {rating_str} из 5 по {n} {plural(n, "отзыву", "отзывам", "отзывам")} в 2ГИС'
 
     html = env.get_template("template.html.j2").render(
-        c=c, d=d, t=t, gallery=gallery, quiz=quiz, quiz_json=json.dumps(quiz, ensure_ascii=False),
+        c=c, d=d, t=t, ui=ui, gallery=gallery, quiz=quiz, quiz_json=json.dumps(quiz, ensure_ascii=False),
         accent=d.get("accent", DEFAULT_ACCENT), display_vw=display_vw(c["name"]),
         has_hero=(img / "hero.jpg").exists(), has_hero_desktop=(img / "hero-d.jpg").exists(),
         has_review_photo=(img / "review.jpg").exists(), has_storefront=(img / "place.jpg").exists(),
         show_rating=rating is not None and rating >= 4.6,
-        rating_str=f"{rating:.1f}".replace(".", ",") if rating else "",
-        reviews_str=f'{n} {plural(n, "отзыв", "отзыва", "отзывов")}',
-        reviews_dat=f'{n} {plural(n, "отзыву", "отзывам", "отзывам")}',
+        rating_str=rating_str, reviews_str=reviews_str, score_str=score_str,
         has_map=has_map, cam_icon=CAM_ICON)
     (out / "index.html").write_text(html, encoding="utf-8")
     real = sum(1 for g in gallery if not g.get("empty"))
@@ -266,7 +367,7 @@ def build(cid, companies, env):
 
 def main():
     companies = {c["id"]: c for c in json.loads((ROOT / "companies.json").read_text(encoding="utf-8"))}
-    ids = sys.argv[1:] or sorted(p.stem for p in (HERE / "data").glob("*.json"))
+    ids = [a for a in sys.argv[1:] if a != "--uk"] or sorted(p.stem for p in DATA.glob("*.json"))
     env = Environment(loader=FileSystemLoader(HERE), autoescape=True)
     for cid in ids:
         build(cid, companies, env)

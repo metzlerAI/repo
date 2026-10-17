@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ru">
+<html lang="{{ ui.lang }}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -52,7 +52,7 @@ h2 { font-size: var(--head); }
 .hero-top a { text-decoration: none; }
 .hero-top nav .d { display: none; }
 .hero-bottom { position: absolute; z-index: 2; left: var(--m); right: var(--m); bottom: 26px; display: flex; flex-direction: column; gap: 14px; }
-.hero h1 { font-size: var(--display); line-height: 0.88; letter-spacing: -0.045em; overflow-wrap: anywhere; }
+.hero h1 { font-size: var(--display); line-height: 0.88; letter-spacing: -0.045em; overflow-wrap: anywhere; padding-bottom: .12em; }
 .hero .line { font-size: var(--lead); line-height: 1.2; font-weight: 300; max-width: 22ch; }
 .hero .rate { font-size: var(--small); color: #e6e6e3; font-weight: 400; }
 .hero .rate b { color: var(--accent); font-weight: 500; }
@@ -142,7 +142,7 @@ h2 { font-size: var(--head); }
 
 /* footer */
 .foot { background: var(--bg); color: var(--ink-on-dark); padding: 56px var(--m) 96px; }
-.foot .display { font-size: var(--display); line-height: .88; letter-spacing: -0.045em; }
+.foot .display { font-size: var(--display); line-height: .88; letter-spacing: -0.045em; padding-bottom: .12em; }
 .foot p { color: var(--muted-on-dark); font-size: var(--small); margin-top: 22px; }
 
 /* sticky phone bar, hidden in screenshots */
@@ -212,14 +212,14 @@ html.shot .mbar { display: none; }
   {% endif %}
   <div class="hero-top">
     <a href="tel:{{ c.phone_raw }}">{{ c.phone }}</a>
-    <nav><a class="d" href="#works">Работы</a><a class="d" href="#prices">Цены</a><a href="#contacts">Контакты</a></nav>
+    <nav><a class="d" href="#works">{{ ui.works }}</a><a class="d" href="#prices">{{ ui.prices }}</a><a href="#contacts">{{ ui.contacts }}</a></nav>
   </div>
   <div class="hero-bottom">
     <h1>{{ c.name }}</h1>
     <p class="line">{{ t.line }}</p>
-    {% if show_rating %}<p class="rate"><b>★ {{ rating_str }}</b> · {{ reviews_str }} в 2ГИС</p>{% endif %}
+    {% if show_rating %}<p class="rate"><b>★ {{ rating_str }}</b> · {{ reviews_str }} {{ ui.on_source }}</p>{% endif %}
     <div class="acts">
-      <a class="btn" href="#quiz">Рассчитать стоимость</a>
+      <a class="btn" href="#quiz">{{ ui.cta }}</a>
       <a class="link" href="{{ c.wa }}">WhatsApp</a>
     </div>
   </div>
@@ -230,12 +230,12 @@ html.shot .mbar { display: none; }
 </section>
 
 <section class="works sec" id="works">
-  <h2>Работы</h2>
+  <h2>{{ ui.works }}</h2>
   {% if t.remark %}<p class="remark">{{ t.remark }}</p>{% endif %}
   <div class="wks">
   {% for g in gallery %}
   {% if g.empty %}
-  <div class="wk empty"><div class="ph">{{ cam_icon|safe }}<span>Здесь будут ваши работы</span></div></div>
+  <div class="wk empty"><div class="ph">{{ cam_icon|safe }}<span>{{ ui.placeholder }}</span></div></div>
   {% else %}
   <figure class="wk"><div class="ph"><img src="img/w{{ loop.index }}.jpg" alt="{{ g.title }}"></div><figcaption><span class="t">{{ g.title }}</span>{% if g.text %}<span class="d">{{ g.text }}</span>{% endif %}</figcaption></figure>
   {% endif %}
@@ -245,7 +245,7 @@ html.shot .mbar { display: none; }
 
 <section class="quiz-sec sec" id="quiz">
   <h2>{{ quiz.h }}</h2>
-  <p>{{ quiz.n }} вопроса, а ответ с ценой пришлём в WhatsApp. Ни к чему не обязывает.</p>
+  <p>{{ ui.quiz_p }}</p>
   <div class="quiz" data-wa="{{ c.wa_num }}">
     <div class="q-bar"><i style="width: {{ (100 / (quiz.n + 1))|round }}%"></i></div>
     <div class="q-body">
@@ -256,25 +256,25 @@ html.shot .mbar { display: none; }
         {% endfor %}
       </div>
       <div class="q-foot">
-        <span class="small">Ответы увидит только мастер</span>
-        <button class="btn btn-dark q-next" type="button">Дальше</button>
+        <span class="small">{{ ui.quiz_private }}</span>
+        <button class="btn btn-dark q-next" type="button">{{ ui.next }}</button>
       </div>
     </div>
     <div class="q-done">
-      <div class="q-title">Готово. Отправьте ответы, и мы посчитаем стоимость.</div>
-      <a class="btn btn-dark q-send" href="{{ c.wa }}">Получить расчёт в WhatsApp</a>
+      <div class="q-title">{{ ui.quiz_done }}</div>
+      <a class="btn btn-dark q-send" href="{{ c.wa }}">{{ ui.quiz_send }}</a>
     </div>
   </div>
 </section>
 
 <section class="prices sec" id="prices">
-  <h2>Цены</h2>
+  <h2>{{ ui.prices }}</h2>
   <div class="menu">
     {% for g in t.menu %}
     <div class="grp">
       <h3>{{ g[0] }}</h3>
       {% for it in g[1] %}
-      <div class="row"><span class="n">{{ it[0] }}{% if it[1] %}<small>{{ it[1] }}</small>{% endif %}</span><span class="p">от <span class="blank"></span> ₽</span></div>
+      <div class="row"><span class="n">{{ it[0] }}{% if it[1] %}<small>{{ it[1] }}</small>{% endif %}</span><span class="p">{{ ui.price_html|safe }}</span></div>
       {% endfor %}
     </div>
     {% endfor %}
@@ -282,7 +282,7 @@ html.shot .mbar { display: none; }
   <p class="note">{{ t.price_note }}</p>
 </section>
 
-<section class="steps sec" aria-label="Как заказать">
+<section class="steps sec" aria-label="{{ ui.how }}">
   {% for s in t.steps %}
   <div class="st">{% if s.img %}<img src="img/{{ s.img }}" alt="">{% endif %}<b>{{ s.verb }}</b><span>{{ s.text }}</span></div>
   {% endfor %}
@@ -293,13 +293,13 @@ html.shot .mbar { display: none; }
   <div class="pic">{% if has_review_photo %}<img src="img/review.jpg" alt="">{% endif %}</div>
   <div class="main">
     <blockquote>{{ d.reviews[0].text }}</blockquote>
-    <p class="who">{{ d.reviews[0].name }} <span>· отзыв в 2ГИС</span></p>
-    <p class="score">★ {{ rating_str }} из 5 по {{ reviews_dat }} в 2ГИС</p>
+    <p class="who">{{ d.reviews[0].name }} <span>· {{ ui.review_src }}</span></p>
+    <p class="score">{{ score_str }}</p>
   </div>
   {% if d.reviews|length > 1 %}
   <div class="more">
     {% for r in d.reviews[1:3] %}
-    <figure><blockquote>{{ r.text }}</blockquote><p class="who">{{ r.name }} <span>· отзыв в 2ГИС</span></p></figure>
+    <figure><blockquote>{{ r.text }}</blockquote><p class="who">{{ r.name }} <span>· {{ ui.review_src }}</span></p></figure>
     {% endfor %}
   </div>
   {% endif %}
@@ -307,15 +307,15 @@ html.shot .mbar { display: none; }
 {% endif %}
 
 <section class="visit sec{% if not has_storefront %} noimg{% endif %}" id="contacts">
-  {% if has_storefront %}<div class="bgimg"><img src="img/place.jpg" alt="{{ c.name }}, вход"></div>{% endif %}
+  {% if has_storefront %}<div class="bgimg"><img src="img/place.jpg" alt="{{ c.name }}, {{ ui.entrance }}"></div>{% endif %}
   <div class="card">
-    <h2>{{ t.visit_h if has_storefront else 'Контакты' }}</h2>
-    <p class="addr">Краснодар,<br>{{ c.address }}</p>
+    <h2>{{ t.visit_h if has_storefront else ui.contacts }}</h2>
+    <p class="addr">{% if ui.city %}{{ ui.city }},<br>{% endif %}{{ c.address }}</p>
     {% if d.hours %}<p class="hrs">{{ d.hours }}</p>{% endif %}
     <a class="ph" href="tel:{{ c.phone_raw }}">{{ c.phone }}</a>
-    {% if has_map %}<a class="map" href="{{ c.card }}"><img src="img/map.png" alt="{{ c.name }} на карте"></a>{% endif %}
-    <div class="links">{% if c.tg %}<a class="link" href="{{ c.tg }}">Telegram</a>{% endif %}<a class="link" href="{{ c.card }}">Маршрут в 2ГИС</a></div>
-    <a class="btn" href="{{ c.wa }}">Написать в WhatsApp</a>
+    {% if has_map %}<a class="map" href="{{ c.card }}"><img src="img/map.png" alt="{{ c.name }} {{ ui.on_map }}"></a>{% endif %}
+    <div class="links">{% if c.tg %}<a class="link" href="{{ c.tg }}">Telegram</a>{% endif %}<a class="link" href="{{ c.card }}">{{ ui.route }}</a></div>
+    <a class="btn" href="{{ c.wa }}">{{ ui.write_wa }}</a>
   </div>
 </section>
 
@@ -324,7 +324,7 @@ html.shot .mbar { display: none; }
   <p>{{ t.line }} · {{ c.address }} · {{ c.phone }}</p>
 </footer>
 
-<div class="mbar"><a class="btn" href="#quiz">Рассчитать стоимость</a><a class="wa" href="{{ c.wa }}">WhatsApp</a></div>
+<div class="mbar"><a class="btn" href="#quiz">{{ ui.cta }}</a><a class="wa" href="{{ c.wa }}">WhatsApp</a></div>
 
 <script>
 const QUIZ = {{ quiz_json|safe }};
@@ -353,7 +353,7 @@ const QUIZ = {{ quiz_json|safe }};
     if (++i < QUIZ.steps.length) return render();
     box.classList.add('finished');
     bar.style.width = '100%';
-    box.querySelector('.q-send').href = 'https://wa.me/' + box.dataset.wa + '?text=' + encodeURIComponent('Здравствуйте! Хочу расчёт.\n' + answers.join('\n'));
+    box.querySelector('.q-send').href = 'https://wa.me/' + box.dataset.wa + '?text=' + encodeURIComponent({{ ui.wa_text|tojson }} + '\n' + answers.join('\n'));
   };
   bind();
   const mbar = document.querySelector('.mbar');

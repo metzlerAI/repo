@@ -47,6 +47,14 @@ description: Собирает демо-макеты сайтов для мест
    Глазами смотреть одну мозаику на всю пачку: по кадру после квиза от каждой фирмы
    (`ffmpeg -ss 11 -i out/<id>/demo.mp4 -frames:v 1 -vf scale=360:-1`, потом склеить `tile`). Видео целиком не открывать.
 
+## Фирмы из Великобритании (Google Maps вместо 2ГИС)
+
+- Данные: `node tools/gmaps_collect.js ../../uk-brief/companies.json ../../uk-brief/data/drafts [id ...]`.
+  Google без входа показывает только часть карточки: 4–21 фото и 3 отзыва, автор фото неизвестен.
+- Сборка: `python3 build.py --uk [id ...]` (английские тексты, карта OpenStreetMap, без обрезки водяного знака),
+  скрины и видео с `OUT_DIR=../../uk-brief/out`. Решения и шаблон сообщения: `uk-brief/DECISIONS.md`.
+- В `uk-brief/companies.json` у фирмы нужны `tel` (+44…), `wa`, `card` (ссылка Google Maps), `rubric` (`Kitchens`).
+
 ## Новая ниша (не мебель)
 
 В `build.py` добавить рубрику в `TEXTS` (строка «что и где», вступление, меню цен, 4 шага) и квиз в `QUIZZES`.
