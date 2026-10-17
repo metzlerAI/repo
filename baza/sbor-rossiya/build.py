@@ -37,6 +37,10 @@ for id, x in c.items():
     wa = re.sub(r'\?.*', '', x['wa']); tg = x['tg']
     rows.append(dict(pr='A' if isA else 'B', city=x['city'], n=x['n'], r=x['r'], rv=x['rv'], rt=x['rt'], last=last or 'не видно', site=sk,
         tg=tg, wa=wa, ph=x['ph'], adr=x['adr'], url=f"https://2gis.ru/{x['slug']}/firm/{id}", own=own, revs=x['reviews'], hrs=hours(x['sched'])))
+CHK = json.load(open('checks.json'))
+for r in rows: r['chk'] = CHK.get(r['url'].rsplit('/', 1)[1], {}).get('note', 'не проверялось')
+cut = [r for r in rows if CHK.get(r['url'].rsplit('/', 1)[1], {}).get('ex')]
+rows = [r for r in rows if r not in cut]
 rows.sort(key=lambda r: (r['pr'], -r['rv']))
 A = [r for r in rows if r['pr'] == 'A']; B = [r for r in rows if r['pr'] == 'B']
 print('просмотрено', seen, 'прошли', len(rows), 'A', len(A), 'B', len(B), dict(why))
@@ -46,21 +50,22 @@ main = (A + B)[:50]; rest = (A + B)[50:]
 def pick_reviews(rv):
     good = [r for r in rv if r['rating'] == 5 and r['text'] and 40 <= len(r['text']) <= 260 and r['name']]
     return '\n\n'.join(f"«{r['text'].strip()}» ({r['name']}, {r['date']})" for r in good[:3])
-H = ['приоритет','город','название','рубрика','отзывов','рейтинг','дата последнего отзыва','сайт (нет / соцсети / taplink)','Telegram','WhatsApp','телефон','адрес','ссылка на карточку 2ГИС','фото (ссылки)','отзывы','часы работы']
+H = ['приоритет','город','название','рубрика','отзывов','рейтинг','дата последнего отзыва','сайт (нет / соцсети / taplink)','Telegram','WhatsApp','телефон','адрес','ссылка на карточку 2ГИС','фото (ссылки)','отзывы','часы работы','проверка сайта']
 wb = Workbook()
 def sheet(ws, L, extra):
     ws.append(H)
     for k, r in enumerate(L):
         full = extra and r['pr'] == 'A' and k < 15
         ws.append([r['pr'], r['city'], r['n'], r['r'], r['rv'], r['rt'], r['last'], r['site'], r['tg'], r['wa'], r['ph'], r['adr'], r['url'],
-                   '\n'.join(p['url'] for p in r['own'][:6]) if full else '', pick_reviews(r['revs']) if full else '', r['hrs'] if full else ''])
+                   '\n'.join(p['url'] for p in r['own'][:6]) if full else '', pick_reviews(r['revs']) if full else '', r['hrs'] if full else '', r['chk']])
     for cell in ws[1]: cell.font = Font(bold=True)
-    for col, w in zip('ABCDEFGHIJKLMNOP', [6,14,28,22,8,8,12,24,22,16,18,30,40,60,80,30]): ws.column_dimensions[col].width = w
+    for col, w in zip('ABCDEFGHIJKLMNOPQ', [6,14,28,22,8,8,12,24,22,16,18,30,40,60,80,30,40]): ws.column_dimensions[col].width = w
     for row in ws.iter_rows(min_row=2):
         for cell in row: cell.alignment = Alignment(wrap_text=True, vertical='top')
     ws.freeze_panes = 'A2'
 ws = wb.active; ws.title = 'база 50'; sheet(ws, main, True)
 ws2 = wb.create_sheet('резерв'); sheet(ws2, rest, False)
+ws3 = wb.create_sheet('есть сайт (убраны)'); sheet(ws3, cut, False)
 wb.save('baza-rossiya.xlsx')
 print('в файле', len(main), 'A', sum(r['pr']=='A' for r in main), 'резерв', len(rest))
 print('A15 без 3 отзывов:', [r['n'] for r in main[:15] if pick_reviews(r['revs']).count('«') < 2], 'без часов:', [r['n'] for r in main[:15] if not r['hrs']])
