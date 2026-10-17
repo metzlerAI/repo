@@ -396,7 +396,7 @@ const QUIZ = {"h": "Сколько будет стоить ваша кухня",
     if (++i < QUIZ.steps.length) return render();
     box.classList.add('finished');
     bar.style.width = '100%';
-    box.querySelector('.q-send').href = 'https://wa.me/' + box.dataset.wa + '?text=' + encodeURIComponent('Здравствуйте! Хочу расчёт.\n' + answers.join('\n'));
+    box.querySelector('.q-send').href = 'https://wa.me/' + box.dataset.wa + '?text=' + encodeURIComponent("\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435! \u0425\u043e\u0447\u0443 \u0440\u0430\u0441\u0447\u0451\u0442." + '\n' + answers.join('\n'));
   };
   bind();
   const mbar = document.querySelector('.mbar');

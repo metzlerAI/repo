@@ -8,7 +8,7 @@ const fs = require('fs');
 const { execFileSync } = require('child_process');
 const { chromium } = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
 
-const OUT = path.resolve(__dirname, '..', 'out');
+const OUT = process.env.OUT_DIR ? path.resolve(process.env.OUT_DIR) : path.resolve(__dirname, '..', 'out');
 const W = 1440, H = 900, FPS = 30;
 const MAX_BYTES = 8 * 1024 * 1024;
 // попытки сжатия по очереди, пока файл не станет меньше 8 МБ

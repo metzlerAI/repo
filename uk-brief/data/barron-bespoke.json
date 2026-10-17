@@ -1,0 +1,112 @@
+{
+ "id": "barron-bespoke",
+ "variant": "auto",
+ "accent": "#d9b98f",
+ "point": {
+  "lat": 53.567124,
+  "lon": -2.1213199
+ },
+ "hours": "Monday to Saturday 7am to 6pm, Sunday closed",
+ "texts": {
+  "line": "Kitchens and bathrooms in Royton, Oldham",
+  "intro": "From stripping out the old kitchen to fitting the last door, Mark and his team look after the whole job.",
+  "menu": [
+   [
+    "Kitchens",
+    [
+     [
+      "Supply and fit",
+      "full kitchen"
+     ],
+     [
+      "Fit only",
+      "you supply the units"
+     ]
+    ]
+   ],
+   [
+    "Bathrooms",
+    [
+     [
+      "Bathroom refit",
+      "full room"
+     ],
+     [
+      "Shower room",
+      ""
+     ]
+    ]
+   ]
+  ]
+ },
+ "hero": {
+  "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLfXhp0D_ZkzJSTT7q5colTDyPSn3kNIYuo-cJZwA0bc4mcGJejXICZR6ANrwkKndb0KLoOKx0SdhyPRBXrJdeoaMeCdWJHcad6Rtsf_zQGHgCltSndODl4FIu75tSgAK2bER8YE=w2400",
+  "caption": "Kitchen with an island and wood-effect tall units",
+  "crop": [
+   0.22,
+   0.3,
+   0.95,
+   1
+  ],
+  "src_desktop": "https://lh3.googleusercontent.com/grass-cs/AABkmLfXhp0D_ZkzJSTT7q5colTDyPSn3kNIYuo-cJZwA0bc4mcGJejXICZR6ANrwkKndb0KLoOKx0SdhyPRBXrJdeoaMeCdWJHcad6Rtsf_zQGHgCltSndODl4FIu75tSgAK2bER8YE=w2400",
+  "crop_desktop": [
+   0,
+   0.12,
+   1,
+   0.78
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLfTANhYl-W6DhIn52RwCvMMUudyEfbYrhPY9_6YwiY6rqkC0yjuG062LGPqDntdyRppw7pQ5-nTHfVCxL8mq-mL_LmMewcUVoAsGLpztr60pjn3AGqkUAVWjuKzUuopmlvD_thzKA=w1600",
+   "title": "Handleless kitchen",
+   "text": "Grey units, marble-effect worktop and plinth lights."
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLe_NWFU3nNFv0c3-VPNKTrMPk09L-KPfs-ZNOKDKWAkDFBOhOZjxFQBUmsPPZ1ee7CzWEQ-mgSYz7L7dRDiljwB8FK2qUP2NBZ3h1gphlDpf8413C2Nau0R49MN4lPRUMtXQwTI=w1600",
+   "title": "Navy Shaker kitchen",
+   "text": "Cup handles, wood worktop and a herringbone floor."
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLeS2Lo77SiaWpbZA5ykBcRQWH68CE2pc9w16NzpQTJcl4NfUIjtsLS4xeR3dFfr5MR-32NA63RzsBuFEbvAJBdP1wU5XyoUQAqvhkPpWBhoT75kjr4lUflJ46r-cAMtskqX89oj=w1600",
+   "title": "Open-plan kitchen",
+   "text": "Light grey units and a dark worktop along the windows."
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLej2y-rWfs1gOWGzQ7CMrGkSanuq7sDirbBumrp8t0ApikNdtCSTEEAmOov21wukdAd-Zu3jek6SCo3rDfU88CdWpjDSU-ge9Ctcwb9dZ38D9CULDSBhlXhc9-HLwpKpq-y3q8y=w1600",
+   "title": "Kitchen and dining table",
+   "text": "Grey Shaker units, metro tiles and pendant lights."
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLcN037y3R5MxwYLRibZesWBsV04Tm-cekCTb7nTGJ-2TCapLsDsg29WKC3xXLzv_0DO6OXOhMogONDdN3DScXWuY7rctBjMnv8qSy_uEIi9ogvLw5JmxkRq7rm0lpsqkcR17RfksA=w1600",
+   "title": "Sage Shaker kitchen",
+   "text": "Ceramic sink, metro tiles and a wood-effect worktop."
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLfaOmhyQmSUOyByJxq9fxqzgqtIAZClfMm49kQ3dbqjuDrIHnxiSOnP5JBcRzEt8Rs3ucFFLA3KajS0WitWl0O0z-xSBB0HEGB9MEuPbZ1WdFa1FoWs0Nn6z1It9ePYJdPzGUaIGOi6kTI=w1600",
+   "title": "Galley kitchen",
+   "text": "Tall green-grey units and a herringbone floor."
+  }
+ ],
+ "steps_photos": [
+  "https://lh3.googleusercontent.com/grass-cs/AABkmLcvIKwkbyt47I2UUz5UOCd1QpEQNYbK105Iga66wxL-qqLKU6eF0shULFgzS-QCbo_iypQDQZ_rffRlp_ukVw73fH5zYGijV8jhhfv8TWEcWWgFBlzqo2YbT_vYSKKAl8vc5w43=w1600",
+  "https://lh3.googleusercontent.com/grass-cs/AABkmLeQjtaVQB7eKMxOdGsjYW1voqJM2wIvSrB4U0SWG1it683wtUD2AQN-QUTvNok9o5lKXkiSOGrdncGdONgU1fadDgEZ5dzsNQ7djY0-Y1r_NG-LmKaoc6JcFtnXaezbkXp8rEa0=w1600",
+  "https://lh3.googleusercontent.com/grass-cs/AABkmLdf7g0-IQyGJJkL-r3VIkkXzv1NrztPoSaQP3_rH_LtYpqlsq_8CfAILFd4YTcjBX3CwocyDD4MssjnCvwcCKkT1WxRLnJ_smHWXyeu3F7dpSLVevahE2M6JfDf61i7QL_NPOrx=w1600",
+  "https://lh3.googleusercontent.com/grass-cs/AABkmLe8lf86x2p09rBArbuUr0Ab8PTwle1QDMfuvPY7SYj3_JsFrS5pb0pjyM1WgEqy6w0uL9m3o-SHfyYymItWzkwXmqTri-gCN6ijX33GceOA5AgUnSyxitd51Yv0wDcudFK-cKd_=w1600"
+ ],
+ "review_photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfv0nwxL1WNaydd3oT7gcujxBTM9EoLlIDin8iwfGVtltSR2_hvGl3xcbmx-Cncyx4hwY3SBBU9Q_DrMyrl7_jnxQHJ7sGG4gZ9WOUAm7NH0qnb7p-ElGyP24apzQAg9ZP0YKUt=w1600",
+ "reviews": [
+  {
+   "name": "Laura S.",
+   "text": "Mark did a brilliant job with my kitchen. He knocked down an internal arch, put up a new wall, stripped and got rid of the old kitchen and fitted an entire new kitchen. It was even better than I'd hoped for."
+  },
+  {
+   "name": "Dan M.",
+   "text": "Mark was fantastic from first contact to the finished article. Nothing was too much trouble and he was quick to deal with any issues or changes we had."
+  },
+  {
+   "name": "Sue W.",
+   "text": "On time, kept in touch and sorted out any problems they faced without any worries. Excellent workmanship, final kitchen looks great."
+  }
+ ]
+}

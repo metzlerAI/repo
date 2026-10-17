@@ -1,10 +1,58 @@
 [
- {"id": "tailored-joinery", "query": "Tailored joinery solutions Failsworth", "phone": "07904 130752", "tier": "A"},
- {"id": "barron-bespoke", "query": "Barron Bespoke Kitchen & Bathrooms", "phone": "07900 002545", "tier": "A"},
- {"id": "handley-joinery", "query": "handley bespoke joinery interiors Manchester", "phone": "07500 983372", "tier": "A"},
- {"id": "inspired-living", "query": "INSPIRED LIVING Salford kitchen", "phone": "07516 630145", "tier": "A"},
- {"id": "altered-images", "query": "Altered Images - Bespoke Kitchen/Bedroom Fitters Manchester", "phone": "07912 759156", "tier": "A"},
- {"id": "307-builders", "query": "307 Builders LTD Manchester", "phone": "07778 461103", "tier": "A"},
- {"id": "md-kitchen-fitters", "query": "M.D kitchen Fitters Denton", "phone": "07812 314144", "tier": "A"},
- {"id": "jamie-shaw", "query": "Jamie Shaw Kitchens and Bedrooms Stockport", "phone": "07931 283142", "tier": "A"}
+ {
+  "id": "tailored-joinery",
+  "query": "Tailored joinery solutions Failsworth",
+  "phone": "07904 130752",
+  "tier": "A"
+ },
+ {
+  "id": "barron-bespoke",
+  "query": "Barron Bespoke Kitchen & Bathrooms",
+  "phone": "07900 002545",
+  "tier": "A",
+  "name": "Barron Bespoke",
+  "rubric": "Kitchens",
+  "rating": 5,
+  "reviews": 29,
+  "tel": "+447900002545",
+  "wa": "https://wa.me/447900002545",
+  "address": "51 Tandle Wood Park, Royton, Oldham OL2 5UZ",
+  "card": "https://www.google.com/maps/place/Barron%20Bespoke%20Kitchen%20%26%20Bathrooms/data=!4m2!3m1!1s0xb159acef08650a5:0x6737925f45c309fe?hl=en"
+ },
+ {
+  "id": "handley-joinery",
+  "query": "handley bespoke joinery interiors Manchester",
+  "phone": "07500 983372",
+  "tier": "A"
+ },
+ {
+  "id": "inspired-living",
+  "query": "INSPIRED LIVING Salford kitchen",
+  "phone": "07516 630145",
+  "tier": "A"
+ },
+ {
+  "id": "altered-images",
+  "query": "Altered Images - Bespoke Kitchen/Bedroom Fitters Manchester",
+  "phone": "07912 759156",
+  "tier": "A"
+ },
+ {
+  "id": "307-builders",
+  "query": "307 Builders LTD Manchester",
+  "phone": "07778 461103",
+  "tier": "A"
+ },
+ {
+  "id": "md-kitchen-fitters",
+  "query": "M.D kitchen Fitters Denton",
+  "phone": "07812 314144",
+  "tier": "A"
+ },
+ {
+  "id": "jamie-shaw",
+  "query": "Jamie Shaw Kitchens and Bedrooms Stockport",
+  "phone": "07931 283142",
+  "tier": "A"
+ }
 ]
