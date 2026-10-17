@@ -1,0 +1,68 @@
+{
+ "id": "insi",
+ "variant": "kids",
+ "accent": "#efdf9c",
+ "point": {
+  "lat": 45.032715,
+  "lon": 39.048537
+ },
+ "hours": "Ежедневно 10:00-19:30",
+ "hero": {
+  "src": "https://i7.photo.2gis.com/images/branch/0/30258560129667963_0845.jpg",
+  "caption": "Гардеробная с открытыми полками",
+  "src_desktop": "https://i0.photo.2gis.com/images/branch/0/30258560118980719_0065.jpg"
+ },
+ "gallery": [
+  {
+   "src": "https://i8.photo.2gis.com/images/branch/0/30258560129732371_92b3.jpg",
+   "title": "Детская",
+   "text": "Двухъярусная кровать, стол и стеллажи."
+  },
+  {
+   "src": "https://i6.photo.2gis.com/images/branch/0/30258560121260212_5ab2.jpg",
+   "title": "Кровать в нише",
+   "text": "Шкафы по бокам и полки над кроватью."
+  },
+  {
+   "src": "https://i6.photo.2gis.com/images/branch/0/30258560125448712_6c93.jpg",
+   "title": "Детская у окна",
+   "text": "Диван-кровать, угловой шкаф и стеллаж."
+  },
+  {
+   "src": "https://i1.photo.2gis.com/images/branch/0/30258560126360512_34d7.jpg",
+   "title": "Комната школьника",
+   "text": "Стол у окна, стеллаж и шкаф."
+  },
+  {
+   "src": "https://i5.photo.2gis.com/images/branch/0/30258560124413011_f650.jpg",
+   "title": "Яркая детская",
+   "text": "Кровать, стол и стеллажи в одном цвете."
+  },
+  {
+   "src": "https://i5.photo.2gis.com/images/branch/0/30258560124433386_f538.jpg",
+   "title": "Гардеробная",
+   "text": "Открытые полки, штанги и тумба."
+  }
+ ],
+ "steps_photos": [
+  "https://i7.photo.2gis.com/images/branch/0/30258560122079417_dc20.jpg",
+  "https://i0.photo.2gis.com/images/branch/0/30258560124399745_df5d.jpg",
+  "https://i9.photo.2gis.com/images/branch/0/30258560123469186_907b.jpg",
+  "https://i8.photo.2gis.com/images/branch/0/30258560049247781_d5e9.jpg"
+ ],
+ "review_photo": "https://i0.photo.2gis.com/images/branch/0/30258560120091696_ad42.jpg",
+ "reviews": [
+  {
+   "name": "Андрей З.",
+   "text": "Заказывал тут шкаф в прихожую и системы хранения в небольшую квартиру-студию. Порадовало всё - и специалисты на всех этапах от замера до установки работают профессионалы, и качество самой мебели."
+  },
+  {
+   "name": "Виктория",
+   "text": "Идеальное исполнение мебели по индивидуальным размерам! Дизайнер помог с выбором фасадов, всё встало четко по чертежам."
+  },
+  {
+   "name": "Анна К.",
+   "text": "Все хорошо. Изготовление гардеробной прошло отлично."
+  }
+ ]
+}

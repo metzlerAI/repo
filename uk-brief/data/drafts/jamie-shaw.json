@@ -1,0 +1,82 @@
+{
+ "id": "jamie-shaw",
+ "name": "Jamie Shaw Kitchens and Bedrooms",
+ "category": [
+  "Kitchen Furniture Shop"
+ ],
+ "website": null,
+ "rating": {
+  "value": 5,
+  "count": 5
+ },
+ "phone": "07931 283142",
+ "phone_match": true,
+ "address": "Mersey St, Stockport SK1 2HX",
+ "point": {
+  "lat": 53.4145476,
+  "lon": -2.1457265999999997
+ },
+ "hours": [
+  "Saturday 8 am–3 pm",
+  "Sunday Closed",
+  "Monday 8 am–5 pm",
+  "Tuesday 8 am–5 pm",
+  "Wednesday 8 am–5 pm",
+  "Thursday 8 am–5 pm",
+  "Friday 8 am–5 pm"
+ ],
+ "panel_says_add_website": true,
+ "maps_url": "https://www.google.com/maps/place/Jamie%20Shaw%20Kitchens%20and%20Bedrooms/data=!4m2!3m1!1s0x487bb525bc49687d:0x38cffc8c7d73ef?hl=en",
+ "counts": {
+  "google": 4
+ },
+ "photos": [
+  {
+   "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeix4FkhkUd87w_aKCLM1gmAL9di6NNnU0on6UeHZmZb_jrOdTNe3YRA0GqgHPJ-tWndq2akh2jpwfMPFiWmfYQBKsKR9VIVwRS72ttHRm4tMneJyMqTu_27KXLj_KFdYzbZ1AIGA=w1600",
+   "w": 1419,
+   "h": 1260,
+   "source": "google"
+  },
+  {
+   "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcUpeVGq9XG4-483wj84OvtQKBCDir5XD0d0q6bSc6ag8jVfItVAjD42kwD5ZdZAVao-7Rvc8fwMB_I18iqit-2WWBfIjClc9MeqOuaeVpye197YSpZ3_WAW7KuHFmL1_k5a3yaBGqlu_F5=w1600",
+   "w": 1848,
+   "h": 4000,
+   "source": "google"
+  },
+  {
+   "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfofuo_7pqpxju-91GeivttiWz25VKlrohcriXqXjrXImAKh5ZyGcJYLlDRfDCcFxsHz3ZUkKx1U3b3nsf25pHVA7Jr-xjnd9AhP5nEdrX0W0T1j3RxtWVrt0yj1IP3QBLUAAwHPPlNlxDQ=w1600",
+   "w": 4000,
+   "h": 1848,
+   "source": "google"
+  },
+  {
+   "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLefjgDq80JnCwWqla8UFGlnUhB7xsweIc7mM0HvlyL_yJq4me_V02TFmPxeo9IlGUYdOIXmxo_hE440gTnL2kLy765CSr-bH8q1fov1LIdHAnJVTXV-SkKDZhdxQ1V6DcJxbP6tNg=w1600",
+   "w": 960,
+   "h": 776,
+   "source": "google"
+  }
+ ],
+ "reviews": [
+  {
+   "rating": 5,
+   "date": "8 months ago",
+   "name": "Gemma Landy",
+   "text": "Jamie has been absolutely fantastic from start to finish. He came out to quote, designed everything, and completed the fitting in just four days – and will be returning to fit the doors once they arrive. The wardrobes and media wall in our living room look incredible, and the attention to detail in both rooms is impeccable.\n\nJamie and Jordan were both friendly, approachable, fast, and efficient throughout the whole process. I'm so impressed with the quality of the work that I can’t wait for my next project – a TV bed to match my wardrobes. I honestly couldn’t be happier and I would definitely recommend.\n\nThanks guys!",
+   "owner_reply": ""
+  },
+  {
+   "rating": 5,
+   "date": "10 months ago",
+   "name": "Michael Millea",
+   "text": "Jamie has just completed a full rip- out and re-fit in our Bramhall Cottage. The workmanship was efficiently carried out with appreciation of leaving us as clean and tidy as possible after every day they were on- site. The choices of carcass, doors, quartz & fitting were great and we would thoroughly recommend Jamie Shaw Kitchens to anyone requiring a more local personal approach to renewing part or all of their kitchen.\nMichael",
+   "owner_reply": ""
+  },
+  {
+   "rating": 5,
+   "date": "10 months ago",
+   "name": "Nicola Bradley",
+   "text": "Jamie fitted my bedroom furniture after being let down by another fitter, he advised on the best ways to fit the bedroom to make the most of the space. Absolutely love what he did and will be definitely having him back to do my kitchen. Would highly recommended 5* service and very reasonably priced.",
+   "owner_reply": ""
+  }
+ ]
+}

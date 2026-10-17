@@ -1,0 +1,2295 @@
+{
+ "id": "lerom",
+ "name_ex": {
+  "extension": "официальный представитель мебельной компании Лером",
+  "primary": "Фабрика мебели"
+ },
+ "point": {
+  "lat": 45.087539,
+  "lon": 39.019332
+ },
+ "hours": "пн-сб 09:00-20:00, вс 10:00-19:30",
+ "counts": {
+  "2gis_owner": 184,
+  "user": 95,
+  "2gis": 3
+ },
+ "photos": [
+  {
+   "url": "https://i8.photo.2gis.com/photo-gallery/9b26edb2-5955-45ba-9dbc-71cca06f3a68.jpg",
+   "w": 3600,
+   "h": 3600,
+   "source": "2gis_owner",
+   "date": "2024-05-04"
+  },
+  {
+   "url": "https://i8.photo.2gis.com/photo-gallery/19069c53-134f-46d4-b627-dab8674162b9.jpg",
+   "w": 1920,
+   "h": 1217,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/photo-gallery/51987751-6c55-4da1-b2b9-97ea79e7254a.jpg",
+   "w": 1024,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i2.photo.2gis.com/photo-gallery/cf09c631-fd8b-4436-a370-bf82f1ca11b7.jpg",
+   "w": 3358,
+   "h": 4652,
+   "source": "user",
+   "date": "2026-05-30"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/images/branch/0/30258560099412374_4fd1.jpg",
+   "w": 2553,
+   "h": 4016,
+   "source": "2gis_owner",
+   "date": "2023-02-15"
+  },
+  {
+   "url": "https://i2.photo.2gis.com/photo-gallery/1fa0190c-b7ad-40dc-bffe-ee29b966e04e.jpg",
+   "w": 1280,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/b7e18e3e-9ac4-4802-9ce6-efb07120cb08.jpg",
+   "w": 651,
+   "h": 768,
+   "source": "2gis_owner",
+   "date": "2024-04-25"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/3ed4f13b-2dd4-4418-bbd2-ae1f2535a992.jpg",
+   "w": 646,
+   "h": 705,
+   "source": "2gis_owner",
+   "date": "2024-04-24"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/photo-gallery/bed76d39-9580-4a6d-abe9-f0fd048e439d.jpg",
+   "w": 1680,
+   "h": 1680,
+   "source": "2gis_owner",
+   "date": "2024-05-04"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/photo-gallery/aad45c5f-3951-416b-9fa5-b87a347ae44f.jpg",
+   "w": 720,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/8cff3a2c-5789-44f8-9b20-b14d6285490a.jpg",
+   "w": 1680,
+   "h": 1128,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/images/branch/0/30258560099412375_f7db.jpg",
+   "w": 768,
+   "h": 1024,
+   "source": "2gis_owner",
+   "date": "2023-02-15"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/images/branch/0/30258560099412032_fa0d.jpg",
+   "w": 1200,
+   "h": 750,
+   "source": "2gis_owner",
+   "date": "2023-02-15"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/photo-gallery/8168f865-20ec-4080-92ea-c464d2690941.jpg",
+   "w": 1280,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/photo-gallery/248422a1-af03-45b8-a3a4-fa87e0be52d8.jpg",
+   "w": 900,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i0.photo.2gis.com/photo-gallery/2e50ea11-a83c-41a8-9062-9402d8ee4079.jpg",
+   "w": 720,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/photo-gallery/ca811c83-8971-4cef-8448-55a1943d6c06.jpg",
+   "w": 1600,
+   "h": 900,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/d1ce122a-bfde-4277-b407-a9ae5fd0b9cf.jpg",
+   "w": 720,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/images/branch/0/30258560171184064_121f.jpg",
+   "w": 3648,
+   "h": 2736,
+   "source": "user",
+   "date": "2024-02-17"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/images/branch/0/30258560099412237_97b2.jpg",
+   "w": 3024,
+   "h": 4032,
+   "source": "2gis_owner",
+   "date": "2023-02-15"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/images/branch/0/30258560099412354_6433.jpg",
+   "w": 1200,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2023-02-15"
+  },
+  {
+   "url": "https://i0.photo.2gis.com/photo-gallery/35617167-32c6-4f21-a2a7-bd991434bc08.jpg",
+   "w": 1600,
+   "h": 900,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i0.photo.2gis.com/images/branch/0/30258560079373037_9261.jpg",
+   "w": 1200,
+   "h": 1600,
+   "source": "user",
+   "date": "2022-08-01"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/photo-gallery/ec68cbe0-c6ed-44da-a6fb-0e2feccf1992.jpg",
+   "w": 1280,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i0.photo.2gis.com/photo-gallery/35c0354f-5074-45a1-9581-527612c5e72a.jpg",
+   "w": 720,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i2.photo.2gis.com/photo-gallery/77a79cee-885d-47b3-a12a-f722bf738824.jpg",
+   "w": 1280,
+   "h": 960,
+   "source": "2gis_owner",
+   "date": "2026-03-10"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/photo-gallery/d2e756fa-fb1d-4618-bf7c-6d33b12563a0.jpg",
+   "w": 960,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i0.photo.2gis.com/photo-gallery/cb6803d4-0adb-4d94-b322-e46f801e8612.jpg",
+   "w": 3024,
+   "h": 4032,
+   "source": "2gis_owner",
+   "date": "2024-05-04"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/photo-gallery/0d217164-3497-4254-905f-17d9f4857960.jpg",
+   "w": 900,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/images/branch/0/30258560093766376_89b8.jpg",
+   "w": 2928,
+   "h": 3904,
+   "source": "user",
+   "date": "2022-11-24"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/062c742d-47a9-49ef-b5fa-86a264cc2703.jpg",
+   "w": 828,
+   "h": 686,
+   "source": "2gis_owner",
+   "date": "2024-04-24"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/085e4d9c-0fe6-41f6-b56a-736954a153f6.jpg",
+   "w": 3024,
+   "h": 4032,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/images/branch/0/30258560099412140_0088.jpg",
+   "w": 1440,
+   "h": 1920,
+   "source": "2gis_owner",
+   "date": "2023-02-15"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/images/branch/0/30258560073169966_8121.jpg",
+   "w": 1200,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2022-04-26"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/photo-gallery/ac69db18-1234-41c7-abbc-3642c287d5fb.jpg",
+   "w": 1074,
+   "h": 1504,
+   "source": "2gis_owner",
+   "date": "2024-04-24"
+  },
+  {
+   "url": "https://i0.photo.2gis.com/photo-gallery/5d74b3b2-35a1-4e5c-ba48-c892e49bb389.jpg",
+   "w": 1280,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/photo-gallery/89c4c8a7-4241-49a6-a21d-8a3798c9b6d2.jpg",
+   "w": 3024,
+   "h": 4032,
+   "source": "user",
+   "date": "2026-06-29"
+  },
+  {
+   "url": "https://i2.photo.2gis.com/photo-gallery/8fdbbf37-8eaa-4e5b-95cb-17383e11d1c4.jpg",
+   "w": 1200,
+   "h": 1200,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i8.photo.2gis.com/photo-gallery/fc836c1f-265d-4d8b-b206-245c3d228874.jpg",
+   "w": 960,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-03-10"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/5841463d-e2ec-4d77-b060-e88518aa436d.jpg",
+   "w": 798,
+   "h": 716,
+   "source": "2gis_owner",
+   "date": "2024-04-24"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/photo-gallery/8a2027d4-a37a-4a2a-929d-3210766824dc.jpg",
+   "w": 1200,
+   "h": 1020,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/45c1420e-113e-48fe-8dbe-b5323b29db88.jpg",
+   "w": 1024,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i0.photo.2gis.com/images/branch/0/30258560079373157_79e4.jpg",
+   "w": 1600,
+   "h": 1136,
+   "source": "user",
+   "date": "2022-08-01"
+  },
+  {
+   "url": "https://i2.photo.2gis.com/photo-gallery/1e2afa68-b314-4b38-b342-f1cffe80f253.jpg",
+   "w": 1024,
+   "h": 768,
+   "source": "2gis_owner",
+   "date": "2024-05-04"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/photo-gallery/9255f43d-0f5e-42d8-8304-af7496b46bac.jpg",
+   "w": 1280,
+   "h": 960,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/photo-gallery/ddb196bc-229d-4057-a14e-230fd6f9cab0.jpg",
+   "w": 1234,
+   "h": 1080,
+   "source": "2gis_owner",
+   "date": "2024-04-25"
+  },
+  {
+   "url": "https://i0.photo.2gis.com/photo-gallery/e79f871c-2833-49b4-b63c-1732de31b860.jpg",
+   "w": 4032,
+   "h": 3024,
+   "source": "2gis_owner",
+   "date": "2024-04-25"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/photo-gallery/c2fe443d-24a2-4054-8a28-f6c890c9ceae.jpg",
+   "w": 720,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/images/branch/0/30258560079373049_f561.jpg",
+   "w": 958,
+   "h": 1280,
+   "source": "user",
+   "date": "2022-08-01"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/photo-gallery/2f76a708-0a7b-4626-bd7b-205b2ba9966e.jpg",
+   "w": 960,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/photo-gallery/5ae4a573-37a2-4afb-bbca-5a4fc4552d23.jpg",
+   "w": 1200,
+   "h": 1200,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/photo-gallery/cd995861-d223-41da-818c-29ab39e9ac5e.jpg",
+   "w": 768,
+   "h": 620,
+   "source": "2gis_owner",
+   "date": "2024-05-04"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/photo-gallery/d0bd9431-dfb0-4a51-a72f-e47e6d806155.jpg",
+   "w": 1280,
+   "h": 905,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/photo-gallery/b8702d27-3662-4533-8ca9-ab398066c5b2.jpg",
+   "w": 963,
+   "h": 1284,
+   "source": "2gis_owner",
+   "date": "2024-05-04"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/photo-gallery/0bfe645d-de6b-4ded-8cf6-839748a171e3.jpg",
+   "w": 1600,
+   "h": 900,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/photo-gallery/f4b457bc-9036-4b95-9b02-1dbbe6159104.jpg",
+   "w": 720,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/images/branch/0/30258560165745811_0721.jpg",
+   "w": 1280,
+   "h": 963,
+   "source": "2gis_owner",
+   "date": "2023-12-20"
+  },
+  {
+   "url": "https://i8.photo.2gis.com/photo-gallery/af4ad975-bd76-4ab5-a770-c566b65529a8.jpg",
+   "w": 1280,
+   "h": 720,
+   "source": "2gis_owner",
+   "date": "2026-03-10"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/photo-gallery/ff2ae5df-86b0-4c76-9448-96f5c6cf4fe2.jpg",
+   "w": 3024,
+   "h": 4032,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i8.photo.2gis.com/photo-gallery/ee05f52b-ca73-4975-be51-e4498a2670e4.jpg",
+   "w": 1944,
+   "h": 2592,
+   "source": "user",
+   "date": "2025-09-28"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/photo-gallery/b907dfeb-a4ab-44a6-bbc3-f1bd46f8281d.jpg",
+   "w": 900,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2024-04-24"
+  },
+  {
+   "url": "https://i0.photo.2gis.com/photo-gallery/3ce73ee3-1bd4-4e52-ab51-404b723010bb.jpg",
+   "w": 1280,
+   "h": 1166,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i8.photo.2gis.com/images/branch/0/30258560120666925_3212.jpg",
+   "w": 3000,
+   "h": 4000,
+   "source": "user",
+   "date": "2023-09-25"
+  },
+  {
+   "url": "https://i0.photo.2gis.com/photo-gallery/aa5fc17b-d62a-46e3-ba54-8756bd82312b.jpg",
+   "w": 770,
+   "h": 703,
+   "source": "2gis_owner",
+   "date": "2024-04-24"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/photo-gallery/8d3e9742-2378-4010-8af7-97050cdff91a.jpg",
+   "w": 620,
+   "h": 610,
+   "source": "2gis_owner",
+   "date": "2024-04-25"
+  },
+  {
+   "url": "https://i8.photo.2gis.com/photo-gallery/26188e73-3b77-4081-97ed-3e13808384af.jpg",
+   "w": 629,
+   "h": 804,
+   "source": "2gis_owner",
+   "date": "2024-04-25"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/2930dba8-4e6d-4ae2-80a4-56bac58078f8.jpg",
+   "w": 1077,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/photo-gallery/f568d500-95e1-4b95-b621-65019740c2ea.jpg",
+   "w": 3024,
+   "h": 4032,
+   "source": "user",
+   "date": "2026-04-21"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/photo-gallery/f9587a67-8bea-4729-aa45-ae040e6b25a6.jpg",
+   "w": 900,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i2.photo.2gis.com/photo-gallery/a73d5f65-c823-44dd-b4bf-0b52c1d160d0.jpg",
+   "w": 1364,
+   "h": 1343,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i0.photo.2gis.com/images/branch/0/30258560120666940_fec7.jpg",
+   "w": 3000,
+   "h": 4000,
+   "source": "user",
+   "date": "2023-09-25"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/photo-gallery/643ffe7b-6355-460e-a12c-331ba723a072.jpg",
+   "w": 1600,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/photo-gallery/82d4832c-b3c1-48b6-9d97-a77eb9e1bd33.jpg",
+   "w": 4224,
+   "h": 5632,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i8.photo.2gis.com/photo-gallery/5c5cb1e7-977b-4bca-b41f-92557f35bf8d.jpg",
+   "w": 960,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-03-10"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/images/branch/0/30258560099331669_a31a.jpg",
+   "w": 1280,
+   "h": 711,
+   "source": "2gis_owner",
+   "date": "2023-02-14"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/images/branch/0/30258560095859341_ab36.jpg",
+   "w": 2736,
+   "h": 3648,
+   "source": "user",
+   "date": "2022-12-18"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/photo-gallery/f8601da9-bc3d-4098-9677-3891f0b468dd.jpg",
+   "w": 3456,
+   "h": 4608,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/images/branch/0/30258560165745818_2ba9.jpg",
+   "w": 1600,
+   "h": 900,
+   "source": "2gis_owner",
+   "date": "2023-12-20"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/photo-gallery/79d9dcbd-b19d-4627-b20a-f6c630669e81.jpg",
+   "w": 1125,
+   "h": 1218,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/images/branch/0/30258560099412243_b6bd.jpg",
+   "w": 756,
+   "h": 1008,
+   "source": "2gis_owner",
+   "date": "2023-02-15"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/photo-gallery/114a4083-1406-43d8-ab59-32776ce5f8a0.jpg",
+   "w": 1280,
+   "h": 960,
+   "source": "2gis_owner",
+   "date": "2026-03-10"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/photo-gallery/0c9a2bc6-b1f9-47a0-871a-ccb4f5a1f0f1.jpg",
+   "w": 1280,
+   "h": 960,
+   "source": "2gis_owner",
+   "date": "2026-03-10"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/7da656cf-1943-47f1-bff2-1a949a1eb488.jpg",
+   "w": 950,
+   "h": 1080,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/photo-gallery/ebb55dd0-ce0d-43ab-85fe-93afa5587fae.jpg",
+   "w": 1440,
+   "h": 1920,
+   "source": "user",
+   "date": "2026-05-30"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/photo-gallery/1efacbb4-1a6b-40ec-b561-ad957bcc72c3.jpg",
+   "w": 1280,
+   "h": 720,
+   "source": "2gis_owner",
+   "date": "2026-03-10"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/photo-gallery/a9d2c889-5c6f-4f76-a915-82bf5b840bff.jpg",
+   "w": 900,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i8.photo.2gis.com/photo-gallery/748cc78b-595a-4489-8825-1593b39bfb6e.jpg",
+   "w": 1440,
+   "h": 1920,
+   "source": "user",
+   "date": "2026-07-27"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/images/branch/0/30258560079373097_bd10.jpg",
+   "w": 756,
+   "h": 1008,
+   "source": "user",
+   "date": "2022-08-01"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/photo-gallery/366c9a63-074c-4cfe-91f1-0702ccc72c66.jpg",
+   "w": 1680,
+   "h": 1260,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/images/branch/0/30258560079373053_be03.jpg",
+   "w": 4032,
+   "h": 3024,
+   "source": "user",
+   "date": "2022-08-01"
+  },
+  {
+   "url": "https://i8.photo.2gis.com/photo-gallery/93be3698-a03d-4f64-8130-4cf22837069f.jpg",
+   "w": 900,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i0.photo.2gis.com/images/branch/0/30258560165745819_e1d9.jpg",
+   "w": 963,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2023-12-20"
+  },
+  {
+   "url": "https://i8.photo.2gis.com/photo-gallery/1a11cadb-6152-489b-b8fd-200c1a8c9d2a.jpg",
+   "w": 1080,
+   "h": 1350,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/images/branch/0/30258560098460730_6522.jpg",
+   "w": 4640,
+   "h": 3472,
+   "source": "user",
+   "date": "2023-02-01"
+  },
+  {
+   "url": "https://i8.photo.2gis.com/photo-gallery/dbedbe54-7172-4090-bee7-d84d154164ee.jpg",
+   "w": 868,
+   "h": 703,
+   "source": "2gis_owner",
+   "date": "2024-04-24"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/photo-gallery/69a4057c-1c17-49e0-9eab-ef33813fcb5c.jpg",
+   "w": 1280,
+   "h": 960,
+   "source": "2gis_owner",
+   "date": "2026-03-10"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/images/branch/0/30258560165745806_8358.jpg",
+   "w": 1600,
+   "h": 1200,
+   "source": "2gis_owner",
+   "date": "2023-12-20"
+  },
+  {
+   "url": "https://i0.photo.2gis.com/photo-gallery/85f3311f-6a91-4193-b105-2a06ff1437fd.jpg",
+   "w": 1080,
+   "h": 1408,
+   "source": "user",
+   "date": "2025-12-29"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/photo-gallery/5e55c289-dd28-41ac-ae09-e706ba716bcd.jpg",
+   "w": 1280,
+   "h": 712,
+   "source": "2gis_owner",
+   "date": "2024-05-04"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/photo-gallery/165b4e19-2482-4cab-b572-cfe3a9729b60.jpg",
+   "w": 720,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/photo-gallery/b5d3c9d4-4542-4f78-a3cc-03bf3c39e4b0.jpg",
+   "w": 1280,
+   "h": 720,
+   "source": "2gis_owner",
+   "date": "2024-05-04"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/photo-gallery/8cf93a41-221c-4c20-a70f-652b395cd302.jpg",
+   "w": 900,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/photo-gallery/9e85f458-efe4-4c80-acbc-c9291d11f9e6.jpg",
+   "w": 900,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/photo-gallery/37142bf3-e97e-464b-b252-fd2f40289d00.jpg",
+   "w": 720,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/photo-gallery/48b35a27-5554-4551-b408-1e2c1770afc8.jpg",
+   "w": 3024,
+   "h": 4032,
+   "source": "user",
+   "date": "2026-04-21"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/c05da8b5-12a7-4cdf-84f4-1f72cd48f2c6.jpg",
+   "w": 1680,
+   "h": 1008,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/d8c6e985-62e1-4fc9-98b5-a07408bf6a8a.jpg",
+   "w": 1200,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2024-05-04"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/photo-gallery/aadd17d3-4cb1-4d05-beee-5123119e67cd.jpg",
+   "w": 900,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/photo-gallery/9c5830d7-d831-49e5-ab60-da4c8bc3fc5c.jpg",
+   "w": 1162,
+   "h": 1165,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/photo-gallery/6db9c573-1c08-4bd6-9549-7dfd21357d2b.jpg",
+   "w": 900,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2024-04-25"
+  },
+  {
+   "url": "https://i8.photo.2gis.com/images/branch/0/30258560077165445_afaf.jpg",
+   "w": 2155,
+   "h": 2720,
+   "source": "user",
+   "date": "2022-06-30"
+  },
+  {
+   "url": "https://i2.photo.2gis.com/photo-gallery/6e93bb2b-8d79-437a-bfa1-0a64233f8a43.jpg",
+   "w": 1600,
+   "h": 1204,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/photo-gallery/f05ce461-438c-43a6-8212-cfabeb162f59.jpg",
+   "w": 3120,
+   "h": 4160,
+   "source": "user",
+   "date": "2026-04-18"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/photo-gallery/4d53b96b-52ec-4c82-bc78-2594153b8c41.jpg",
+   "w": 900,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2024-05-04"
+  },
+  {
+   "url": "https://i0.photo.2gis.com/photo-gallery/616f62bb-8b1a-4967-9561-2f2e265472f8.jpg",
+   "w": 1024,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i8.photo.2gis.com/photo-gallery/4d659056-d031-4639-be36-feb6ffc5e4f4.jpg",
+   "w": 3060,
+   "h": 4080,
+   "source": "user",
+   "date": "2024-04-13"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/6da8ee53-497f-44b7-a213-769ace79c360.jpg",
+   "w": 1280,
+   "h": 720,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i0.photo.2gis.com/photo-gallery/745dbb57-353d-4e44-954b-a7c23f2d390c.jpg",
+   "w": 3072,
+   "h": 4080,
+   "source": "user",
+   "date": "2026-06-07"
+  },
+  {
+   "url": "https://i2.photo.2gis.com/photo-gallery/e3d18c81-36b6-47ee-a507-9569ebd23e50.jpg",
+   "w": 900,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/photo-gallery/3baa3e8d-03b0-495f-afdc-64d2fc8e106e.jpg",
+   "w": 1200,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2024-04-24"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/e5aa644b-c78d-4bf6-a869-7aba22332e66.jpg",
+   "w": 3072,
+   "h": 4080,
+   "source": "user",
+   "date": "2025-12-29"
+  },
+  {
+   "url": "https://i2.photo.2gis.com/photo-gallery/9da4e2c9-557d-4c2e-ab32-8c61692daff7.jpg",
+   "w": 1800,
+   "h": 4000,
+   "source": "user",
+   "date": "2024-05-18"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/photo-gallery/19d0158b-d8a7-4e99-af90-b4ff9dbe32ca.jpg",
+   "w": 828,
+   "h": 1179,
+   "source": "user",
+   "date": "2025-08-21"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/images/branch/0/30258560169091547_ce8f.jpg",
+   "w": 2992,
+   "h": 4000,
+   "source": "user",
+   "date": "2024-01-27"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/photo-gallery/10deb217-d1d8-4f32-92cc-e9b3b8ffaff6.jpg",
+   "w": 1024,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/images/branch/0/30258560077165457_48e1.jpg",
+   "w": 3998,
+   "h": 2328,
+   "source": "user",
+   "date": "2022-06-30"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/photo-gallery/5420cc61-faf2-4f41-a7c1-34110421ab15.jpg",
+   "w": 900,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/photo-gallery/0769dc34-85b3-4c96-b356-d186396c9946.jpg",
+   "w": 900,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/photo-gallery/95d964e5-718d-466f-be02-4a5653cb2ed0.jpg",
+   "w": 4032,
+   "h": 3024,
+   "source": "user",
+   "date": "2026-08-17"
+  },
+  {
+   "url": "https://i0.photo.2gis.com/photo-gallery/1ea97d14-ae96-4a83-8be1-26a3cfd4070f.jpg",
+   "w": 900,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2024-05-04"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/photo-gallery/b247b771-f6b9-4dd7-9f16-2e6e14ab5cec.jpg",
+   "w": 965,
+   "h": 1277,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/photo-gallery/ea00c354-f7bd-4bdc-8877-b91d70ff3eee.jpg",
+   "w": 1600,
+   "h": 900,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/images/branch/0/30258560077165555_a3d1.jpg",
+   "w": 4017,
+   "h": 2715,
+   "source": "user",
+   "date": "2022-06-30"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/photo-gallery/6d84d9e7-527c-4a7a-8e97-e2ec994f5978.jpg",
+   "w": 3024,
+   "h": 4032,
+   "source": "user",
+   "date": "2025-11-02"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/photo-gallery/14fffa46-67e6-4bd5-9085-2def28b83eb9.jpg",
+   "w": 1280,
+   "h": 960,
+   "source": "2gis_owner",
+   "date": "2026-03-10"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/photo-gallery/f732320f-c0dd-4579-b46f-1680ab0b96ea.jpg",
+   "w": 1200,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i8.photo.2gis.com/photo-gallery/a9d05980-43d9-49e1-b88b-cd395edf07f0.jpg",
+   "w": 1600,
+   "h": 900,
+   "source": "2gis_owner",
+   "date": "2024-04-25"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/photo-gallery/ed92cb1a-a3cb-4674-8ecb-cf23ca00abb2.jpg",
+   "w": 1600,
+   "h": 900,
+   "source": "2gis_owner",
+   "date": "2024-04-24"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/84514949-d2ae-4880-81b7-ed5fa77d1cd9.jpg",
+   "w": 994,
+   "h": 745,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/photo-gallery/e7b47a0f-a122-4182-a06d-1c6beaf91062.jpg",
+   "w": 4000,
+   "h": 3000,
+   "source": "user",
+   "date": "2025-09-29"
+  },
+  {
+   "url": "https://i0.photo.2gis.com/photo-gallery/5e210ba3-f2ee-40b4-b82c-68b6bd5c1622.jpg",
+   "w": 1280,
+   "h": 720,
+   "source": "2gis_owner",
+   "date": "2026-03-10"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/photo-gallery/6b089ec7-1894-4b09-b597-9641506e0718.jpg",
+   "w": 720,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/photo-gallery/cec3eebc-5131-4d1d-9e09-c1beffd42da5.jpg",
+   "w": 1920,
+   "h": 1438,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/3474dc6a-df24-4abe-9dde-2a1d71b229a8.jpg",
+   "w": 1280,
+   "h": 960,
+   "source": "2gis_owner",
+   "date": "2026-03-10"
+  },
+  {
+   "url": "https://i2.photo.2gis.com/photo-gallery/77ccb614-6062-4664-8fd7-99ff78bdb14c.jpg",
+   "w": 900,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/photo-gallery/1df32168-bf17-4788-93cc-9cfd1343946a.jpg",
+   "w": 1600,
+   "h": 900,
+   "source": "2gis_owner",
+   "date": "2024-04-24"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/photo-gallery/f4ef698f-1fc7-40db-8762-490dfab0eeab.jpg",
+   "w": 1600,
+   "h": 1204,
+   "source": "2gis_owner",
+   "date": "2024-04-24"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/images/branch/0/30258560165908401_3495.jpg",
+   "w": 3840,
+   "h": 2160,
+   "source": "user",
+   "date": "2023-12-21"
+  },
+  {
+   "url": "https://i8.photo.2gis.com/photo-gallery/6c223e6b-d12f-4f7e-95c0-86205c23e46d.jpg",
+   "w": 3024,
+   "h": 4032,
+   "source": "user",
+   "date": "2024-06-06"
+  },
+  {
+   "url": "https://i8.photo.2gis.com/photo-gallery/6203d426-ad90-4ba0-95d0-2ca96405c0ca.jpg",
+   "w": 900,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i2.photo.2gis.com/photo-gallery/fcd07b4f-e01c-4e37-b4bc-57d55837f6b2.jpg",
+   "w": 1280,
+   "h": 720,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i8.photo.2gis.com/images/branch/0/30258560165746550_a3a1.jpg",
+   "w": 872,
+   "h": 665,
+   "source": "2gis_owner",
+   "date": "2023-12-20"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/images/branch/0/30258560100730735_f37d.jpg",
+   "w": 3468,
+   "h": 4624,
+   "source": "user",
+   "date": "2023-03-07"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/photo-gallery/1b19990f-2e20-42c1-a12f-03bd0043f4a5.jpg",
+   "w": 1600,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/cc604880-5c24-4c48-afc8-f7534b8ed69b.jpg",
+   "w": 1600,
+   "h": 900,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/images/branch/0/30258560168188482_dd4d.jpg",
+   "w": 4608,
+   "h": 3456,
+   "source": "user",
+   "date": "2024-01-18"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/photo-gallery/0133c441-1b16-411a-bf77-713e4fc688c2.jpg",
+   "w": 1280,
+   "h": 720,
+   "source": "2gis_owner",
+   "date": "2026-03-10"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/images/branch/0/30258560165040362_6c6f.jpg",
+   "w": 2304,
+   "h": 4080,
+   "source": "user",
+   "date": "2023-12-13"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/images/branch/0/30258560099412738_dd8b.jpg",
+   "w": 2074,
+   "h": 3049,
+   "source": "2gis_owner",
+   "date": "2023-02-15"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/photo-gallery/9bebdfbc-80d3-4ea2-90dd-e404e2fe9f72.jpg",
+   "w": 3072,
+   "h": 4096,
+   "source": "user",
+   "date": "2024-04-26"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/photo-gallery/6f92f3c1-a24e-41f2-9bd4-87a3d5a98dfe.jpg",
+   "w": 2058,
+   "h": 3316,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/photo-gallery/eb581872-71d4-4c30-b43d-39c508d8b30a.jpg",
+   "w": 1600,
+   "h": 900,
+   "source": "2gis_owner",
+   "date": "2024-04-25"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/4f0036ef-4a09-45ba-ae96-bae260c4f778.jpg",
+   "w": 900,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/8a755062-df27-4a0e-859e-97c00492e782.jpg",
+   "w": 900,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2024-05-04"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/photo-gallery/6bca71ca-61e7-4d6a-8b9a-ead97e56ca5f.jpg",
+   "w": 720,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2024-04-24"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/photo-gallery/1c28ae65-13b6-4833-a7ea-78bcd2459ef2.jpg",
+   "w": 900,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/58b45d46-f759-4a4b-aea6-c6dfc8ef5348.jpg",
+   "w": 960,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-03-10"
+  },
+  {
+   "url": "https://i8.photo.2gis.com/photo-gallery/2e511480-98ed-4edc-88e4-7c511a6be687.jpg",
+   "w": 4000,
+   "h": 3000,
+   "source": "user",
+   "date": "2025-11-15"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/photo-gallery/6fd47bbd-9cc3-4a37-86c4-e7baed5ceba1.jpg",
+   "w": 1280,
+   "h": 720,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/photo-gallery/c247ea1c-5080-460b-bcf8-4ba98cea0681.jpg",
+   "w": 1800,
+   "h": 4000,
+   "source": "user",
+   "date": "2024-05-18"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/photo-gallery/46541e42-d1c3-41dd-8459-fb153b546879.jpg",
+   "w": 1200,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2026-03-10"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/images/branch/0/30258560079373074_ed22.jpg",
+   "w": 4032,
+   "h": 3024,
+   "source": "user",
+   "date": "2022-08-01"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/3c78672b-f304-406b-b0cd-00cb4a19b3e6.jpg",
+   "w": 900,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i0.photo.2gis.com/images/branch/0/30258560079373119_5d2b.jpg",
+   "w": 4032,
+   "h": 3024,
+   "source": "user",
+   "date": "2022-08-01"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/images/branch/0/30258560077165581_c294.jpg",
+   "w": 2653,
+   "h": 4016,
+   "source": "user",
+   "date": "2022-06-30"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/photo-gallery/b4671bd6-d6d3-4220-a155-ffefd0cdb192.jpg",
+   "w": 4284,
+   "h": 5712,
+   "source": "user",
+   "date": "2026-02-01"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/photo-gallery/d6549d4c-b0dd-4ae2-94f1-52ef705bf622.jpg",
+   "w": 1051,
+   "h": 930,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/photo-gallery/f1679ab3-93e9-4f89-a4dd-d92fd8c5d34b.jpg",
+   "w": 1280,
+   "h": 960,
+   "source": "2gis_owner",
+   "date": "2026-03-10"
+  },
+  {
+   "url": "https://i2.photo.2gis.com/images/branch/0/30258560079373100_0bd5.jpg",
+   "w": 4032,
+   "h": 3024,
+   "source": "user",
+   "date": "2022-08-01"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/photo-gallery/22f2df80-b5a2-42c1-a2b7-aeb0feab7a26.jpg",
+   "w": 3120,
+   "h": 4160,
+   "source": "user",
+   "date": "2026-04-18"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/photo-gallery/4d2451a5-ee4e-4129-a2cc-7b1959866011.jpg",
+   "w": 3472,
+   "h": 4624,
+   "source": "user",
+   "date": "2026-08-03"
+  },
+  {
+   "url": "https://i2.photo.2gis.com/photo-gallery/5c11d814-9907-48c5-8547-6c47b5d3eb1e.jpg",
+   "w": 1800,
+   "h": 4000,
+   "source": "user",
+   "date": "2024-05-18"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/photo-gallery/c8c1559c-8d63-4011-bde6-a25c5353c1e5.jpg",
+   "w": 1060,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i2.photo.2gis.com/images/branch/0/30258560077165451_8e19.jpg",
+   "w": 3037,
+   "h": 2192,
+   "source": "user",
+   "date": "2022-06-30"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/photo-gallery/b83f01c7-f914-4bbd-9e4b-cf006474d8f9.jpg",
+   "w": 900,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/photo-gallery/7473642d-945e-45aa-b6aa-293c30518b94.jpg",
+   "w": 3024,
+   "h": 4032,
+   "source": "user",
+   "date": "2025-12-26"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/photo-gallery/4045b139-eb6e-4b17-945e-0d0a617a9ab9.jpg",
+   "w": 1080,
+   "h": 1920,
+   "source": "user",
+   "date": "2025-12-29"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/images/branch/0/30258560165745808_b2bf.jpg",
+   "w": 1600,
+   "h": 900,
+   "source": "2gis_owner",
+   "date": "2023-12-20"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/photo-gallery/26757386-8fd5-4486-a0f1-fc4d09fefaa9.jpg",
+   "w": 4000,
+   "h": 3000,
+   "source": "user",
+   "date": "2025-11-15"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/images/branch/0/30258560165746619_2977.jpg",
+   "w": 900,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2023-12-20"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/photo-gallery/0dcb6f61-d762-4d50-9c0f-6c510e42ae82.jpg",
+   "w": 1200,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/photo-gallery/1ca75a2e-2ee0-4d23-8e2b-a2fb0e9ea606.jpg",
+   "w": 1600,
+   "h": 900,
+   "source": "2gis_owner",
+   "date": "2024-04-24"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/photo-gallery/9609ab08-fde5-467e-90ed-8384229a4dd8.jpg",
+   "w": 3072,
+   "h": 4096,
+   "source": "user",
+   "date": "2026-06-04"
+  },
+  {
+   "url": "https://i0.photo.2gis.com/photo-gallery/3db095f8-89bb-4f5b-930c-068cea411ca4.jpg",
+   "w": 720,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2024-04-24"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/images/branch/0/30258560079373041_0f64.jpg",
+   "w": 756,
+   "h": 1008,
+   "source": "user",
+   "date": "2022-08-01"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/photo-gallery/30dc9f4e-a3a8-4504-9484-ff799c076521.jpg",
+   "w": 3024,
+   "h": 4032,
+   "source": "user",
+   "date": "2026-07-27"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/photo-gallery/8e874fb3-7373-4d09-815c-7e95cc3c63af.jpg",
+   "w": 1280,
+   "h": 720,
+   "source": "2gis_owner",
+   "date": "2026-03-10"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/photo-gallery/5f05d374-8cc9-434c-863c-56b156f36a45.jpg",
+   "w": 624,
+   "h": 717,
+   "source": "2gis_owner",
+   "date": "2024-04-25"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/photo-gallery/bee43f48-44f4-452f-b431-582414004ec6.jpg",
+   "w": 900,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i8.photo.2gis.com/photo-gallery/e2b8b1e0-3eb9-4fe9-a430-9f28e7da0bba.jpg",
+   "w": 1600,
+   "h": 1470,
+   "source": "user",
+   "date": "2025-12-08"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/photo-gallery/6faaf959-177c-4d2d-b941-25e4053198d3.jpg",
+   "w": 1280,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/e440bdde-290d-4980-928a-beda4f057cde.jpg",
+   "w": 900,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2024-05-04"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/images/branch/0/30258560165745805_d169.jpg",
+   "w": 900,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2023-12-20"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/photo-gallery/e92023dd-55b4-4549-b61c-e12f752636bf.jpg",
+   "w": 3024,
+   "h": 4032,
+   "source": "user",
+   "date": "2024-06-06"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/images/branch/0/30258560099412059_8943.jpg",
+   "w": 1280,
+   "h": 720,
+   "source": "2gis_owner",
+   "date": "2023-02-15"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/photo-gallery/192737c8-8181-4681-b551-9068ef226d79.jpg",
+   "w": 720,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/photo-gallery/a543512f-f8f5-49e3-9862-58585984fff8.jpg",
+   "w": 3745,
+   "h": 5272,
+   "source": "user",
+   "date": "2026-05-30"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/photo-gallery/1bdf99e3-a3af-462f-b748-db49adfa10a1.jpg",
+   "w": 1600,
+   "h": 900,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/photo-gallery/517b1d46-0334-4342-96d5-ffd33405369d.jpg",
+   "w": 720,
+   "h": 1280,
+   "source": "user",
+   "date": "2025-02-19"
+  },
+  {
+   "url": "https://i8.photo.2gis.com/images/branch/0/30258560165040358_ad13.jpg",
+   "w": 2304,
+   "h": 4080,
+   "source": "user",
+   "date": "2023-12-13"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/photo-gallery/7e13e977-0327-4384-8b7d-5f6f64a93f3e.jpg",
+   "w": 1600,
+   "h": 1204,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/photo-gallery/32f67180-212e-45d2-952a-c5bfe6bdccdd.jpg",
+   "w": 1600,
+   "h": 720,
+   "source": "2gis_owner",
+   "date": "2024-05-04"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/photo-gallery/36afc35c-b3b0-47ba-ae8d-bc1d3f8434c2.jpg",
+   "w": 829,
+   "h": 786,
+   "source": "2gis_owner",
+   "date": "2024-04-24"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/photo-gallery/b5820ada-eaf6-421a-a465-934aaa407c39.jpg",
+   "w": 720,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2024-07-17"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/photo-gallery/e6a196d8-ec45-4994-b5ec-64e7f0637a27.jpg",
+   "w": 963,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/photo-gallery/4d33efcf-4034-45f3-9df8-bff06d8ff5b1.jpg",
+   "w": 1024,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/8a91a7e9-dee4-415b-9382-3dfb95089078.jpg",
+   "w": 4032,
+   "h": 3024,
+   "source": "user",
+   "date": "2025-08-21"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/photo-gallery/e41c3837-802a-4864-94be-4fd4f1c67e10.jpg",
+   "w": 900,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i8.photo.2gis.com/images/branch/0/30258560165745809_74a0.jpg",
+   "w": 900,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2023-12-20"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/photo-gallery/01ff7c2f-2d66-4cb0-bce0-8d718d0a7cc0.jpg",
+   "w": 900,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/photo-gallery/01eababd-746c-4942-9dc3-933200127e33.jpg",
+   "w": 1200,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i0.photo.2gis.com/photo-gallery/0b394715-5722-4d9d-b7f0-3ff1e0e0ab65.jpg",
+   "w": 720,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/images/branch/0/30258560120666923_9ef2.jpg",
+   "w": 3000,
+   "h": 4000,
+   "source": "user",
+   "date": "2023-09-25"
+  },
+  {
+   "url": "https://i8.photo.2gis.com/photo-gallery/52245eba-cb9f-44df-bf81-41a028b99279.jpg",
+   "w": 3072,
+   "h": 4080,
+   "source": "user",
+   "date": "2025-10-07"
+  },
+  {
+   "url": "https://i8.photo.2gis.com/photo-gallery/6e4df9b2-6210-4130-9c45-4adc62361b52.jpg",
+   "w": 720,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/photo-gallery/c8276454-be6d-48a1-a8ae-a581ce1f902d.jpg",
+   "w": 900,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2024-04-25"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/photo-gallery/b6f66b17-2366-4ccb-84f9-794de6123c7a.jpg",
+   "w": 900,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i8.photo.2gis.com/photo-gallery/d04f0544-e1e7-4488-8322-4343c7748413.jpg",
+   "w": 4284,
+   "h": 5712,
+   "source": "user",
+   "date": "2026-02-01"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/photo-gallery/557a90b0-3662-4700-87d3-a932834b546b.jpg",
+   "w": 720,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2024-07-17"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/photo-gallery/b0750227-fcbf-4e38-9cbf-c267e48c2fee.jpg",
+   "w": 1280,
+   "h": 960,
+   "source": "2gis_owner",
+   "date": "2024-04-24"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/photo-gallery/66532bb9-5566-42a7-97df-88c8c9643c45.jpg",
+   "w": 3072,
+   "h": 4080,
+   "source": "user",
+   "date": "2025-10-07"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/photo-gallery/a646a016-5e4f-4940-9604-39853c6f06f1.jpg",
+   "w": 1600,
+   "h": 900,
+   "source": "2gis_owner",
+   "date": "2024-04-24"
+  },
+  {
+   "url": "https://i0.photo.2gis.com/photo-gallery/d7cb9e86-0335-493b-a41c-207037a681cc.jpg",
+   "w": 1600,
+   "h": 1200,
+   "source": "user",
+   "date": "2025-10-05"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/photo-gallery/81c7a852-8571-49e9-b827-048c7bf69025.jpg",
+   "w": 3024,
+   "h": 4032,
+   "source": "user",
+   "date": "2025-08-21"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/photo-gallery/70841873-3241-480b-a9e1-cc93864d5610.jpg",
+   "w": 4284,
+   "h": 5712,
+   "source": "user",
+   "date": "2026-02-01"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/photo-gallery/0cf2a35b-108c-4ab5-b316-66168c780836.jpg",
+   "w": 900,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i2.photo.2gis.com/images/branch/0/30258560098460729_0b40.jpg",
+   "w": 4640,
+   "h": 3472,
+   "source": "user",
+   "date": "2023-02-01"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/photo-gallery/7d744f62-c20b-44ca-80ea-dccdbb88e7c6.jpg",
+   "w": 4284,
+   "h": 5712,
+   "source": "user",
+   "date": "2026-02-01"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/photo-gallery/1e50ba2b-ed79-4fb2-bdba-2cfa7ad6ab81.jpg",
+   "w": 720,
+   "h": 1280,
+   "source": "user",
+   "date": "2025-02-19"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/photo-gallery/e59907c0-660e-4d53-b7a7-3082c98ca71e.jpg",
+   "w": 943,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i2.photo.2gis.com/images/branch/0/30258560098030971_45cb.jpg",
+   "w": 2448,
+   "h": 3264,
+   "source": "2gis",
+   "date": "2023-01-26"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/photo-gallery/dc62d6a3-8f3b-4cd8-89aa-fd72c981066b.jpg",
+   "w": 4284,
+   "h": 5712,
+   "source": "user",
+   "date": "2026-02-01"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/photo-gallery/f839b14b-db5b-472a-a3f8-4b68426b2b31.jpg",
+   "w": 900,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/photo-gallery/3be6a255-b21c-4fbb-b692-5827e1de7510.jpg",
+   "w": 1600,
+   "h": 900,
+   "source": "2gis_owner",
+   "date": "2024-05-01"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/photo-gallery/1dfb7d40-6144-4893-9d83-8e9fb694e956.jpg",
+   "w": 4160,
+   "h": 3120,
+   "source": "user",
+   "date": "2025-07-01"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/images/branch/0/30258560073169958_1ccb.jpg",
+   "w": 756,
+   "h": 1008,
+   "source": "2gis_owner",
+   "date": "2022-04-26"
+  },
+  {
+   "url": "https://i8.photo.2gis.com/photo-gallery/939c7949-629c-46ab-bcf2-2fa9be6ea1fd.jpg",
+   "w": 3072,
+   "h": 4080,
+   "source": "user",
+   "date": "2025-10-07"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/photo-gallery/7d0861d1-c029-409d-b1ad-d2b0bb2c30fd.jpg",
+   "w": 3024,
+   "h": 4032,
+   "source": "user",
+   "date": "2024-06-06"
+  },
+  {
+   "url": "https://i2.photo.2gis.com/images/branch/0/30258560109073852_685e.jpg",
+   "w": 4032,
+   "h": 3024,
+   "source": "user",
+   "date": "2023-06-27"
+  },
+  {
+   "url": "https://i2.photo.2gis.com/photo-gallery/b0f8648c-e47f-4192-ada0-05747e8645ed.jpg",
+   "w": 4284,
+   "h": 5712,
+   "source": "user",
+   "date": "2026-02-01"
+  },
+  {
+   "url": "https://i8.photo.2gis.com/photo-gallery/c16f3569-6386-4ca6-8ec8-274d3658e7e7.jpg",
+   "w": 3000,
+   "h": 4000,
+   "source": "user",
+   "date": "2024-06-01"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/images/branch/0/30258560095791875_ebfa.jpg",
+   "w": 3024,
+   "h": 4032,
+   "source": "user",
+   "date": "2022-12-17"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/images/branch/0/30258560173053468_cc38.jpg",
+   "w": 1468,
+   "h": 3264,
+   "source": "user",
+   "date": "2024-03-07"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/images/branch/0/30258560165745812_ba71.jpg",
+   "w": 1280,
+   "h": 960,
+   "source": "2gis_owner",
+   "date": "2023-12-20"
+  },
+  {
+   "url": "https://i2.photo.2gis.com/photo-gallery/2a9bba16-c022-420d-96e0-67098ddfbb35.jpg",
+   "w": 1280,
+   "h": 720,
+   "source": "2gis_owner",
+   "date": "2024-05-04"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/photo-gallery/022ae2d5-ddc7-4c49-8e01-229eea79c9c6.jpg",
+   "w": 666,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i2.photo.2gis.com/photo-gallery/75cf0ace-d693-45c5-aa6f-572d4d8f1278.jpg",
+   "w": 1280,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/images/branch/0/30258560120666922_772d.jpg",
+   "w": 3000,
+   "h": 4000,
+   "source": "user",
+   "date": "2023-09-25"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/photo-gallery/c8e4932d-2a16-4518-b504-1b920383f2d7.jpg",
+   "w": 4000,
+   "h": 1800,
+   "source": "user",
+   "date": "2024-10-29"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/photo-gallery/1f895f67-e936-4cc8-92b1-3c31c910fe87.jpg",
+   "w": 3024,
+   "h": 4032,
+   "source": "user",
+   "date": "2026-02-01"
+  },
+  {
+   "url": "https://i8.photo.2gis.com/photo-gallery/bdd6b4e5-381d-4843-81ea-a565443fcaa6.jpg",
+   "w": 720,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i0.photo.2gis.com/photo-gallery/bf2aa263-7ece-4ee1-89ac-ea6337b47523.jpg",
+   "w": 900,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2024-05-04"
+  },
+  {
+   "url": "https://i0.photo.2gis.com/photo-gallery/12cb5e04-a454-4beb-a8f7-b1eb603d8605.jpg",
+   "w": 1468,
+   "h": 3264,
+   "source": "2gis",
+   "date": "2025-12-05"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/photo-gallery/faae6b8c-890b-4c6f-b9d8-d3c3b9aa8abf.jpg",
+   "w": 3000,
+   "h": 4000,
+   "source": "user",
+   "date": "2026-04-15"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/photo-gallery/4435763d-4635-4ad2-b353-e5f76d44214d.jpg",
+   "w": 2448,
+   "h": 3264,
+   "source": "user",
+   "date": "2026-06-02"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/photo-gallery/40dd6e85-1ee4-4c0c-a592-2f55660fc103.jpg",
+   "w": 1600,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/images/branch/0/30258560169080561_048c.jpg",
+   "w": 2992,
+   "h": 4000,
+   "source": "user",
+   "date": "2024-01-27"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/photo-gallery/8f64aa1d-0630-4799-bcba-8384e376ab28.jpg",
+   "w": 4624,
+   "h": 3472,
+   "source": "user",
+   "date": "2026-08-03"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/photo-gallery/6b3c80c6-d07c-46af-9c6d-71ddfe9726c0.jpg",
+   "w": 3024,
+   "h": 4032,
+   "source": "user",
+   "date": "2026-07-27"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/photo-gallery/bb8cbe68-1c56-4997-932f-4a2ebeae92d6.jpg",
+   "w": 1200,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/images/branch/0/30258560165745810_cdff.jpg",
+   "w": 1600,
+   "h": 1200,
+   "source": "2gis_owner",
+   "date": "2023-12-20"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/photo-gallery/eed8a11e-efdb-47b0-9a35-1cbadde65953.jpg",
+   "w": 720,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2026-03-13"
+  },
+  {
+   "url": "https://i2.photo.2gis.com/photo-gallery/9b910585-9428-4e3b-8628-7881edd950c7.jpg",
+   "w": 4000,
+   "h": 3000,
+   "source": "2gis",
+   "date": "2025-01-23"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/c5b7f796-aa4c-494f-9b7c-a35a6dec26d0.jpg",
+   "w": 2448,
+   "h": 3264,
+   "source": "user",
+   "date": "2026-04-15"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/images/branch/0/30258560108903190_f8dd.jpg",
+   "w": 1280,
+   "h": 1280,
+   "source": "user",
+   "date": "2023-06-26"
+  },
+  {
+   "url": "https://i2.photo.2gis.com/photo-gallery/8d1d2d52-dd23-4794-83bb-2e017be4b098.jpg",
+   "w": 3000,
+   "h": 4000,
+   "source": "user",
+   "date": "2026-04-15"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/photo-gallery/ebb823f1-4aeb-4b62-84f8-a30c2bf50bb6.jpg",
+   "w": 4000,
+   "h": 2252,
+   "source": "user",
+   "date": "2025-12-08"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/photo-gallery/59483555-2bba-4a54-8554-1a6bcb70cb20.jpg",
+   "w": 900,
+   "h": 1600,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  },
+  {
+   "url": "https://i2.photo.2gis.com/photo-gallery/e48bcf85-7c60-498b-b4e8-218fc2bf2761.jpg",
+   "w": 3000,
+   "h": 4000,
+   "source": "user",
+   "date": "2026-04-15"
+  },
+  {
+   "url": "https://i0.photo.2gis.com/photo-gallery/b10dab4a-c04e-4566-b436-84ef59be32fe.jpg",
+   "w": 3000,
+   "h": 4000,
+   "source": "user",
+   "date": "2026-04-15"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/photo-gallery/19dc8fe2-58a3-4be5-8600-e8d1d224a96c.jpg",
+   "w": 3000,
+   "h": 4000,
+   "source": "user",
+   "date": "2026-04-15"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/photo-gallery/fa2e828a-2173-4662-bd25-3c74b38f54a3.jpg",
+   "w": 1200,
+   "h": 1200,
+   "source": "2gis_owner",
+   "date": "2024-05-08"
+  }
+ ],
+ "reviews": [
+  {
+   "rating": 5,
+   "date": "2026-10-11",
+   "name": "Карен Г.",
+   "text": "Покупали кухню в магазине Фабрика мебели. Дизайн проект помогла сделать менеджер Инна. Качество мебели нам понравилось, выбор в магазине большой. Будем рекомендовать нашим знакомым."
+  },
+  {
+   "rating": 5,
+   "date": "2026-09-22",
+   "name": "Римма Римма",
+   "text": "Заказала кухню, осталась восторге, то что я себе представляла стала реальностью, благодарна консультанту Инне за ее внимания и ответственность. Сборщик Алексей профессионально и быстро собрал, все аккуратно. Я очень довольна, и благодарна им за их работу. Жду еще шкаф для одежды.от всей души рекомендую фабрика мебели!!!"
+  },
+  {
+   "rating": 5,
+   "date": "2026-08-18",
+   "name": "Алина Аракелян",
+   "text": "Очень понравилась кухня!менеджер Кристина на 100% выполнила свою работу,учла все пожелания!особая благодарность сборщику Алексею,чисто и очень качественно выполнил свою работу"
+  },
+  {
+   "rating": 5,
+   "date": "2026-08-03",
+   "name": "Светлана Коротько",
+   "text": "Взяла бюджетную кухню, оказалось очень хорошее качество и дешевле, чем в Бауцентре. Мастер собрал очень аккуратно и четенько! Получилась очень красивая кухня! Благодарю!"
+  },
+  {
+   "rating": 5,
+   "date": "2026-07-27",
+   "name": "Татьяна Отчиченко",
+   "text": "Добрый день ! Заказывали кухню и шкаф купе , менеджер Инна грамотно помогла с дизайном , Эдуард во время , качественно собрал мебель )рекомендую 👍"
+  },
+  {
+   "rating": 5,
+   "date": "2026-07-25",
+   "name": "Галина Блейле",
+   "text": "Отличный магазин! Заказывали там кухню. Качественно и не дорого! Девушка Инна очень помогла в выборе фасада и фурнитуры и многое другое. Доставили в кратчайшие сроки. Алексей молодец,быстро и качественно собрал и установил всё,вплоть до техники и подключил! Молодцы ребята! Успехов вам и вашему делу! По больше вам покупателей и хороших благодарных отзывов!👍"
+  },
+  {
+   "rating": 5,
+   "date": "2026-07-15",
+   "name": "Юля Исаченко",
+   "text": "Заказывала кухню в магазине по данному адресу. Работали с консультантом Кристиной! Все быстро оформили, учли все нюансы. Девушка владеет информацией на 100%. Благодарю за работу и рекомендую обращаться в эту фирму🙂‍↕️"
+  },
+  {
+   "rating": 5,
+   "date": "2026-07-01",
+   "name": "Виктория Акимова",
+   "text": "Заказывали кухню в этой компании и остались в полном восторге. Хотим отметить работу двух специалистов:\n\n1. Инга (менеджер) — настоящий профессионал. Грамотно проконсультировала, помогла с выбором, всегда была на связи и оперативно решала все вопросы.\n2. Эдуард (сборщик) — собрал кухню идеально. Всё сделано очень аккуратно, чисто и быстро.\n\nСпасибо вам за слаженную работу и прекрасный результат! Будем обращаться снова и рекомендовать вас друзьям."
+  },
+  {
+   "rating": 5,
+   "date": "2026-06-29",
+   "name": "Владислава 99",
+   "text": "Заказывали кухню, всё очень понравилось! Цены доступные, выбора много! С нами работали менеджер Инна и сборщик кухни Алексей! Огромное спасибо вам, кухня восторг, очень красивая и аккуратная!"
+  },
+  {
+   "rating": 5,
+   "date": "2026-06-25",
+   "name": "Городской житель",
+   "text": "Заказали кухню, по нашим размерам, заказ принимала сотрудник Кристина. Очень все классно сделали, девушка очень качественно и грамотно приняла заказ, очень долго меня терпела) я очень часто менял свои пожелания, Кристина умница, она стойко, грамотно и очень сдержанно все таки создала мой заказ. Огромное Спасибо за саму кухню жена очень довольна и отдельное спасибо Кристине за то, что вытерпела меня и помогла создать действительно очень красивую кухню) Если кто-то захочет заказать кухню, настоятельно рекомендую именно эту компанию и из сотрудников именно Кристину, очень грамотный сотрудник. Большое спасибо."
+  },
+  {
+   "rating": 5,
+   "date": "2026-06-07",
+   "name": "Наталья Ревина",
+   "text": "Довольна своей кухней.Менеджер Инна все доступно объяснила, посоветовала,учла мои пожелания.Пошли мне на встречу, так как мне нужна была оперативная сборка.Ребята Евгений и Александр собрали быстро, убрали за собой весь мусор.Цены доступные, менеджеры и сборщики общительные.Рекомендую посетить магазин"
+  },
+  {
+   "rating": 5,
+   "date": "2026-06-07",
+   "name": "Анастасия Щербакова",
+   "text": "Очень хороший менеджер Инна по работе с клиентами грамотный специалист подскажет и переделает проэкт если нужно подскажет по материалу и комплектующим.Так же отличные сборшики Александр и Евгений"
+  },
+  {
+   "rating": 5,
+   "date": "2026-06-04",
+   "name": "Лариса Крайнова",
+   "text": "Долго искала где заказать кухню, когда , по рекомендации, попала в магазин Фабрика мебели, попросила менеджера Инну рассчитать примерную стоимость и была приятно удивлена демократичностью цены. После замера, менеджер Инна ,прямо при мне ,составила проект модульной кухни, учитывая сложность моего помещения- огромное колличество труб, котел, счетчик. Все это надо было спрятать и Инна с этим справилась. С огромным терпением и вниманием Инна помогала подбирать материалы и продумывать дизайн . Также бонусом шла возможность оплаты частями\n Я очень переживала, как установщики смогут закрыть все трубы, но Алексей и Олег проявили чудеса мастерства и смекалки и сделали всё идеально. При этом с ними приятно было общаться, очень доброжелательные , а главное реальные профессионалы.\nКухня получилась замечательной.\nСпасибо сотрудникам Фабрики мебели за отличную работу"
+  },
+  {
+   "rating": 1,
+   "date": "2026-04-15",
+   "name": "Любовь Филимонова",
+   "text": "Никому не посоветовала бы данную организацию, заказывали у них кухню, очень пожалели, качество очень плохое!!! Так же смеситель который пришел с браком, так он еще и к раковине не подходит! Ну поменяли смеситель, не на тот который хотели ну выбора там особо не было!!! Что-то исправлять и переделывать это не в их стиле, а ладно что я они замазали карректором обычным🤦🏽‍♀️🤦🏽‍♀️ , получили деньги, и на этом все!!! Не связывайтесь с этой организацией! Вздулась от влаги местами🤦🏽‍♀️"
+  },
+  {
+   "rating": 5,
+   "date": "2026-05-31",
+   "name": "Наталья Бородач",
+   "text": "Заказывали кухню и шкаф с кроватью в этом салоне. Огромное спасибо мастерам Алексею и Олегу. Выполнили свою работу оперативно, качественно и красиво! Я в восторге😇\nОтдельная благодарность менеджеру Кристине: всегда была на связи с готовностью помочь в любом вопросе. \nСпасибо всем сотрудникам за труд и профессионализм🥹🫶 \nВдохновения и успехов вам!"
+  },
+  {
+   "rating": 5,
+   "date": "2026-05-31",
+   "name": "Наталья Кособрюхова",
+   "text": "От чистого сердца всем рекомендую заказывать кухни именно в «Фабрику мебели».У меня есть с чем сравнивать и это организация действительно профессионал своего дела! Просто в диком восторге от нашей кухни!Качество,подход сотрудников к клиентам,доставка,ну просто не к чему придраться!!!Огромная благодарность нашему менеджеру Инне за её проведенную работу, за проект который она нам создавала,за отношения к нам,за такой подход к работе, за высокий профессионализм!!!Самое главное какой у них подход к людям,насколько они досконально объясняют каждую деталь во всём и самое главное отличный результат на высшем уровне!!!Большое спасибо руководству за такую организованную команду и такой подход к людям!!!Всё на высшем уровне!!!"
+  },
+  {
+   "rating": 5,
+   "date": "2026-05-13",
+   "name": "Ирина .",
+   "text": "Заказывала кухню в этом магазине, очень довольна покупкой, все привезли и установили в срок. Спасибо Кристине за консультацию и помощь в выборе"
+  },
+  {
+   "rating": 5,
+   "date": "2026-04-25",
+   "name": "Яна Якубовская",
+   "text": "Отличный магазин. Заказали кухню-получили блендер в подарок. Менеджер Кристина помогла определиться с моделью и проектом. Пока рисовали и выбирали, местная кошечка помогала расслабиться))) очень приятный персонал и широкий ассортимент мебели . Всем советую."
+  },
+  {
+   "rating": 5,
+   "date": "2026-04-21",
+   "name": "Елена",
+   "text": "Добрый вечер, воспользовалась услугами данной организации, ребята умнички сделали всё суппппер😍Менеджер Елена помогла с выбором материалов, дизайн сделала всё, как я пожелала, от начала до завершения координировала, держала обратную связь. Установщики Эдуард и Евгений сделали свою работу на отлично, всё убрали за собой! Однозначно рекомендую «Фабрику мебели» Обращаюсь к ним уже не первый раз!😍"
+  },
+  {
+   "rating": 5,
+   "date": "2026-04-21",
+   "name": "Городской житель",
+   "text": "Спасибо менеджеру Кристине за консультацию и подбор кухни. Всегда на связи, поможет, подскажет. Цены очень демократичные, цена качество! Кухня пришла целая, без сколов качество хорошее."
+  },
+  {
+   "rating": 5,
+   "date": "2026-04-19",
+   "name": "Светлана Лобанова",
+   "text": "Отличный мебельный магазин. Брала два дивана по очень хорошей и доступной цене, качество товара меня порадовало. Хочется выразить большую благодарность менеджеру Инне, которая помогла мне с выбором мебели. Очень внимательный, добрый и отзывчивый человек. Рекомендую этот мебельный салон."
+  },
+  {
+   "rating": 5,
+   "date": "2026-04-15",
+   "name": "Лариса Краснова",
+   "text": "Хороший магазин фабрика мебели, хороший выбор мебели на любой кошелек и вкус и отличные консультанты , меня консультировала и оформляла покупку Кристина. Сборку кухни провели Евгений и Александр профессионально и быстро . Спасибо. Рекомендую!"
+  },
+  {
+   "rating": 5,
+   "date": "2026-04-06",
+   "name": "Мария Никитаева",
+   "text": "Спасибо большое «Фабрие мебели».\nСтавлю 10 из 10. \nКачественная мебель, НЕ ДОРОГО, без накруток и отличная мебель за такие деньги. \nСпасибо огромное ❤️ Инне, профессионал своего дела, порекомендовала все классные варианты и различную подборку мебели. Заказали по итогу кухню, прихожую, спальню, крутой диван, а также сразу там заказали и технику . \nИ огромное спасибо сборщикам Евгению и Александру, специалисты и профи, собрали , все работают, все удобно и быстро. \nБуду точно рекомендовать 👍"
+  },
+  {
+   "rating": 5,
+   "date": "2026-04-05",
+   "name": "Сергей Артёмов",
+   "text": "Огромная благодарность коллективу \"Фабрика мебели\" за качественную и плодотворную работу, особенная благодарность менеджеру Инне за её высокий профессионализм умение качественно и главное правильно подсказать и предложить клиентам все возможные варианты заказа мебели. Ну и конечно в коллективе есть профессионалы своего дела это сборщики мебели Евгений и Александр которые безупречно и качественно выполняют свою работу и очень отзывчивый. СПАСИБО ОГРОМНОЕ ВСЕМУ КОЛЛЕКТИВУ!!! Всем рекомендую заказывать мебель в данном магазине!"
+  },
+  {
+   "rating": 5,
+   "date": "2026-03-22",
+   "name": "Дарья Кохан",
+   "text": "Хочу поблагодарить менеджера Кристину ,у нас был очень непростой вопрос касаемо кухни,долго мы все обсуждали,смотрели,подбирали,как итог пришли к общему мнению,нашли решение! И вот,нам уже установили нашу кухню! Благодарю сборщиков Евгения и Александр! Шикарно сделали еврозапил и собрали кухню! Советую однозначно!"
+  },
+  {
+   "rating": 5,
+   "date": "2026-03-21",
+   "name": "Юлия Кочмар",
+   "text": "Хочу поблагодарить Кристину с выбором кухни, очень красиво смотрится и достойная по качеству. И хотела бы еще отметить сборщиков Александра и Евгения собрали все хорошо. Я очень довольна."
+  },
+  {
+   "rating": 5,
+   "date": "2026-03-09",
+   "name": "Екатерина",
+   "text": "Добрый день, долго искали кухню, объездили много салонов, но .. Выбор сделали -Фабрика мебели!!!Хочу поблагодарить менеджера Инну за дизайн и терпение))) нужно было маленькая, но функциональная кухня.Инна помогла с выбором.За что огромное спасибо!!!Сборщикам Жене и Александру тоже 5***** за отличную работу.Спасибо всем огромное!!! Успехов в работе!)"
+  },
+  {
+   "rating": 5,
+   "date": "2026-02-28",
+   "name": "Александр Трофимов",
+   "text": "Всем доброго дня.Зашол в магазин Фабрика мебели и ушол с кухонным гарнитуром.Создать дизайн с учётом всех моих пожеланий помогла менеджер Инна очень грамотно и профессионально.Изготовили и доставили в срок цена и качество достойные.Собрал сам без особых проблем.Отдельное спасибо Елене за оперативное решение возникших вопросов.Фабрика мебели на 1мая 397/1это. КРУТо."
+  },
+  {
+   "rating": 5,
+   "date": "2026-02-15",
+   "name": "Ирина Захарко",
+   "text": "Очень хорошая отзывчивая девушка менеджер Кристина! Дистанционно сделала несколько проектов по кухне, все очень подробно описала, подсказала, объяснила до мелочей!\nОбратимся к ней снова обязательно!\nРекомендую однозначно 👍"
+  },
+  {
+   "rating": 5,
+   "date": "2026-01-17",
+   "name": "Светлана Митрофанова",
+   "text": "Не первый раз преобретаю мебель в магазине \"Фабрика мебели \". В этот раз покупала гардеробную. Качество очень хорошее и цена приемлемая. Отдельное спасибо менеджеру Инне, помогла составить схему, учитывая все мои предпочтения, была всегда на связи от начала покупки, до установки. \nТак же большое спасибо сборщикам Евгению и Александру! Быстро, а главное качественно выполнили свою работу."
+  },
+  {
+   "rating": 5,
+   "date": "2025-12-30",
+   "name": "Люда",
+   "text": "Заказываю кухню не в первый раз, приятные цены, качество на высоте, спасибо Инне за тёплый приём,за помощь создание кухни мечты, за мебелью только сюда)"
+  },
+  {
+   "rating": 5,
+   "date": "2025-12-29",
+   "name": "Елена",
+   "text": "Случайна зашла в магазин Фабрика мебели по ул.1Мая,д.397/1. Поразилась масштабности ассортимента и привлекательным ценам. Решила заказать кухонный гарнитур в новую квартиру. Со мной работала менеджер Кристина- приветливая,улыбчивая и терпеливая к моим запросам. Чувствуется в ней профессионал! Составила проект,детально подошла к каждой мелочи,каждой детальке. В дополнение помогла определиться со всей кухонной техникой. Спасибо ей огромное!\nПонравился мне и магазин, и девчонки- менеджеры во главе с управляющей Еленой. Рекомендую новоселам и тем,кто хочет обновить квартирный \" гардеробчик\" только сюда!"
+  },
+  {
+   "rating": 5,
+   "date": "2025-12-29",
+   "name": "Евгения Данилова",
+   "text": "Качество на высоте 👍 большая благодарность продавцу Инне очень добрый внимательный человек . рекомендую 👍"
+  },
+  {
+   "rating": 5,
+   "date": "2025-12-28",
+   "name": "Елена Романюк",
+   "text": "Заказывали кухню в этом магазине , остались очень довольны!! Менеджер Инна все подсказала, помогла грамотно спроектировать , очень внимательная, огромное ей спасибо ! Все в сроки, всегда были на связи. Сборщик Евгений отлично собрал кухню."
+  },
+  {
+   "rating": 5,
+   "date": "2025-12-27",
+   "name": "Алина Зенг",
+   "text": "Хотела бы оставить отзыв! Сроки были выполнены, за что огромное спасибо, все время были на связи!\nОчень красивая и качественная кухня по всем нашим «хочу»\nСборщики тоже конечно молодцы, все установили, собрали, два дня все делали, и прям отдельная благодарность Олегу и Алексею. Лишние доплаты ни за что не взяли, все как прописано в договоре. Рекомендуем!!!🔥🔥🔥🔥"
+  },
+  {
+   "rating": 5,
+   "date": "2025-12-15",
+   "name": "Елена Власова",
+   "text": "Отличный магазин, приемлемые цены. Покупала кухню и диваны. Качеством довольна. Отдельное спасибо Инне, что так чутко и внимательно подходит к своей работе. Вела сделку с начала проекта, до сборки и установки. Решала быстро все вопросы. Рекомендую."
+  },
+  {
+   "rating": 5,
+   "date": "2025-12-09",
+   "name": "Ирина Гречина",
+   "text": "В мебельной магазине приятные цены Менеджер Инна грамотно подсказала проект кухни буду обращаться к ней , приятно была работать.Сбопщик Евгений собрал кухню без проблем, спасибо качество на высоте"
+  },
+  {
+   "rating": 5,
+   "date": "2025-12-09",
+   "name": "Дмитрий Оленбург",
+   "text": "Знаком с магазином около 5 лет Ранее делал мелкие покупки в виде табуретки\n\nЗаказали кухню Всё на отличное качество\nДолго искали с супругой подходящие магазины с хорошим качеством по доступным ценам\n\nИ вот вспомнил про данный магазин на 1мая.\n\nНам повезло с менеджером Кристина кажется её зовут\n\nВЫслушив нас подобрала нам общий подходящий вариант чтоб мы не спорили и остались довольны Рекомендую данный магазин"
+  },
+  {
+   "rating": 5,
+   "date": "2025-12-09",
+   "name": "Юлия Перова",
+   "text": "Заказывали кухню в этом магазине. Все отлично. Цены не кусаются. Обслуживание на высоте 👍🏻. Менеджер Инна грамотно создала дизайн, учитывая все пожелания. Изготовили в срок. Сборщик Евгений быстро все собрал, установил, подключил технику. Спасибо, придём ещё 👍🏻"
+  },
+  {
+   "rating": 5,
+   "date": "2025-12-09",
+   "name": "Кристина Данилова",
+   "text": "Отличный мебельный магазин \nМенеджер Инна отлично знает модели, материалы, фурнитуру, может посоветовать лучшее решение🫶🏻\nСборщик Евгений, собрал кухню буквально за два дня 🤩\nДовольны результатом нашей кухни🤗"
+  },
+  {
+   "rating": 5,
+   "date": "2025-12-08",
+   "name": "Олег Ермоленко",
+   "text": "Отличный мебельный салон с демократичными ценами! Заказал модульную кухню 2.9 метра. Вышла осенью 2025 всего 50 т.р., правда без столешки и стеновой, их взял на гаражном за 10 т.р комплект. Менеджер Инна доброжелательный и компетентный сотрудник вежливо и терпеливо отвечала на мои 1000 и 1 вопросы, так как покупка кухни, это не корову купить! За месяц кухня пришла и ихние установщики за 2 дня всё привезли, подняли на этаж в квартиру, собрали и установили за примерно 13 т.р."
+  },
+  {
+   "rating": 5,
+   "date": "2025-12-02",
+   "name": "Нина Донецких",
+   "text": "Заказываем уже не первый раз кухню. Маме на дачу смогли подобрать очень бюджетный вариант. Себе тоже взяла не дорогой, но фурнитура оказалась очень хорошей, продуманны некоторые детали, которых не было раньше (шкафчики собираю уже не первые, в разных местах брали до этого, но тут удобнее всего получилось) в этот раз помогла нам менеджер Кристина."
+  },
+  {
+   "rating": 5,
+   "date": "2025-11-15",
+   "name": "Маргарита Мероненко",
+   "text": "Обратилась в фабрику мебели для расчёта кухни. Бюджет был небольшой, но менеджер Инна помогла мне собрать кухню моей мечты. Так же благодарю сборщиков, один из них Евгений, имя второго мужчины не спросила. За 2 дня кухню собрали и все отлично по размерам. Так же Евгений помог с выбором размеров техники. Очень благодарна сотрудникам."
+  },
+  {
+   "rating": 5,
+   "date": "2025-11-08",
+   "name": "М. П❤️",
+   "text": "Покупали мебель в данном магазине, остались оочень довольны 😊\nОгромное спасибо , менеджеру Елене, которая помогла подобрать именно то , что мы искали 🙏\nОбязательно вернёмся ещё!\nТакже спасибо сборщику Евгению , который очень качественно выполнил св работу 🙏"
+  },
+  {
+   "rating": 5,
+   "date": "2025-11-08",
+   "name": "Ульяна Мурдасова",
+   "text": "Покупали кухню в этом магазине , размеры нужны были индивудуаотные, очень помогла нам менеджер Елена , всегда отвечала на звонки и очень грамотно отнеслась к моим предпочтениям, сразу собрала то что мне нкжно было, мебель очень ксчественная , и цена хорошая."
+  },
+  {
+   "rating": 5,
+   "date": "2025-11-06",
+   "name": "Татьяна Супруненко",
+   "text": "Сотрудники Фабрики мебели очень хорошо знают свою работу, особенно менеджер Елена. Она быстро подобрала нам ту мебель, о которой мы мечтали, за что ей огромное спасибо. Мы приобрели у них шкафы и кухню. Нам их привезли и подняли на этаж, а также собрали добросовестно сборщики Вячеслав и Дмитрий, отличные ребята. Мебель у этого магазина очень качественная и по очень привлекательной цене. Это самый лучший магазин в Краснодаре. Очень рекомендую."
+  },
+  {
+   "rating": 5,
+   "date": "2025-11-03",
+   "name": "Александр Сафонов",
+   "text": "Все прошло хорошо,быстро,без сюрпризов!Хотелось бы отметить менеджера Инну,которая учла все пожелания и максимально грамотно подобрала решение по кухне и другой мебели.А так же сборщика Евгения,который все это собрал в кратчайшие сроки.Видно сразу мастера своего дела."
+  },
+  {
+   "rating": 5,
+   "date": "2025-10-29",
+   "name": "Артур К",
+   "text": "Огромное спасибо за замечательную кухню! \nОтдельная благодарность менеджеру Кристине за внимательность и помощь на всех этапах — всё было чётко и профессионально. Сборщики Евгений и Александр сработали отлично: аккуратно, быстро и качественно. Кухня получилась красивой и удобной, по очень приятной цене — мы очень довольны результатом!"
+  },
+  {
+   "rating": 5,
+   "date": "2025-10-26",
+   "name": "Дарья Цой",
+   "text": "Прекрасный магазин, отличные цены! Не первый раз тут беру мебель! Спасибо менеджеру Инне за то что подобрала нам классную и стильную кухню. И благодарим сборщика Евгения за качественную работу! Будем всем рекомендовать!"
+  },
+  {
+   "rating": 5,
+   "date": "2025-10-26",
+   "name": "Какавик Мурадян",
+   "text": "При дологом выборе мгазина остановилась имено тут приемлемые цены и широкий ассортимент\nСотрудники всегда помогут правильно подобрать дизайн\nА мастера оперативно и чётко выполняют свою работу"
+  }
+ ]
+}

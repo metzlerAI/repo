@@ -1,0 +1,109 @@
+{
+ "id": "tailored-joinery",
+ "name": "Tailored joinery solutions",
+ "category": [
+  "Carpenter",
+  "Cabinet maker",
+  "Fitted furniture supplier",
+  "Joiner"
+ ],
+ "website": null,
+ "rating": {
+  "value": 5,
+  "count": 59
+ },
+ "phone": "07904 130752",
+ "phone_match": true,
+ "address": "unit 5 Morton St, Failsworth, Manchester M35 0BN",
+ "point": {
+  "lat": 53.5041519,
+  "lon": -2.1763765
+ },
+ "hours": [
+  "Saturday 8 am–1 pm",
+  "Sunday Closed",
+  "Monday 8 am–6 pm",
+  "Tuesday 8 am–6 pm",
+  "Wednesday 8 am–6 pm",
+  "Thursday 8 am–4 pm",
+  "Friday 8 am–6 pm"
+ ],
+ "panel_says_add_website": true,
+ "maps_url": "https://www.google.com/maps/place/Tailored%20joinery%20solutions/data=!4m2!3m1!1s0x487bb1711a1a8df1:0x45a77b57a50312be?hl=en",
+ "counts": {
+  "google": 8
+ },
+ "photos": [
+  {
+   "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcWrLjexRrinZWXBENWvUja8zZ6X5CxtZ7aI2YYhPrtQgRD7yCF3cX44quZNyqUcxUIyYSmlEYZdX7DGUfXoNtBRNYQ0TSJ0LGN-4pCEBf4Y9B2HCDWug7MRZxZUMlFE31-9iihgdjyA4J1=w1600",
+   "w": 3024,
+   "h": 4032,
+   "source": "google"
+  },
+  {
+   "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLffntNqpYPFUrR72xARtE7-OZARRs6RwM-EtIb2S9F8LMHdNX1V-0atB_-Pwm6WUy9ZKZIHsbMP3U8mPVfz_QK30JF0H2Cx_5-JTPOiTCIeyaWzKoCPz-sdg651W2iQF-ZtiQ0F1QNfKwGd=w1600",
+   "w": 1080,
+   "h": 2340,
+   "source": "google"
+  },
+  {
+   "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLefBrD3lziCqA_K4aJil_-LfznFva59hPas9BuKi0GXyjep607S3NAW9pfmMiT917jEOvgruVq45BeCQi5aIwweSMSBn4MXIJyYS6JFKNTGdOlnj1r8Ak5hjkIt5BVMbhagEeF4r_FfIM4=w1600",
+   "w": 1080,
+   "h": 1920,
+   "source": "google"
+  },
+  {
+   "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcEOYjVe-N_CLKl0HUqwWyPa5CAQ6ut070hKYDx-TUFzgyY1DKyzPuh3tEKM7zyJvTl9VYG8_gFRzXfHiw8N234JdiJsgqX7WdDW-GcfZu4NdrtHS6LhVfpia5c4hEpdL92f956a7IBjseN=w1600",
+   "w": 3000,
+   "h": 4000,
+   "source": "google"
+  },
+  {
+   "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe7PiE6rcuN11Rk8aaKbqk6Z9NLcHyPPLJqTEmz40SWgh630Lg1Ow377J2_4vgwLK5JX23NDoHZtluiOKlZDU6tm53HxCTAefgU4tFKjxVY62iP08YIG2EjjSluJ_fptefhgRkxF7V0g8o=w1600",
+   "w": 3024,
+   "h": 4032,
+   "source": "google"
+  },
+  {
+   "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcbkepj9YdQ3AP0Xo8fudIFkloiXz1-7d6Zb8YR3siOAxHDlvAyJjFHLrxobmHaEzWfmz8YLTRTGvCY3wCDbDP0oJsFZYJ02qzNUI0brAUViXx4Ht7iOQwO5nL5bq4Kccws4cpuIBXV9Pkz=w1600",
+   "w": 3024,
+   "h": 4032,
+   "source": "google"
+  },
+  {
+   "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcCOkcB9fGtSHcpEthwgUEDYAT81OAPpcH2l3zOudal80WIUXn5oUCkJYGLVh0Qc5Pyw1KnScEkREi7X8i1NKFIjCwB4rjziOMVOoBOJnv5UWirJS3XiLhjTsHWAkqRtEruVUzZfsCt-jL9=w1600",
+   "w": 2256,
+   "h": 4000,
+   "source": "google"
+  },
+  {
+   "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdCVzJcJ9lxGmvAJAYvBzHnBsFgWUhGPDaQkcE3Fxe75aFJTOfhOhxmg4784mNJrwetT0yUPbukWtFOp2f0J5ImYIjq6vYzKlIQ9f2koKzPWo8WcujL7s0cE0dy_J1qOKuTkSVFChkeOwY=w1600",
+   "w": 598,
+   "h": 1548,
+   "source": "google"
+  }
+ ],
+ "reviews": [
+  {
+   "rating": 5,
+   "date": "6 months ago",
+   "name": "Aimi Lau",
+   "text": "Jaque helped me design an under-stair storage solution for a tricky spot in our 160 year old warehouse apartment. Jaque and his team were fantastic, it was installed quickly and efficiently and looks incredible. Already working with Jaque on the next project.",
+   "owner_reply": ""
+  },
+  {
+   "rating": 5,
+   "date": "2 months ago",
+   "name": "Trey Mukwaya",
+   "text": "Jaque has been brilliant from start to finish. He is professional, reliable, and really easy-going, which made the whole process stress free. He did an excellent job constructing our shelving units, and we are very pleased with the quality of his workmanship. He’s always been available in case of any questions relating to the build which has also been greatly appreciated.\n\nWe’re delighted with the finished result, the shelves and cabinet look amazing and are exactly what we wanted. We’d happily recommend Jaque to anyone looking for a skilled carpenter. Thanks again for such a great job!",
+   "owner_reply": "Thanks, Trey! It was a pleasure building your cabinet. The space was a challenge , but I’m glad everything fits and functions well. I appreciate your kind words and the opportunity!"
+  },
+  {
+   "rating": 5,
+   "date": "8 months ago",
+   "name": "Kate Stanley",
+   "text": "Jaque did an amazing job in our spare room, we wanted a fitted wardrobe in one of the coves, he was able to accommodate what we needed, very responsive and reliable. The end product looks great, exactly what I asked for and he was very clean and tidy. I would highly recommend him to to others and also for any other jobs we need doing. Thanks again!",
+   "owner_reply": "thanks for your review kate was a pleasure doing the job for you "
+  }
+ ]
+}

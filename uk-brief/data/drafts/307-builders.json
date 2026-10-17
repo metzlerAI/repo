@@ -1,0 +1,83 @@
+{
+ "id": "307-builders",
+ "name": "307 Builders LTD",
+ "category": [
+  "Construction Company",
+  "Service establishment"
+ ],
+ "website": null,
+ "rating": {
+  "value": 5,
+  "count": 7
+ },
+ "phone": "07778 461103",
+ "phone_match": true,
+ "address": "",
+ "point": {
+  "lat": 53.4616834,
+  "lon": -2.2674385999999997
+ },
+ "hours": [
+  "Saturday 9 am–5 pm",
+  "Sunday Closed",
+  "Monday 8 am–5 pm",
+  "Tuesday 8 am–5 pm",
+  "Wednesday 8 am–5 pm",
+  "Thursday 8 am–5 pm",
+  "Friday 8 am–5 pm"
+ ],
+ "panel_says_add_website": true,
+ "maps_url": "https://www.google.com/maps/place/307%20Builders%20LTD/data=!4m2!3m1!1s0x2681e20ada98cd6d:0x8b066cbfbff51497?hl=en",
+ "counts": {
+  "google": 4
+ },
+ "photos": [
+  {
+   "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd_QEzbmnit5o7TnXVmLp77ai26XcumjgsR2D2VEVkqDTb4LOV6lIw-43Imj75oE-zr7NXZlRvhJA128zkSXtrBa_wNtdWurDzAWN9PXWG3yxINLVWkHWiPkOjRdqoojod4iMAk3EYlRPON=w1600",
+   "w": 4284,
+   "h": 5712,
+   "source": "google"
+  },
+  {
+   "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc-6eOqL35lUUSC7jnxxS9SXtaG3xiwAeID8Yq9nU2OHx-1Mgn4edsiZn6wTdHXPMNAVczVVMpv0hQpWU2bGx2Ftnh9belI6DyIlIsCcavzwCbchvP4tiFqSLRCIwB-wbgGNpgxWrm2dfA=w1600",
+   "w": 4032,
+   "h": 3024,
+   "source": "google"
+  },
+  {
+   "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcDcy74HGIJhCYblp1eHqox7Spp6scZDbxplvj_V2ph_KPS5dBTFz-DM4a9ygiLspPQ6vDhIXmg2slJ2EmQE1BiJ6qpaPyLM3kbf7eN047HQbeBWtlrCwdKFKyDrXXfkSJ4iqiJa3WK6Is=w1600",
+   "w": 4284,
+   "h": 5712,
+   "source": "google"
+  },
+  {
+   "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcCiLNKusQLFINhUyvLTDv3YmY6m3YmjchI1pgBJLuDok3FMudKvBkY8ih2zDyEzB_sCzVDUQw9SGKEVEPdMjTkjQCb3BbwAPgOUU-5NUnrWa1bh8-bsX7E8U9H4LXUenCu6frhzZBUSTLP=w1600",
+   "w": 3024,
+   "h": 4032,
+   "source": "google"
+  }
+ ],
+ "reviews": [
+  {
+   "rating": 5,
+   "date": "7 months ago",
+   "name": "Honey",
+   "text": "⭐⭐⭐⭐⭐\nExcellent service from 307 Builders! Professional, reliable, and high-quality work. Highly recommended.",
+   "owner_reply": ""
+  },
+  {
+   "rating": 5,
+   "date": "7 months ago",
+   "name": "Talwinder Singh",
+   "text": "Very good service and affordable price with great quality materials use",
+   "owner_reply": ""
+  },
+  {
+   "rating": 5,
+   "date": "7 months ago",
+   "name": "preetgill 2130",
+   "text": "Excellent service fast and cheaper",
+   "owner_reply": ""
+  }
+ ]
+}

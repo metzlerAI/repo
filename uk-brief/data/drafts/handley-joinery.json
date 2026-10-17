@@ -1,0 +1,94 @@
+{
+ "id": "handley-joinery",
+ "name": "handley bespoke joinery interiors",
+ "category": [
+  "Joiner"
+ ],
+ "website": null,
+ "rating": {
+  "value": 5,
+  "count": 12
+ },
+ "phone": "07500 983372",
+ "phone_match": true,
+ "address": "Unit 9a Reliance St, Manchester M40 3AG",
+ "point": {
+  "lat": 53.5043286,
+  "lon": -2.1813965
+ },
+ "hours": [
+  "Saturday Closed",
+  "Sunday Closed",
+  "Monday 7 am–4 pm",
+  "Tuesday 7 am–4 pm",
+  "Wednesday 7 am–4 pm",
+  "Thursday 7 am–4 pm",
+  "Friday 7 am–4 pm"
+ ],
+ "panel_says_add_website": true,
+ "maps_url": "https://www.google.com/maps/place/handley%20bespoke%20joinery%20interiors/data=!4m2!3m1!1s0x487bb1dcb0e569a1:0x45364a36d06d22c9?hl=en",
+ "counts": {
+  "google": 6
+ },
+ "photos": [
+  {
+   "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfknwprMXq0NbuY7mQcqgHSFIa-e9JGN4mLWPnROOapDwppUM-L72h9Tcow7y9xHhld72N00aZY325rcy35lFReSDjnXNFZFwPaQaopGY5QQBrbB-iR9mwEijnspy5wv_wbL4nkRKFRXQFK=w1600",
+   "w": 3024,
+   "h": 4032,
+   "source": "google"
+  },
+  {
+   "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf-oWsBM-A-cvXQyXOuZTz19ojdmBTUApU3ZlWuZjty66Vf6CaJi8fs88L--sH9JyFOzO85M3iFsZYO2ZxYsGuK7dBp2WIV8rr5Sg43ASfVOXOiVCJ-_Pwt4vAnGak2_wmZj8fOIFG9tO8=w1600",
+   "w": 4279,
+   "h": 4578,
+   "source": "google"
+  },
+  {
+   "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdJTzrKP78CnWU2VQVMB3YCkEXiEtJN0EOvPnH9KZ8dYNBp-blukfZe0hXSSKT2ZjYEwJvKfLPxIS5PkhskD_t1vJyM0Yqvxi4nPjtNbCVavHkAh-XIh2a51XA_N_aJHE_rntnmrin-qmPp=w1600",
+   "w": 3024,
+   "h": 4032,
+   "source": "google"
+  },
+  {
+   "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfvujapAqy2lav4JSY7ADsjPgqUnN9NPrE3VHk_O_Bt9bsJxFGwvH6v-bLj5m2JzqMjo8VWmLoHeiX0O6L53_tz1tEmvDFoWfq-XkvnGwLFDmQH40ouwNkmjDauKpl2LJINEqRfaR43OHTe=w1600",
+   "w": 1536,
+   "h": 2048,
+   "source": "google"
+  },
+  {
+   "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd_B7n0-qZzfu59dwaPvq9O1vHZAoFET-f9iKUDB4qGHoW_7wYptUSfMRgPuDrsc2pJ3fHOr7ZE6aYhR78yrWfx_TC5gRWGTo2d67wgqkcJjPe6ylkokpxmAU8ETVnrXJgETANsMK_uI30i=w1600",
+   "w": 5712,
+   "h": 4284,
+   "source": "google"
+  },
+  {
+   "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfOH91-8VsKOiNXhIM-J9godl0GsW4HDhe7L2lCh0pY7Qe8iYb9i-wV5X74mG7jTevgruFXF81tF3TXahhM87XQ26vDJmEG0hnlet3AB2jdY-qNZdCAdEu52-wq2x1k4eEXI9BFH1aHTPP9=w1600",
+   "w": 5712,
+   "h": 4284,
+   "source": "google"
+  }
+ ],
+ "reviews": [
+  {
+   "rating": 5,
+   "date": "7 months ago",
+   "name": "Chantel",
+   "text": "Lewis designed and fitted our media wall, and we absolutely love it! He brought our vision to life perfectly. He’s incredibly professional, a great guy to work with, and the finished result is excellent. We’d highly recommend him and will definitely use him again for future home improvements.",
+   "owner_reply": "Thank you"
+  },
+  {
+   "rating": 5,
+   "date": "4 months ago",
+   "name": "Zain",
+   "text": "Lewis is a top bloke, really friendly, listened to all our plans and ideas and did the job to perfection. Would 100% recommend to anyone. Many thanks",
+   "owner_reply": "Thank you "
+  },
+  {
+   "rating": 5,
+   "date": "7 months ago",
+   "name": "ian tole",
+   "text": "Lewis has worked with us on the design and installed our 5m long media wall. We were recommended to him and not surprising why. His attention to detail and skills must make Lewis one of the best joiners and craftsman in the UK.\n\nWe are thrilled at the work he has completed and it’s been enjoyable having him around. Nice guy.\n\nMake a call to him now!!",
+   "owner_reply": "Thank you"
+  }
+ ]
+}

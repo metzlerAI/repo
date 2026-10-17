@@ -1,0 +1,106 @@
+{
+ "id": "inspired-living",
+ "name": "INSPIRED LIVING",
+ "category": [
+  "Kitchen supply shop"
+ ],
+ "website": null,
+ "rating": {
+  "value": 5,
+  "count": 11
+ },
+ "phone": "07516 630145",
+ "phone_match": true,
+ "address": "Unit 15, West Link Business Park, Guide St, Salford M50 1EW",
+ "point": {
+  "lat": 53.4813669,
+  "lon": -2.3120232
+ },
+ "hours": [
+  "Saturday Closed",
+  "Sunday Closed",
+  "Monday 9 am–6 pm",
+  "Tuesday 9 am–6 pm",
+  "Wednesday 9 am–6 pm",
+  "Thursday 9 am–6 pm",
+  "Friday 9 am–6 pm"
+ ],
+ "panel_says_add_website": true,
+ "maps_url": "https://www.google.com/maps/place/INSPIRED%20LIVING/data=!4m2!3m1!1s0x487bad3a5b8d5283:0x435850303b0ced09?hl=en",
+ "counts": {
+  "google": 8
+ },
+ "photos": [
+  {
+   "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfRdJYRoPnXRfGOP7LhibnCpwv899yLzTXs4K7Z2U38EAWv7yLBOcHTtq7QT49o4r5MDUwE8yB9lSKoBOHig__1Za97u70GN9MXPVi4Sez_PPO5nK6NXHEQ0SDity843gxARijM=w1600",
+   "w": 1024,
+   "h": 768,
+   "source": "google"
+  },
+  {
+   "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLckpujzFUD1csru7n1fMqO_Q6iE3UKY44TFWA0klBbtdX8vnJHH7269TNzSq25yhqq0yhcPCXaq61MWvtTMf1ViiVSgRj0aV6z2vokuEmih_wBfePWhS4-eJvda0u0mb--scFW-WqDp1f0d=w1600",
+   "w": 2992,
+   "h": 2992,
+   "source": "google"
+  },
+  {
+   "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc-mqIlKA1WMcDYFFrEvREV5ihNOh3Xo2ma-whoit6kP6yGlbJENe4CiJICtbsilSbrC1yt7YfYb5wAVgUisb1LDm8IF1_iBKwccfwRduQx6awH8yEQpIhLhV5kdvn4H3fkpD3h8y_IRaO5=w1600",
+   "w": 3840,
+   "h": 5120,
+   "source": "google"
+  },
+  {
+   "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcNI9prKPrUJfQwuFT7SxO0QRLJMw4sivwgBik93oUqwVf9nIhiYasrv0eQobF4jZ2OYzfcOAp_7YYYeZEU1cz4g4KfxlxIjf4dtxAfDISM97vSqr9ORhMHuYL_c9I5byzG93DoKggjiY4=w1600",
+   "w": 1200,
+   "h": 1600,
+   "source": "google"
+  },
+  {
+   "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeNJh8Cf1a5S53_7OAgqIy2U2BMta5Wo8I7qiSRN_mcG1654BFpL1B1IiYMtlsJTGwPAJkdGtqAL2gzYRmvwNsinP_-lTmNVR_de8vMO6tUwW2MC8okEG4f13cX4SUhRlCQt5mhYxW2U1Yh=w1600",
+   "w": 2992,
+   "h": 2992,
+   "source": "google"
+  },
+  {
+   "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeWCDRZz4ivV_nHBa4JuKrUTVFIDXO4hG2A0rl0PEVEGWP72W0HrUkFZyKD2m6gf4uxhfxmPzZ6W-oRJsBw218AlsWvthwnPY8j2JtetVqSVSbaz3iX1pNS64iQbw1de5Mhiuq6VWxdFhM=w1600",
+   "w": 2992,
+   "h": 2992,
+   "source": "google"
+  },
+  {
+   "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLerEMS6AAo5JU18UvlQvGCbqMwRXAJGpeZNlgP980yexm_O69U9vfQpO9bEegeg2k4WSjsA5Sa3cFicLITdn_hkgzKr_a2yYiAVx8knGqr2EZFUP5V3la0GtU2bCBKBfk5UIVu31g=w1600",
+   "w": 2252,
+   "h": 4000,
+   "source": "google"
+  },
+  {
+   "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLez_4JN5y3hxkNbkeh4pXtmXte-ic9Ut6ao-_MhbMt0gMAUy5DtbrmlvxG9sr-5WxHOeO-kJCEAM_bWNGgJ7IOtPS8sjnjtLGzmvP92B3HYDn5II7250q_rp9RehIdOncrc0FD8Ew=w1600",
+   "w": 768,
+   "h": 1024,
+   "source": "google"
+  }
+ ],
+ "reviews": [
+  {
+   "rating": 5,
+   "date": "5 months ago",
+   "name": "Natasha",
+   "text": "I had my kitchen supplied and fitted by Inspired Living, and I couldn’t be more pleased with the result. The quality of the work is outstanding, and the fitter was professional, skilled, and paid great attention to detail throughout. The whole experience was smooth from start to finish. I would highly recommend Inspired Living to anyone considering a new kitchen.",
+   "owner_reply": ""
+  },
+  {
+   "rating": 5,
+   "date": "a year ago",
+   "name": "Jamshaid Khan",
+   "text": "Inspired Living supplied my new kitchen, and I couldn’t be more delighted. The quality is outstanding, and every detail was handled with professionalism.\nCustomer service was exceptional, friendly, helpful, and responsive throughout the process.\nI’m thrilled with the result and highly recommend Inspired Living to anyone looking for a beautiful, high quality kitchen and a smooth experience.",
+   "owner_reply": ""
+  },
+  {
+   "rating": 5,
+   "date": "a year ago",
+   "name": "Omaar K",
+   "text": "Customer service was excellent from design to delivery. Highly recommended and will use again when needed. Very helpful and hassle free service.",
+   "owner_reply": ""
+  }
+ ]
+}

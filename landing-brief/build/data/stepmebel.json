@@ -1,0 +1,69 @@
+{
+ "id": "stepmebel",
+ "variant": "auto",
+ "accent": "#dcc7a8",
+ "point": {
+  "lat": 45.093351,
+  "lon": 39.014094
+ },
+ "hours": "Ежедневно 10:00-20:00",
+ "hero": {
+  "src": "https://i0.photo.2gis.com/photo-gallery/ec3523d9-10a3-4b6b-8a4c-ee5ed62478b1.jpg",
+  "caption": "Тёмная кухня с подсветкой",
+  "src_desktop": "https://i0.photo.2gis.com/photo-gallery/ec3523d9-10a3-4b6b-8a4c-ee5ed62478b1.jpg",
+  "crop_desktop": [
+   0,
+   0.3,
+   1,
+   0.79
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i2.photo.2gis.com/photo-gallery/0009733e-bd65-4313-acef-4d69d4ff2fc3.jpg",
+   "title": "Кухня с обеденной зоной",
+   "text": "Белый низ, верхние шкафы под дерево."
+  },
+  {
+   "src": "https://i5.photo.2gis.com/photo-gallery/f55b77ca-4487-4a87-98e3-1e875b867f89.jpg",
+   "title": "Кухня-гостиная",
+   "text": "Витрины со стеклом и подсветкой, круглый стол."
+  },
+  {
+   "src": "https://i6.photo.2gis.com/photo-gallery/a75de631-59aa-4127-a779-561e4808ffaa.jpg",
+   "title": "Кровать",
+   "text": "Высокое мягкое изголовье."
+  },
+  {
+   "src": "https://i6.photo.2gis.com/photo-gallery/f349e91f-eda3-49f7-bcee-8ae3f876c379.jpg",
+   "title": "Гардероб",
+   "text": "Светлые фасады с рифлёными и зеркальными вставками."
+  },
+  {
+   "src": "https://i5.photo.2gis.com/photo-gallery/8ff374dd-bfe9-4087-b1fe-a16370d6f49f.jpg",
+   "title": "Шкаф",
+   "text": "Гладкие белые фасады до потолка."
+  },
+  {
+   "src": "https://i3.photo.2gis.com/photo-gallery/aa341864-5719-4be2-94c7-df29b325699a.jpg",
+   "title": "Ванная",
+   "text": "Шкаф над стиральной машиной и тумба под раковину."
+  }
+ ],
+ "steps_photos": [],
+ "review_photo": "https://i0.photo.2gis.com/photo-gallery/9639347b-b973-4ed9-9c81-300581d24717.jpg",
+ "reviews": [
+  {
+   "name": "Миррон Л.",
+   "text": "Приобрели прихожую на заказ. Сделали по индивидуальным размерам, идеально вписалась. Качество отличное, сборка аккуратная. Спасибо за работу!"
+  },
+  {
+   "name": "Артем",
+   "text": "Обратились за кухней в современном стиле. Менеджер всё подробно объяснил, показал образцы. Установили быстро, фурнитура работает плавно. Очень довольны результатом 😌"
+  },
+  {
+   "name": "Олег О.",
+   "text": "Заказывали мебель в спальню. Помогли с дизайн-проектом, учли все пожелания. Сделали качественно, в срок. Спасибо за ваш подход!"
+  }
+ ]
+}

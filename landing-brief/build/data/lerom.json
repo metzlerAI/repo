@@ -1,0 +1,74 @@
+{
+ "id": "lerom",
+ "variant": "auto",
+ "accent": "#c6d9cf",
+ "point": {
+  "lat": 45.087539,
+  "lon": 39.019332
+ },
+ "hours": "пн-сб 09:00-20:00, вс 10:00-19:30",
+ "hero": {
+  "src": "https://i4.photo.2gis.com/photo-gallery/8168f865-20ec-4080-92ea-c464d2690941.jpg",
+  "caption": "Угловая кухня с зелёными фасадами",
+  "src_desktop": "https://i9.photo.2gis.com/photo-gallery/8cff3a2c-5789-44f8-9b20-b14d6285490a.jpg"
+ },
+ "gallery": [
+  {
+   "src": "https://i8.photo.2gis.com/photo-gallery/19069c53-134f-46d4-b627-dab8674162b9.jpg",
+   "title": "Угловая кухня",
+   "text": "Белые фасады, полки и фартук под дерево."
+  },
+  {
+   "src": "https://i9.photo.2gis.com/photo-gallery/45c1420e-113e-48fe-8dbe-b5323b29db88.jpg",
+   "title": "Тёмно-зелёная кухня",
+   "text": "Столешница и фартук под мрамор."
+  },
+  {
+   "src": "https://i0.photo.2gis.com/photo-gallery/5d74b3b2-35a1-4e5c-ba48-c892e49bb389.jpg",
+   "title": "Кухня с кирпичным фартуком",
+   "text": "Тёмные фасады и открытые полки."
+  },
+  {
+   "src": "https://i6.photo.2gis.com/photo-gallery/0d217164-3497-4254-905f-17d9f4857960.jpg",
+   "title": "Кухня с фартуком под мрамор",
+   "text": "Светлый верх, низ под бетон."
+  },
+  {
+   "src": "https://i9.photo.2gis.com/photo-gallery/d1ce122a-bfde-4277-b407-a9ae5fd0b9cf.jpg",
+   "title": "Стол из эпоксидной смолы",
+   "text": "Овальная столешница с зелёным рисунком."
+  },
+  {
+   "src": "https://i0.photo.2gis.com/photo-gallery/cb6803d4-0adb-4d94-b322-e46f801e8612.jpg",
+   "title": "Обеденный стол",
+   "text": "Столешница из смолы на чёрных опорах."
+  }
+ ],
+ "steps_photos": [
+  "https://i6.photo.2gis.com/photo-gallery/ddb196bc-229d-4057-a14e-230fd6f9cab0.jpg",
+  "https://i4.photo.2gis.com/images/branch/0/30258560099412032_fa0d.jpg",
+  "https://i6.photo.2gis.com/photo-gallery/aad45c5f-3951-416b-9fa5-b87a347ae44f.jpg",
+  "https://i4.photo.2gis.com/photo-gallery/ec68cbe0-c6ed-44da-a6fb-0e2feccf1992.jpg"
+ ],
+ "review_photo": "https://i0.photo.2gis.com/photo-gallery/35617167-32c6-4f21-a2a7-bd991434bc08.jpg",
+ "storefront": "https://i6.photo.2gis.com/images/branch/0/30258560073169958_1ccb.jpg",
+ "reviews": [
+  {
+   "name": "Карен Г.",
+   "text": "Покупали кухню в магазине Фабрика мебели. Дизайн проект помогла сделать менеджер Инна."
+  },
+  {
+   "name": "Галина Б.",
+   "text": "Отличный магазин! Заказывали там кухню."
+  },
+  {
+   "name": "Наталья Р.",
+   "text": "Довольна своей кухней.Менеджер Инна все доступно объяснила, посоветовала,учла мои пожелания.Пошли мне на встречу, так как мне нужна была оперативная сборка.Ребята Евгений и Александр собрали быстро, убрали за собой весь мусор.Цены доступные, менеджеры и сборщики общительные.Рекомендую посетить магазин"
+  }
+ ],
+ "texts": {
+  "line": "Кухни и мебель в Краснодаре",
+  "intro": "Салон на 1 Мая: кухни по вашим размерам, столы, диваны и шкафы.",
+  "visit_h": "Приезжайте в салон"
+ }
+}

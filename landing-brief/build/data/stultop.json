@@ -1,0 +1,81 @@
+{
+ "id": "stultop",
+ "variant": "tables",
+ "accent": "#ecc9cf",
+ "point": {
+  "lat": 45.070931,
+  "lon": 38.986918
+ },
+ "hours": "Ежедневно 10:00-17:00",
+ "hero": {
+  "src": "https://i6.photo.2gis.com/photo-gallery/371df186-074a-4e1f-b8c1-d13e7393abfe.jpg",
+  "caption": "Шоурум столов и стульев",
+  "src_desktop": "https://i6.photo.2gis.com/photo-gallery/371df186-074a-4e1f-b8c1-d13e7393abfe.jpg",
+  "crop_desktop": [
+   0,
+   0.15,
+   1,
+   0.78
+  ],
+  "crop": [
+   0.2,
+   0,
+   0.72,
+   1
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i7.photo.2gis.com/photo-gallery/62f1d96c-4461-48a7-a023-4da4ae2e4ed7.jpg",
+   "title": "Круглый стол",
+   "text": "Светлая столешница под мрамор, белая опора."
+  },
+  {
+   "src": "https://i4.photo.2gis.com/photo-gallery/2b70a10b-0891-48ed-ba93-f2262d134b57.jpg",
+   "title": "Стол на V-опоре",
+   "text": "Тёмная столешница, чёрное основание."
+  },
+  {
+   "src": "https://i3.photo.2gis.com/photo-gallery/1d2e62a5-c99e-4d50-80d6-e2f03a31d1de.jpg",
+   "title": "Стол на золотых ногах",
+   "text": "Серая столешница с прожилками."
+  },
+  {
+   "src": "https://i3.photo.2gis.com/photo-gallery/03bb5183-7681-46e5-941c-193ffe602bde.jpg",
+   "title": "Стол на колонне",
+   "text": "Тёмная столешница под мрамор."
+  },
+  {
+   "src": "https://i2.photo.2gis.com/photo-gallery/38a65791-5ede-463e-8a6c-f61f1811bccf.jpg",
+   "title": "Стол на белых опорах",
+   "text": "Белая столешница с прожилками."
+  },
+  {
+   "src": "https://i9.photo.2gis.com/photo-gallery/6fdf835a-953a-4ec8-a209-72167eb0f241.jpg",
+   "title": "Овальный стол",
+   "text": "Тёмная столешница на одной опоре."
+  }
+ ],
+ "steps_photos": [
+  "https://i4.photo.2gis.com/photo-gallery/dfd214f7-c80e-45c2-ae59-a7cd662b1fc8.jpg",
+  "https://i5.photo.2gis.com/photo-gallery/2f29a0f2-8fe3-40b0-bb0e-03ed484cce0f.jpg",
+  "https://i4.photo.2gis.com/photo-gallery/025cd053-3e90-456e-874c-fa4399e437ba.jpg",
+  "https://i6.photo.2gis.com/photo-gallery/9c3db05d-af0e-4d7a-8bb6-8f1b1f5fd422.jpg"
+ ],
+ "review_photo": "https://i3.photo.2gis.com/photo-gallery/6e216836-03f5-44cd-80ae-ff930359b986.jpg",
+ "storefront": "https://i6.photo.2gis.com/photo-gallery/f8191a56-d81c-4078-8e04-1a7d43d04763.jpg",
+ "reviews": [
+  {
+   "name": "Владимир Я.",
+   "text": "Отличный магазин, есть небольшая выставка различных столов и стульев, ценник я вам скажу, не кусачий, даже чуть дешевле чем в других магазинах"
+  },
+  {
+   "name": "Галина Н.",
+   "text": "Отличный магазин! Огромное спасибо менеджеру Людмиле, за ее терпение, доброжелательность и позитив."
+  },
+  {
+   "name": "Ирина К.",
+   "text": "Хороший магазин с хорошими ценами и приятным обслуживанием. Людмила рассказала , объяснила, подсказала."
+  }
+ ]
+}
