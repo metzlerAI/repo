@@ -1,0 +1,85 @@
+{
+ "id": "md-kitchen-fitters",
+ "variant": "auto",
+ "accent": "#dcb68a",
+ "point": {
+  "lat": 53.4543987,
+  "lon": -2.1185214
+ },
+ "texts": {
+  "line": "Kitchens fitted in Denton",
+  "intro": "We fit kitchens and bathrooms.",
+  "menu": [
+   [
+    "Kitchens",
+    [
+     [
+      "Kitchen fitting",
+      "full kitchen"
+     ],
+     [
+      "Worktops",
+      ""
+     ]
+    ]
+   ],
+   [
+    "Bathrooms",
+    [
+     [
+      "Bathroom fitting",
+      "full room"
+     ],
+     [
+      "Shower room",
+      ""
+     ]
+    ]
+   ]
+  ]
+ },
+ "hero": {
+  "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLeIqXhOEEh6bIuCMazgD3hedz16vGJt56fD7CM15NGTj0E91REs4rrd37cmCwACzR4mdJQhneKPzWjVtSYJe_u9oHovWaaUlwtt1emTqBuXZMs57TJ7m49gsLb1ROj4r8HiJ-yD=w2400",
+  "caption": "Grey Shaker kitchen with a wood worktop",
+  "crop": [
+   0,
+   0,
+   0.6,
+   1
+  ],
+  "src_desktop": "https://lh3.googleusercontent.com/grass-cs/AABkmLeIqXhOEEh6bIuCMazgD3hedz16vGJt56fD7CM15NGTj0E91REs4rrd37cmCwACzR4mdJQhneKPzWjVtSYJe_u9oHovWaaUlwtt1emTqBuXZMs57TJ7m49gsLb1ROj4r8HiJ-yD=w2400",
+  "crop_desktop": [
+   0,
+   0.05,
+   1,
+   0.85
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLc-W_UYDqYto5uYvDdv_2QGAUl9EGpZXsYWlf1FPJWcv38FLrZyXBWq81jEYeW2788GCz5qQGXfO9WM1rJtAOFddhnZdLJVcTo5UCz40f4gL7N4uda9bxd1hKRJ6JjeHjCsR7FC=w1600",
+   "title": "Cream kitchen",
+   "text": "Wood worktop, stainless sink and dark floor tiles."
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLcJKp7gYdDcIvQS5IFyTnQbSEmxSSzDuACgkJh53ozRBB2XcHCMmS-dL95ZKT0mMloi7z9DFW_Zyckm4W3nepMo6Y3MpGtszMoUYYx-HOPW_5wG1c455fRzp1_eto4DGLYAYRqleQ=w1600",
+   "title": "White handleless kitchen",
+   "text": "Light worktop and a black hood.",
+   "crop": [
+    0.12,
+    0.05,
+    0.87,
+    1
+   ]
+  }
+ ],
+ "steps_photos": [
+  "https://lh3.googleusercontent.com/grass-cs/AABkmLcKyzv8dF0Fsjn9_3s6vsn1PNPmGU2tdmpeBXMxzaeuKgBfrkoWNDzLvOtq1RJ43PzcEerUW8MkxG7UlsvfCZAPSjqSlJBNE-tmy4k2ZV2yQziUCjM363IfzZ3KYS3UMm7dAK3O=w1600"
+ ],
+ "reviews": [
+  {
+   "name": "Kevin D.",
+   "text": "Highly recommended great service and excellent quality thanks again."
+  }
+ ]
+}

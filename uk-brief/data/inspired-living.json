@@ -1,0 +1,107 @@
+{
+ "id": "inspired-living",
+ "variant": "auto",
+ "accent": "#b9c7d6",
+ "point": {
+  "lat": 53.4813669,
+  "lon": -2.3120232
+ },
+ "hours": "Monday to Friday 9am to 6pm, weekends closed",
+ "texts": {
+  "line": "Kitchens supplied and fitted in Salford",
+  "intro": "From design to delivery and fitting, Inspired Living looks after your new kitchen.",
+  "menu": [
+   [
+    "Kitchens",
+    [
+     [
+      "Supply and fit",
+      "full kitchen"
+     ],
+     [
+      "Supply only",
+      ""
+     ]
+    ]
+   ],
+   [
+    "Other rooms",
+    [
+     [
+      "Utility rooms",
+      ""
+     ],
+     [
+      "Fitted wardrobes",
+      ""
+     ]
+    ]
+   ]
+  ]
+ },
+ "hero": {
+  "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLckpujzFUD1csru7n1fMqO_Q6iE3UKY44TFWA0klBbtdX8vnJHH7269TNzSq25yhqq0yhcPCXaq61MWvtTMf1ViiVSgRj0aV6z2vokuEmih_wBfePWhS4-eJvda0u0mb--scFW-WqDp1f0d=w2400",
+  "caption": "Grey handleless kitchen with herringbone wall tiles",
+  "crop": [
+   0.2,
+   0,
+   0.8,
+   1
+  ],
+  "src_desktop": "https://lh3.googleusercontent.com/grass-cs/AABkmLckpujzFUD1csru7n1fMqO_Q6iE3UKY44TFWA0klBbtdX8vnJHH7269TNzSq25yhqq0yhcPCXaq61MWvtTMf1ViiVSgRj0aV6z2vokuEmih_wBfePWhS4-eJvda0u0mb--scFW-WqDp1f0d=w2400",
+  "crop_desktop": [
+   0,
+   0.15,
+   1,
+   0.85
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLfRdJYRoPnXRfGOP7LhibnCpwv899yLzTXs4K7Z2U38EAWv7yLBOcHTtq7QT49o4r5MDUwE8yB9lSKoBOHig__1Za97u70GN9MXPVi4Sez_PPO5nK6NXHEQ0SDity843gxARijM=w1600",
+   "title": "Dark grey kitchen",
+   "text": "Handleless units and a tall run with the fridge."
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLcNI9prKPrUJfQwuFT7SxO0QRLJMw4sivwgBik93oUqwVf9nIhiYasrv0eQobF4jZ2OYzfcOAp_7YYYeZEU1cz4g4KfxlxIjf4dtxAfDISM97vSqr9ORhMHuYL_c9I5byzG93DoKggjiY4=w1600",
+   "title": "Utility room",
+   "text": "Blue Shaker units, stacked washer and dryer, hanging rail."
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLc-mqIlKA1WMcDYFFrEvREV5ihNOh3Xo2ma-whoit6kP6yGlbJENe4CiJICtbsilSbrC1yt7YfYb5wAVgUisb1LDm8IF1_iBKwccfwRduQx6awH8yEQpIhLhV5kdvn4H3fkpD3h8y_IRaO5=w1600",
+   "title": "Sliding wardrobe",
+   "text": "Black-framed glass doors in a bedroom."
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLeNJh8Cf1a5S53_7OAgqIy2U2BMta5Wo8I7qiSRN_mcG1654BFpL1B1IiYMtlsJTGwPAJkdGtqAL2gzYRmvwNsinP_-lTmNVR_de8vMO6tUwW2MC8okEG4f13cX4SUhRlCQt5mhYxW2U1Yh=w1600",
+   "title": "Hob and oven",
+   "text": "Grey units and herringbone tiles."
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLerEMS6AAo5JU18UvlQvGCbqMwRXAJGpeZNlgP980yexm_O69U9vfQpO9bEegeg2k4WSjsA5Sa3cFicLITdn_hkgzKr_a2yYiAVx8knGqr2EZFUP5V3la0GtU2bCBKBfk5UIVu31g=w1600",
+   "title": "Cream kitchen",
+   "text": "Dark worktop and a tiled splashback."
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLez_4JN5y3hxkNbkeh4pXtmXte-ic9Ut6ao-_MhbMt0gMAUy5DtbrmlvxG9sr-5WxHOeO-kJCEAM_bWNGgJ7IOtPS8sjnjtLGzmvP92B3HYDn5II7250q_rp9RehIdOncrc0FD8Ew=w1600",
+   "title": "Dining wall",
+   "text": "Wall units, an open black shelf and a lit counter."
+  }
+ ],
+ "steps_photos": [],
+ "review_photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeWCDRZz4ivV_nHBa4JuKrUTVFIDXO4hG2A0rl0PEVEGWP72W0HrUkFZyKD2m6gf4uxhfxmPzZ6W-oRJsBw218AlsWvthwnPY8j2JtetVqSVSbaz3iX1pNS64iQbw1de5Mhiuq6VWxdFhM=w1600",
+ "reviews": [
+  {
+   "name": "Natasha",
+   "text": "I had my kitchen supplied and fitted by Inspired Living, and I couldn't be more pleased with the result. The fitter was professional, skilled, and paid great attention to detail throughout."
+  },
+  {
+   "name": "Jamshaid K.",
+   "text": "Inspired Living supplied my new kitchen, and I couldn't be more delighted. Customer service was exceptional, friendly, helpful, and responsive throughout the process."
+  },
+  {
+   "name": "Omaar K.",
+   "text": "Customer service was excellent from design to delivery. Very helpful and hassle free service."
+  }
+ ]
+}

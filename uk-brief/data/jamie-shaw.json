@@ -1,0 +1,85 @@
+{
+ "id": "jamie-shaw",
+ "variant": "auto",
+ "accent": "#c9a8f0",
+ "point": {
+  "lat": 53.4145476,
+  "lon": -2.1457265999999997
+ },
+ "hours": "Monday to Friday 8am to 5pm, Saturday 8am to 3pm, Sunday closed",
+ "texts": {
+  "line": "Wardrobes, media walls and kitchens in Stockport",
+  "intro": "Jamie comes out to quote, designs the room and fits it, from wardrobes and media walls to a full kitchen.",
+  "menu": [
+   [
+    "Bedrooms and living rooms",
+    [
+     [
+      "Fitted wardrobes",
+      "and walk-in"
+     ],
+     [
+      "Media walls",
+      "TV, shelves and lighting"
+     ]
+    ]
+   ],
+   [
+    "Kitchens",
+    [
+     [
+      "Kitchen refit",
+      "rip-out and fit"
+     ],
+     [
+      "Doors and worktops",
+      ""
+     ]
+    ]
+   ]
+  ]
+ },
+ "hero": {
+  "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLcUpeVGq9XG4-483wj84OvtQKBCDir5XD0d0q6bSc6ag8jVfItVAjD42kwD5ZdZAVao-7Rvc8fwMB_I18iqit-2WWBfIjClc9MeqOuaeVpye197YSpZ3_WAW7KuHFmL1_k5a3yaBGqlu_F5=w2400",
+  "caption": "Media wall with a TV, a slatted panel and lit shelves",
+  "src_desktop": "https://lh3.googleusercontent.com/grass-cs/AABkmLcUpeVGq9XG4-483wj84OvtQKBCDir5XD0d0q6bSc6ag8jVfItVAjD42kwD5ZdZAVao-7Rvc8fwMB_I18iqit-2WWBfIjClc9MeqOuaeVpye197YSpZ3_WAW7KuHFmL1_k5a3yaBGqlu_F5=w2400",
+  "crop_desktop": [
+   0,
+   0.3,
+   1,
+   0.65
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLeix4FkhkUd87w_aKCLM1gmAL9di6NNnU0on6UeHZmZb_jrOdTNe3YRA0GqgHPJ-tWndq2akh2jpwfMPFiWmfYQBKsKR9VIVwRS72ttHRm4tMneJyMqTu_27KXLj_KFdYzbZ1AIGA=w1600",
+   "title": "Walk-in wardrobe",
+   "text": "Dark units with rails, shelves and a dressing table."
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLefjgDq80JnCwWqla8UFGlnUhB7xsweIc7mM0HvlyL_yJq4me_V02TFmPxeo9IlGUYdOIXmxo_hE440gTnL2kLy765CSr-bH8q1fov1LIdHAnJVTXV-SkKDZhdxQ1V6DcJxbP6tNg=w1600",
+   "title": "Media wall",
+   "text": "TV with purple backlight and spotlights."
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLfofuo_7pqpxju-91GeivttiWz25VKlrohcriXqXjrXImAKh5ZyGcJYLlDRfDCcFxsHz3ZUkKx1U3b3nsf25pHVA7Jr-xjnd9AhP5nEdrX0W0T1j3RxtWVrt0yj1IP3QBLUAAwHPPlNlxDQ=w1600",
+   "title": "Wardrobes in progress",
+   "text": "Shelves and drawers fitted, doors not on yet."
+  }
+ ],
+ "steps_photos": [],
+ "reviews": [
+  {
+   "name": "Gemma L.",
+   "text": "Jamie has been absolutely fantastic from start to finish. He came out to quote, designed everything, and completed the fitting. The wardrobes and media wall in our living room look incredible."
+  },
+  {
+   "name": "Nicola B.",
+   "text": "Jamie fitted my bedroom furniture after being let down by another fitter, he advised on the best ways to fit the bedroom to make the most of the space."
+  },
+  {
+   "name": "Michael M.",
+   "text": "Jamie has just completed a full rip-out and re-fit in our Bramhall Cottage. We would thoroughly recommend Jamie Shaw Kitchens to anyone requiring a more local personal approach."
+  }
+ ]
+}

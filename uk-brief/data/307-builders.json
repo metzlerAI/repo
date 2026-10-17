@@ -1,0 +1,81 @@
+{
+ "id": "307-builders",
+ "variant": "auto",
+ "accent": "#e2a07f",
+ "hours": "Monday to Friday 8am to 5pm, Saturday 9am to 5pm, Sunday closed",
+ "texts": {
+  "line": "Building and renovation in Manchester",
+  "intro": "Renovations, rendering and interior work.",
+  "menu": [
+   [
+    "Inside",
+    [
+     [
+      "Renovation",
+      "one room or more"
+     ],
+     [
+      "Staircases",
+      ""
+     ]
+    ]
+   ],
+   [
+    "Outside",
+    [
+     [
+      "Rendering",
+      ""
+     ],
+     [
+      "Porches and brickwork",
+      ""
+     ]
+    ]
+   ]
+  ]
+ },
+ "hero": {
+  "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLcDcy74HGIJhCYblp1eHqox7Spp6scZDbxplvj_V2ph_KPS5dBTFz-DM4a9ygiLspPQ6vDhIXmg2slJ2EmQE1BiJ6qpaPyLM3kbf7eN047HQbeBWtlrCwdKFKyDrXXfkSJ4iqiJa3WK6Is=w2400",
+  "caption": "Red-brick porch with a white front door",
+  "src_desktop": "https://lh3.googleusercontent.com/grass-cs/AABkmLcDcy74HGIJhCYblp1eHqox7Spp6scZDbxplvj_V2ph_KPS5dBTFz-DM4a9ygiLspPQ6vDhIXmg2slJ2EmQE1BiJ6qpaPyLM3kbf7eN047HQbeBWtlrCwdKFKyDrXXfkSJ4iqiJa3WK6Is=w2400",
+  "crop_desktop": [
+   0,
+   0.25,
+   1,
+   0.75
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLc-6eOqL35lUUSC7jnxxS9SXtaG3xiwAeID8Yq9nU2OHx-1Mgn4edsiZn6wTdHXPMNAVczVVMpv0hQpWU2bGx2Ftnh9belI6DyIlIsCcavzwCbchvP4tiFqSLRCIwB-wbgGNpgxWrm2dfA=w1600",
+   "title": "Rendering",
+   "text": "Bungalow wall half rendered, work in progress."
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLcCiLNKusQLFINhUyvLTDv3YmY6m3YmjchI1pgBJLuDok3FMudKvBkY8ih2zDyEzB_sCzVDUQw9SGKEVEPdMjTkjQCb3BbwAPgOUU-5NUnrWa1bh8-bsX7E8U9H4LXUenCu6frhzZBUSTLP=w1600",
+   "title": "Staircase",
+   "text": "Cream spindles and newel post."
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLd_QEzbmnit5o7TnXVmLp77ai26XcumjgsR2D2VEVkqDTb4LOV6lIw-43Imj75oE-zr7NXZlRvhJA128zkSXtrBa_wNtdWurDzAWN9PXWG3yxINLVWkHWiPkOjRdqoojod4iMAk3EYlRPON=w1600",
+   "title": "Renovation",
+   "text": "Room stripped back, work in progress."
+  }
+ ],
+ "steps_photos": [],
+ "reviews": [
+  {
+   "name": "Honey",
+   "text": "Excellent service from 307 Builders! Professional, reliable, and high-quality work. Highly recommended."
+  },
+  {
+   "name": "Talwinder S.",
+   "text": "Very good service and affordable price with great quality materials use."
+  },
+  {
+   "name": "Preetgill",
+   "text": "Excellent service fast and cheaper."
+  }
+ ]
+}

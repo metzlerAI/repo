@@ -1,0 +1,93 @@
+{
+ "id": "tailored-joinery",
+ "variant": "auto",
+ "accent": "#e0b07a",
+ "point": {
+  "lat": 53.5041519,
+  "lon": -2.1763765
+ },
+ "hours": "Monday to Wednesday and Friday 8am to 6pm, Thursday 8am to 4pm, Saturday 8am to 1pm, Sunday closed",
+ "texts": {
+  "line": "Fitted furniture and joinery in Failsworth",
+  "intro": "Wardrobes, shelving and under-stairs storage, built by Jaque and his team to fit awkward spaces.",
+  "menu": [
+   [
+    "Storage",
+    [
+     [
+      "Fitted wardrobes",
+      "including alcoves"
+     ],
+     [
+      "Under-stairs storage",
+      ""
+     ]
+    ]
+   ],
+   [
+    "Joinery",
+    [
+     [
+      "Shelving and cabinets",
+      ""
+     ],
+     [
+      "Cupboards and doors",
+      ""
+     ]
+    ]
+   ]
+  ]
+ },
+ "hero": {
+  "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLe7PiE6rcuN11Rk8aaKbqk6Z9NLcHyPPLJqTEmz40SWgh630Lg1Ow377J2_4vgwLK5JX23NDoHZtluiOKlZDU6tm53HxCTAefgU4tFKjxVY62iP08YIG2EjjSluJ_fptefhgRkxF7V0g8o=w2400",
+  "caption": "Dark grey under-stairs cupboards with a wine rack",
+  "src_desktop": "https://lh3.googleusercontent.com/grass-cs/AABkmLe7PiE6rcuN11Rk8aaKbqk6Z9NLcHyPPLJqTEmz40SWgh630Lg1Ow377J2_4vgwLK5JX23NDoHZtluiOKlZDU6tm53HxCTAefgU4tFKjxVY62iP08YIG2EjjSluJ_fptefhgRkxF7V0g8o=w2400",
+  "crop_desktop": [
+   0,
+   0.3,
+   1,
+   0.8
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLcWrLjexRrinZWXBENWvUja8zZ6X5CxtZ7aI2YYhPrtQgRD7yCF3cX44quZNyqUcxUIyYSmlEYZdX7DGUfXoNtBRNYQ0TSJ0LGN-4pCEBf4Y9B2HCDWug7MRZxZUMlFE31-9iihgdjyA4J1=w1600",
+   "title": "Sliding wardrobe",
+   "text": "Wood-slat doors in a bedroom."
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLcEOYjVe-N_CLKl0HUqwWyPa5CAQ6ut070hKYDx-TUFzgyY1DKyzPuh3tEKM7zyJvTl9VYG8_gFRzXfHiw8N234JdiJsgqX7WdDW-GcfZu4NdrtHS6LhVfpia5c4hEpdL92f956a7IBjseN=w1600",
+   "title": "Oak-effect shelving",
+   "text": "Open units with built-in lights."
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLcbkepj9YdQ3AP0Xo8fudIFkloiXz1-7d6Zb8YR3siOAxHDlvAyJjFHLrxobmHaEzWfmz8YLTRTGvCY3wCDbDP0oJsFZYJ02qzNUI0brAUViXx4Ht7iOQwO5nL5bq4Kccws4cpuIBXV9Pkz=w1600",
+   "title": "Under-stairs drawer",
+   "text": "A deep pull-out drawer under the steps."
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLcCOkcB9fGtSHcpEthwgUEDYAT81OAPpcH2l3zOudal80WIUXn5oUCkJYGLVh0Qc5Pyw1KnScEkREi7X8i1NKFIjCwB4rjziOMVOoBOJnv5UWirJS3XiLhjTsHWAkqRtEruVUzZfsCt-jL9=w1600",
+   "title": "Tall cupboard",
+   "text": "Wood frame with frosted glass panels."
+  }
+ ],
+ "steps_photos": [
+  "https://lh3.googleusercontent.com/grass-cs/AABkmLdCVzJcJ9lxGmvAJAYvBzHnBsFgWUhGPDaQkcE3Fxe75aFJTOfhOhxmg4784mNJrwetT0yUPbukWtFOp2f0J5ImYIjq6vYzKlIQ9f2koKzPWo8WcujL7s0cE0dy_J1qOKuTkSVFChkeOwY=w1600"
+ ],
+ "review_photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLffntNqpYPFUrR72xARtE7-OZARRs6RwM-EtIb2S9F8LMHdNX1V-0atB_-Pwm6WUy9ZKZIHsbMP3U8mPVfz_QK30JF0H2Cx_5-JTPOiTCIeyaWzKoCPz-sdg651W2iQF-ZtiQ0F1QNfKwGd=w1600",
+ "reviews": [
+  {
+   "name": "Aimi L.",
+   "text": "Jaque helped me design an under-stair storage solution for a tricky spot in our 160 year old warehouse apartment. It was installed quickly and efficiently and looks incredible."
+  },
+  {
+   "name": "Kate S.",
+   "text": "Jaque did an amazing job in our spare room, we wanted a fitted wardrobe in one of the coves. The end product looks great, exactly what I asked for."
+  },
+  {
+   "name": "Trey M.",
+   "text": "He did an excellent job constructing our shelving units, and we are very pleased with the quality of his workmanship."
+  }
+ ]
+}
