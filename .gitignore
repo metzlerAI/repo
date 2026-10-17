@@ -1,2 +1,3 @@
 landing-brief/send/*.zip
 __pycache__/
+.frames/
