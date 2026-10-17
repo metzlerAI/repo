@@ -53,7 +53,7 @@ description: Собирает демо-макеты сайтов для мест
   Google без входа показывает только часть карточки: 4–21 фото и 3 отзыва, автор фото неизвестен.
 - Сборка: `python3 build.py --uk [id ...]` (английские тексты, карта OpenStreetMap, без обрезки водяного знака),
   скрины и видео с `OUT_DIR=../../uk-brief/out`. Решения и шаблон сообщения: `uk-brief/DECISIONS.md`.
-- В `uk-brief/companies.json` у фирмы нужны `tel` (+44…), `wa`, `card` (ссылка Google Maps), `rubric` (`Kitchens`).
+- В `uk-brief/companies.json` у фирмы нужны `tel` (+44…), `wa`, `card` (ссылка Google Maps), `rubric` (`Kitchens`, `Fitted furniture` или `Builders`: от неё зависят тексты, меню цен и квиз).
 
 ## Новая ниша (не мебель)
 

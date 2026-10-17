@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tailored Joinery Solutions: fitted furniture and joinery in failsworth</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geologica:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+/* Направление taste-skill «The place carries it», палитра «Soot and lime» с акцентом из фото клиента,
+   шрифт Clash Grotesk заменён на Geologica (у Clash нет кириллицы). */
+:root {
+  --bg: #0f0f0f;
+  --surface: #1b1b1a;
+  --paper: #ffffff;
+  --paper-2: #f2f2f0;
+  --ink: #0f0f0f;
+  --ink-on-dark: #ffffff;
+  --muted: #5c5c5a;
+  --muted-on-dark: #a3a3a0;
+  --accent: #e0b07a;
+  --accent-ink: #0f0f0f;
+  --small: clamp(0.8125rem, 0.79rem + 0.1vw, 0.875rem);
+  --body: clamp(1.0625rem, 1rem + 0.25vw, 1.1875rem);
+  --lead: clamp(1.375rem, 1.15rem + 0.9vw, 1.875rem);
+  --head: clamp(2.25rem, 1.4rem + 3.4vw, 4.5rem);
+  --display: clamp(4rem, 14.67vw, 15rem);
+  --m: 20px;
+  --font: "Geologica", system-ui, sans-serif;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-text-size-adjust: 100%; }
+body { background: var(--paper); color: var(--ink); font: 300 var(--body)/1.55 var(--font); }
+img { display: block; max-width: 100%; }
+a { color: inherit; }
+h1, h2, h3, .display { font-weight: 400; letter-spacing: -0.03em; line-height: 0.95; }
+h2 { font-size: var(--head); }
+.lead { font-size: var(--lead); line-height: 1.3; letter-spacing: -0.01em; font-weight: 300; }
+.small { font-size: var(--small); }
+.btn { display: inline-flex; align-items: center; justify-content: center; height: 54px; padding: 0 26px; border: 0; border-radius: 0; background: var(--accent); color: var(--accent-ink); font: 500 16px/1 var(--font); text-decoration: none; cursor: pointer; white-space: nowrap; transition: transform .15s; }
+.btn:active { transform: translateY(1px); }
+.btn-dark { background: var(--ink); color: var(--ink-on-dark); }
+.link { font-weight: 400; text-decoration: underline; text-underline-offset: 5px; text-decoration-thickness: 1.5px; white-space: nowrap; }
+.sec { position: relative; }
+
+/* hero */
+.hero { height: 100svh; min-height: 620px; position: relative; color: var(--ink-on-dark); background: var(--bg); overflow: hidden; }
+.hero picture, .hero img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.hero::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 62%; background: linear-gradient(to top, rgba(10,10,10,.82), rgba(10,10,10,0)); }
+.hero-top { position: absolute; z-index: 2; top: 0; left: 0; right: 0; display: flex; justify-content: space-between; padding: 18px var(--m); font-size: var(--small); font-weight: 400; }
+.hero-top a { text-decoration: none; }
+.hero-top nav .d { display: none; }
+.hero-bottom { position: absolute; z-index: 2; left: var(--m); right: var(--m); bottom: 26px; display: flex; flex-direction: column; gap: 14px; }
+.hero h1 { font-size: var(--display); line-height: 0.88; letter-spacing: -0.045em; overflow-wrap: anywhere; padding-bottom: .12em; }
+.hero .line { font-size: var(--lead); line-height: 1.2; font-weight: 300; max-width: 22ch; }
+.hero .rate { font-size: var(--small); color: #e6e6e3; font-weight: 400; }
+.hero .rate b { color: var(--accent); font-weight: 500; }
+.hero .acts { display: flex; align-items: center; gap: 22px; margin-top: 6px; }
+
+/* intro */
+.intro { padding: 72px var(--m) 24px; }
+.intro p { max-width: 24ch; }
+
+/* works: even grid. Phone: first and last photo full width, the rest two in a row (6 = 1 + 2 + 2 + 1).
+   Desktop: three in a row. One aspect ratio, square corners, caption under every photo. */
+.works { padding: 40px var(--m) 72px; }
+.works h2 { margin-bottom: 36px; }
+.wks { display: grid; grid-template-columns: 1fr 1fr; column-gap: 12px; row-gap: 32px; }
+.wk { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.wk:first-child, .wk:last-child:nth-child(even) { grid-column: 1 / -1; }
+.wk .ph { aspect-ratio: 5 / 4; background: var(--paper-2); overflow: hidden; }
+.wk .ph img { width: 100%; height: 100%; object-fit: cover; }
+.wk .t { display: block; font-size: 16px; line-height: 1.3; font-weight: 400; }
+.wk .d { display: block; font-size: 14px; line-height: 1.4; color: var(--muted); margin-top: 4px; max-width: 38ch; }
+.wk.empty .ph { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; padding: 12px; color: var(--muted); text-align: center; font-size: 14px; line-height: 1.3; }
+.wk.empty .ph svg { width: 34px; height: 34px; }
+.remark { font-size: var(--lead); line-height: 1.25; max-width: 18ch; margin: -16px 0 36px; }
+
+/* quiz */
+.quiz-sec { background: var(--accent); color: var(--accent-ink); padding: 64px var(--m); }
+.quiz-sec h2 { max-width: 12ch; }
+.quiz-sec > p { margin: 16px 0 32px; max-width: 34ch; }
+.q-bar { height: 6px; background: rgba(15,15,15,.14); margin-bottom: 22px; }
+.q-bar i { display: block; height: 100%; background: var(--ink); transition: width .3s; }
+.q-title { font-size: var(--lead); line-height: 1.2; letter-spacing: -0.01em; margin-bottom: 18px; font-weight: 400; }
+.q-opts { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.q-opt { display: flex; flex-direction: column; justify-content: space-between; gap: 18px; min-height: 104px; padding: 14px; text-align: left; font: inherit; color: inherit; background: transparent; border: 1.5px solid var(--ink); border-radius: 0; cursor: pointer; }
+.q-opt svg { width: 44px; height: 30px; }
+.q-opt b { font-weight: 500; font-size: 16px; display: block; }
+.q-opt small { font-size: 13.5px; line-height: 1.3; display: block; opacity: .75; }
+.q-opt.on { background: var(--ink); color: var(--ink-on-dark); }
+.q-foot { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-top: 20px; }
+.q-foot .small { max-width: 22ch; }
+.q-done { display: none; flex-direction: column; align-items: flex-start; gap: 18px; }
+.quiz.finished .q-body { display: none; }
+.quiz.finished .q-done { display: flex; }
+
+/* prices: menu */
+.prices { padding: 72px var(--m); display: grid; gap: 32px; }
+.menu { display: grid; gap: 40px; }
+.grp h3 { font-size: 20px; letter-spacing: -0.01em; line-height: 1.2; font-weight: 500; margin-bottom: 14px; }
+.row { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; padding: 9px 0; }
+.row .n { font-size: 17px; font-weight: 400; }
+.row .n small { display: block; font-size: 14px; color: var(--muted); font-weight: 300; margin-top: 2px; }
+.row .p { font-size: 17px; font-weight: 400; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.blank { display: inline-block; width: 3.2em; height: .9em; vertical-align: -0.1em; background: var(--paper-2); }
+.prices .note { color: var(--muted); font-size: 16px; }
+
+/* steps: one verb at a time */
+.steps { background: var(--bg); color: var(--ink-on-dark); display: grid; grid-template-columns: 1fr 1fr; }
+.st { position: relative; aspect-ratio: 1; overflow: hidden; background: var(--surface); }
+.st img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: brightness(.62); }
+.st b { position: absolute; left: 0; right: 0; top: 42%; transform: translateY(-50%); text-align: center; font-size: 10.5vw; font-weight: 500; letter-spacing: -0.04em; line-height: 1; }
+.st span { position: absolute; left: 12px; right: 12px; bottom: 12px; font-size: 13.5px; line-height: 1.35; font-weight: 400; }
+
+/* reviews */
+.revs { padding: 72px var(--m); display: grid; gap: 28px; }
+.revs .pic { width: 72%; aspect-ratio: 3 / 4; overflow: hidden; background: var(--paper-2); }
+.revs .pic img { width: 100%; height: 100%; object-fit: cover; }
+.revs blockquote { font-size: 24px; line-height: 1.3; letter-spacing: -0.015em; font-weight: 300; }
+.revs .who { font-size: 16px; margin-top: 16px; font-weight: 400; }
+.revs .who span { color: var(--muted); font-weight: 300; }
+.revs .score { margin-top: 28px; font-size: 16px; font-weight: 400; }
+.more { display: grid; gap: 28px; }
+.more blockquote { font-size: 17px; line-height: 1.5; }
+
+/* contacts: visit card on a photograph */
+.visit { position: relative; background: var(--bg); }
+.visit .bgimg { height: 62svh; overflow: hidden; }
+.visit .bgimg img { width: 100%; height: 100%; object-fit: cover; }
+.card { position: relative; margin: -80px var(--m) 0; background: var(--paper); padding: 26px 22px 0; display: flex; flex-direction: column; gap: 14px; }
+.card h2 { font-size: 30px; line-height: 1; font-weight: 300; }
+.card .addr { font-size: 17px; line-height: 1.4; }
+.card .hrs { color: var(--muted); font-size: 15px; }
+.card .ph { font-size: 22px; font-weight: 400; text-decoration: none; letter-spacing: -0.01em; }
+.card .map { display: block; aspect-ratio: 16 / 9; overflow: hidden; background: var(--paper-2); }
+.card .map img { width: 100%; height: 100%; object-fit: cover; }
+.card .links { display: flex; gap: 22px; }
+.card .btn { margin: 4px -22px 0; height: 58px; }
+.visit.noimg .card { margin-top: 0; }
+
+/* footer */
+.foot { background: var(--bg); color: var(--ink-on-dark); padding: 56px var(--m) 96px; }
+.foot .display { font-size: var(--display); line-height: .88; letter-spacing: -0.045em; padding-bottom: .12em; }
+.foot p { color: var(--muted-on-dark); font-size: var(--small); margin-top: 22px; }
+
+/* sticky phone bar, hidden in screenshots */
+.mbar { position: fixed; z-index: 20; left: 0; right: 0; bottom: 0; display: grid; grid-template-columns: 1fr auto; background: var(--bg); transform: translateY(100%); transition: transform .25s; }
+.mbar.show { transform: none; }
+.mbar .btn { height: 58px; }
+.mbar .wa { display: flex; align-items: center; padding: 0 22px; color: #fff; font-size: 15px; }
+html.shot .mbar { display: none; }
+
+@media (min-width: 900px) {
+  :root { --m: 32px; }
+  .hero-top { padding: 24px var(--m); font-size: 15px; }
+  .hero-top nav .d { display: inline; }
+  .hero-top nav a + a::before { content: ", "; }
+  .hero-bottom { bottom: 36px; display: grid; grid-template-columns: 1fr auto; align-items: end; column-gap: 48px; row-gap: 12px; }
+  .hero h1 { grid-column: 1 / -1; }
+  .hero .line { grid-column: 1; }
+  .hero .rate { grid-column: 1; }
+  .hero .acts { grid-column: 2; grid-row: 2 / span 2; justify-self: end; margin: 0; }
+  .intro { padding: 140px var(--m) 40px; display: grid; grid-template-columns: repeat(12, 1fr); }
+  .intro p { grid-column: 4 / 11; max-width: 30ch; font-size: clamp(1.75rem, 1rem + 1.6vw, 2.5rem); }
+  .works { padding: 80px var(--m) 120px; }
+  .works h2 { margin-bottom: 56px; }
+  .wks { grid-template-columns: repeat(3, 1fr); column-gap: 24px; row-gap: 56px; }
+  .wk:first-child, .wk:last-child:nth-child(even) { grid-column: auto; }
+  .wk .t { font-size: 18px; }
+  .wk .d { font-size: 16px; }
+  .remark { margin: -32px 0 56px; }
+  .quiz-sec { padding: 120px var(--m); display: grid; grid-template-columns: repeat(12, 1fr); column-gap: 24px; }
+  .quiz-sec h2, .quiz-sec > p { grid-column: 1 / 6; }
+  .quiz-sec > p { margin-bottom: 0; }
+  .quiz { grid-column: 7 / 13; grid-row: 1 / span 2; }
+  .q-opts { gap: 12px; }
+  .q-opt { min-height: 132px; padding: 18px; }
+  .prices { padding: 140px var(--m); grid-template-columns: repeat(12, 1fr); column-gap: 24px; }
+  .prices h2 { grid-column: 1 / 4; }
+  .menu { grid-column: 5 / 13; grid-template-columns: 1fr 1fr; column-gap: 64px; row-gap: 48px; }
+  .prices .note { grid-column: 5 / 13; }
+  .steps { grid-template-columns: repeat(4, 1fr); }
+  .st { aspect-ratio: 3 / 4; }
+  .st b { font-size: 3.6vw; }
+  .st span { left: 20px; right: 20px; bottom: 20px; font-size: 16px; }
+  .revs { padding: 140px var(--m); grid-template-columns: repeat(12, 1fr); column-gap: 24px; row-gap: 0; }
+  .revs .pic { grid-column: 2 / 6; width: auto; grid-row: 1 / span 2; }
+  .revs .main { grid-column: 7 / 13; margin-top: 120px; }
+  .revs blockquote { font-size: clamp(1.625rem, 1rem + 1.3vw, 2.5rem); max-width: 26ch; line-height: 1.2; }
+  .more { grid-column: 7 / 13; grid-template-columns: 1fr 1fr; gap: 32px; margin-top: 64px; }
+  .more blockquote { font-size: 17px; max-width: none; line-height: 1.5; }
+  .visit .bgimg { height: 100vh; min-height: 760px; }
+  .card { position: absolute; top: 60px; right: 60px; width: 400px; margin: 0; padding: 32px 32px 0; }
+  .card .btn { margin: 6px -32px 0; }
+  .visit.noimg { padding: 80px var(--m); }
+  .visit.noimg .card { position: relative; top: 0; right: 0; }
+  .foot { padding: 96px var(--m) 40px; }
+  .mbar { display: none; }
+}
+</style>
+</head>
+<body>
+
+<section class="hero sec">
+  
+  <picture>
+    <source media="(min-width: 900px)" srcset="img/hero-d.jpg">
+    <img src="img/hero.jpg" alt="Dark grey under-stairs cupboards with a wine rack">
+  </picture>
+  
+  <div class="hero-top">
+    <a href="tel:+447904130752">07904 130752</a>
+    <nav><a class="d" href="#works">Our work</a><a class="d" href="#prices">Prices</a><a href="#contacts">Contact</a></nav>
+  </div>
+  <div class="hero-bottom">
+    <h1>Tailored Joinery Solutions</h1>
+    <p class="line">Fitted furniture and joinery in Failsworth</p>
+    <p class="rate"><b>★ 5.0</b> · 59 reviews on Google</p>
+    <div class="acts">
+      <a class="btn" href="#quiz">Get a price</a>
+      <a class="link" href="https://wa.me/447904130752">WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<section class="intro sec">
+  <p class="lead">Wardrobes, shelving and under-stairs storage, built by Jaque and his team to fit awkward spaces.</p>
+</section>
+
+<section class="works sec" id="works">
+  <h2>Our work</h2>
+  
+  <div class="wks">
+  
+  
+  <figure class="wk"><div class="ph"><img src="img/w1.jpg" alt="Sliding wardrobe"></div><figcaption><span class="t">Sliding wardrobe</span><span class="d">Wood-slat doors in a bedroom.</span></figcaption></figure>
+  
+  
+  
+  <figure class="wk"><div class="ph"><img src="img/w2.jpg" alt="Oak-effect shelving"></div><figcaption><span class="t">Oak-effect shelving</span><span class="d">Open units with built-in lights.</span></figcaption></figure>
+  
+  
+  
+  <figure class="wk"><div class="ph"><img src="img/w3.jpg" alt="Under-stairs drawer"></div><figcaption><span class="t">Under-stairs drawer</span><span class="d">A deep pull-out drawer under the steps.</span></figcaption></figure>
+  
+  
+  
+  <figure class="wk"><div class="ph"><img src="img/w4.jpg" alt="Tall cupboard"></div><figcaption><span class="t">Tall cupboard</span><span class="d">Wood frame with frosted glass panels.</span></figcaption></figure>
+  
+  
+  
+  <div class="wk empty"><div class="ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 8h3l1.5-2h7L17 8h3v11H4z" stroke-linejoin="round"/><circle cx="12" cy="13" r="3.5"/></svg><span>Your photos go here</span></div></div>
+  
+  
+  
+  <div class="wk empty"><div class="ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 8h3l1.5-2h7L17 8h3v11H4z" stroke-linejoin="round"/><circle cx="12" cy="13" r="3.5"/></svg><span>Your photos go here</span></div></div>
+  
+  
+  </div>
+</section>
+
+<section class="quiz-sec sec" id="quiz">
+  <h2>What would your fitted furniture cost?</h2>
+  <p>4 quick questions, and we&#39;ll send you a price on WhatsApp. No obligation.</p>
+  <div class="quiz" data-wa="447904130752">
+    <div class="q-bar"><i style="width: 20.0%"></i></div>
+    <div class="q-body">
+      <div class="q-title">What do you need?</div>
+      <div class="q-opts">
+        
+        <button class="q-opt" type="button"><span><b>Wardrobes</b><small>fitted or walk-in</small></span></button>
+        
+        <button class="q-opt on" type="button"><span><b>Media wall</b><small>TV, storage and lighting</small></span></button>
+        
+        <button class="q-opt" type="button"><span><b>Alcove units</b><small>cupboards and shelves</small></span></button>
+        
+        <button class="q-opt" type="button"><span><b>Under-stairs storage</b></span></button>
+        
+      </div>
+      <div class="q-foot">
+        <span class="small">Only we see your answers</span>
+        <button class="btn btn-dark q-next" type="button">Next</button>
+      </div>
+    </div>
+    <div class="q-done">
+      <div class="q-title">Done. Send your answers and we&#39;ll work out a price.</div>
+      <a class="btn btn-dark q-send" href="https://wa.me/447904130752">Get a price on WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<section class="prices sec" id="prices">
+  <h2>Prices</h2>
+  <div class="menu">
+    
+    <div class="grp">
+      <h3>Storage</h3>
+      
+      <div class="row"><span class="n">Fitted wardrobes<small>including alcoves</small></span><span class="p">from £<span class="blank"></span></span></div>
+      
+      <div class="row"><span class="n">Under-stairs storage</span><span class="p">from £<span class="blank"></span></span></div>
+      
+    </div>
+    
+    <div class="grp">
+      <h3>Joinery</h3>
+      
+      <div class="row"><span class="n">Shelving and cabinets</span><span class="p">from £<span class="blank"></span></span></div>
+      
+      <div class="row"><span class="n">Cupboards and doors</span><span class="p">from £<span class="blank"></span></span></div>
+      
+    </div>
+    
+  </div>
+  <p class="note">The exact price depends on the size, materials and finish. We&#39;ll give you a quote after a visit.</p>
+</section>
+
+<section class="steps sec" aria-label="How it works">
+  
+  <div class="st"><img src="img/s1.jpg" alt=""><b>Message</b><span>Send a message or a few photos on WhatsApp.</span></div>
+  
+  <div class="st"><b>Visit</b><span>We come round and measure up.</span></div>
+  
+  <div class="st"><b>Design</b><span>We agree the design and the price.</span></div>
+  
+  <div class="st"><b>Fit</b><span>We build and fit it.</span></div>
+  
+</section>
+
+
+<section class="revs sec">
+  <div class="pic"><img src="img/review.jpg" alt=""></div>
+  <div class="main">
+    <blockquote>Jaque helped me design an under-stair storage solution for a tricky spot in our 160 year old warehouse apartment. It was installed quickly and efficiently and looks incredible.</blockquote>
+    <p class="who">Aimi L. <span>· Google review</span></p>
+    <p class="score">★ 5.0 out of 5 from 59 reviews on Google</p>
+  </div>
+  
+  <div class="more">
+    
+    <figure><blockquote>Jaque did an amazing job in our spare room, we wanted a fitted wardrobe in one of the coves. The end product looks great, exactly what I asked for.</blockquote><p class="who">Kate S. <span>· Google review</span></p></figure>
+    
+    <figure><blockquote>He did an excellent job constructing our shelving units, and we are very pleased with the quality of his workmanship.</blockquote><p class="who">Trey M. <span>· Google review</span></p></figure>
+    
+  </div>
+  
+</section>
+
+
+<section class="visit sec noimg" id="contacts">
+  
+  <div class="card">
+    <h2>Contact</h2>
+    <p class="addr">Unit 5 Morton St, Failsworth, Manchester M35 0BN</p>
+    <p class="hrs">Monday to Wednesday and Friday 8am to 6pm, Thursday 8am to 4pm, Saturday 8am to 1pm, Sunday closed</p>
+    <a class="ph" href="tel:+447904130752">07904 130752</a>
+    <a class="map" href="https://www.google.com/maps/place/Tailored%20joinery%20solutions/data=!4m2!3m1!1s0x487bb1711a1a8df1:0x45a77b57a50312be?hl=en"><img src="img/map.png" alt="Tailored Joinery Solutions on the map"></a>
+    <div class="links"><a class="link" href="https://www.google.com/maps/place/Tailored%20joinery%20solutions/data=!4m2!3m1!1s0x487bb1711a1a8df1:0x45a77b57a50312be?hl=en">Directions on Google Maps</a></div>
+    <a class="btn" href="https://wa.me/447904130752">Message on WhatsApp</a>
+  </div>
+</section>
+
+<footer class="foot sec">
+  <div class="display">Tailored Joinery Solutions</div>
+  <p>Fitted furniture and joinery in Failsworth · Unit 5 Morton St, Failsworth, Manchester M35 0BN · 07904 130752</p>
+</footer>
+
+<div class="mbar"><a class="btn" href="#quiz">Get a price</a><a class="wa" href="https://wa.me/447904130752">WhatsApp</a></div>
+
+<script>
+const QUIZ = {"h": "What would your fitted furniture cost?", "pre": 2, "steps": [{"q": "What do you need?", "opts": [{"t": "Wardrobes", "d": "fitted or walk-in"}, {"t": "Media wall", "d": "TV, storage and lighting"}, {"t": "Alcove units", "d": "cupboards and shelves"}, {"t": "Under-stairs storage", "d": ""}]}, {"q": "Which room is it for?", "opts": [{"t": "Bedroom", "d": ""}, {"t": "Living room", "d": ""}, {"t": "Hall or stairs", "d": ""}, {"t": "More than one", "d": ""}]}, {"q": "How wide is the space?", "opts": [{"t": "Up to 2 m", "d": ""}, {"t": "2-3 m", "d": ""}, {"t": "3-4 m", "d": ""}, {"t": "Over 4 m", "d": "whole wall"}]}, {"q": "When do you need it?", "opts": [{"t": "As soon as possible", "d": ""}, {"t": "Within a month", "d": ""}, {"t": "In 1-3 months", "d": ""}, {"t": "Just looking", "d": ""}]}], "n": 4};
+(function () {
+  const box = document.querySelector('.quiz');
+  const bar = box.querySelector('.q-bar i');
+  const title = box.querySelector('.q-title');
+  const opts = box.querySelector('.q-opts');
+  const answers = [];
+  let i = 0;
+  const bind = () => opts.querySelectorAll('.q-opt').forEach(b => b.onclick = () => {
+    opts.querySelectorAll('.q-opt').forEach(x => x.classList.remove('on'));
+    b.classList.add('on');
+  });
+  function render() {
+    const s = QUIZ.steps[i];
+    title.textContent = s.q;
+    opts.innerHTML = s.opts.map(o => `<button class="q-opt" type="button">${o.icon || ''}<span><b>${o.t}</b>${o.d ? `<small>${o.d}</small>` : ''}</span></button>`).join('');
+    bar.style.width = Math.round(100 * (i + 1) / (QUIZ.steps.length + 1)) + '%';
+    bind();
+  }
+  box.querySelector('.q-next').onclick = () => {
+    const on = opts.querySelector('.q-opt.on');
+    if (!on) return;
+    answers.push(QUIZ.steps[i].q + ' ' + on.querySelector('b').textContent);
+    if (++i < QUIZ.steps.length) return render();
+    box.classList.add('finished');
+    bar.style.width = '100%';
+    box.querySelector('.q-send').href = 'https://wa.me/' + box.dataset.wa + '?text=' + encodeURIComponent("Hi! I\u0027d like a price." + '\n' + answers.join('\n'));
+  };
+  bind();
+  const mbar = document.querySelector('.mbar');
+  const hero = document.querySelector('.hero');
+  addEventListener('scroll', () => mbar.classList.toggle('show', scrollY > hero.offsetHeight * 0.8), { passive: true });
+})();
+</script>
+</body>
+</html>

@@ -3,7 +3,15 @@
   "id": "tailored-joinery",
   "query": "Tailored joinery solutions Failsworth",
   "phone": "07904 130752",
-  "tier": "A"
+  "tier": "A",
+  "name": "Tailored Joinery Solutions",
+  "rubric": "Fitted furniture",
+  "rating": 5,
+  "reviews": 59,
+  "tel": "+447904130752",
+  "wa": "https://wa.me/447904130752",
+  "address": "Unit 5 Morton St, Failsworth, Manchester M35 0BN",
+  "card": "https://www.google.com/maps/place/Tailored%20joinery%20solutions/data=!4m2!3m1!1s0x487bb1711a1a8df1:0x45a77b57a50312be?hl=en"
  },
  {
   "id": "barron-bespoke",
@@ -23,36 +31,84 @@
   "id": "handley-joinery",
   "query": "handley bespoke joinery interiors Manchester",
   "phone": "07500 983372",
-  "tier": "A"
+  "tier": "A",
+  "name": "Handley Bespoke Joinery",
+  "rubric": "Fitted furniture",
+  "rating": 5,
+  "reviews": 12,
+  "tel": "+447500983372",
+  "wa": "https://wa.me/447500983372",
+  "address": "Unit 9a Reliance St, Manchester M40 3AG",
+  "card": "https://www.google.com/maps/place/handley%20bespoke%20joinery%20interiors/data=!4m2!3m1!1s0x487bb1dcb0e569a1:0x45364a36d06d22c9?hl=en"
  },
  {
   "id": "inspired-living",
   "query": "INSPIRED LIVING Salford kitchen",
   "phone": "07516 630145",
-  "tier": "A"
+  "tier": "A",
+  "name": "Inspired Living",
+  "rubric": "Kitchens",
+  "rating": 5,
+  "reviews": 11,
+  "tel": "+447516630145",
+  "wa": "https://wa.me/447516630145",
+  "address": "Unit 15, West Link Business Park, Guide St, Salford M50 1EW",
+  "card": "https://www.google.com/maps/place/INSPIRED%20LIVING/data=!4m2!3m1!1s0x487bad3a5b8d5283:0x435850303b0ced09?hl=en"
  },
  {
   "id": "altered-images",
   "query": "Altered Images - Bespoke Kitchen/Bedroom Fitters Manchester",
   "phone": "07912 759156",
-  "tier": "A"
+  "tier": "A",
+  "name": "Altered Images",
+  "rubric": "Kitchens",
+  "rating": 5,
+  "reviews": 8,
+  "tel": "+447912759156",
+  "wa": "https://wa.me/447912759156",
+  "address": "Manchester",
+  "card": "https://www.google.com/maps/place/Altered%20Images%20-%20Bespoke%20Kitchen%2FBedroom%20Fitters/data=!4m2!3m1!1s0x223111bcea9e4783:0xe5a2843051d08904?hl=en"
  },
  {
   "id": "307-builders",
   "query": "307 Builders LTD Manchester",
   "phone": "07778 461103",
-  "tier": "A"
+  "tier": "A",
+  "name": "307 Builders",
+  "rubric": "Builders",
+  "rating": 5,
+  "reviews": 7,
+  "tel": "+447778461103",
+  "wa": "https://wa.me/447778461103",
+  "address": "Manchester",
+  "card": "https://www.google.com/maps/place/307%20Builders%20LTD/data=!4m2!3m1!1s0x2681e20ada98cd6d:0x8b066cbfbff51497?hl=en"
  },
  {
   "id": "md-kitchen-fitters",
   "query": "M.D kitchen Fitters Denton",
   "phone": "07812 314144",
-  "tier": "A"
+  "tier": "A",
+  "name": "M.D Kitchen Fitters",
+  "rubric": "Kitchens",
+  "rating": 4.2,
+  "reviews": 5,
+  "tel": "+447812314144",
+  "wa": "https://wa.me/447812314144",
+  "address": "Willow Grove, Denton, Manchester M34 3GX",
+  "card": "https://www.google.com/maps/place/M.D%20kitchen%20Fitters/data=!4m2!3m1!1s0x487bb51c6374b769:0xe457a2c68a1ef2d4?hl=en"
  },
  {
   "id": "jamie-shaw",
   "query": "Jamie Shaw Kitchens and Bedrooms Stockport",
   "phone": "07931 283142",
-  "tier": "A"
+  "tier": "A",
+  "name": "Jamie Shaw Kitchens",
+  "rubric": "Fitted furniture",
+  "rating": 5,
+  "reviews": 5,
+  "tel": "+447931283142",
+  "wa": "https://wa.me/447931283142",
+  "address": "Mersey St, Stockport SK1 2HX",
+  "card": "https://www.google.com/maps/place/Jamie%20Shaw%20Kitchens%20and%20Bedrooms/data=!4m2!3m1!1s0x487bb525bc49687d:0x38cffc8c7d73ef?hl=en"
  }
 ]

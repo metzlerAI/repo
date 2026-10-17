@@ -1,0 +1,102 @@
+{
+ "id": "altered-images",
+ "variant": "auto",
+ "accent": "#c8b6e8",
+ "hours": "Monday to Friday 9am to 5pm, Saturday and Sunday 10am to 5pm",
+ "texts": {
+  "line": "Kitchens, bedrooms and media walls in Manchester",
+  "intro": "Rob measures up, draws up the plans around your space and fits the whole job.",
+  "menu": [
+   [
+    "Kitchens",
+    [
+     [
+      "Kitchen fitting",
+      "full kitchen"
+     ],
+     [
+      "Breakfast bars and islands",
+      ""
+     ]
+    ]
+   ],
+   [
+    "Bedrooms and living rooms",
+    [
+     [
+      "Fitted wardrobes",
+      ""
+     ],
+     [
+      "Media walls",
+      "TV, shelves and lighting"
+     ]
+    ]
+   ]
+  ]
+ },
+ "hero": {
+  "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLfwB0CRaWT1bTUivg8DlGKkXXxNZHyhiZtjo47KC0OEWwMR_SsHxd0HhYyzz0QXxmF_11a1SLMULcffdRnW5fwMP_63KG5Izty3MPqvdx7xEl8vGCl_Mu9xEdkz_pEAe0yIO5PlQzVaM73C=w2400",
+  "caption": "Kitchen with a breakfast bar, a slatted panel and a herringbone floor",
+  "src_desktop": "https://lh3.googleusercontent.com/grass-cs/AABkmLfwB0CRaWT1bTUivg8DlGKkXXxNZHyhiZtjo47KC0OEWwMR_SsHxd0HhYyzz0QXxmF_11a1SLMULcffdRnW5fwMP_63KG5Izty3MPqvdx7xEl8vGCl_Mu9xEdkz_pEAe0yIO5PlQzVaM73C=w2400",
+  "crop_desktop": [
+   0,
+   0.35,
+   1,
+   0.85
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLfFtj1_x-qLvUrDq6HChXRifFtRm3aiK1twinhRUHj3MJk0YF6w8r8vKLYUSm3v6XV2KQohShs3mlawNZK-0kh6bUhRiWXhOS-eiIUbD60O2mw9MRzTgeEerBrOOrQPfJC4e2M0Ji43irk0=w1600",
+   "title": "White Shaker kitchen",
+   "text": "Island with a hob and glass-front wall units."
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLcLAspBjyLO1XbbZaKbT1ACSnvE5K0GKnxhOgxGnVaKEKerCSxdtFPGDH_IeDrcgr5abgsEtUTBqG9z54rWAKbhsCXtMh1H0oulszFDHPJs3LHWKDYaWk3JMaPVr0WsGtJwTW2b1I3tQzyA=w1600",
+   "title": "Media wall",
+   "text": "TV with lit shelves and cupboards below."
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLdv-5maXqCf1QqCepB3VSH8AgSPLX5-Doblh4aVFHXkYWGsl3aTARH3dx1fGbxvnmxzoFvLbVFAZd40aJHa0s7RVTTPilJQdOphwbga4aywqz7To_aqKlpbrAVUGfA0eSVp4c1wLcFg1CTN=w1600",
+   "title": "Dark grey kitchen",
+   "text": "Marble-effect worktop and metro tiles."
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLeM9nIva2SlehfjSCcq9wKjZI80CoKgOAW-3gmrEoRkvEbCdJQIPQrwGUKGjcGdKoOt-X0Gj7uOB4rGP5EmF8BoxobrAnxsHPViJPrwpK7rH-KOKO7HCYYtOL1YhcbnNv09oT1vBeZz9Xvw=w1600",
+   "title": "Dressing table",
+   "text": "Round mirror, drawers and glass shelves."
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLfoQkhNjkBL_PUI6Y03p5kkKpHQhNNHGL4yKYWLtMaGmuFioT8oNpFXAxYap6w7Bm6SqdyVKYZE5yec8cZxkbsBMTrayrBiJx3ZbZQQMJt05gTwlmAA5joX3bDDOTYCeAIm75hy5BAji8Dc=w1600",
+   "title": "Fitted wardrobes",
+   "text": "Pale grey doors with drawers to the side."
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLcGaXva_Gs6Egb0SDVMj1IS_w-tS_glfB7Kz1lrooddLuGndtw2P7yY6o4LkYQdbgGzSlLgYY9RL-iFn650m1ZjsvLM68RkwbcXenPncAwe8kvu2Z2lb4eVmJfHNAsSzRKgyTac-D_ZyjsY=w1600",
+   "title": "White gloss kitchen",
+   "text": "Black worktop and a chimney hood."
+  }
+ ],
+ "steps_photos": [
+  "https://lh3.googleusercontent.com/grass-cs/AABkmLf9VTM7UKRSiWLFRsR13f-WGnAStGYrjuwMq75tjX3P5Eb3-L9KitU1Ju2mxh8v5D4iXYvh0ZXfjLha0N756vE_G952-P7B6ooj8H-g_TUIlSe0qTO0pVa4D56Z8OqAPLzE6_hmjxKruvA=w1600",
+  "https://lh3.googleusercontent.com/grass-cs/AABkmLecPu6OZP-z6RcTo1ijg9SAfspBCPiTxBDCjCSZXmgBsvleLNwBMc7arQl4TsVfOL-193UFk3WCCWEDKmahVSZC4AjeeR-enLEKBYAZgwPo9JtEFzb7NZghvUn_du7StHBj90vpGqvHr80=w1600",
+  "https://lh3.googleusercontent.com/grass-cs/AABkmLeH44Cx55LA1S51PgQjN62pfgw4if7I2rTiFsFPEOp38q-uS0D_OTqkCZx9CS2sZ5b-dR4YD8GDfWuq0SYzJ0xIbdHMK6315k7p7izG35UJblzXQ5xGN81QIrg_7KYWQOfl7x9hS9GlgE0=w1600",
+  "https://lh3.googleusercontent.com/grass-cs/AABkmLd33df0Z7YjcqC14xl3T4gJBzqpdf_6U6Nnr2gT2Qse4pkjp1A3UUTYwCTZpKAeNWRRp2-i-Jno_S0D0qpmpTyBw5rT31TLhxZsq1EzEQ00NGXA81jMnWChAsf8v0qSb5ik7li47KVETGw=w1600"
+ ],
+ "review_photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdz8BG58aH106VWMQTvk0jnbQZ1GemIG167yZlP25PxVOxrOw1sPAHEFYtBqCssdIsfzKh7XkxMze-Ajjr-iuNs-GeZxccj5G1zZA2lEGlPjkf4yv_-21yC-yO4gAdvYWRGJwDorWZVVv2T=w1600",
+ "reviews": [
+  {
+   "name": "Kirsty F.",
+   "text": "I am absolutely delighted with my new kitchen and cannot recommend Rob highly enough. Communication was always prompt and professional, and he always turned up exactly when he said he would."
+  },
+  {
+   "name": "Melanie S.",
+   "text": "Rob built and fitted my media wall, wardrobes and floors. He came and measured up and designed everything I wanted to fit the spaces."
+  },
+  {
+   "name": "Gabriela P.",
+   "text": "Rob fitted our new kitchen last week. From start to finish his attention to detail and professionalism were incredible."
+  }
+ ]
+}

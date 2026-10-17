@@ -109,12 +109,44 @@ MENU_KITCHEN_EN = [
     ("Kitchens", [("Supply and fit", "full kitchen"), ("Fit only", "you supply the units")]),
     ("Extras", [("Worktops", "laminate, wood or stone"), ("Doors and handles", "kitchen refresh")]),
 ]
+STEPS_FITTED_EN = [
+    ("Message", "Send a message or a few photos on WhatsApp."),
+    ("Visit", "We come round and measure up."),
+    ("Design", "We agree the design and the price."),
+    ("Fit", "We build and fit it."),
+]
+MENU_FITTED_EN = [
+    ("Wardrobes", [("Fitted wardrobes", "floor to ceiling"), ("Walk-in wardrobes", "")]),
+    ("Living room", [("Media walls", "TV, storage and lighting"), ("Alcove units and shelving", "")]),
+]
+STEPS_BUILDER_EN = [
+    ("Message", "Send a message or a few photos on WhatsApp."),
+    ("Visit", "We come round and look at the job."),
+    ("Quote", "We agree the work and the price."),
+    ("Build", "We get the work done."),
+]
+MENU_BUILDER_EN = [
+    ("Renovations", [("Full renovation", "house or flat"), ("Room refurbishment", "")]),
+    ("Extensions", [("Single-storey extension", ""), ("Porch", "")]),
+]
 TEXTS_EN = {
     "Kitchens": dict(
         line="Kitchens fitted in Greater Manchester",
         intro="We design and fit kitchens around your home and the way you use it.",
         steps=STEPS_KITCHEN_EN, menu=MENU_KITCHEN_EN,
         price_note="The exact price depends on the size, units and worktops. We'll give you a quote after a visit.",
+        visit_h="Visit us"),
+    "Fitted furniture": dict(
+        line="Fitted furniture in Greater Manchester",
+        intro="We design and build furniture to fit the space you have.",
+        steps=STEPS_FITTED_EN, menu=MENU_FITTED_EN,
+        price_note="The exact price depends on the size, materials and finish. We'll give you a quote after a visit.",
+        visit_h="Visit us"),
+    "Builders": dict(
+        line="Building work in Greater Manchester",
+        intro="Renovations and extensions, from the first visit to the finished job.",
+        steps=STEPS_BUILDER_EN, menu=MENU_BUILDER_EN,
+        price_note="The exact price depends on the size of the job and the materials. We'll give you a quote after a visit.",
         visit_h="Visit us"),
 }
 
@@ -184,6 +216,34 @@ QUIZZES = {
             dict(t="As soon as possible", d=""), dict(t="Within a month", d=""),
             dict(t="In 1-3 months", d=""), dict(t="Just looking", d="")]),
     ]),
+    "fitted_en": dict(h="What would your fitted furniture cost?", pre=2, steps=[
+        dict(q="What do you need?", opts=[
+            dict(t="Wardrobes", d="fitted or walk-in"), dict(t="Media wall", d="TV, storage and lighting"),
+            dict(t="Alcove units", d="cupboards and shelves"), dict(t="Under-stairs storage", d="")]),
+        dict(q="Which room is it for?", opts=[
+            dict(t="Bedroom", d=""), dict(t="Living room", d=""),
+            dict(t="Hall or stairs", d=""), dict(t="More than one", d="")]),
+        dict(q="How wide is the space?", opts=[
+            dict(t="Up to 2 m", d=""), dict(t="2-3 m", d=""),
+            dict(t="3-4 m", d=""), dict(t="Over 4 m", d="whole wall")]),
+        dict(q="When do you need it?", opts=[
+            dict(t="As soon as possible", d=""), dict(t="Within a month", d=""),
+            dict(t="In 1-3 months", d=""), dict(t="Just looking", d="")]),
+    ]),
+    "builder_en": dict(h="What would your building work cost?", pre=2, steps=[
+        dict(q="What's the job?", opts=[
+            dict(t="Renovation", d="one room or more"), dict(t="Extension", d="or a porch"),
+            dict(t="Outside work", d="render, brickwork"), dict(t="Something else", d="")]),
+        dict(q="What kind of property?", opts=[
+            dict(t="Terraced", d=""), dict(t="Semi-detached", d=""),
+            dict(t="Detached", d=""), dict(t="Flat or bungalow", d="")]),
+        dict(q="How big is the job?", opts=[
+            dict(t="One room", d=""), dict(t="A few rooms", d=""),
+            dict(t="Whole house", d=""), dict(t="Not sure yet", d="we'll take a look")]),
+        dict(q="When do you need it?", opts=[
+            dict(t="As soon as possible", d=""), dict(t="Within a month", d=""),
+            dict(t="In 1-3 months", d=""), dict(t="Just looking", d="")]),
+    ]),
     "tables": dict(h="Подберём стол за минуту", pre=2, steps=[
         dict(q="Сколько человек за столом?", opts=[
             dict(t="2-4", d=""), dict(t="4-6", d=""), dict(t="6-8", d=""), dict(t="Больше 8", d="")]),
@@ -203,7 +263,7 @@ def variant_for(c, d):
     if d.get("variant") and d["variant"] != "auto":
         return d["variant"]
     if UK:
-        return "kitchen_en"
+        return {"Fitted furniture": "fitted_en", "Builders": "builder_en"}.get(c["rubric"], "kitchen_en")
     return {"Детская мебель": "kids", "Мягкая мебель": "soft"}.get(c["rubric"], "kitchen")
 
 CAM_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 8h3l1.5-2h7L17 8h3v11H4z" stroke-linejoin="round"/><circle cx="12" cy="13" r="3.5"/></svg>'
@@ -315,7 +375,7 @@ def build(cid, companies, env):
 
     gallery = []
     for i, g in enumerate(d.get("gallery", [])[:GALLERY_SIZE], 1):
-        save_photo(g["src"], img / f"w{i}.jpg", max_w=1400)
+        save_photo(g["src"], img / f"w{i}.jpg", max_w=1400, crop=g.get("crop"))
         gallery.append(g)
     while len(gallery) < GALLERY_SIZE:
         gallery.append({"empty": True})
