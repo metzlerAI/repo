@@ -2,8 +2,8 @@
 
 Запуск: python3 tools/send_page.py [пачка]   (пачки: 1 — Краснодар, rossiya — фирмы из baza-rossiya.xlsx; по умолчанию 1)
 Берёт companies.json и out/<id>/desktop-NN.png (их делает shoot.js).
-Кладёт в landing-brief/send/: пачка-<пачка>.html, видео/<id>.mp4 (если есть out/<id>/demo.mp4), скрины/<id>/01.jpg…
-и пачка-<пачка>.zip со всем этим. Видео, которого ещё нет, страница помечает жёлтым.
+Кладёт в landing-brief/send/: пачка-<пачка>.html и скрины/<id>/01.jpg…, видео страница берёт прямо из out/<id>/demo.mp4.
+Архив пачка-<пачка>.zip повторяет папки репозитория (send/… и out/<id>/demo.mp4), поэтому страница в нём тоже видит видео. Видео, которого ещё нет, страница помечает жёлтым.
 Тексты сообщений и пометки по фирмам лежат ниже, в PACKS.
 """
 import html
@@ -20,7 +20,6 @@ ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "out"
 SEND = ROOT / "send"
 SHOTS = SEND / "скрины"
-VIDEOS = SEND / "видео"
 
 # Текст идёт подписью к видео-демо (out/<id>/demo.mp4). Основа из BRIEF.md: вариант A при рейтинге 4,6 и выше, B для остальных.
 HELLO = "Здравствуйте! Я Ярослав, делаю сайты для местного бизнеса в Краснодаре. "
@@ -113,12 +112,7 @@ def album(cid):
 
 
 def video(cid):
-    src = OUT / cid / "demo.mp4"
-    if not src.exists():
-        return None
-    VIDEOS.mkdir(parents=True, exist_ok=True)
-    (VIDEOS / f"{cid}.mp4").write_bytes(src.read_bytes())
-    return f"видео/{cid}.mp4"
+    return f"../out/{cid}/demo.mp4" if (OUT / cid / "demo.mp4").exists() else None
 
 
 def card(n, f, c):
@@ -146,7 +140,7 @@ def card(n, f, c):
     js_text = html.escape(json.dumps(text, ensure_ascii=False))
     if vid:
         cover = f'<video class="cover" src="{vid}" controls muted preload="metadata"></video>'
-        step3 = f"3. Перетащи в чат файл <b>{vid}</b>, в поле «Подпись» вставь текст и отправь."
+        step3 = f"3. Перетащи в чат файл <b>out/{cid}/demo.mp4</b>, в поле «Подпись» вставь текст и отправь."
     else:
         cover = f'<a class="cover" href="{imgs[0]}" target="_blank"><img src="{imgs[0]}" alt=""></a>'
         step3 = f"3. Видео <b>out/{cid}/demo.mp4</b> ещё не собрано. Когда появится, запусти tools/send_page.py ещё раз."
@@ -200,11 +194,13 @@ def main():
     page.write_text(PAGE.replace("{cards}", cards).replace("{title}", title).replace("{count}", str(len(firms))), encoding="utf-8")
     ids = {f["id"] for f in firms}
     with zipfile.ZipFile(SEND / f"пачка-{pack}.zip", "w", zipfile.ZIP_DEFLATED) as z:
-        z.write(page, page.name)
-        for p in sorted(SHOTS.rglob("*.jpg")) + sorted(VIDEOS.glob("*.mp4")):
-            cid = p.parent.name if p.suffix == ".jpg" else p.stem
-            if cid in ids:
-                z.write(p, p.relative_to(SEND).as_posix())
+        z.write(page, f"send/{page.name}")
+        for p in sorted(SHOTS.rglob("*.jpg")):
+            if p.parent.name in ids:
+                z.write(p, f"send/{p.relative_to(SEND).as_posix()}")
+        for cid in sorted(ids):
+            if (OUT / cid / "demo.mp4").exists():
+                z.write(OUT / cid / "demo.mp4", f"out/{cid}/demo.mp4")
     print(page, "и", SEND / f"пачка-{pack}.zip")
 
 
