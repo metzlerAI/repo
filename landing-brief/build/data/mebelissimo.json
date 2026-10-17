@@ -1,0 +1,76 @@
+{
+ "id": "mebelissimo",
+ "variant": "auto",
+ "accent": "#d6c2a3",
+ "point": {
+  "lat": 55.99343,
+  "lon": 92.917803
+ },
+ "hours": "пн-пт 10:00-19:00, сб 10:00-15:00, вс выходной",
+ "hero": {
+  "src": "https://i5.photo.2gis.com/photo-gallery/358642c7-2ce7-4681-a3fc-cebadbb964a2.jpg",
+  "caption": "",
+  "src_desktop": "https://i8.photo.2gis.com/photo-gallery/23f02a31-260d-4cfc-a80f-b4bf14d45cc2.jpg",
+  "crop_desktop": [
+   0,
+   0.15,
+   1,
+   0.75
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i1.photo.2gis.com/photo-gallery/a5971d5d-bc29-4e3f-b1a0-1229eda79bd8.jpg",
+   "title": "Кухня под дерево",
+   "text": "Фасады под дерево, серый верх и тёмный фартук."
+  },
+  {
+   "src": "https://i2.photo.2gis.com/photo-gallery/590c6aa3-6f61-477a-807b-bbe32bff7908.jpg",
+   "title": "Угловая кухня",
+   "text": "Серые фасады, столешница и фартук под дерево."
+  },
+  {
+   "src": "https://i8.photo.2gis.com/photo-gallery/f403a443-c2f4-440b-83f8-b2aa76bb9c56.jpg",
+   "title": "Кухня у окна",
+   "text": "Серый низ, белый верх и фартук под дерево."
+  },
+  {
+   "src": "https://i7.photo.2gis.com/images/branch/0/30258560086083044_88e2.jpg",
+   "title": "Шкаф-купе",
+   "text": "Зеркальная дверь и угловые полки под дерево."
+  },
+  {
+   "src": "https://i3.photo.2gis.com/photo-gallery/7a85bc06-ca07-4795-b127-dc5fa51cd361.jpg",
+   "title": "Прихожая",
+   "text": "Шкаф, ниша с подсветкой и банкетка."
+  },
+  {
+   "src": "https://i1.photo.2gis.com/images/branch/0/30258560065176718_7523.jpg",
+   "title": "Тумба в ванную",
+   "text": "Серая подвесная тумба с накладной раковиной."
+  }
+ ],
+ "steps_photos": [
+  "https://i8.photo.2gis.com/photo-gallery/dcda0640-8548-432e-95ed-e55331d0e532.jpg",
+  "https://i8.photo.2gis.com/images/branch/0/30258560065176721_9340.jpg",
+  "https://i8.photo.2gis.com/photo-gallery/8e5c4020-92a6-44a1-8211-71b2c17c9821.jpg",
+  "https://i8.photo.2gis.com/photo-gallery/a74b27b1-5c0a-46c3-a9db-b11738d8979a.jpg"
+ ],
+ "review_photo": "https://i3.photo.2gis.com/images/branch/0/30258560065176661_866b.jpg",
+ "reviews": [
+  {
+   "name": "Галина Г.",
+   "text": "Огромное спасибо за шикарную детскую для моих дочек! Менеджер сразу сориентировал по материалам и срокам, помог подобрать вариант, который идеально вписался в нашу детскую."
+  },
+  {
+   "name": "Семён К.",
+   "text": "Сделали раньше срока, на всех этапах помогали и консультировали, изготовили и установили идеально, все зазоры ровные до миллиметра."
+  },
+  {
+   "name": "Елена П.",
+   "text": "Заказывали кухню, шкаф в спальню, прихожую и ТВ-тумбу. Изготовили очень быстро и качественно, помогли с дизайном."
+  }
+ ],
+ "display_vw": 10.4,
+ "display_min": "3rem"
+}

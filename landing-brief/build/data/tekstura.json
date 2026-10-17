@@ -1,0 +1,75 @@
+{
+ "id": "tekstura",
+ "variant": "auto",
+ "accent": "#a7c1bd",
+ "point": {
+  "lat": 56.784649,
+  "lon": 60.645832
+ },
+ "hours": "Ежедневно с 11:00 до 20:00",
+ "hero": {
+  "src": "https://i5.photo.2gis.com/photo-gallery/2660c2ec-4a36-45f4-a740-751e6606eaea.jpg",
+  "caption": "",
+  "src_desktop": "https://i7.photo.2gis.com/photo-gallery/da8a7a9a-81ad-4ae7-b856-1b9cfb6076ff.jpg",
+  "crop_desktop": [
+   0,
+   0,
+   1,
+   1
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i2.photo.2gis.com/photo-gallery/58d5ecc5-5794-4052-ad23-dc1abd384bed.jpg",
+   "title": "Белая кухня",
+   "text": "Светлые фасады до потолка и встроенная техника."
+  },
+  {
+   "src": "https://i6.photo.2gis.com/images/branch/0/30258560131464333_368b.jpg",
+   "title": "Прихожая",
+   "text": "Шкаф, открытая вешалка и ящики."
+  },
+  {
+   "src": "https://i3.photo.2gis.com/photo-gallery/5ffd6118-7b7d-47a8-92d7-c949e8278833.jpg",
+   "title": "Детская",
+   "text": "Письменный стол с тумбой и шкаф до потолка."
+  },
+  {
+   "src": "https://i3.photo.2gis.com/images/branch/0/30258560131054994_17df.jpg",
+   "title": "Спальня",
+   "text": "Стена за кроватью с панелями под дерево."
+  },
+  {
+   "src": "https://i8.photo.2gis.com/images/branch/0/30258560131107235_084f.jpg",
+   "title": "Прихожая",
+   "text": "Шкаф с жалюзийными дверями у кирпичной стены."
+  },
+  {
+   "src": "https://i5.photo.2gis.com/images/branch/0/30258560131054989_2f00.jpg",
+   "title": "Шкаф",
+   "text": "Распашные двери с узкими вставками."
+  }
+ ],
+ "steps_photos": [
+  "https://i2.photo.2gis.com/photo-gallery/4b7554d6-9d88-472d-987e-774d95ef3d67.jpg",
+  "https://i4.photo.2gis.com/images/branch/0/30258560131101536_f039.jpg",
+  "https://i7.photo.2gis.com/images/branch/0/30258560131107236_cfda.jpg",
+  "https://i6.photo.2gis.com/photo-gallery/56ab66ff-34ee-48c3-bae6-7e7f2ea9d4f8.jpg"
+ ],
+ "review_photo": "https://i6.photo.2gis.com/images/branch/0/30258560131178610_ee69.jpg",
+ "storefront": "https://i7.photo.2gis.com/images/branch/0/30258560131194663_d0ac.jpg",
+ "reviews": [
+  {
+   "name": "Мария П.",
+   "text": "Заказывали кухню и распашной шкаф. Это единственный производитель из 5, у которого оказался нужный нам зелёный цвет. Отличное качество рифлёных фасадов."
+  },
+  {
+   "name": "Alexander P.",
+   "text": "Не первый раз заказываем мебель. Два года назад установили кухню, теперь шкаф в спальню. Несмотря на проблемы со стенами, всё установлено идеально."
+  },
+  {
+   "name": "Любовь С.",
+   "text": "Заказывали мебель в санузлы. Помогли выбрать фурнитуру и покрытие, сделали замеры. Смонтировали всё очень красиво и аккуратно."
+  }
+ ]
+}

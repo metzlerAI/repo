@@ -1,0 +1,74 @@
+{
+ "id": "kukhni-teyge",
+ "variant": "auto",
+ "accent": "#cfc6b8",
+ "point": {
+  "lat": 52.26318,
+  "lon": 104.311656
+ },
+ "hours": "Ежедневно с 09:00 до 21:00",
+ "hero": {
+  "src": "https://i7.photo.2gis.com/photo-gallery/f7d7003b-3ec7-4405-8880-c5a9f9264a2b.jpg",
+  "caption": "",
+  "src_desktop": "https://i3.photo.2gis.com/photo-gallery/ca1b99cb-157f-4384-8400-4f3e8c32d01c.jpg",
+  "crop_desktop": [
+   0,
+   0,
+   1,
+   0.92
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i2.photo.2gis.com/photo-gallery/3232cd3f-be5d-4128-97b8-a86c46449eca.jpg",
+   "title": "Кухня с островом",
+   "text": "Светлые фасады, остров и подвесной светильник."
+  },
+  {
+   "src": "https://i2.photo.2gis.com/images/branch/0/30258560083108582_510b.jpg",
+   "title": "Кухня у окна",
+   "text": "Светлые фасады, столешница под дерево и чёрная вытяжка."
+  },
+  {
+   "src": "https://i8.photo.2gis.com/images/branch/0/30258560081298003_c674.jpg",
+   "title": "Угловая кухня",
+   "text": "Тёмный низ, белый верх и подсветка."
+  },
+  {
+   "src": "https://i4.photo.2gis.com/photo-gallery/d381d762-e0a9-4b03-9d3b-5724affcd6d6.jpg",
+   "title": "Рабочее место",
+   "text": "Стол, полки под дерево с подсветкой и шкаф."
+  },
+  {
+   "src": "https://i3.photo.2gis.com/photo-gallery/6f219c89-b07e-497c-94b8-472375899b77.jpg",
+   "title": "Шкафы до потолка",
+   "text": "Белые гладкие двери в прихожей."
+  },
+  {
+   "src": "https://i9.photo.2gis.com/photo-gallery/a08eae15-434b-4ed9-84dd-e246c229cfad.jpg",
+   "title": "Мебель в ванную",
+   "text": "Шкафы под дерево и тумба с раковиной."
+  }
+ ],
+ "steps_photos": [
+  "https://i1.photo.2gis.com/photo-gallery/79bb0b2f-c1c9-47f6-8d68-14af37af7bb1.jpg",
+  "https://i8.photo.2gis.com/photo-gallery/82660cde-1d49-4d19-a975-84aecf50c8d8.jpg",
+  "https://i7.photo.2gis.com/photo-gallery/d1852226-6f76-49b4-853e-d265ddba58d8.jpg",
+  "https://i0.photo.2gis.com/photo-gallery/205c8c89-3819-4312-837f-f0f11f9d02f9.jpg"
+ ],
+ "review_photo": "https://i1.photo.2gis.com/images/branch/0/30258560082563827_7503.jpg",
+ "reviews": [
+  {
+   "name": "Анна Ш.",
+   "text": "Оперативно приехали на дом, сделали замеры, помогли определиться с дизайном и материалами, за пару дней был готов эскиз и визуализация!"
+  },
+  {
+   "name": "Елена Б.",
+   "text": "Очень красивая, современная и стильная кухня получилась у нас! Сборщик кухни оказался отличным специалистом. Собираемся ещё заказывать мебель в ванную комнату!"
+  },
+  {
+   "name": "Анна Т.",
+   "text": "На все мои «а давайте здесь переделаем» соглашались легко и вносили изменения в проект. По итогу кухня была готова раньше, чем обещали."
+  }
+ ]
+}

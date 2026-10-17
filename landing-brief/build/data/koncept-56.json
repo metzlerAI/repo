@@ -1,0 +1,74 @@
+{
+ "id": "koncept-56",
+ "variant": "auto",
+ "accent": "#d8c3a5",
+ "point": {
+  "lat": 51.807207,
+  "lon": 55.153343
+ },
+ "hours": "Ежедневно с 10:00 до 19:00",
+ "hero": {
+  "src": "https://i1.photo.2gis.com/photo-gallery/31e5c1b5-68ff-4348-b80c-2dddcd6c7219.jpg",
+  "caption": "",
+  "src_desktop": "https://i1.photo.2gis.com/photo-gallery/f361365b-4da6-45d3-8fb5-00fb8c1aeb0d.jpg",
+  "crop_desktop": [
+   0,
+   0.05,
+   1,
+   0.7
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i6.photo.2gis.com/photo-gallery/998d504e-228b-4009-acc4-6d42a9263c94.jpg",
+   "title": "Угловая кухня",
+   "text": "Светлые фасады, чёрные духовые шкафы и тёмный фартук под мрамор."
+  },
+  {
+   "src": "https://i7.photo.2gis.com/photo-gallery/cb88c1ad-0f3a-4df4-8906-af0516dbb1bc.jpg",
+   "title": "Кухня под дерево",
+   "text": "Верхние шкафы под дерево до потолка и тёмный низ."
+  },
+  {
+   "src": "https://i2.photo.2gis.com/photo-gallery/b0595db3-fb7c-4c5a-96b5-f4ace316cfc1.jpg",
+   "title": "Белая кухня",
+   "text": "Угловая кухня с пеналами под технику."
+  },
+  {
+   "src": "https://i4.photo.2gis.com/photo-gallery/9e783824-5456-4c2e-a860-9d272cdf957b.jpg",
+   "title": "Кухня с деревянным фартуком",
+   "text": "Белые фасады и фартук под дерево."
+  },
+  {
+   "src": "https://i0.photo.2gis.com/photo-gallery/0d77b2f6-8d9c-426c-b0e9-50814930c528.jpg",
+   "title": "Серая кухня",
+   "text": "Прямая кухня с подсветкой рабочей зоны."
+  },
+  {
+   "src": "https://i3.photo.2gis.com/photo-gallery/adc232c1-6905-40ce-8487-a1dc0b80381c.jpg",
+   "title": "Прихожая",
+   "text": "Шкаф до потолка, вешалка на рейках и банкетка."
+  }
+ ],
+ "steps_photos": [
+  "https://i8.photo.2gis.com/photo-gallery/fec3c598-3bea-459f-8d13-aa666c6e2c2e.jpg",
+  "https://i2.photo.2gis.com/photo-gallery/cab6f6f2-c2ca-4107-ba1f-f4e6a478fcd4.jpg",
+  "https://i5.photo.2gis.com/photo-gallery/054a149c-add1-41ee-886d-ac726704c4fc.jpg",
+  "https://i9.photo.2gis.com/photo-gallery/10f511c9-5b0c-4737-95d7-a9c0644d6399.jpg"
+ ],
+ "review_photo": "https://i3.photo.2gis.com/photo-gallery/e8bd2a9d-6230-4cdb-83af-8aa4e6b6ac2f.jpg",
+ "reviews": [
+  {
+   "name": "Елена А.",
+   "text": "Обратились за шкафом на заказ, и результат превзошёл ожидания. Всё сделали точно по размерам, быстро и без лишних проблем."
+  },
+  {
+   "name": "Айдар А.",
+   "text": "Обратились за кухней после ремонта. Изготовили и установили вовремя. Всё подошло идеально, ящики и двери работают мягко."
+  },
+  {
+   "name": "Карина К.",
+   "text": "Кухню заказывали впервые, боялись прогадать. Замерщик приехал вовремя, проект сделали за пару дней. Собрали аккуратно, всё подошло идеально."
+  }
+ ]
+}

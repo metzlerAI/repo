@@ -1,0 +1,73 @@
+{
+ "id": "indom",
+ "variant": "auto",
+ "accent": "#a9c4b5",
+ "point": {
+  "lat": 43.086651,
+  "lon": 131.948345
+ },
+ "hours": "Ежедневно с 10:00 до 17:00",
+ "hero": {
+  "src": "https://i6.photo.2gis.com/photo-gallery/b9b6a2d6-58c2-4244-8e9d-2cced2f8f4bb.jpg",
+  "caption": "",
+  "src_desktop": "https://i0.photo.2gis.com/images/branch/0/30258560090578812_c82d.jpg",
+  "crop_desktop": [
+   0,
+   0,
+   1,
+   0.9
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i9.photo.2gis.com/images/branch/0/30258560077847424_d19e.jpg",
+   "title": "Классическая кухня",
+   "text": "Фасады с резными вставками и каменная столешница."
+  },
+  {
+   "src": "https://i3.photo.2gis.com/photo-gallery/e086d97a-5746-4c06-9eaa-312458fec6a5.jpg",
+   "title": "Мятная кухня",
+   "text": "Мятные фасады и подсветка вдоль стены."
+  },
+  {
+   "src": "https://i7.photo.2gis.com/images/branch/0/30258560090578757_c454.jpg",
+   "title": "Кухня с рейками",
+   "text": "Зелёный низ и верхние шкафы с рейками под дерево."
+  },
+  {
+   "src": "https://i2.photo.2gis.com/images/branch/0/30258560090578777_b46e.jpg",
+   "title": "Тёмная кухня",
+   "text": "Тёмные рифлёные фасады и фартук под мрамор."
+  },
+  {
+   "src": "https://i6.photo.2gis.com/images/branch/0/30258560077847315_f773.jpg",
+   "title": "Туалетный столик",
+   "text": "Белый столик и зеркало с лампами."
+  },
+  {
+   "src": "https://i9.photo.2gis.com/images/branch/0/30258560090578819_2a71.jpg",
+   "title": "Рабочая зона",
+   "text": "Стол, полки и панель под телевизор."
+  }
+ ],
+ "steps_photos": [
+  "https://i3.photo.2gis.com/images/branch/0/30258560077958083_dd96.jpg",
+  "https://i7.photo.2gis.com/images/branch/0/30258560077957820_4108.jpg",
+  "https://i0.photo.2gis.com/images/branch/0/30258560077847251_12b5.jpg"
+ ],
+ "review_photo": "https://i3.photo.2gis.com/images/branch/0/30258560090577877_d259.jpg",
+ "reviews": [
+  {
+   "name": "Никита В.",
+   "text": "Заказывал кухню под ключ. Проект сделали, сразу понятно, что получится. Срок изготовления 21 день, как и обещали. Установка заняла один день."
+  },
+  {
+   "name": "Ди",
+   "text": "Надо было сделать шкаф 60x80 в высоту 2 м. Быстро сделали и установили без проблем."
+  },
+  {
+   "name": "Анастасия Ф.",
+   "text": "Надо было сделать кухонный гарнитур, сделали качественно, подобрали под цвет кухни."
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "id": "sandera",
+ "variant": "auto",
+ "accent": "#cbb89d",
+ "point": {
+  "lat": 52.314597,
+  "lon": 104.302455
+ },
+ "hours": "пн выходной, вт-сб 11:00-19:00, вс выходной",
+ "hero": {
+  "src": "https://i2.photo.2gis.com/images/branch/0/30258560173175962_889c.jpg",
+  "caption": "",
+  "src_desktop": "https://i5.photo.2gis.com/photo-gallery/fc615899-1c5e-44db-bf3f-c444dd638d68.jpg",
+  "crop_desktop": [
+   0,
+   0.12,
+   1,
+   0.8
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i5.photo.2gis.com/images/branch/0/30258560173175958_8f5a.jpg",
+   "title": "Угловая кухня",
+   "text": "Серые фасады, верх и фартук под дерево."
+  },
+  {
+   "src": "https://i3.photo.2gis.com/images/branch/0/30258560164659522_22e5.jpg",
+   "title": "Белая кухня",
+   "text": "Белые фасады со стеклом и столешница под дерево."
+  },
+  {
+   "src": "https://i9.photo.2gis.com/photo-gallery/706a2ea8-c1ee-4221-a4ba-f376243d429a.jpg",
+   "title": "Классическая кухня",
+   "text": "Белые фасады с филёнкой и плитка кабанчик."
+  },
+  {
+   "src": "https://i5.photo.2gis.com/images/branch/0/30258560092086005_36da.jpg",
+   "title": "Кухня со стойкой",
+   "text": "Столешница и фартук под мрамор, барная стойка."
+  },
+  {
+   "src": "https://i9.photo.2gis.com/images/branch/0/30258560092086026_ad66.jpg",
+   "title": "Шкаф-купе",
+   "text": "Двери под тёмное дерево в чёрном профиле."
+  },
+  {
+   "src": "https://i0.photo.2gis.com/images/branch/0/30258560176014688_74fe.jpg",
+   "title": "Кухня до потолка",
+   "text": "Светлые фасады и тёмная столешница."
+  }
+ ],
+ "steps_photos": [
+  "https://i0.photo.2gis.com/photo-gallery/f1e4e239-33f4-4fcc-824d-e7f0d2bb1818.jpg",
+  "https://i5.photo.2gis.com/photo-gallery/dacfbaa5-2194-4e52-bb6d-f2a8fd2516a3.jpg",
+  "https://i3.photo.2gis.com/images/branch/0/30258560117043486_3f03.jpg",
+  "https://i2.photo.2gis.com/photo-gallery/f273e445-0270-4951-8eae-6c5270a296b5.jpg"
+ ],
+ "review_photo": "https://i3.photo.2gis.com/images/branch/0/30258560173175963_1ecc.jpg",
+ "reviews": [
+  {
+   "name": "Екатерина П.",
+   "text": "Заказывала не один шкаф. Очень оперативно делают проект и тут же предварительный расчёт. Всё чётко и быстро."
+  },
+  {
+   "name": "Екатерина Х.",
+   "text": "Заказала кухню в дом, быстро согласовали проект, и от старта до установки прошло 14 дней. Установка быстрая, всё чисто, аккуратно!"
+  },
+  {
+   "name": "Ольга К.",
+   "text": "Наша новая кухня: просто мечта. Всё сделали в срок и без единого нарекания. Фасады, фурнитура и столешница превзошли все ожидания."
+  }
+ ]
+}

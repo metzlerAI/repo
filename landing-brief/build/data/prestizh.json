@@ -1,0 +1,106 @@
+{
+ "id": "prestizh",
+ "variant": "soft",
+ "accent": "#d9cdb8",
+ "point": {
+  "lat": 53.342427,
+  "lon": 83.686302
+ },
+ "hours": "Ежедневно с 10:00 до 21:00",
+ "texts": {
+  "line": "Диваны, кровати и шкафы-купе в Барнауле",
+  "intro": "Диваны, кровати, шкафы-купе и прихожие. Образцы можно посмотреть в салоне.",
+  "menu": [
+   [
+    "Диваны",
+    [
+     [
+      "Прямой диван",
+      ""
+     ],
+     [
+      "Угловой диван",
+      ""
+     ]
+    ]
+   ],
+   [
+    "Спальня",
+    [
+     [
+      "Кровать",
+      ""
+     ],
+     [
+      "Шкаф-купе",
+      "за погонный метр"
+     ]
+    ]
+   ]
+  ]
+ },
+ "hero": {
+  "src": "https://i2.photo.2gis.com/photo-gallery/71763b50-dee2-4376-89ed-bd85626e888b.jpg",
+  "caption": "",
+  "src_desktop": "https://i1.photo.2gis.com/photo-gallery/775563a4-f2e6-40a6-a964-c93612d804a3.jpg",
+  "crop_desktop": [
+   0,
+   0.3,
+   1,
+   0.78
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i1.photo.2gis.com/photo-gallery/775563a4-f2e6-40a6-a964-c93612d804a3.jpg",
+   "title": "Угловой диван",
+   "text": "Серая обивка, диван в светлой комнате."
+  },
+  {
+   "src": "https://i5.photo.2gis.com/photo-gallery/64fd1566-bdd8-4068-a95e-24739c191298.jpg",
+   "title": "Кровать",
+   "text": "Высокое мягкое изголовье с вертикальной стёжкой."
+  },
+  {
+   "src": "https://i4.photo.2gis.com/images/branch/0/30258560084562913_786f.jpg",
+   "title": "Шкаф-купе",
+   "text": "Двери под светлое дерево со вставками."
+  },
+  {
+   "src": "https://i9.photo.2gis.com/images/branch/0/30258560083363649_6f44.jpg",
+   "title": "Угловой диван",
+   "text": "Светлая обивка, стёганые подушки."
+  },
+  {
+   "src": "https://i3.photo.2gis.com/images/branch/0/30258560080311089_95df.jpg",
+   "title": "Кровать",
+   "text": "Синее изголовье с ромбами."
+  },
+  {
+   "src": "https://i4.photo.2gis.com/photo-gallery/b510b206-7c05-46bc-a04f-34bad15ff369.jpg",
+   "title": "Шкаф-купе",
+   "text": "Тонированное стекло в чёрном профиле."
+  }
+ ],
+ "steps_photos": [
+  "https://i1.photo.2gis.com/images/branch/0/30258560085749641_2bb2.jpg",
+  "https://i1.photo.2gis.com/photo-gallery/140f964c-5549-4d0e-94da-ed42fc0dca69.jpg",
+  "https://i4.photo.2gis.com/photo-gallery/1ed5a995-138b-4bc6-8d1f-95dca83a7ded.jpg",
+  "https://i7.photo.2gis.com/photo-gallery/127cab3c-8e63-4114-836f-f8a823c0dfa5.jpg"
+ ],
+ "review_photo": "https://i3.photo.2gis.com/photo-gallery/50ae77e3-9983-4e69-9dcb-f0acc5ff0d82.jpg",
+ "reviews": [
+  {
+   "name": "Никита К.",
+   "text": "Купил шкаф-купе, очень доволен качеством. Мастера учли все пожелания и собрали шкаф очень хорошо."
+  },
+  {
+   "name": "Светлана Н.",
+   "text": "Привезли и поставили прихожую, всё оперативно, мусор за собой убрали, всё аккуратно. Срок изготовления 20 дней."
+  },
+  {
+   "name": "Илья К.",
+   "text": "Приобрели диван Даллас! Удобный, мягкий, стильный! Обратимся снова."
+  }
+ ]
+}

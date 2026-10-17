@@ -1,0 +1,74 @@
+{
+ "id": "siti-mebel",
+ "variant": "auto",
+ "accent": "#c9d3b8",
+ "point": {
+  "lat": 43.145406,
+  "lon": 131.947435
+ },
+ "hours": "Ежедневно с 09:30 до 18:00",
+ "hero": {
+  "src": "https://i3.photo.2gis.com/photo-gallery/4d40b0d4-0747-47bd-8238-c316466a682b.jpg",
+  "caption": "",
+  "src_desktop": "https://i5.photo.2gis.com/photo-gallery/a9e3995d-3a01-442e-ac38-69a8202f2022.jpg",
+  "crop_desktop": [
+   0,
+   0.12,
+   1,
+   0.72
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i1.photo.2gis.com/photo-gallery/b1ebe1b4-2966-442a-bd91-997c98fafb20.jpg",
+   "title": "Угловая кухня",
+   "text": "Оливковые фасады внизу, светлый верх и витрины с подсветкой."
+  },
+  {
+   "src": "https://i7.photo.2gis.com/photo-gallery/b26392e4-1e70-426c-8896-58e967f35c36.jpg",
+   "title": "Кухня с обеденной зоной",
+   "text": "Тёмные шкафы с подсветкой и длинный светлый стол."
+  },
+  {
+   "src": "https://i7.photo.2gis.com/photo-gallery/6891cc2e-848e-4db4-9632-8e6078a03bdf.jpg",
+   "title": "Кухня до потолка",
+   "text": "Тёмно-синий низ и верхние шкафы под дерево."
+  },
+  {
+   "src": "https://i1.photo.2gis.com/photo-gallery/cac82d25-b35c-4ef5-8bb5-cab8fd97d897.jpg",
+   "title": "Гардеробная",
+   "text": "Шкафы со стеклянными дверями в тёмной раме."
+  },
+  {
+   "src": "https://i2.photo.2gis.com/photo-gallery/4064f653-3491-462c-a1ab-5b58c44c0985.jpg",
+   "title": "Спальня",
+   "text": "Шкафы во всю стену и рабочий стол с подсветкой."
+  },
+  {
+   "src": "https://i6.photo.2gis.com/photo-gallery/406eb131-d67d-4b66-927c-6204a0e89943.jpg",
+   "title": "Гостиная",
+   "text": "Светлые шкафы до потолка и тумба под телевизор."
+  }
+ ],
+ "steps_photos": [
+  "https://i2.photo.2gis.com/photo-gallery/e51dfdb6-f987-40a6-a49b-febdc8b664a6.jpg",
+  "https://i8.photo.2gis.com/photo-gallery/6cdaa056-d711-495b-aa61-cdd80f9cdeb5.jpg",
+  "https://i4.photo.2gis.com/photo-gallery/673036a4-1da9-428d-94f1-912d056cabf7.jpg",
+  "https://i4.photo.2gis.com/photo-gallery/ec4b38c9-7cd5-4e02-bb94-7d15385e62c8.jpg"
+ ],
+ "review_photo": "https://i1.photo.2gis.com/photo-gallery/0343a62d-6a55-499b-befd-6f53addb3e46.jpg",
+ "reviews": [
+  {
+   "name": "Ксюша К.",
+   "text": "Менеджер помогла составить проект по кухне. Выбрали матовые глухие фасады графитового цвета и чёрные профильные ручки. Довезли аккуратно, без сколов. Собрали за два дня."
+  },
+  {
+   "name": "Дина",
+   "text": "Искали узкий шкаф-купе в коридор, чтобы не перекрывал проход. Двери выбрали зеркальные во весь рост, коридор теперь визуально кажется шире и светлее."
+  },
+  {
+   "name": "Василий И.",
+   "text": "По размерам всё сошлось, шкаф идеально поместился в нишу. Монтажник собрал на совесть, ничего не болтается, двери не дребезжат."
+  }
+ ]
+}

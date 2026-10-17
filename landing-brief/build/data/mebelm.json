@@ -1,0 +1,74 @@
+{
+ "id": "mebelm",
+ "variant": "auto",
+ "accent": "#c9c3b5",
+ "point": {
+  "lat": 57.112001,
+  "lon": 65.545608
+ },
+ "hours": "Ежедневно с 10:00 до 21:00",
+ "hero": {
+  "src": "https://i5.photo.2gis.com/photo-gallery/762b5901-0fe2-4448-ac59-f412c06a9c7a.jpg",
+  "caption": "",
+  "src_desktop": "https://i9.photo.2gis.com/photo-gallery/8bf591b0-c141-4f94-ae11-53a595c0b13d.jpg",
+  "crop_desktop": [
+   0,
+   0.05,
+   1,
+   0.85
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i0.photo.2gis.com/photo-gallery/32a6b7da-7613-4477-99ac-38e499a552e4.jpg",
+   "title": "Кухня с островом",
+   "text": "Светлые фасады, остров с подсветкой и вытяжка-труба."
+  },
+  {
+   "src": "https://i1.photo.2gis.com/photo-gallery/a02bc76e-8d52-4f63-a97f-ee7941817224.jpg",
+   "title": "Угловая кухня",
+   "text": "Тёмный низ, светлый верх и окно над мойкой."
+  },
+  {
+   "src": "https://i4.photo.2gis.com/photo-gallery/40aece84-9ea0-4f9e-8cab-5a6de08528f2.jpg",
+   "title": "Гардеробная",
+   "text": "Стеклянные двери в чёрной раме и подсветка полок."
+  },
+  {
+   "src": "https://i7.photo.2gis.com/photo-gallery/e50b2764-3dd4-4eb0-b52f-9066ebf3ab40.jpg",
+   "title": "Шкаф",
+   "text": "Белые распашные двери с длинными ручками и открытые полки."
+  },
+  {
+   "src": "https://i1.photo.2gis.com/photo-gallery/5f298cb1-cd31-48b7-8e71-9374a75f005b.jpg",
+   "title": "Прихожая",
+   "text": "Мягкие панели, вешалка и подсветка."
+  },
+  {
+   "src": "https://i4.photo.2gis.com/photo-gallery/7f2873f4-5a2c-4c58-9ba2-9dbbe0e0c4c2.jpg",
+   "title": "Прямая кухня",
+   "text": "Верхние шкафы под дерево и низ под бетон."
+  }
+ ],
+ "steps_photos": [
+  "https://i6.photo.2gis.com/photo-gallery/74dae07b-363a-4757-a502-1271e0de80ce.jpg",
+  "https://i9.photo.2gis.com/photo-gallery/6488d0ca-e0c4-4053-8ffc-69db6b62f7f5.jpg",
+  "https://i4.photo.2gis.com/photo-gallery/2c78e11d-83aa-432a-8911-13fb15f9705e.jpg",
+  "https://i5.photo.2gis.com/photo-gallery/e3e600db-121b-4c7c-b539-3b4a62d21eab.jpg"
+ ],
+ "review_photo": "https://i7.photo.2gis.com/photo-gallery/7a854535-31a8-4e4b-9a52-52a73c4a6ff9.jpg",
+ "reviews": [
+  {
+   "name": "Жебек А.",
+   "text": "Долго искала хороший салон для заказа кухни. Менеджер сделала проект кухни, помогла с выбором материалов, дала дельные советы."
+  },
+  {
+   "name": "Валерия Б.",
+   "text": "Очень довольны помощью в выборе материалов и дизайна кухни, планируем обустроить несколько зон в квартире. Работают со всеми материалами."
+  },
+  {
+   "name": "Анна",
+   "text": "Много лет сотрудничаю с салоном как дизайнер. Нравится, что можно в одном месте заказать всю корпусную мебель, подобрать разнообразные материалы."
+  }
+ ]
+}

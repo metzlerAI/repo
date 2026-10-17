@@ -1,0 +1,74 @@
+{
+ "id": "masterskaya-dizayna",
+ "variant": "auto",
+ "accent": "#b8cdb9",
+ "point": {
+  "lat": 56.044278,
+  "lon": 92.889858
+ },
+ "hours": "Ежедневно с 10:00 до 19:00",
+ "hero": {
+  "src": "https://i4.photo.2gis.com/photo-gallery/9caabd8b-b6a5-488b-a75e-eb0db528a613.jpg",
+  "caption": "",
+  "src_desktop": "https://i0.photo.2gis.com/photo-gallery/aaa6e1e4-fdba-4408-94f9-2e6f3ed92e32.jpg",
+  "crop_desktop": [
+   0,
+   0.1,
+   1,
+   0.8
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i6.photo.2gis.com/photo-gallery/a259ccc4-e212-4f8b-844e-5415b552533d.jpg",
+   "title": "Кухня с островом",
+   "text": "Тёмные фасады, фартук под мрамор и остров."
+  },
+  {
+   "src": "https://i2.photo.2gis.com/photo-gallery/0682e185-6019-495b-891d-b8ba2a9b1f44.jpg",
+   "title": "Кухня с витриной",
+   "text": "Высокая витрина с подсветкой и светлые фасады."
+  },
+  {
+   "src": "https://i7.photo.2gis.com/photo-gallery/15bd9892-5318-4e96-835f-9200b19db424.jpg",
+   "title": "Мятная кухня",
+   "text": "Мятный низ, светлый верх и белая плитка."
+  },
+  {
+   "src": "https://i9.photo.2gis.com/photo-gallery/6cddbb1b-0a22-4011-9fa7-2472833a6d79.jpg",
+   "title": "Тумба в ванную",
+   "text": "Подвесная тумба под орех с латунными ручками."
+  },
+  {
+   "src": "https://i7.photo.2gis.com/photo-gallery/972baa4f-04ef-417e-b53d-ed49f1bf75be.jpg",
+   "title": "Гостиная",
+   "text": "Стеллаж, полки и тумба под телевизор."
+  },
+  {
+   "src": "https://i0.photo.2gis.com/photo-gallery/36a7644e-5e39-4ff6-83c2-b051c8d903ea.jpg",
+   "title": "Тёмная кухня",
+   "text": "Шкафы под дерево и витрина с подсветкой."
+  }
+ ],
+ "steps_photos": [
+  "https://i2.photo.2gis.com/photo-gallery/beff88a6-d3ba-4d42-af37-1acbb4f890db.jpg",
+  "https://i6.photo.2gis.com/photo-gallery/f5368f61-d394-42ea-ac47-939f1fa2a77e.jpg",
+  "https://i0.photo.2gis.com/photo-gallery/c7a14f55-4e51-4dc5-8d81-68326d59a2ad.jpg",
+  "https://i2.photo.2gis.com/photo-gallery/379e1cc4-04f3-4554-ae98-1c95d7a4239d.jpg"
+ ],
+ "review_photo": "https://i8.photo.2gis.com/photo-gallery/9fccd053-349e-444c-9338-ac4e5de79bae.jpg",
+ "reviews": [
+  {
+   "name": "Виталий",
+   "text": "Обратились для изготовления кухонного стеллажа и ТВ-зоны. Проект оказался достаточно сложным, но результат превзошёл ожидания. Всё выполнено качественно и точно по проекту."
+  },
+  {
+   "name": "Юлия Р.",
+   "text": "Делали у ребят кухню, книжный шкаф и тумбу под телевизор! Всё досконально замеряют, учитывают каждый нюанс."
+  },
+  {
+   "name": "Вера М.",
+   "text": "Обращаемся уже не в первый раз, качество на высоте. Все сотрудники мастера своего дела."
+  }
+ ]
+}

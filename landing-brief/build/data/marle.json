@@ -1,0 +1,75 @@
+{
+ "id": "marle",
+ "variant": "auto",
+ "accent": "#9fb8a5",
+ "point": {
+  "lat": 56.495289,
+  "lon": 84.985073
+ },
+ "hours": "Ежедневно с 10:00 до 21:00",
+ "hero": {
+  "src": "https://i3.photo.2gis.com/photo-gallery/bbb9a350-19ef-414e-93f2-b28036d04aaf.jpg",
+  "caption": "",
+  "src_desktop": "https://i3.photo.2gis.com/photo-gallery/b551e773-103a-41ef-b43a-181fa13e9ff7.jpg",
+  "crop_desktop": [
+   0,
+   0,
+   1,
+   0.85
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i3.photo.2gis.com/photo-gallery/25536f52-e8be-4ad6-9e82-979a17b648a0.jpg",
+   "title": "Угловая кухня",
+   "text": "Бежевый низ, светлые пеналы и зелёная стена."
+  },
+  {
+   "src": "https://i3.photo.2gis.com/photo-gallery/2f6db799-6b27-4883-ad07-cd74768adb4a.jpg",
+   "title": "Бирюзовая кухня",
+   "text": "Бирюзовый низ, белый верх и фартук под мрамор."
+  },
+  {
+   "src": "https://i4.photo.2gis.com/photo-gallery/d7594dbb-75ba-431b-ae5d-b16e77155ea9.jpg",
+   "title": "Шкаф до потолка",
+   "text": "Белые двери с латунными ручками и открытые полки."
+  },
+  {
+   "src": "https://i2.photo.2gis.com/photo-gallery/ffe1685d-a504-4421-93f1-bff03b72c44e.jpg",
+   "title": "Рабочее место",
+   "text": "Стол с полками и шкафом у сиреневой стены."
+  },
+  {
+   "src": "https://i0.photo.2gis.com/images/branch/0/30258560167214628_83c2.jpg",
+   "title": "Классическая кухня",
+   "text": "Кремовые фасады с филёнкой и витрины."
+  },
+  {
+   "src": "https://i3.photo.2gis.com/photo-gallery/eb1083f9-0cae-494b-8933-68cc21cb08f7.jpg",
+   "title": "Гостиная",
+   "text": "Тумба под телевизор и стеллаж с рейками."
+  }
+ ],
+ "steps_photos": [
+  "https://i1.photo.2gis.com/photo-gallery/95fd4ad3-ebf7-4df5-aeb2-22eb3a599076.jpg",
+  "https://i4.photo.2gis.com/photo-gallery/14a4d18a-b053-443e-a3bd-92857a358250.jpg",
+  "https://i6.photo.2gis.com/photo-gallery/ffcaf2dd-4462-4cac-ac8c-a5c9d3703f04.jpg",
+  "https://i7.photo.2gis.com/photo-gallery/7382e3d8-bbcc-4279-9830-0b1af6084167.jpg"
+ ],
+ "review_photo": "https://i5.photo.2gis.com/photo-gallery/998a1afc-608f-4c59-84b9-cd67d168ade1.jpg",
+ "storefront": "https://i1.photo.2gis.com/photo-gallery/88bf2580-4089-49ff-a170-39d7993e5d93.jpg",
+ "reviews": [
+  {
+   "name": "Далер Т.",
+   "text": "Помогли с выбором и установкой шкафа-купе. Место установки не совсем простое, но шкаф вписался на удивление отлично. Монтажники аккуратные и вежливые."
+  },
+  {
+   "name": "Татьяна К.",
+   "text": "С этой компанией уже больше 5 лет. Сейчас установили кухню и шкаф в новую квартиру. Всё как всегда шикарно, а главное со вкусом."
+  },
+  {
+   "name": "Дмитрий Щ.",
+   "text": "Заказали кухню. Менеджер учла все пожелания, и кухня получилась функциональной, лаконичной и удобной. Собирал мастер своего дела."
+  }
+ ]
+}

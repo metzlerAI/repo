@@ -1,0 +1,74 @@
+{
+ "id": "diamant",
+ "variant": "auto",
+ "accent": "#b9cbb3",
+ "point": {
+  "lat": 55.186234,
+  "lon": 61.394335
+ },
+ "hours": "Ежедневно с 10:00 до 21:00",
+ "hero": {
+  "src": "https://i3.photo.2gis.com/images/branch/0/30258560152974320_570c.jpg",
+  "caption": "",
+  "src_desktop": "https://i6.photo.2gis.com/images/branch/0/30258560152974305_b2c2.jpg",
+  "crop_desktop": [
+   0,
+   0.2,
+   1,
+   0.72
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i0.photo.2gis.com/photo-gallery/adbe8b6f-ea53-463e-b528-b92725bf06c2.jpg",
+   "title": "Угловая кухня",
+   "text": "Зелёный низ, тёмный верх и фартук под дерево."
+  },
+  {
+   "src": "https://i9.photo.2gis.com/images/branch/0/30258560152974387_f81e.jpg",
+   "title": "Кухня с островом",
+   "text": "Верхние шкафы под дерево, остров с каменной столешницей."
+  },
+  {
+   "src": "https://i1.photo.2gis.com/photo-gallery/428c6c37-7cbb-4659-9f18-119c352992e1.jpg",
+   "title": "Кухня с барной стойкой",
+   "text": "Белые фасады и стойка под дерево."
+  },
+  {
+   "src": "https://i6.photo.2gis.com/photo-gallery/6369bcb5-db7c-4cf3-9ef0-b5419d1818f2.jpg",
+   "title": "Прямая кухня",
+   "text": "Белый низ, фасады под дерево и подсветка."
+  },
+  {
+   "src": "https://i9.photo.2gis.com/images/branch/0/30258560152974336_c4eb.jpg",
+   "title": "Бежевая кухня",
+   "text": "Угловая кухня с открытыми полками."
+  },
+  {
+   "src": "https://i7.photo.2gis.com/photo-gallery/100984db-5b45-4da6-bd07-3d484183e2e7.jpg",
+   "title": "Шкаф до потолка",
+   "text": "Белые гладкие фасады во всю стену."
+  }
+ ],
+ "steps_photos": [
+  "https://i1.photo.2gis.com/images/branch/0/30258560152974418_7ad5.jpg",
+  "https://i6.photo.2gis.com/photo-gallery/72c1d0ed-afcf-42ce-b380-b8c7226efb90.jpg",
+  "https://i3.photo.2gis.com/photo-gallery/1e4696a5-56fe-4330-ba6f-ff2af52ad922.jpg",
+  "https://i4.photo.2gis.com/photo-gallery/093b2778-b097-4a1e-9dac-8e2edd27a272.jpg"
+ ],
+ "review_photo": "https://i9.photo.2gis.com/images/branch/0/30258560152974328_dbc4.jpg",
+ "reviews": [
+  {
+   "name": "Любовь Б.",
+   "text": "Давно мечтала о кухне с островом, и Диамант воплотил мечту в реальность! Места теперь хватает всей нашей большой семье."
+  },
+  {
+   "name": "Ульяна В.",
+   "text": "В загородном доме нестандартное окно на кухне, думали, будут проблемы. Ребята предложили решение с интеграцией подоконника в столешницу. Сборщики работали на совесть."
+  },
+  {
+   "name": "Ангелина Г.",
+   "text": "Шикарный шкаф-купе в коридор! Двери ездят бесшумно, места внутри вагон."
+  }
+ ]
+}

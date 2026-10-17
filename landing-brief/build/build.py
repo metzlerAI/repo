@@ -439,7 +439,7 @@ def build(cid, companies, env):
 
     html = env.get_template("template.html.j2").render(
         c=c, d=d, t=t, ui=ui, gallery=gallery, quiz=quiz, quiz_json=json.dumps(quiz, ensure_ascii=False),
-        accent=d.get("accent", DEFAULT_ACCENT), display_vw=display_vw(c["name"]),
+        accent=d.get("accent", DEFAULT_ACCENT), display_vw=d.get("display_vw") or display_vw(c["name"]),  # display_vw в data: вручную для длинных названий
         has_hero=(img / "hero.jpg").exists(), has_hero_desktop=(img / "hero-d.jpg").exists(),
         has_review_photo=(img / "review.jpg").exists(), has_storefront=(img / "place.jpg").exists(),
         show_rating=rating is not None and rating >= 4.6,

@@ -1,0 +1,74 @@
+{
+ "id": "studiya-72",
+ "variant": "auto",
+ "accent": "#a9bccb",
+ "point": {
+  "lat": 57.128632,
+  "lon": 65.540176
+ },
+ "hours": "пн-пт 10:00-18:00, сб-вс 11:00-17:00",
+ "hero": {
+  "src": "https://i0.photo.2gis.com/photo-gallery/8fdca298-9904-4657-a82d-1cd908eb3734.jpg",
+  "caption": "",
+  "src_desktop": "https://i8.photo.2gis.com/photo-gallery/abfddfe1-2472-42b2-8af3-10e8f6afa07b.jpg",
+  "crop_desktop": [
+   0,
+   0.1,
+   1,
+   0.85
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i0.photo.2gis.com/images/branch/13/1829587396678492_1584.jpg",
+   "title": "Кухня с барной стойкой",
+   "text": "Светлый низ, верх под дерево и подсветка."
+  },
+  {
+   "src": "https://i6.photo.2gis.com/images/branch/13/1829587396678489_db86.jpg",
+   "title": "Угловая кухня",
+   "text": "Серо-голубой низ, верх и фартук под дерево."
+  },
+  {
+   "src": "https://i9.photo.2gis.com/photo-gallery/ed9b79ba-29b5-4008-ab5e-a32854ff596a.jpg",
+   "title": "Гостиная",
+   "text": "Стена под телевизор с панелью под камень."
+  },
+  {
+   "src": "https://i5.photo.2gis.com/images/branch/0/30258560085237959_1009.jpg",
+   "title": "Прихожая",
+   "text": "Шкаф, банкетка и панель под дерево с крючками."
+  },
+  {
+   "src": "https://i5.photo.2gis.com/photo-gallery/ab27ae1d-f84c-427b-88e3-11ead1d1e022.jpg",
+   "title": "Шкаф-купе",
+   "text": "Зеркальные двери в чёрном профиле."
+  },
+  {
+   "src": "https://i7.photo.2gis.com/images/branch/13/1829587396678594_3e1a.jpg",
+   "title": "Классическая кухня",
+   "text": "Белые фасады с филёнкой и витрины."
+  }
+ ],
+ "steps_photos": [
+  "https://i9.photo.2gis.com/photo-gallery/2e988b84-5e7e-44f7-8e64-6dbad3ffff51.jpg",
+  "https://i9.photo.2gis.com/images/branch/0/30258560081219725_cc12.jpg",
+  "https://i5.photo.2gis.com/photo-gallery/45808614-6441-456b-8df6-0d74ace2bdaa.jpg",
+  "https://i6.photo.2gis.com/images/branch/13/1829587396678609_af85.jpg"
+ ],
+ "review_photo": "https://i8.photo.2gis.com/images/branch/0/30258560074338910_c858.jpg",
+ "reviews": [
+  {
+   "name": "Ксения С.",
+   "text": "Заказывали шкаф-купе в прихожую и гардеробную, сделали всё на 3 дня раньше срока. Мастера опытные, по замечаниям очень оперативно всё исправили."
+  },
+  {
+   "name": "Константин К.",
+   "text": "Заказывали кухню, инсталляцию и шкаф-купе. Сделали всё качественно, раньше срока."
+  },
+  {
+   "name": "Злата В.",
+   "text": "Заказывали кухню, сделали всё очень быстро и качественно! Помогли с дизайном, материалами. Также заказали гардероб, всё идеально!"
+  }
+ ]
+}
