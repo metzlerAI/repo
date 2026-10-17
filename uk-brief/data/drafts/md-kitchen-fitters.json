@@ -1,0 +1,83 @@
+{
+ "id": "md-kitchen-fitters",
+ "name": "M.D kitchen Fitters",
+ "category": [
+  "Kitchen Renovator",
+  "Bathroom Renovator"
+ ],
+ "website": null,
+ "rating": {
+  "value": 4.2,
+  "count": 5
+ },
+ "phone": "07812 314144",
+ "phone_match": true,
+ "address": "Willow Grove, Denton, Manchester M34 3GX",
+ "point": {
+  "lat": 53.4543987,
+  "lon": -2.1185214
+ },
+ "hours": [
+  "Saturday Open 24 hours",
+  "Sunday Open 24 hours",
+  "Monday Open 24 hours",
+  "Tuesday Open 24 hours",
+  "Wednesday Open 24 hours",
+  "Thursday Open 24 hours",
+  "Friday Open 24 hours"
+ ],
+ "panel_says_add_website": true,
+ "maps_url": "https://www.google.com/maps/place/M.D%20kitchen%20Fitters/data=!4m2!3m1!1s0x487bb51c6374b769:0xe457a2c68a1ef2d4?hl=en",
+ "counts": {
+  "google": 4
+ },
+ "photos": [
+  {
+   "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeIqXhOEEh6bIuCMazgD3hedz16vGJt56fD7CM15NGTj0E91REs4rrd37cmCwACzR4mdJQhneKPzWjVtSYJe_u9oHovWaaUlwtt1emTqBuXZMs57TJ7m49gsLb1ROj4r8HiJ-yD=w1600",
+   "w": 4608,
+   "h": 3456,
+   "source": "google"
+  },
+  {
+   "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc-W_UYDqYto5uYvDdv_2QGAUl9EGpZXsYWlf1FPJWcv38FLrZyXBWq81jEYeW2788GCz5qQGXfO9WM1rJtAOFddhnZdLJVcTo5UCz40f4gL7N4uda9bxd1hKRJ6JjeHjCsR7FC=w1600",
+   "w": 4608,
+   "h": 3456,
+   "source": "google"
+  },
+  {
+   "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcKyzv8dF0Fsjn9_3s6vsn1PNPmGU2tdmpeBXMxzaeuKgBfrkoWNDzLvOtq1RJ43PzcEerUW8MkxG7UlsvfCZAPSjqSlJBNE-tmy4k2ZV2yQziUCjM363IfzZ3KYS3UMm7dAK3O=w1600",
+   "w": 4608,
+   "h": 2592,
+   "source": "google"
+  },
+  {
+   "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcJKp7gYdDcIvQS5IFyTnQbSEmxSSzDuACgkJh53ozRBB2XcHCMmS-dL95ZKT0mMloi7z9DFW_Zyckm4W3nepMo6Y3MpGtszMoUYYx-HOPW_5wG1c455fRzp1_eto4DGLYAYRqleQ=w1600",
+   "w": 2048,
+   "h": 1153,
+   "source": "google"
+  }
+ ],
+ "reviews": [
+  {
+   "rating": 5,
+   "date": "5 years ago",
+   "name": "Kevin Docherty",
+   "text": "Highly recommended great service and excellent quality thanks again",
+   "owner_reply": ""
+  },
+  {
+   "rating": 5,
+   "date": "5 years ago",
+   "name": "RITA JENNINGS",
+   "text": "",
+   "owner_reply": ""
+  },
+  {
+   "rating": 5,
+   "date": "5 years ago",
+   "name": "Angelika Walczak",
+   "text": "",
+   "owner_reply": ""
+  }
+ ]
+}
