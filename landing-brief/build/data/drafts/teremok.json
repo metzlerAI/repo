@@ -1,0 +1,397 @@
+{
+ "id": "teremok",
+ "name_ex": {
+  "extension": "мебельная компания",
+  "primary": "Теремок"
+ },
+ "point": {
+  "lat": 56.494228,
+  "lon": 84.975948
+ },
+ "hours": "пн-сб 09:00-18:00, вс выходной",
+ "counts": {
+  "2gis_owner": 28,
+  "user": 11,
+  "2gis": 1
+ },
+ "photos": [
+  {
+   "url": "https://i7.photo.2gis.com/images/branch/0/30258560097007703_58df.jpg",
+   "w": 1280,
+   "h": 954,
+   "source": "2gis_owner",
+   "date": "2023-01-09"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/images/branch/0/30258560097007705_9725.jpg",
+   "w": 1280,
+   "h": 941,
+   "source": "2gis_owner",
+   "date": "2023-01-09"
+  },
+  {
+   "url": "https://i0.photo.2gis.com/photo-gallery/c3b3fa0a-f6e1-43af-8f19-e7aa62807da2.jpg",
+   "w": 4032,
+   "h": 3024,
+   "source": "2gis_owner",
+   "date": "2026-03-26"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/photo-gallery/b0fd880f-ebd9-46b7-a59d-8954e74f4d7a.jpg",
+   "w": 3024,
+   "h": 4032,
+   "source": "2gis_owner",
+   "date": "2026-03-26"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/photo-gallery/86928d61-7193-4748-83d4-0c8a73f2ba4e.jpg",
+   "w": 3024,
+   "h": 4032,
+   "source": "2gis_owner",
+   "date": "2026-03-26"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/photo-gallery/74e3ac9a-19e5-4d4b-8be2-b311aee9e791.jpg",
+   "w": 2882,
+   "h": 1918,
+   "source": "2gis_owner",
+   "date": "2026-03-26"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/photo-gallery/a7cf3995-1e44-4e46-9a78-16644f5cb7bc.jpg",
+   "w": 1600,
+   "h": 1200,
+   "source": "2gis_owner",
+   "date": "2026-03-26"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/images/branch/0/30258560097007699_a5cb.jpg",
+   "w": 1280,
+   "h": 853,
+   "source": "2gis_owner",
+   "date": "2023-01-09"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/0a38b482-e0e2-4e52-8495-b55d33e018d6.jpg",
+   "w": 1840,
+   "h": 2448,
+   "source": "2gis_owner",
+   "date": "2026-03-26"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/photo-gallery/59de6346-2b51-4d4e-9807-443fb5dbecbe.jpg",
+   "w": 2529,
+   "h": 3079,
+   "source": "2gis_owner",
+   "date": "2026-03-26"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/photo-gallery/b8af106f-d877-49b9-babf-0c1b4fbd6e72.jpg",
+   "w": 2888,
+   "h": 3851,
+   "source": "2gis_owner",
+   "date": "2026-03-26"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/images/branch/0/30258560097007701_e927.jpg",
+   "w": 960,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2023-01-09"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/images/branch/0/30258560097007711_21f5.jpg",
+   "w": 1200,
+   "h": 1599,
+   "source": "2gis_owner",
+   "date": "2023-01-09"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/images/branch/0/30258560097007702_b684.jpg",
+   "w": 960,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2023-01-09"
+  },
+  {
+   "url": "https://i8.photo.2gis.com/photo-gallery/edbc87bd-47ee-4aa9-b261-3ec4ce93a537.jpg",
+   "w": 3024,
+   "h": 4032,
+   "source": "2gis_owner",
+   "date": "2026-03-26"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/images/branch/0/30258560175498934_f373.jpg",
+   "w": 1280,
+   "h": 960,
+   "source": "user",
+   "date": "2024-04-01"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/images/branch/0/30258560175498935_6076.jpg",
+   "w": 960,
+   "h": 1280,
+   "source": "user",
+   "date": "2024-04-01"
+  },
+  {
+   "url": "https://i8.photo.2gis.com/photo-gallery/bd6b8626-cefa-49e0-ad45-8cb7eaeb0025.jpg",
+   "w": 4032,
+   "h": 3024,
+   "source": "2gis_owner",
+   "date": "2026-03-26"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/images/branch/0/30258560097007706_93d9.jpg",
+   "w": 1200,
+   "h": 1599,
+   "source": "2gis_owner",
+   "date": "2023-01-09"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/photo-gallery/3cf12978-da83-4c03-99f4-f994b2f6f769.jpg",
+   "w": 2448,
+   "h": 1840,
+   "source": "2gis_owner",
+   "date": "2026-03-26"
+  },
+  {
+   "url": "https://i8.photo.2gis.com/photo-gallery/7720bf84-32a3-4db9-9c45-96c976079e4c.jpg",
+   "w": 3826,
+   "h": 2870,
+   "source": "user",
+   "date": "2024-05-02"
+  },
+  {
+   "url": "https://i8.photo.2gis.com/photo-gallery/aa9de61c-6262-4935-9f19-558a5fabd31b.jpg",
+   "w": 864,
+   "h": 1184,
+   "source": "2gis_owner",
+   "date": "2026-03-26"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/images/branch/0/30258560175498940_40c9.jpg",
+   "w": 3866,
+   "h": 5155,
+   "source": "user",
+   "date": "2024-04-01"
+  },
+  {
+   "url": "https://i8.photo.2gis.com/images/branch/0/30258560097007712_abcf.jpg",
+   "w": 1599,
+   "h": 1200,
+   "source": "2gis_owner",
+   "date": "2023-01-09"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/images/branch/0/30258560097007696_cc8b.jpg",
+   "w": 1280,
+   "h": 809,
+   "source": "2gis_owner",
+   "date": "2023-01-09"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/images/branch/0/30258560097007708_4924.jpg",
+   "w": 1280,
+   "h": 883,
+   "source": "2gis_owner",
+   "date": "2023-01-09"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/images/branch/0/30258560175498938_1610.jpg",
+   "w": 3577,
+   "h": 4769,
+   "source": "user",
+   "date": "2024-04-01"
+  },
+  {
+   "url": "https://i2.photo.2gis.com/photo-gallery/1f212f7f-fd7a-4443-9dca-1ad38c0c1b35.jpg",
+   "w": 5036,
+   "h": 3777,
+   "source": "user",
+   "date": "2024-11-20"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/photo-gallery/6b68ca01-ba40-4515-aadd-066242ab6f53.jpg",
+   "w": 1840,
+   "h": 2448,
+   "source": "2gis_owner",
+   "date": "2026-03-26"
+  },
+  {
+   "url": "https://i0.photo.2gis.com/images/branch/0/30258560175498937_7911.jpg",
+   "w": 5325,
+   "h": 3994,
+   "source": "user",
+   "date": "2024-04-01"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/images/branch/0/30258560175498939_d0e4.jpg",
+   "w": 1200,
+   "h": 1599,
+   "source": "user",
+   "date": "2024-04-01"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/images/branch/0/30258560097007716_5d8f.jpg",
+   "w": 1280,
+   "h": 960,
+   "source": "2gis_owner",
+   "date": "2023-01-09"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/images/branch/0/30258560097007695_c222.jpg",
+   "w": 1128,
+   "h": 1504,
+   "source": "2gis_owner",
+   "date": "2023-01-09"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/images/branch/0/30258560097007698_6edb.jpg",
+   "w": 1280,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2023-01-09"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/images/branch/0/30258560097007693_1048.jpg",
+   "w": 960,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2023-01-09"
+  },
+  {
+   "url": "https://i0.photo.2gis.com/images/branch/0/30258560175498942_594d.jpg",
+   "w": 5335,
+   "h": 4001,
+   "source": "user",
+   "date": "2024-04-01"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/images/branch/0/30258560097007717_eaaa.jpg",
+   "w": 960,
+   "h": 1280,
+   "source": "2gis_owner",
+   "date": "2023-01-09"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/images/branch/0/30258560175498936_7e54.jpg",
+   "w": 1200,
+   "h": 1599,
+   "source": "user",
+   "date": "2024-04-01"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/images/branch/0/30258560175498941_213a.jpg",
+   "w": 4785,
+   "h": 3589,
+   "source": "user",
+   "date": "2024-04-01"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/photo-gallery/74cdea7e-dc02-45cc-80be-9e1ac02380b9.jpg",
+   "w": 3072,
+   "h": 4080,
+   "source": "2gis",
+   "date": "2024-10-28"
+  }
+ ],
+ "reviews": [
+  {
+   "rating": 5,
+   "date": "2026-08-27",
+   "name": "оля найкова🫆",
+   "text": "отличное место!"
+  },
+  {
+   "rating": 5,
+   "date": "2026-07-19",
+   "name": "Алексей Расторгуев",
+   "text": "Хороший магазин, и выбор есть, и продавцы очень вежливые, и в городе"
+  },
+  {
+   "rating": 5,
+   "date": "2025-09-16",
+   "name": "Aleksandr Petrovskiy",
+   "text": "Быстрое обслуживание, хорошие цены"
+  },
+  {
+   "rating": 1,
+   "date": "2025-07-12",
+   "name": "Илья Квитко",
+   "text": "Покупал сухой строганный брусок 40*40,взял пачкой 12штук, распаковывать не стал, в итоге кривой в двух плоскостях, из 12 брусков 5 винтом. Можно было брать не строганный геометрия была бы такая же... Деньги на ветер...."
+  },
+  {
+   "rating": 3,
+   "date": "2024-09-19",
+   "name": "Начинающий пользователь",
+   "text": "Доски с синевой! Покупал здесь доску необрезную для столярки. Снаружи не было заметно, при обработке проявились участки пораженные грибком. Довольно много"
+  },
+  {
+   "rating": 5,
+   "date": "2023-05-19",
+   "name": "Евгений Петров",
+   "text": "Не в первый раз обращаюсь. Приобретал пиломатериал (доски, бруски), отличное сочетание цена- качество. Оперативно провели распил досок. Удобное расположение."
+  },
+  {
+   "rating": 5,
+   "date": "2023-05-12",
+   "name": "Павел Легаев",
+   "text": "Материал на высшем уровне, покупаю у ребят бруски строганные, шлифовки почти не требуют! Лучший вариант, из всех по городу! Советую!!!\nP.s. беру не первый раз, ни разу не усомнился в выборе!"
+  },
+  {
+   "rating": 5,
+   "date": "2023-04-10",
+   "name": "Kanan O",
+   "text": "Сегодня нашли у них брус, оказалось дешевле чем на рынке,брус идеальный, честно говоря были сомнения (из-за цены), но все оказалось на высоте. Спасибо Вам за вашу работу"
+  },
+  {
+   "rating": 5,
+   "date": "2023-03-10",
+   "name": "Андрей Никитин",
+   "text": "Покупаю здесь не первый раз подход клиентоориентированный, цены низкие качество хорошее! Исмаил идёт навстречу всегда. Приеду еще"
+  },
+  {
+   "rating": 5,
+   "date": "2023-02-26",
+   "name": "Василий Симагаев",
+   "text": "Отличное качество персонал хороший помогут посчитать рекомендуют цены радуют \nДелают скидки ."
+  },
+  {
+   "rating": 5,
+   "date": "2023-02-16",
+   "name": "Андрей Волосник",
+   "text": "Удобно, качественно, быстро. Рекомендую"
+  },
+  {
+   "rating": 5,
+   "date": "2023-02-03",
+   "name": "Евгений Федотов",
+   "text": "Работаю не первый год с этой компанией. Цены на порядок ниже городских, качество супер. Рекомендую."
+  },
+  {
+   "rating": 5,
+   "date": "2023-01-29",
+   "name": "Кирилл Ширяев",
+   "text": "Низкие цены.\nОтзывчивый добрый персонал."
+  },
+  {
+   "rating": 5,
+   "date": "2023-01-28",
+   "name": "Александр Челси",
+   "text": "Низкие цены, быстрая доставка👍🏻"
+  },
+  {
+   "rating": 5,
+   "date": "2023-01-02",
+   "name": "… .",
+   "text": "Отличные цены, качественный товар и большой выбор!"
+  },
+  {
+   "rating": 5,
+   "date": "2022-12-07",
+   "name": "Gadi R",
+   "text": "Доступные цены и качественый материал,покупаю только тут,все устраивает,полностью доволен обслуживанием и быстрой доставкой !"
+  }
+ ]
+}

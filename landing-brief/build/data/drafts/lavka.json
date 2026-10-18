@@ -1,0 +1,361 @@
+{
+ "id": "lavka",
+ "name_ex": {
+  "extension": "студия мебели",
+  "primary": "Лавка"
+ },
+ "point": {
+  "lat": 56.840168,
+  "lon": 53.240727
+ },
+ "hours": "пн-пт 10:00-19:00, сб-вс выходной",
+ "counts": {
+  "2gis_owner": 27,
+  "user": 14
+ },
+ "photos": [
+  {
+   "url": "https://i1.photo.2gis.com/photo-gallery/4f137035-7859-409a-b7e4-fb0dbcdc8943.jpg",
+   "w": 3449,
+   "h": 5173,
+   "source": "2gis_owner",
+   "date": "2026-05-06"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/7e1c5c9d-37f2-4912-a07b-57c7b56cf8eb.jpg",
+   "w": 1667,
+   "h": 2500,
+   "source": "2gis_owner",
+   "date": "2026-05-06"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/images/branch/0/30258560107006182_1bb4.jpg",
+   "w": 2250,
+   "h": 3000,
+   "source": "user",
+   "date": "2023-05-25"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/photo-gallery/997872c4-0f7c-40a3-9613-d23f32294c12.jpg",
+   "w": 1667,
+   "h": 2500,
+   "source": "2gis_owner",
+   "date": "2026-05-06"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/8d8068c6-710a-43ff-adb4-7e51df56eca8.jpg",
+   "w": 3648,
+   "h": 5107,
+   "source": "2gis_owner",
+   "date": "2026-05-06"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/d20b6f69-df3f-4271-81eb-9a42b0ca295f.jpg",
+   "w": 3084,
+   "h": 4318,
+   "source": "2gis_owner",
+   "date": "2026-05-06"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/images/branch/0/30258560106943354_bd7b.jpg",
+   "w": 2250,
+   "h": 3000,
+   "source": "2gis_owner",
+   "date": "2023-05-31"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/photo-gallery/e7cdaf4c-eb42-4ff7-95b0-66d0ef230647.jpg",
+   "w": 960,
+   "h": 1280,
+   "source": "user",
+   "date": "2026-04-30"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/images/branch/0/30258560106943505_12b7.jpg",
+   "w": 2250,
+   "h": 3000,
+   "source": "2gis_owner",
+   "date": "2023-05-31"
+  },
+  {
+   "url": "https://i0.photo.2gis.com/photo-gallery/4be614d4-3f9f-4666-8016-30482c0d9308.jpg",
+   "w": 1667,
+   "h": 2500,
+   "source": "2gis_owner",
+   "date": "2026-05-06"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/photo-gallery/ea66bda7-1801-40b3-a5be-51850b123da5.jpg",
+   "w": 1667,
+   "h": 2500,
+   "source": "2gis_owner",
+   "date": "2026-05-06"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/photo-gallery/15a6c853-8a1d-46f7-a0c3-7bd94e81a8c0.jpg",
+   "w": 960,
+   "h": 1280,
+   "source": "user",
+   "date": "2026-04-30"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/photo-gallery/bb5876ff-525c-498d-a95f-1406bb6e62a6.jpg",
+   "w": 960,
+   "h": 1280,
+   "source": "user",
+   "date": "2026-04-30"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/photo-gallery/7b395f9e-9d2c-48ad-82aa-725c1193c847.jpg",
+   "w": 3648,
+   "h": 5107,
+   "source": "2gis_owner",
+   "date": "2026-05-06"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/photo-gallery/6f34fd03-0f20-4eef-ac5b-93de65f5359f.jpg",
+   "w": 1667,
+   "h": 2500,
+   "source": "2gis_owner",
+   "date": "2026-05-06"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/photo-gallery/54bb6bc2-9174-4495-80c6-50a20a679040.jpg",
+   "w": 3414,
+   "h": 5121,
+   "source": "2gis_owner",
+   "date": "2026-05-06"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/photo-gallery/84f89c49-4fd3-4abf-80f8-97c00ce69c2f.jpg",
+   "w": 1667,
+   "h": 2500,
+   "source": "2gis_owner",
+   "date": "2026-05-06"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/photo-gallery/39b88410-e4e5-43ce-917e-f42401ffd07a.jpg",
+   "w": 1667,
+   "h": 2500,
+   "source": "2gis_owner",
+   "date": "2026-05-06"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/photo-gallery/e68c7ca7-a313-4216-b0d6-4937ef56febb.jpg",
+   "w": 2500,
+   "h": 1667,
+   "source": "2gis_owner",
+   "date": "2026-05-06"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/images/branch/0/30258560106943388_e821.jpg",
+   "w": 2000,
+   "h": 3000,
+   "source": "2gis_owner",
+   "date": "2023-05-31"
+  },
+  {
+   "url": "https://i2.photo.2gis.com/images/branch/0/30258560106943503_781d.jpg",
+   "w": 2250,
+   "h": 3000,
+   "source": "2gis_owner",
+   "date": "2023-05-31"
+  },
+  {
+   "url": "https://i9.photo.2gis.com/images/branch/0/30258560107041327_3a94.jpg",
+   "w": 2000,
+   "h": 3000,
+   "source": "user",
+   "date": "2023-05-25"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/photo-gallery/5256ecd6-a670-40cb-99ec-0bf6046e6914.jpg",
+   "w": 1667,
+   "h": 2500,
+   "source": "2gis_owner",
+   "date": "2026-05-06"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/photo-gallery/5d49f3ca-1987-4dbb-9899-59b94b89c3e9.jpg",
+   "w": 960,
+   "h": 1280,
+   "source": "user",
+   "date": "2026-05-06"
+  },
+  {
+   "url": "https://i0.photo.2gis.com/photo-gallery/1e3c327b-7372-4bbb-9e36-da7497bc1865.jpg",
+   "w": 3456,
+   "h": 5184,
+   "source": "2gis_owner",
+   "date": "2026-05-06"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/images/branch/0/30258560107006187_d1f7.jpg",
+   "w": 2000,
+   "h": 3000,
+   "source": "user",
+   "date": "2023-05-25"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/photo-gallery/cc363a69-37de-4f95-9018-c3127a0041cd.jpg",
+   "w": 960,
+   "h": 1280,
+   "source": "user",
+   "date": "2026-05-06"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/images/branch/0/30258560106943615_b50f.jpg",
+   "w": 2250,
+   "h": 3000,
+   "source": "2gis_owner",
+   "date": "2023-05-31"
+  },
+  {
+   "url": "https://i5.photo.2gis.com/photo-gallery/d036c689-bda2-4648-8c79-3f4d4e9e96ec.jpg",
+   "w": 2000,
+   "h": 2500,
+   "source": "2gis_owner",
+   "date": "2026-05-06"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/photo-gallery/1a6e117e-9bf3-41b8-8841-5e99ff7f4ce5.jpg",
+   "w": 1667,
+   "h": 2500,
+   "source": "2gis_owner",
+   "date": "2026-05-06"
+  },
+  {
+   "url": "https://i6.photo.2gis.com/photo-gallery/5e307a13-eb68-43c4-8e1b-b0ceff886bb1.jpg",
+   "w": 4032,
+   "h": 3024,
+   "source": "user",
+   "date": "2026-05-04"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/images/branch/0/30258560107052961_914a.jpg",
+   "w": 960,
+   "h": 1280,
+   "source": "user",
+   "date": "2023-06-01"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/photo-gallery/f4369695-b6e4-4c02-9b1a-901728dc68a5.jpg",
+   "w": 4032,
+   "h": 3024,
+   "source": "user",
+   "date": "2026-05-04"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/images/branch/0/30258560106943644_ad73.jpg",
+   "w": 2000,
+   "h": 3000,
+   "source": "2gis_owner",
+   "date": "2023-05-31"
+  },
+  {
+   "url": "https://i8.photo.2gis.com/photo-gallery/1d542b32-2c1f-4475-b457-dc1e4b925696.jpg",
+   "w": 1448,
+   "h": 1023,
+   "source": "user",
+   "date": "2026-05-12"
+  },
+  {
+   "url": "https://i4.photo.2gis.com/images/branch/0/30258560107052962_a8e1.jpg",
+   "w": 960,
+   "h": 1280,
+   "source": "user",
+   "date": "2023-06-01"
+  },
+  {
+   "url": "https://i8.photo.2gis.com/photo-gallery/fa9741de-5b20-4359-b234-711c80647eda.jpg",
+   "w": 1667,
+   "h": 2500,
+   "source": "2gis_owner",
+   "date": "2026-05-06"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/photo-gallery/6012ca57-de2e-40d3-a9fc-fcc3d36c3d92.jpg",
+   "w": 3397,
+   "h": 5095,
+   "source": "2gis_owner",
+   "date": "2026-05-06"
+  },
+  {
+   "url": "https://i7.photo.2gis.com/photo-gallery/d1699b1d-e2e2-46d1-98f6-5eb036fd1725.jpg",
+   "w": 3405,
+   "h": 5107,
+   "source": "2gis_owner",
+   "date": "2026-05-06"
+  },
+  {
+   "url": "https://i3.photo.2gis.com/photo-gallery/38f43d81-2ea9-47a7-992f-b9a3bbf522d9.jpg",
+   "w": 3351,
+   "h": 5027,
+   "source": "2gis_owner",
+   "date": "2026-05-06"
+  },
+  {
+   "url": "https://i1.photo.2gis.com/photo-gallery/e28ebe74-9e86-4f84-ac92-81396d626dae.jpg",
+   "w": 3024,
+   "h": 4032,
+   "source": "user",
+   "date": "2025-01-01"
+  }
+ ],
+ "reviews": [
+  {
+   "rating": 5,
+   "date": "2026-05-12",
+   "name": "Мария Колесникова",
+   "text": "Заказывали кухню в 2024 году, бюджет и сроки были ограничены, но все удалось сделать, как и планировали! Рекомендую за подход и качество!"
+  },
+  {
+   "rating": 5,
+   "date": "2026-05-05",
+   "name": "Светлана Полушкина",
+   "text": "Отличное качество сборки, индивидуальный подход дизайнера. Очень много нужных рекомендаций на этапе проекта, которые сам не сможешь учесть. Результатом довольны на 100%"
+  },
+  {
+   "rating": 5,
+   "date": "2026-05-04",
+   "name": "Юлия Аскарова",
+   "text": "Моя кухня невероятная, большое спасибо Елизвете, продумала каждый ящик, качество фурнитуры на высшем уровнем, клиентоориентированность, внимание к просьбам. Рекомендую всем вокруг!!!"
+  },
+  {
+   "rating": 5,
+   "date": "2026-05-04",
+   "name": "Елена Карпова",
+   "text": "Радуемся нашей тумбе уже не первый год. Заказывали под дизайн существующей мебели -светлую и минималистичную. Очень быстро согласовали конструктив и цену! Выполнено в срок, по договору, рекомендую."
+  },
+  {
+   "rating": 5,
+   "date": "2026-05-02",
+   "name": "Игорь",
+   "text": "Обратились по рекомендации, давно собирались обновить кухню, старая простояла 20 лет и уже стала неудобна. Размер кухни небольшой, но все уместилось, даже остров! Рекомендую 100%"
+  },
+  {
+   "rating": 5,
+   "date": "2026-04-30",
+   "name": "Евгений Косивцов",
+   "text": "Заказывали мебель во всю квартиру под сдачу без дизайн-проекта, бюджет был ограничен и сроки ремонта поджимали, все получилось как хотели, сборкой и качеством остались довольны!"
+  },
+  {
+   "rating": 1,
+   "date": "2025-02-07",
+   "name": "Рузиля Хасанова",
+   "text": "Хотела заказать полки в 2 комнаты, прихожую заставить мебелью под верхнюю одежду и в ванную комнату шкаф. \n\nОтказали. Обосновывая тем, что объемы маленькие. Не клиентоориентированно."
+  },
+  {
+   "rating": 5,
+   "date": "2023-06-03",
+   "name": "Анна Семакина",
+   "text": "Заказывала шкаф, сделали хорошо и цена адекватная. Девушка дизайнер подобрала красивые материалы"
+  },
+  {
+   "rating": 5,
+   "date": "2023-06-01",
+   "name": "Дима Коробейников",
+   "text": "Классный дизайн тумбы, все исполнили в срок по дизайн проекту!"
+  }
+ ]
+}
