@@ -1,0 +1,75 @@
+{
+ "id": "nova",
+ "variant": "auto",
+ "accent": "#a9825a",
+ "point": {
+  "lat": 42.951326,
+  "lon": 47.503694
+ },
+ "hours": "Ежедневно с 10:00 до 19:00",
+ "hero": {
+  "src": "https://i7.photo.2gis.com/photo-gallery/9321abb7-29e9-48a5-8668-7c10200875b9.jpg",
+  "caption": "",
+  "src_desktop": "https://i9.photo.2gis.com/photo-gallery/a7777cab-3c38-4ec8-8f9f-6b293cc2e930.jpg",
+  "crop_desktop": [
+   0,
+   0.05,
+   1,
+   0.9
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i1.photo.2gis.com/photo-gallery/c77e802c-4963-4ab4-98cd-177e540ce519.jpg",
+   "title": "Белая кухня с островом",
+   "text": "Фасады с филёнкой, встроенная духовка и остров."
+  },
+  {
+   "src": "https://i5.photo.2gis.com/photo-gallery/8e0b8235-8988-4ad8-9bb7-5624c58dae31.jpg",
+   "title": "Рабочее место",
+   "text": "Стол, полки до потолка и шкафы с белыми фасадами."
+  },
+  {
+   "src": "https://i4.photo.2gis.com/photo-gallery/cbf6e432-9022-4dcc-ad34-55f0214f77ae.jpg",
+   "title": "Шкаф до потолка",
+   "text": "Серые фасады под бетон и открытые полки для книг."
+  },
+  {
+   "src": "https://i5.photo.2gis.com/photo-gallery/e4d34351-ce71-48aa-b2af-c757c16bd9f5.jpg",
+   "title": "Прихожая",
+   "text": "Зеркало с подсветкой, тумба и высокие шкафы."
+  },
+  {
+   "src": "https://i2.photo.2gis.com/photo-gallery/6cb11bc8-d84b-4a91-9386-52b64b620aca.jpg",
+   "title": "Шкаф с ореховыми фасадами",
+   "text": "Фасады под орех с узором и круглые латунные ручки."
+  },
+  {
+   "src": "https://i6.photo.2gis.com/photo-gallery/a3873d5b-73b2-4c13-a555-46ad47fbf7b8.jpg",
+   "title": "Зона для телевизора",
+   "text": "Панель под дерево, подвесная тумба и пенал с витриной."
+  }
+ ],
+ "steps_photos": [
+  "https://i3.photo.2gis.com/photo-gallery/cf675a75-cd97-4eaa-bca8-fb99b9d2d560.jpg",
+  "https://i0.photo.2gis.com/photo-gallery/a8712b38-9407-4a03-baa9-8670916d44e4.jpg",
+  "https://i1.photo.2gis.com/photo-gallery/59a8d531-b3bf-48cc-8752-123e1ba353e6.jpg",
+  "https://i7.photo.2gis.com/photo-gallery/e87953ec-8bc9-4944-910e-37cb48fcafc3.jpg"
+ ],
+ "review_photo": "https://i5.photo.2gis.com/photo-gallery/fb007924-c8e1-4f11-a03b-3c00bd22ce5f.jpg",
+ "storefront": "https://i6.photo.2gis.com/photo-gallery/b5878e4b-9e5f-4a77-a095-e144bb501bab.jpg",
+ "reviews": [
+  {
+   "name": "Патимат Ж.",
+   "text": "Заказывала кухню в салоне НОВА. Остались очень довольны. Фурнитура надежная, сборка быстрая. Менеджеры вежливые и консультировали по всем вопросам."
+  },
+  {
+   "name": "Индира О.",
+   "text": "Искали, где заказать мебель по своим размерам, и остановились на этом салоне. Качеством работы остались очень довольны! Сделано на совесть, аккуратно и в современном стиле."
+  },
+  {
+   "name": "Анаш И.",
+   "text": "Заказывала шкаф в село. Привезли, как и договаривались. Получился шкаф, как я и хотела. Большой, вместительный шкаф. Сборщик собрал мебель аккуратно."
+  }
+ ]
+}
