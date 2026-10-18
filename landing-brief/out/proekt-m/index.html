@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Проект М: кухни и шкафы на заказ в томске</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geologica:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+/* Направление taste-skill «The place carries it», палитра «Soot and lime» с акцентом из фото клиента,
+   шрифт Clash Grotesk заменён на Geologica (у Clash нет кириллицы). */
+:root {
+  --bg: #0f0f0f;
+  --surface: #1b1b1a;
+  --paper: #ffffff;
+  --paper-2: #f2f2f0;
+  --ink: #0f0f0f;
+  --ink-on-dark: #ffffff;
+  --muted: #5c5c5a;
+  --muted-on-dark: #a3a3a0;
+  --accent: #7fa39a;
+  --accent-ink: #0f0f0f;
+  --small: clamp(0.8125rem, 0.79rem + 0.1vw, 0.875rem);
+  --body: clamp(1.0625rem, 1rem + 0.25vw, 1.1875rem);
+  --lead: clamp(1.375rem, 1.15rem + 0.9vw, 1.875rem);
+  --head: clamp(2.25rem, 1.4rem + 3.4vw, 4.5rem);
+  --display: clamp(4rem, 16.5vw, 15rem);
+  --m: 20px;
+  --font: "Geologica", system-ui, sans-serif;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-text-size-adjust: 100%; }
+body { background: var(--paper); color: var(--ink); font: 300 var(--body)/1.55 var(--font); }
+img { display: block; max-width: 100%; }
+a { color: inherit; }
+h1, h2, h3, .display { font-weight: 400; letter-spacing: -0.03em; line-height: 0.95; }
+h2 { font-size: var(--head); }
+.lead { font-size: var(--lead); line-height: 1.3; letter-spacing: -0.01em; font-weight: 300; }
+.small { font-size: var(--small); }
+.btn { display: inline-flex; align-items: center; justify-content: center; height: 54px; padding: 0 26px; border: 0; border-radius: 0; background: var(--accent); color: var(--accent-ink); font: 500 16px/1 var(--font); text-decoration: none; cursor: pointer; white-space: nowrap; transition: transform .15s; }
+.btn:active { transform: translateY(1px); }
+.btn-dark { background: var(--ink); color: var(--ink-on-dark); }
+.link { font-weight: 400; text-decoration: underline; text-underline-offset: 5px; text-decoration-thickness: 1.5px; white-space: nowrap; }
+.sec { position: relative; }
+
+/* hero */
+.hero { height: 100svh; min-height: 620px; position: relative; color: var(--ink-on-dark); background: var(--bg); overflow: hidden; }
+.hero picture, .hero img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.hero::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 62%; background: linear-gradient(to top, rgba(10,10,10,.82), rgba(10,10,10,0)); }
+.hero-top { position: absolute; z-index: 2; top: 0; left: 0; right: 0; display: flex; justify-content: space-between; padding: 18px var(--m); font-size: var(--small); font-weight: 400; }
+.hero-top a { text-decoration: none; }
+.hero-top nav .d { display: none; }
+.hero-bottom { position: absolute; z-index: 2; left: var(--m); right: var(--m); bottom: 26px; display: flex; flex-direction: column; gap: 14px; }
+.hero h1 { font-size: var(--display); line-height: 0.88; letter-spacing: -0.045em; overflow-wrap: anywhere; padding-bottom: .12em; }
+.hero .line { font-size: var(--lead); line-height: 1.2; font-weight: 300; max-width: 22ch; }
+.hero .rate { font-size: var(--small); color: #e6e6e3; font-weight: 400; }
+.hero .rate b { color: var(--accent); font-weight: 500; }
+.hero .acts { display: flex; align-items: center; gap: 22px; margin-top: 6px; }
+
+/* intro */
+.intro { padding: 72px var(--m) 24px; }
+.intro p { max-width: 24ch; }
+
+/* works: even grid. Phone: first and last photo full width, the rest two in a row (6 = 1 + 2 + 2 + 1).
+   Desktop: three in a row. One aspect ratio, square corners, caption under every photo. */
+.works { padding: 40px var(--m) 72px; }
+.works h2 { margin-bottom: 36px; }
+.wks { display: grid; grid-template-columns: 1fr 1fr; column-gap: 12px; row-gap: 32px; }
+.wk { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.wk:first-child, .wk:last-child:nth-child(even) { grid-column: 1 / -1; }
+.wk .ph { aspect-ratio: 5 / 4; background: var(--paper-2); overflow: hidden; }
+.wk .ph img { width: 100%; height: 100%; object-fit: cover; }
+.wk .t { display: block; font-size: 16px; line-height: 1.3; font-weight: 400; }
+.wk .d { display: block; font-size: 14px; line-height: 1.4; color: var(--muted); margin-top: 4px; max-width: 38ch; }
+.wk.empty .ph { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; padding: 12px; color: var(--muted); text-align: center; font-size: 14px; line-height: 1.3; }
+.wk.empty .ph svg { width: 34px; height: 34px; }
+.remark { font-size: var(--lead); line-height: 1.25; max-width: 18ch; margin: -16px 0 36px; }
+
+/* quiz */
+.quiz-sec { background: var(--accent); color: var(--accent-ink); padding: 64px var(--m); }
+.quiz-sec h2 { max-width: 12ch; }
+.quiz-sec > p { margin: 16px 0 32px; max-width: 34ch; }
+.q-bar { height: 6px; background: rgba(15,15,15,.14); margin-bottom: 22px; }
+.q-bar i { display: block; height: 100%; background: var(--ink); transition: width .3s; }
+.q-title { font-size: var(--lead); line-height: 1.2; letter-spacing: -0.01em; margin-bottom: 18px; font-weight: 400; }
+.q-opts { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.q-opt { display: flex; flex-direction: column; justify-content: space-between; gap: 18px; min-height: 104px; padding: 14px; text-align: left; font: inherit; color: inherit; background: transparent; border: 1.5px solid var(--ink); border-radius: 0; cursor: pointer; }
+.q-opt svg { width: 44px; height: 30px; }
+.q-opt b { font-weight: 500; font-size: 16px; display: block; }
+.q-opt small { font-size: 13.5px; line-height: 1.3; display: block; opacity: .75; }
+.q-opt.on { background: var(--ink); color: var(--ink-on-dark); }
+.q-foot { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-top: 20px; }
+.q-foot .small { max-width: 22ch; }
+.q-done { display: none; flex-direction: column; align-items: flex-start; gap: 18px; }
+.quiz.finished .q-body { display: none; }
+.quiz.finished .q-done { display: flex; }
+
+/* prices: menu */
+.prices { padding: 72px var(--m); display: grid; gap: 32px; }
+.menu { display: grid; gap: 40px; }
+.grp h3 { font-size: 20px; letter-spacing: -0.01em; line-height: 1.2; font-weight: 500; margin-bottom: 14px; }
+.row { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; padding: 9px 0; }
+.row .n { font-size: 17px; font-weight: 400; }
+.row .n small { display: block; font-size: 14px; color: var(--muted); font-weight: 300; margin-top: 2px; }
+.row .p { font-size: 17px; font-weight: 400; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.blank { display: inline-block; width: 3.2em; height: .9em; vertical-align: -0.1em; background: var(--paper-2); }
+.prices .note { color: var(--muted); font-size: 16px; }
+
+/* steps: one verb at a time */
+.steps { background: var(--bg); color: var(--ink-on-dark); display: grid; grid-template-columns: 1fr 1fr; }
+.st { position: relative; aspect-ratio: 1; overflow: hidden; background: var(--surface); }
+.st img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: brightness(.62); }
+.st b { position: absolute; left: 0; right: 0; top: 42%; transform: translateY(-50%); text-align: center; font-size: 10.5vw; font-weight: 500; letter-spacing: -0.04em; line-height: 1; }
+.st span { position: absolute; left: 12px; right: 12px; bottom: 12px; font-size: 13.5px; line-height: 1.35; font-weight: 400; }
+
+/* reviews */
+.revs { padding: 72px var(--m); display: grid; gap: 28px; }
+.revs .pic { width: 72%; aspect-ratio: 3 / 4; overflow: hidden; background: var(--paper-2); }
+.revs .pic img { width: 100%; height: 100%; object-fit: cover; }
+.revs blockquote { font-size: 24px; line-height: 1.3; letter-spacing: -0.015em; font-weight: 300; }
+.revs .who { font-size: 16px; margin-top: 16px; font-weight: 400; }
+.revs .who span { color: var(--muted); font-weight: 300; }
+.revs .score { margin-top: 28px; font-size: 16px; font-weight: 400; }
+.more { display: grid; gap: 28px; }
+.more blockquote { font-size: 17px; line-height: 1.5; }
+
+/* contacts: visit card on a photograph */
+.visit { position: relative; background: var(--bg); }
+.visit .bgimg { height: 62svh; overflow: hidden; }
+.visit .bgimg img { width: 100%; height: 100%; object-fit: cover; }
+.card { position: relative; margin: -80px var(--m) 0; background: var(--paper); padding: 26px 22px 0; display: flex; flex-direction: column; gap: 14px; }
+.card h2 { font-size: 30px; line-height: 1; font-weight: 300; }
+.card .addr { font-size: 17px; line-height: 1.4; }
+.card .hrs { color: var(--muted); font-size: 15px; }
+.card .ph { font-size: 22px; font-weight: 400; text-decoration: none; letter-spacing: -0.01em; }
+.card .map { display: block; aspect-ratio: 16 / 9; overflow: hidden; background: var(--paper-2); }
+.card .map img { width: 100%; height: 100%; object-fit: cover; }
+.card .links { display: flex; gap: 22px; }
+.card .btn { margin: 4px -22px 0; height: 58px; }
+.visit.noimg .card { margin-top: 0; }
+
+/* footer */
+.foot { background: var(--bg); color: var(--ink-on-dark); padding: 56px var(--m) 96px; }
+.foot .display { font-size: var(--display); line-height: .88; letter-spacing: -0.045em; padding-bottom: .12em; }
+.foot p { color: var(--muted-on-dark); font-size: var(--small); margin-top: 22px; }
+
+/* sticky phone bar, hidden in screenshots */
+.mbar { position: fixed; z-index: 20; left: 0; right: 0; bottom: 0; display: grid; grid-template-columns: 1fr auto; background: var(--bg); transform: translateY(100%); transition: transform .25s; }
+.mbar.show { transform: none; }
+.mbar .btn { height: 58px; }
+.mbar .wa { display: flex; align-items: center; padding: 0 22px; color: #fff; font-size: 15px; }
+html.shot .mbar { display: none; }
+
+@media (min-width: 900px) {
+  :root { --m: 32px; }
+  .hero-top { padding: 24px var(--m); font-size: 15px; }
+  .hero-top nav .d { display: inline; }
+  .hero-top nav a + a::before { content: ", "; }
+  .hero-bottom { bottom: 36px; display: grid; grid-template-columns: 1fr auto; align-items: end; column-gap: 48px; row-gap: 12px; }
+  .hero h1 { grid-column: 1 / -1; }
+  .hero .line { grid-column: 1; }
+  .hero .rate { grid-column: 1; }
+  .hero .acts { grid-column: 2; grid-row: 2 / span 2; justify-self: end; margin: 0; }
+  .intro { padding: 140px var(--m) 40px; display: grid; grid-template-columns: repeat(12, 1fr); }
+  .intro p { grid-column: 4 / 11; max-width: 30ch; font-size: clamp(1.75rem, 1rem + 1.6vw, 2.5rem); }
+  .works { padding: 80px var(--m) 120px; }
+  .works h2 { margin-bottom: 56px; }
+  .wks { grid-template-columns: repeat(3, 1fr); column-gap: 24px; row-gap: 56px; }
+  .wk:first-child, .wk:last-child:nth-child(even) { grid-column: auto; }
+  .wk .t { font-size: 18px; }
+  .wk .d { font-size: 16px; }
+  .remark { margin: -32px 0 56px; }
+  .quiz-sec { padding: 120px var(--m); display: grid; grid-template-columns: repeat(12, 1fr); column-gap: 24px; }
+  .quiz-sec h2, .quiz-sec > p { grid-column: 1 / 6; }
+  .quiz-sec > p { margin-bottom: 0; }
+  .quiz { grid-column: 7 / 13; grid-row: 1 / span 2; }
+  .q-opts { gap: 12px; }
+  .q-opt { min-height: 132px; padding: 18px; }
+  .prices { padding: 140px var(--m); grid-template-columns: repeat(12, 1fr); column-gap: 24px; }
+  .prices h2 { grid-column: 1 / 4; }
+  .menu { grid-column: 5 / 13; grid-template-columns: 1fr 1fr; column-gap: 64px; row-gap: 48px; }
+  .prices .note { grid-column: 5 / 13; }
+  .steps { grid-template-columns: repeat(4, 1fr); }
+  .st { aspect-ratio: 3 / 4; }
+  .st b { font-size: 3.6vw; }
+  .st span { left: 20px; right: 20px; bottom: 20px; font-size: 16px; }
+  .revs { padding: 140px var(--m); grid-template-columns: repeat(12, 1fr); column-gap: 24px; row-gap: 0; }
+  .revs .pic { grid-column: 2 / 6; width: auto; grid-row: 1 / span 2; }
+  .revs .main { grid-column: 7 / 13; margin-top: 120px; }
+  .revs blockquote { font-size: clamp(1.625rem, 1rem + 1.3vw, 2.5rem); max-width: 26ch; line-height: 1.2; }
+  .more { grid-column: 7 / 13; grid-template-columns: 1fr 1fr; gap: 32px; margin-top: 64px; }
+  .more blockquote { font-size: 17px; max-width: none; line-height: 1.5; }
+  .visit .bgimg { height: 100vh; min-height: 760px; }
+  .card { position: absolute; top: 60px; right: 60px; width: 400px; margin: 0; padding: 32px 32px 0; }
+  .card .btn { margin: 6px -32px 0; }
+  .visit.noimg { padding: 80px var(--m); }
+  .visit.noimg .card { position: relative; top: 0; right: 0; }
+  .foot { padding: 96px var(--m) 40px; }
+  .mbar { display: none; }
+}
+</style>
+</head>
+<body>
+
+<section class="hero sec">
+  
+  <picture>
+    <source media="(min-width: 900px)" srcset="img/hero-d.jpg">
+    <img src="img/hero.jpg" alt="">
+  </picture>
+  
+  <div class="hero-top">
+    <a href="tel:+79138591361">+7 913 859-13-61</a>
+    <nav><a class="d" href="#works">Работы</a><a class="d" href="#prices">Цены</a><a href="#contacts">Контакты</a></nav>
+  </div>
+  <div class="hero-bottom">
+    <h1>Проект М</h1>
+    <p class="line">Кухни и шкафы на заказ в Томске</p>
+    <p class="rate"><b>★ 5,0</b> · 17 отзывов в 2ГИС</p>
+    <div class="acts">
+      <a class="btn" href="#quiz">Рассчитать стоимость</a>
+      <a class="link" href="https://wa.me/79138591361">WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<section class="intro sec">
+  <p class="lead">Делаем кухни, шкафы и гардеробные по размерам вашей квартиры.</p>
+</section>
+
+<section class="works sec" id="works">
+  <h2>Работы</h2>
+  
+  <div class="wks">
+  
+  
+  <figure class="wk"><div class="ph"><img src="img/w1.jpg" alt="Кухня-столовая"></div><figcaption><span class="t">Кухня-столовая</span><span class="d">Зелёные фасады, панели под дерево и большой стол.</span></figcaption></figure>
+  
+  
+  
+  <figure class="wk"><div class="ph"><img src="img/w2.jpg" alt="Кухня с филёнкой"></div><figcaption><span class="t">Кухня с филёнкой</span><span class="d">Серо-голубые фасады до потолка и плитка с узором.</span></figcaption></figure>
+  
+  
+  
+  <figure class="wk"><div class="ph"><img src="img/w3.jpg" alt="Шкаф в спальню"></div><figcaption><span class="t">Шкаф в спальню</span><span class="d">Голубые фасады с филёнкой и латунные ручки.</span></figcaption></figure>
+  
+  
+  
+  <figure class="wk"><div class="ph"><img src="img/w4.jpg" alt="Детская"></div><figcaption><span class="t">Детская</span><span class="d">Шкаф с круглыми окошками и диван у стены.</span></figcaption></figure>
+  
+  
+  
+  <figure class="wk"><div class="ph"><img src="img/w5.jpg" alt="Кухня-гостиная"></div><figcaption><span class="t">Кухня-гостиная</span><span class="d">Тёмные фасады и обеденный стол у окна.</span></figcaption></figure>
+  
+  
+  
+  <figure class="wk"><div class="ph"><img src="img/w6.jpg" alt="Стена с телевизором"></div><figcaption><span class="t">Стена с телевизором</span><span class="d">Панели под дерево, тумба и подсветка.</span></figcaption></figure>
+  
+  
+  </div>
+</section>
+
+<section class="quiz-sec sec" id="quiz">
+  <h2>Сколько будет стоить ваша кухня</h2>
+  <p>4 вопроса, а ответ с ценой пришлём в WhatsApp. Ни к чему не обязывает.</p>
+  <div class="quiz" data-wa="79138591361">
+    <div class="q-bar"><i style="width: 20.0%"></i></div>
+    <div class="q-body">
+      <div class="q-title">Какая планировка кухни?</div>
+      <div class="q-opts">
+        
+        <button class="q-opt" type="button"><svg viewBox="0 0 44 30" fill="currentColor" aria-hidden="true"><rect x="2" y="3" width="40" height="6"/></svg><span><b>Прямая</b><small>вдоль одной стены</small></span></button>
+        
+        <button class="q-opt on" type="button"><svg viewBox="0 0 44 30" fill="currentColor" aria-hidden="true"><rect x="2" y="3" width="40" height="6"/><rect x="2" y="3" width="6" height="25"/></svg><span><b>Угловая</b><small>Г-образная</small></span></button>
+        
+        <button class="q-opt" type="button"><svg viewBox="0 0 44 30" fill="currentColor" aria-hidden="true"><rect x="2" y="3" width="40" height="6"/><rect x="2" y="3" width="6" height="25"/><rect x="36" y="3" width="6" height="25"/></svg><span><b>П-образная</b><small>вдоль трёх стен</small></span></button>
+        
+        <button class="q-opt" type="button"><svg viewBox="0 0 44 30" fill="currentColor" aria-hidden="true"><rect x="2" y="3" width="40" height="6"/><rect x="2" y="3" width="6" height="25"/><rect x="18" y="19" width="16" height="8"/></svg><span><b>С островом</b><small>рабочая зона в центре</small></span></button>
+        
+      </div>
+      <div class="q-foot">
+        <span class="small">Ответы увидит только мастер</span>
+        <button class="btn btn-dark q-next" type="button">Дальше</button>
+      </div>
+    </div>
+    <div class="q-done">
+      <div class="q-title">Готово. Отправьте ответы, и мы посчитаем стоимость.</div>
+      <a class="btn btn-dark q-send" href="https://wa.me/79138591361">Получить расчёт в WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<section class="prices sec" id="prices">
+  <h2>Цены</h2>
+  <div class="menu">
+    
+    <div class="grp">
+      <h3>Кухни</h3>
+      
+      <div class="row"><span class="n">Прямая кухня<small>за погонный метр</small></span><span class="p">от <span class="blank"></span> ₽</span></div>
+      
+      <div class="row"><span class="n">Угловая кухня<small>за погонный метр</small></span><span class="p">от <span class="blank"></span> ₽</span></div>
+      
+    </div>
+    
+    <div class="grp">
+      <h3>Шкафы</h3>
+      
+      <div class="row"><span class="n">Шкаф-купе<small>за погонный метр</small></span><span class="p">от <span class="blank"></span> ₽</span></div>
+      
+      <div class="row"><span class="n">Гардеробная<small>под ключ</small></span><span class="p">от <span class="blank"></span> ₽</span></div>
+      
+    </div>
+    
+  </div>
+  <p class="note">Точную цену называем после замера: она зависит от размеров, фасадов и фурнитуры.</p>
+</section>
+
+<section class="steps sec" aria-label="Как заказать">
+  
+  <div class="st"><img src="img/s1.jpg" alt=""><b>Пишете</b><span>Оставляете заявку или пишете в WhatsApp.</span></div>
+  
+  <div class="st"><img src="img/s2.jpg" alt=""><b>Замер</b><span>Приезжаем и делаем замер.</span></div>
+  
+  <div class="st"><img src="img/s3.jpg" alt=""><b>Проект</b><span>Согласуем проект и называем точную цену.</span></div>
+  
+  <div class="st"><img src="img/s4.jpg" alt=""><b>Монтаж</b><span>Изготавливаем и устанавливаем у вас дома.</span></div>
+  
+</section>
+
+
+<section class="revs sec">
+  <div class="pic"><img src="img/review.jpg" alt=""></div>
+  <div class="main">
+    <blockquote>Заказывал 2 шкафа. Все понравилось. От заказа до исполнения. Процессы настроены. Ребята стараются. Сами предлагают оптимальные варианты. Рекомендую.</blockquote>
+    <p class="who">Вячеслав А. <span>· отзыв в 2ГИС</span></p>
+    <p class="score">★ 5,0 из 5 по 17 отзывам в 2ГИС</p>
+  </div>
+  
+  <div class="more">
+    
+    <figure><blockquote>Отличная компания. Полностью делали корпусную мебель в квартиру: шкафы, кухню, комод. Качество мебели выше всяких похвал. Дизайн, эргономика, удобство в использовании на самом высоком уровне.</blockquote><p class="who">Вера Ю. <span>· отзыв в 2ГИС</span></p></figure>
+    
+    <figure><blockquote>Заказали мебель во всю квартиру под ключ, на замерах проговорили подробно обо всех нюансах, все было учтено. Спасибо менеджеру Жанне за согласование!</blockquote><p class="who">Алина В. <span>· отзыв в 2ГИС</span></p></figure>
+    
+  </div>
+  
+</section>
+
+
+<section class="visit sec noimg" id="contacts">
+  
+  <div class="card">
+    <h2>Контакты</h2>
+    <p class="addr">Томск,<br>ул. Карла Маркса, 7</p>
+    <p class="hrs">Ежедневно с 09:00 до 21:00</p>
+    <a class="ph" href="tel:+79138591361">+7 913 859-13-61</a>
+    <a class="map" href="https://2gis.ru/tomsk/firm/70000001112648571"><img src="img/map.png" alt="Проект М на карте"></a>
+    <div class="links"><a class="link" href="https://t.me/+79138591361">Telegram</a><a class="link" href="https://2gis.ru/tomsk/firm/70000001112648571">Маршрут в 2ГИС</a></div>
+    <a class="btn" href="https://wa.me/79138591361">Написать в WhatsApp</a>
+  </div>
+</section>
+
+<footer class="foot sec">
+  <div class="display">Проект М</div>
+  <p>Кухни и шкафы на заказ в Томске · ул. Карла Маркса, 7 · +7 913 859-13-61</p>
+</footer>
+
+<div class="mbar"><a class="btn" href="#quiz">Рассчитать стоимость</a><a class="wa" href="https://wa.me/79138591361">WhatsApp</a></div>
+
+<script>
+const QUIZ = {"h": "Сколько будет стоить ваша кухня", "pre": 2, "steps": [{"q": "Какая планировка кухни?", "opts": [{"t": "Прямая", "d": "вдоль одной стены", "icon": "<svg viewBox=\"0 0 44 30\" fill=\"currentColor\" aria-hidden=\"true\"><rect x=\"2\" y=\"3\" width=\"40\" height=\"6\"/></svg>"}, {"t": "Угловая", "d": "Г-образная", "icon": "<svg viewBox=\"0 0 44 30\" fill=\"currentColor\" aria-hidden=\"true\"><rect x=\"2\" y=\"3\" width=\"40\" height=\"6\"/><rect x=\"2\" y=\"3\" width=\"6\" height=\"25\"/></svg>"}, {"t": "П-образная", "d": "вдоль трёх стен", "icon": "<svg viewBox=\"0 0 44 30\" fill=\"currentColor\" aria-hidden=\"true\"><rect x=\"2\" y=\"3\" width=\"40\" height=\"6\"/><rect x=\"2\" y=\"3\" width=\"6\" height=\"25\"/><rect x=\"36\" y=\"3\" width=\"6\" height=\"25\"/></svg>"}, {"t": "С островом", "d": "рабочая зона в центре", "icon": "<svg viewBox=\"0 0 44 30\" fill=\"currentColor\" aria-hidden=\"true\"><rect x=\"2\" y=\"3\" width=\"40\" height=\"6\"/><rect x=\"2\" y=\"3\" width=\"6\" height=\"25\"/><rect x=\"18\" y=\"19\" width=\"16\" height=\"8\"/></svg>"}]}, {"q": "Какая длина по стенам?", "opts": [{"t": "До 2 м", "d": "небольшая кухня"}, {"t": "2-3 м", "d": ""}, {"t": "3-4 м", "d": ""}, {"t": "Больше 4 м", "d": "кухня-гостиная"}]}, {"q": "Какие фасады нравятся?", "opts": [{"t": "Плёнка МДФ", "d": ""}, {"t": "Эмаль", "d": "матовая или глянец"}, {"t": "Пластик", "d": ""}, {"t": "Пока не знаю", "d": "подскажем"}]}, {"q": "Когда нужна кухня?", "opts": [{"t": "Как можно скорее", "d": ""}, {"t": "В течение месяца", "d": ""}, {"t": "Через 1-3 месяца", "d": ""}, {"t": "Пока присматриваюсь", "d": ""}]}], "n": 4};
+(function () {
+  const box = document.querySelector('.quiz');
+  const bar = box.querySelector('.q-bar i');
+  const title = box.querySelector('.q-title');
+  const opts = box.querySelector('.q-opts');
+  const answers = [];
+  let i = 0;
+  const bind = () => opts.querySelectorAll('.q-opt').forEach(b => b.onclick = () => {
+    opts.querySelectorAll('.q-opt').forEach(x => x.classList.remove('on'));
+    b.classList.add('on');
+  });
+  function render() {
+    const s = QUIZ.steps[i];
+    title.textContent = s.q;
+    opts.innerHTML = s.opts.map(o => `<button class="q-opt" type="button">${o.icon || ''}<span><b>${o.t}</b>${o.d ? `<small>${o.d}</small>` : ''}</span></button>`).join('');
+    bar.style.width = Math.round(100 * (i + 1) / (QUIZ.steps.length + 1)) + '%';
+    bind();
+  }
+  box.querySelector('.q-next').onclick = () => {
+    const on = opts.querySelector('.q-opt.on');
+    if (!on) return;
+    answers.push(QUIZ.steps[i].q + ' ' + on.querySelector('b').textContent);
+    if (++i < QUIZ.steps.length) return render();
+    box.classList.add('finished');
+    bar.style.width = '100%';
+    if (box.dataset.wa) box.querySelector('.q-send').href = 'https://wa.me/' + box.dataset.wa + '?text=' + encodeURIComponent("\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435! \u0425\u043e\u0447\u0443 \u0440\u0430\u0441\u0447\u0451\u0442." + '\n' + answers.join('\n'));
+  };
+  bind();
+  const mbar = document.querySelector('.mbar');
+  const hero = document.querySelector('.hero');
+  addEventListener('scroll', () => mbar.classList.toggle('show', scrollY > hero.offsetHeight * 0.8), { passive: true });
+})();
+</script>
+</body>
+</html>
