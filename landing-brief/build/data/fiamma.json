@@ -1,0 +1,130 @@
+{
+ "id": "fiamma",
+ "variant": "auto",
+ "accent": "#b8925a",
+ "point": {
+  "lat": 42.964885,
+  "lon": 47.490315
+ },
+ "hours": "Ежедневно с 10:00 до 19:00",
+ "hero": {
+  "src": "https://i3.photo.2gis.com/photo-gallery/403f2835-e124-46ec-b346-4abb4aa089a5.jpg",
+  "caption": "",
+  "src_desktop": "https://i8.photo.2gis.com/photo-gallery/42472404-75ef-4a2b-8f66-c1056acaa08a.jpg",
+  "crop_desktop": [
+   0,
+   0.05,
+   1,
+   0.9
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i4.photo.2gis.com/photo-gallery/a5f2623f-207f-4fe3-8615-91aaec99b12d.jpg",
+   "title": "Кухня с островом",
+   "text": "Белые фасады с филёнкой и остров со столешницей под мрамор."
+  },
+  {
+   "src": "https://i8.photo.2gis.com/photo-gallery/42472404-75ef-4a2b-8f66-c1056acaa08a.jpg",
+   "title": "Кухня цвета капучино",
+   "text": "Гладкие фасады, пеналы под дерево и стена под мрамор."
+  },
+  {
+   "src": "https://i2.photo.2gis.com/photo-gallery/71830c6a-cb3d-481b-a237-b7044f9aebfd.jpg",
+   "title": "Классическая кухня у окна",
+   "text": "Белые фасады с филёнкой, латунные ручки и смеситель.",
+   "crop": [
+    0,
+    0,
+    1,
+    0.84
+   ]
+  },
+  {
+   "src": "https://i2.photo.2gis.com/photo-gallery/3f6c50fa-c1ee-417e-9220-f1dd32fc54e0.jpg",
+   "title": "Угловая кухня",
+   "text": "Светлые фасады с филёнкой и стена под мрамор.",
+   "crop": [
+    0,
+    0,
+    1,
+    0.78
+   ]
+  },
+  {
+   "src": "https://i0.photo.2gis.com/photo-gallery/82f7fc45-f42b-467d-b97d-9024d6d8382c.jpg",
+   "title": "Кухня с витринами",
+   "text": "Белые фасады, витрины с подсветкой и золотистые ручки.",
+   "crop": [
+    0,
+    0,
+    1,
+    0.8
+   ]
+  },
+  {
+   "src": "https://i9.photo.2gis.com/photo-gallery/bc1b42a4-8494-48ec-9b26-665dc667edc0.jpg",
+   "title": "Кухня с тёмными пеналами",
+   "text": "Светлый низ, антресоли со стеклом и подсветка.",
+   "crop": [
+    0,
+    0,
+    1,
+    0.8
+   ]
+  }
+ ],
+ "steps_photos": [
+  {
+   "src": "https://i7.photo.2gis.com/photo-gallery/2f8e9bb5-4bba-4eac-9abb-a89c53248dca.jpg",
+   "crop": [
+    0,
+    0,
+    1,
+    0.8
+   ]
+  },
+  {
+   "src": "https://i5.photo.2gis.com/photo-gallery/921b0053-40e5-4205-bb80-721fca07844d.jpg",
+   "crop": [
+    0,
+    0,
+    1,
+    0.8
+   ]
+  },
+  {
+   "src": "https://i6.photo.2gis.com/photo-gallery/27953b07-4169-47f4-ace7-814de1df1c71.jpg",
+   "crop": [
+    0,
+    0,
+    1,
+    0.82
+   ]
+  },
+  {
+   "src": "https://i6.photo.2gis.com/photo-gallery/3e09e2cc-2fa8-4da5-ab66-407be6a0ce8f.jpg",
+   "crop": [
+    0,
+    0,
+    1,
+    0.6
+   ]
+  }
+ ],
+ "review_photo": "https://i1.photo.2gis.com/photo-gallery/3fa52c49-96ff-4511-bcdc-52ec7cc68a15.jpg",
+ "reviews": [
+  {
+   "name": "Аза А.",
+   "text": "Долго выбирала у кого заказать себе кухню! и выбор остановился на Fiamma. Это был правильный выбор! Я в восторге от своей кухни! В ней все идеально! Спасибо большое! Вы лучшие!"
+  },
+  {
+   "name": "Патимат П.",
+   "text": "Очень довольны кухней! Красивая, стильная, собрали аккуратно, все материалы качественные. Все подробно объясняют, предварительно также делали проект кухни, который воплотили в реальность лучше чем ожидалось!"
+  },
+  {
+   "name": "Сапият С.",
+   "text": "Заказывала для себя кухню, очень понравился сервис, качество исполнения, отзывчивость сотрудников, рекомендую всем!"
+  }
+ ]
+}

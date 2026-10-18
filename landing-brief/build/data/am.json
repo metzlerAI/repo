@@ -1,0 +1,74 @@
+{
+ "id": "am",
+ "variant": "auto",
+ "accent": "#8a5a3a",
+ "point": {
+  "lat": 53.388167,
+  "lon": 83.750961
+ },
+ "hours": "пн-сб 09:00-20:00, вс выходной",
+ "hero": {
+  "src": "https://i1.photo.2gis.com/photo-gallery/0e1e3d43-0f27-4b7f-8c25-0f19bb4e3e66.jpg",
+  "caption": "",
+  "src_desktop": "https://i0.photo.2gis.com/photo-gallery/78e9a7cc-f0f0-40da-95bd-ac00557c5b31.jpg",
+  "crop_desktop": [
+   0,
+   0.15,
+   1,
+   0.7
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i2.photo.2gis.com/images/branch/0/30258560162607681_eaa1.jpg",
+   "title": "Угловая кухня",
+   "text": "Светлый верх, серый низ и подсветка на торце."
+  },
+  {
+   "src": "https://i2.photo.2gis.com/photo-gallery/cd62b5b6-18ab-4ec7-ace8-5e843f792691.jpg",
+   "title": "Зона для телевизора",
+   "text": "Тумба под дерево с ящиками и стеновая панель."
+  },
+  {
+   "src": "https://i0.photo.2gis.com/photo-gallery/78e9a7cc-f0f0-40da-95bd-ac00557c5b31.jpg",
+   "title": "Кухня до потолка",
+   "text": "Белые фасады, ниша под дерево и встроенная техника."
+  },
+  {
+   "src": "https://i1.photo.2gis.com/photo-gallery/f5373de8-4e94-438e-9a39-d1acc5621f18.jpg",
+   "title": "Тёмная кухня",
+   "text": "Фасады под тёмное дерево и графитовый низ."
+  },
+  {
+   "src": "https://i9.photo.2gis.com/images/branch/0/30258560162607524_066a.jpg",
+   "title": "Рабочее место",
+   "text": "Белые шкафы, полки и стол под дерево."
+  },
+  {
+   "src": "https://i3.photo.2gis.com/photo-gallery/51f99b1c-b661-4c7f-a079-fabe13e6ae41.jpg",
+   "title": "Белая угловая кухня",
+   "text": "Фасады без ручек на виду и столешница под камень."
+  }
+ ],
+ "steps_photos": [
+  "https://i2.photo.2gis.com/photo-gallery/7a22b4e4-58fb-4f49-a528-f24655084f13.jpg",
+  "https://i2.photo.2gis.com/images/branch/0/30258560162607726_eac7.jpg",
+  "https://i5.photo.2gis.com/photo-gallery/196fbc01-4529-4dbe-9924-70660f33cee3.jpg",
+  "https://i0.photo.2gis.com/images/branch/0/30258560162607449_c382.jpg"
+ ],
+ "review_photo": "https://i2.photo.2gis.com/images/branch/0/30258560162607726_eac7.jpg",
+ "reviews": [
+  {
+   "name": "Сила V.",
+   "text": "Заказал кухню. От результата остался в восторге! Идею воплотили идеально! Качество материалов на высшем уровне. Отмечаю профессионализм всей команды."
+  },
+  {
+   "name": "Николай Т.",
+   "text": "Заказывал шкаф кровать на балкон под ключ, сделали всё качественно, стильно по дизайну и цвету, функционал шкафа выполнен необычно, что делает его современным и не простым."
+  },
+  {
+   "name": "Анастасия К.",
+   "text": "Заказали шкаф в прихожую, тумбу, зеркало, все очень понравилось! Сделали все качественно и аккуратно по нашим эскизам, учли все пожелания. Просто в восторге! Рекомендую."
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "id": "teremok",
+ "variant": "auto",
+ "accent": "#9c6b4e",
+ "point": {
+  "lat": 56.494228,
+  "lon": 84.975948
+ },
+ "hours": "пн-сб 09:00-18:00, вс выходной",
+ "hero": {
+  "src": "https://i5.photo.2gis.com/photo-gallery/b0fd880f-ebd9-46b7-a59d-8954e74f4d7a.jpg",
+  "caption": "",
+  "src_desktop": "https://i4.photo.2gis.com/photo-gallery/3cf12978-da83-4c03-99f4-f994b2f6f769.jpg",
+  "crop_desktop": [
+   0,
+   0,
+   1,
+   1
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i4.photo.2gis.com/photo-gallery/b8af106f-d877-49b9-babf-0c1b4fbd6e72.jpg",
+   "title": "Угловая кухня",
+   "text": "Белые фасады, верхние шкафы под дерево и подсветка."
+  },
+  {
+   "src": "https://i5.photo.2gis.com/photo-gallery/6b68ca01-ba40-4515-aadd-066242ab6f53.jpg",
+   "title": "Кухня с пеналами",
+   "text": "Белые фасады, витрина и столешница под дерево."
+  },
+  {
+   "src": "https://i8.photo.2gis.com/photo-gallery/bd6b8626-cefa-49e0-ad45-8cb7eaeb0025.jpg",
+   "title": "Столовая в деревянном доме",
+   "text": "Резной буфет, массивный стол и стулья."
+  },
+  {
+   "src": "https://i5.photo.2gis.com/images/branch/0/30258560097007696_cc8b.jpg",
+   "title": "Беседка",
+   "text": "Деревянные лавки, стол и резной декор."
+  },
+  {
+   "src": "https://i9.photo.2gis.com/photo-gallery/0a38b482-e0e2-4e52-8495-b55d33e018d6.jpg",
+   "title": "Ванная",
+   "text": "Тумба под дерево и зеркало с подсветкой."
+  },
+  {
+   "src": "https://i8.photo.2gis.com/photo-gallery/edbc87bd-47ee-4aa9-b261-3ec4ce93a537.jpg",
+   "title": "Кухня с колонной под технику",
+   "text": "Светлые фасады и круглый стол у стены."
+  }
+ ],
+ "steps_photos": [
+  "https://i1.photo.2gis.com/photo-gallery/86928d61-7193-4748-83d4-0c8a73f2ba4e.jpg",
+  "https://i1.photo.2gis.com/images/branch/0/30258560097007716_5d8f.jpg",
+  "https://i7.photo.2gis.com/images/branch/0/30258560097007717_eaaa.jpg",
+  "https://i6.photo.2gis.com/images/branch/0/30258560097007698_6edb.jpg"
+ ],
+ "review_photo": "https://i8.photo.2gis.com/images/branch/0/30258560097007712_abcf.jpg",
+ "reviews": [
+  {
+   "name": "Андрей В.",
+   "text": "Удобно, качественно, быстро. Рекомендую."
+  },
+  {
+   "name": "Алексей Р.",
+   "text": "Хороший магазин, и выбор есть, и продавцы очень вежливые, и в городе."
+  },
+  {
+   "name": "Павел Л.",
+   "text": "Материал на высшем уровне, покупаю у ребят бруски строганные, шлифовки почти не требуют! Лучший вариант, из всех по городу!"
+  }
+ ]
+}

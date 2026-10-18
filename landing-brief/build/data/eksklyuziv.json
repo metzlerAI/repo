@@ -1,0 +1,74 @@
+{
+ "id": "eksklyuziv",
+ "variant": "auto",
+ "accent": "#9aaba6",
+ "point": {
+  "lat": 54.729172,
+  "lon": 55.980721
+ },
+ "hours": "Ежедневно с 11:00 до 20:00",
+ "hero": {
+  "src": "https://i5.photo.2gis.com/photo-gallery/8df75f40-0ece-4bf8-9b35-5960a6e1c840.jpg",
+  "caption": "",
+  "src_desktop": "https://i5.photo.2gis.com/photo-gallery/1ccc3e75-3be4-4dae-abe3-53652fb072d9.jpg",
+  "crop_desktop": [
+   0,
+   0.15,
+   1,
+   0.7
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i1.photo.2gis.com/photo-gallery/27ad29c8-3ead-436f-82d4-fd11b310001c.jpg",
+   "title": "Угловая кухня",
+   "text": "Серые нижние фасады, светлые верхние и пенал под технику."
+  },
+  {
+   "src": "https://i5.photo.2gis.com/photo-gallery/1ccc3e75-3be4-4dae-abe3-53652fb072d9.jpg",
+   "title": "Детская",
+   "text": "Белые шкафы с филёнкой и розовый стол у окна."
+  },
+  {
+   "src": "https://i5.photo.2gis.com/photo-gallery/41cfb758-b83f-43d9-bc7e-6265d2906f71.jpg",
+   "title": "Спальня",
+   "text": "Шкафы до потолка, полки над изголовьем и столик с зеркалом."
+  },
+  {
+   "src": "https://i9.photo.2gis.com/images/branch/0/30258560169922052_bfbb.jpg",
+   "title": "Кухня с пеналами",
+   "text": "Светлые фасады, столешница под дерево и высокие шкафы под технику."
+  },
+  {
+   "src": "https://i4.photo.2gis.com/images/branch/0/30258560169922055_9254.jpg",
+   "title": "Рабочее место у окна",
+   "text": "Стол во всю ширину окна и угловые полки."
+  },
+  {
+   "src": "https://i1.photo.2gis.com/images/branch/0/30258560169922050_f2c1.jpg",
+   "title": "Шкаф в доме из бруса",
+   "text": "Белые фасады с филёнкой и зеркальная дверь."
+  }
+ ],
+ "steps_photos": [
+  "https://i5.photo.2gis.com/images/branch/0/30258560169922059_f377.jpg",
+  "https://i1.photo.2gis.com/photo-gallery/9e481d59-8be2-47bc-9466-cdbc7425cf93.jpg",
+  "https://i4.photo.2gis.com/photo-gallery/7dafe317-2518-4174-9808-a2d9c2078a5f.jpg",
+  "https://i2.photo.2gis.com/photo-gallery/4be71271-face-45b4-8798-cb307729e50c.jpg"
+ ],
+ "review_photo": "https://i3.photo.2gis.com/photo-gallery/94c0d981-37fd-4298-a901-46a7e73f4739.jpg",
+ "reviews": [
+  {
+   "name": "Гульназ Г.",
+   "text": "Очень довольна своей новой кухней. Хочу отметить хорошее качество материалов, все детали собраны аккуратно. Сделали нам отличную кухню по всем параметрам так, что довольны всей семьёй. Спасибо за отличную кухню и сервис."
+  },
+  {
+   "name": "Рамиль Г.",
+   "text": "Заказывал здесь кухню для любимой жены. Жена в восторге, понравилось все. Очень качественно, красиввый дизайн. Рекомендую."
+  },
+  {
+   "name": "Любовь М.",
+   "text": "Заказали гардеробную и тумбу в ванную комнату. Отличная и слаженная работа дизайнера и монтажников дала отличный результат. Дизайнер терпеливо и вежливо принимал все мои сомнения и пожелания."
+  }
+ ]
+}

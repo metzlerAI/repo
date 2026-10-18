@@ -1,0 +1,74 @@
+{
+ "id": "lavka",
+ "variant": "auto",
+ "accent": "#8fa58a",
+ "point": {
+  "lat": 56.840168,
+  "lon": 53.240727
+ },
+ "hours": "пн-пт 10:00-19:00, сб-вс выходной",
+ "hero": {
+  "src": "https://i6.photo.2gis.com/photo-gallery/997872c4-0f7c-40a3-9613-d23f32294c12.jpg",
+  "caption": "",
+  "src_desktop": "https://i4.photo.2gis.com/photo-gallery/e68c7ca7-a313-4216-b0d6-4937ef56febb.jpg",
+  "crop_desktop": [
+   0,
+   0,
+   1,
+   1
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i9.photo.2gis.com/photo-gallery/8d8068c6-710a-43ff-adb4-7e51df56eca8.jpg",
+   "title": "Кухня под орех",
+   "text": "Тёмное дерево, витрины и латунный смеситель."
+  },
+  {
+   "src": "https://i9.photo.2gis.com/photo-gallery/7e1c5c9d-37f2-4912-a07b-57c7b56cf8eb.jpg",
+   "title": "Кухня с обеденной зоной",
+   "text": "Светлые фасады, верхние шкафы под дерево и круглый стол."
+  },
+  {
+   "src": "https://i6.photo.2gis.com/photo-gallery/54bb6bc2-9174-4495-80c6-50a20a679040.jpg",
+   "title": "Кухня с колонной под технику",
+   "text": "Белые и графитовые фасады, подвесные светильники."
+  },
+  {
+   "src": "https://i3.photo.2gis.com/images/branch/0/30258560106943354_bd7b.jpg",
+   "title": "Детская",
+   "text": "Белые шкафы, полки и стол у стены."
+  },
+  {
+   "src": "https://i7.photo.2gis.com/photo-gallery/39b88410-e4e5-43ce-917e-f42401ffd07a.jpg",
+   "title": "Комната с рабочим местом",
+   "text": "Стол у окна и кровати по бокам."
+  },
+  {
+   "src": "https://i1.photo.2gis.com/images/branch/0/30258560106943615_b50f.jpg",
+   "title": "Шкаф-купе",
+   "text": "Белые двери во всю стену."
+  }
+ ],
+ "steps_photos": [
+  "https://i0.photo.2gis.com/photo-gallery/4be614d4-3f9f-4666-8016-30482c0d9308.jpg",
+  "https://i9.photo.2gis.com/photo-gallery/d20b6f69-df3f-4271-81eb-9a42b0ca295f.jpg",
+  "https://i5.photo.2gis.com/photo-gallery/d036c689-bda2-4648-8c79-3f4d4e9e96ec.jpg",
+  "https://i4.photo.2gis.com/photo-gallery/ea66bda7-1801-40b3-a5be-51850b123da5.jpg"
+ ],
+ "review_photo": "https://i4.photo.2gis.com/photo-gallery/6f34fd03-0f20-4eef-ac5b-93de65f5359f.jpg",
+ "reviews": [
+  {
+   "name": "Светлана П.",
+   "text": "Отличное качество сборки, индивидуальный подход дизайнера. Очень много нужных рекомендаций на этапе проекта, которые сам не сможешь учесть. Результатом довольны на 100%."
+  },
+  {
+   "name": "Юлия А.",
+   "text": "Моя кухня невероятная, большое спасибо Елизвете, продумала каждый ящик, качество фурнитуры на высшем уровнем, клиентоориентированность, внимание к просьбам. Рекомендую всем вокруг!"
+  },
+  {
+   "name": "Дима К.",
+   "text": "Классный дизайн тумбы, все исполнили в срок по дизайн проекту!"
+  }
+ ]
+}

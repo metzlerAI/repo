@@ -1,0 +1,75 @@
+{
+ "id": "mebel-darom",
+ "variant": "auto",
+ "accent": "#7d93bd",
+ "point": {
+  "lat": 53.202997,
+  "lon": 50.136735
+ },
+ "hours": "пн-пт 09:00-19:00, сб-вс 09:00-15:00",
+ "hero": {
+  "src": "https://i6.photo.2gis.com/photo-gallery/cbd090ca-5ccd-46f8-8b95-474fcd0cba5c.jpg",
+  "caption": "",
+  "src_desktop": "https://i5.photo.2gis.com/images/branch/0/30258560173882669_5e13.jpg",
+  "crop_desktop": [
+   0,
+   0,
+   1,
+   1
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i2.photo.2gis.com/images/branch/0/30258560173882670_7fff.jpg",
+   "title": "Угловая кухня",
+   "text": "Тёмно-синий низ, верхние шкафы под дерево и чёрная вытяжка."
+  },
+  {
+   "src": "https://i0.photo.2gis.com/photo-gallery/70e702b5-5e78-43f5-8325-f8710c840b6e.jpg",
+   "title": "Небольшая угловая кухня",
+   "text": "Светлые фасады, пенал под технику и стена под бетон."
+  },
+  {
+   "src": "https://i2.photo.2gis.com/photo-gallery/26a58a30-d2ea-467f-ac28-697d1deff62d.jpg",
+   "title": "Шкафы вокруг двери",
+   "text": "Белые шкафы до потолка и рабочий стол сбоку."
+  },
+  {
+   "src": "https://i7.photo.2gis.com/photo-gallery/294dfa91-da3d-48f8-869a-015e68bd2d63.jpg",
+   "title": "Рабочее место у окна",
+   "text": "Стол под дерево вдоль окна и шкаф с ящиками."
+  },
+  {
+   "src": "https://i1.photo.2gis.com/photo-gallery/69157f49-a745-4c80-9e72-6f49a940f209.jpg",
+   "title": "Белая кухня",
+   "text": "Белые фасады и стена под мрамор."
+  },
+  {
+   "src": "https://i3.photo.2gis.com/photo-gallery/2330b6e7-afbb-4830-912d-fcb1486f2c45.jpg",
+   "title": "Ванная",
+   "text": "Тумба под дерево и шкаф над инсталляцией."
+  }
+ ],
+ "steps_photos": [
+  "https://i9.photo.2gis.com/photo-gallery/4f755826-9d38-4bad-b6a3-2d64c4377fa3.jpg",
+  "https://i8.photo.2gis.com/photo-gallery/2fe83b4c-4230-4762-9e32-c448ab761443.jpg",
+  "https://i6.photo.2gis.com/photo-gallery/d1d5b2f1-07ed-4fbc-972a-674c4a279ce9.jpg",
+  "https://i1.photo.2gis.com/photo-gallery/4f655dfb-7ed7-40de-85c8-05c262772266.jpg"
+ ],
+ "review_photo": "https://i9.photo.2gis.com/images/branch/0/30258560173880451_1fd6.jpg",
+ "storefront": "https://i9.photo.2gis.com/images/branch/0/30258560173880471_a2f0.jpg",
+ "reviews": [
+  {
+   "name": "Шевченко М.",
+   "text": "Заказывал шкаф, все очень понравилось, Иван очень отзывчивый, помог все подобрать, фурнитура очень качественная, советую!"
+  },
+  {
+   "name": "Анна А.",
+   "text": "Заказывала гардеробную, Иван учел все пожелания и спроектировал гардеробную которая идеально вписалась в мои габариты! Обращайтесь в данную студию, не пожалеете!"
+  },
+  {
+   "name": "Людмила А.",
+   "text": "Заказывали кухню. Всё на высшем уровне. Иван мастер своего дела! Рекомендую."
+  }
+ ]
+}

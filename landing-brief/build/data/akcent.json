@@ -1,0 +1,75 @@
+{
+ "id": "akcent",
+ "variant": "auto",
+ "accent": "#6b7f5e",
+ "point": {
+  "lat": 55.994525,
+  "lon": 92.917766
+ },
+ "hours": "пн-пт 09:00-18:00, сб-вс выходной",
+ "hero": {
+  "src": "https://i8.photo.2gis.com/photo-gallery/20cdf8c4-4140-4fd7-b004-4e4337c9887f.jpg",
+  "caption": "",
+  "src_desktop": "https://i2.photo.2gis.com/photo-gallery/be023bfe-2a39-47d7-8941-1790a1ba2db9.jpg",
+  "crop_desktop": [
+   0,
+   0,
+   1,
+   1
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i6.photo.2gis.com/photo-gallery/bdd9e6b4-42a6-40ca-8730-ef227f2f8f86.jpg",
+   "title": "Светлая кухня",
+   "text": "Фасады без ручек на виду и столешница под камень."
+  },
+  {
+   "src": "https://i3.photo.2gis.com/images/branch/0/30258560089618742_4ce5.jpg",
+   "title": "Кухня с серо-голубым низом",
+   "text": "Верхние шкафы под дерево и встроенная техника."
+  },
+  {
+   "src": "https://i9.photo.2gis.com/photo-gallery/fd6a5865-d3ca-47e4-9771-2753226daeef.jpg",
+   "title": "Шкаф под бетон",
+   "text": "Фасады под бетон и тумба у зеркала."
+  },
+  {
+   "src": "https://i8.photo.2gis.com/images/branch/0/30258560089616492_fa32.jpg",
+   "title": "Кухня с обеденным столом",
+   "text": "Белые фасады, верхние шкафы под дерево и стол у окна."
+  },
+  {
+   "src": "https://i6.photo.2gis.com/photo-gallery/7c67ee7b-6443-481a-a1a3-349c44ea9600.jpg",
+   "title": "Угловая кухня",
+   "text": "Светлые фасады до потолка и встроенная техника."
+  },
+  {
+   "src": "https://i6.photo.2gis.com/images/branch/0/30258560104944880_e460.jpg",
+   "title": "Гостиная",
+   "text": "Подвесные шкафы, тумба под телевизор и рабочий стол."
+  }
+ ],
+ "steps_photos": [
+  "https://i4.photo.2gis.com/photo-gallery/bb778a5f-2d3e-4994-a451-ce88a3e63ead.jpg",
+  "https://i8.photo.2gis.com/photo-gallery/6f4f686a-bea5-4ab3-a668-c726723f189f.jpg",
+  "https://i2.photo.2gis.com/photo-gallery/543654a6-ac2e-49e6-b8fa-503081c22090.jpg",
+  "https://i8.photo.2gis.com/images/branch/0/30258560089573945_4bcf.jpg"
+ ],
+ "review_photo": "https://i2.photo.2gis.com/photo-gallery/533daa03-f9df-4024-a1af-d99efa944260.jpg",
+ "storefront": "https://i9.photo.2gis.com/photo-gallery/a070d503-c793-4a80-a149-f56f1ac51107.jpg",
+ "reviews": [
+  {
+   "name": "Евгения К.",
+   "text": "Огромное спасибо за прекрасную кухню! Вы просто профессионалы своего дела! Вся остальная мебель однозначно будет заказана у вас!"
+  },
+  {
+   "name": "Юлия Т.",
+   "text": "Сделала в очередной раз заказ. Хорошая компания, прекрасная мебель, качество, рекомендую."
+  },
+  {
+   "name": "Мария В.",
+   "text": "Вот такую красоту нам установили. Спасибо Марии за подсказки и выбор цвета, замерщику за советы и установщикам за быстроту и аккуратность. Мы теперь ваши постоянные клиенты."
+  }
+ ]
+}

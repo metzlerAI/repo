@@ -1,0 +1,74 @@
+{
+ "id": "osnova-kukhni",
+ "variant": "auto",
+ "accent": "#4a95bd",
+ "point": {
+  "lat": 54.714038,
+  "lon": 55.997603
+ },
+ "hours": "Ежедневно с 10:00 до 20:00",
+ "hero": {
+  "src": "https://i9.photo.2gis.com/photo-gallery/f2b1971e-e3d8-42ee-9857-0290421ec8d0.jpg",
+  "caption": "",
+  "src_desktop": "https://i9.photo.2gis.com/photo-gallery/d5208fc7-f469-4f31-9f60-450e613148db.jpg",
+  "crop_desktop": [
+   0,
+   0,
+   1,
+   1
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i1.photo.2gis.com/photo-gallery/5f03a28f-3bf3-452d-a1be-914666d37bed.jpg",
+   "title": "Угловая кухня с витриной",
+   "text": "Светлые фасады, пенал под технику и шкаф со стеклом."
+  },
+  {
+   "src": "https://i8.photo.2gis.com/photo-gallery/f433f613-365d-4a53-94c0-8a8a29a2aebb.jpg",
+   "title": "Кухня с рифлёными фасадами",
+   "text": "Рифлёный верх, витрина с подсветкой и стена под мрамор."
+  },
+  {
+   "src": "https://i3.photo.2gis.com/photo-gallery/48e31ac7-7d27-42b7-a290-5ef1d8d09d89.jpg",
+   "title": "Кухня с барной стойкой",
+   "text": "Тёмный низ, белый верх и стойка под мрамор."
+  },
+  {
+   "src": "https://i3.photo.2gis.com/photo-gallery/939ec85d-9715-4e82-921e-af9190b75a94.jpg",
+   "title": "Прямая кухня",
+   "text": "Серые фасады, стена под дерево и вытяжка."
+  },
+  {
+   "src": "https://i5.photo.2gis.com/photo-gallery/57f0caa2-1013-4630-a681-3b530a9e392e.jpg",
+   "title": "Небольшая кухня",
+   "text": "Фасады под тёмное дерево и светлый верх."
+  },
+  {
+   "src": "https://i7.photo.2gis.com/photo-gallery/592f2033-fee6-44d1-9b02-cc475cef811f.jpg",
+   "title": "Шкаф с комодом",
+   "text": "Серые фасады и комод с тремя ящиками."
+  }
+ ],
+ "steps_photos": [
+  "https://i8.photo.2gis.com/photo-gallery/9a5d4559-0c58-442c-af16-ec1a882fccce.jpg",
+  "https://i0.photo.2gis.com/photo-gallery/012cbf01-ab2d-4238-bc48-ddaa9c77701e.jpg",
+  "https://i5.photo.2gis.com/photo-gallery/fe7ddac9-9f62-4f47-865e-7921a511d819.jpg",
+  "https://i2.photo.2gis.com/photo-gallery/a59aaa67-e5a7-4929-9f42-61f56e02e8c4.jpg"
+ ],
+ "review_photo": "https://i0.photo.2gis.com/photo-gallery/0a2fdfc0-d26b-4c23-b3ad-0e782976ef5c.jpg",
+ "reviews": [
+  {
+   "name": "Альбина Б.",
+   "text": "Заказывали по индивидуальным размерам. Дизайнер помог продумать каждый ящик, учёл все наши привычки и рост. Собрали быстро и очень аккуратно."
+  },
+  {
+   "name": "Илья С.",
+   "text": "Приехал с жёстким бюджетом и чётким списком того, что надо. Дизайнер быстро подобрал материалы под мои задачи, ничего не навязывали."
+  },
+  {
+   "name": "Сергей Р.",
+   "text": "Заказывал шкаф-купе и кухонный гарнитур в этой компании. Замерщик приехал быстро, учли все пожелания по дизайну и наполнению. Изготовили в срок, установили аккуратно, фурнитура работает плавно."
+  }
+ ]
+}

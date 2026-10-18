@@ -1,0 +1,74 @@
+{
+ "id": "borodikhin",
+ "variant": "auto",
+ "accent": "#c98a4b",
+ "point": {
+  "lat": 56.52859,
+  "lon": 84.983972
+ },
+ "hours": "пн-пт 11:00-19:00, сб-вс выходной",
+ "hero": {
+  "src": "https://i9.photo.2gis.com/photo-gallery/0b1340a2-54bf-4b03-ba99-23277021faa2.jpg",
+  "caption": "",
+  "src_desktop": "https://i6.photo.2gis.com/photo-gallery/00cd8db9-96b5-4fb9-b8be-23b4d2d833f6.jpg",
+  "crop_desktop": [
+   0,
+   0.12,
+   1,
+   0.67
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i0.photo.2gis.com/photo-gallery/5b7b3185-c452-4fa0-87e4-6ee2db3bf5cb.jpg",
+   "title": "Кухня с обеденной зоной",
+   "text": "Графитовые нижние шкафы, белые верхние и пенал до потолка."
+  },
+  {
+   "src": "https://i5.photo.2gis.com/photo-gallery/09b8f223-d95c-4e74-ab7b-c4ddcc64a470.jpg",
+   "title": "Белая кухня",
+   "text": "Светлые фасады без ручек, встроенные духовка и микроволновка."
+  },
+  {
+   "src": "https://i6.photo.2gis.com/photo-gallery/00cd8db9-96b5-4fb9-b8be-23b4d2d833f6.jpg",
+   "title": "Кухня с островом",
+   "text": "Тёмные фасады и остров со столешницей под дерево."
+  },
+  {
+   "src": "https://i7.photo.2gis.com/images/branch/0/30258560090094415_d516.jpg",
+   "title": "Шкаф во всю стену",
+   "text": "Фасады под тёмное дерево и длинные ручки."
+  },
+  {
+   "src": "https://i5.photo.2gis.com/images/branch/0/30258560109141685_4b2c.jpg",
+   "title": "Кухня в доме",
+   "text": "Фасады под бетон и ниша под дерево с подсветкой."
+  },
+  {
+   "src": "https://i4.photo.2gis.com/photo-gallery/609291d6-3967-499a-bd4e-cb8096a5d3d6.jpg",
+   "title": "Рабочее место",
+   "text": "Стол с ящиками, рейки на стене и подсветка."
+  }
+ ],
+ "steps_photos": [
+  "https://i3.photo.2gis.com/photo-gallery/c7eda189-1c8a-4b9a-bf94-38e3ea6120bf.jpg",
+  "https://i5.photo.2gis.com/photo-gallery/9ad41699-dc7b-4439-9900-76635de986a5.jpg",
+  "https://i5.photo.2gis.com/images/branch/0/30258560175689901_8c23.jpg",
+  "https://i8.photo.2gis.com/photo-gallery/81297f10-4851-46a4-9a19-1be39335df05.jpg"
+ ],
+ "review_photo": "https://i9.photo.2gis.com/photo-gallery/3b8b79a9-1782-44dd-a57c-a11660ac8b60.jpg",
+ "reviews": [
+  {
+   "name": "Никита А.",
+   "text": "Отличный сервис, делал там кухню, гардероб, шкаф, декоративные рейки. Все встало как литое, обращайтесь. Качественные материалы, огромная палитра цветов и материалов."
+  },
+  {
+   "name": "Елена З.",
+   "text": "Работали с Командой Игоря и Даши, заказывали кухню. Очень понравилось отношение, внимание и понимание. К качеству претензий нет, от слова совсем. По срокам все вовремя, сборщик кухни прелесть!"
+  },
+  {
+   "name": "Олеся Л.",
+   "text": "Хотим сказать огромное СПАСИБО Игорю и Дарье за нашу шикарную кухню! Были учтены и удовлетворены все наши пожелания! Кухня очень качественная, надежная и красивая! Мы остались довольны!"
+  }
+ ]
+}

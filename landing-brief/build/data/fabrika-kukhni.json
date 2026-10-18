@@ -1,0 +1,71 @@
+{
+ "id": "fabrika-kukhni",
+ "variant": "auto",
+ "accent": "#55684a",
+ "point": null,
+ "hours": "пн-пт 09:00-18:00, сб-вс выходной",
+ "hero": {
+  "src": "https://i2.photo.2gis.com/photo-gallery/ded0bb45-c3cb-44a0-af4b-858103b0146f.jpg",
+  "caption": "",
+  "src_desktop": "https://i0.photo.2gis.com/photo-gallery/d674e027-c108-458e-b3e4-2f9614e29c47.jpg",
+  "crop_desktop": [
+   0,
+   0,
+   1,
+   1
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i4.photo.2gis.com/photo-gallery/8ce95ada-8d4e-4d86-8d38-d71e671fb94c.jpg",
+   "title": "Угловая кухня",
+   "text": "Светлые фасады, верхние шкафы под дерево и витрина."
+  },
+  {
+   "src": "https://i6.photo.2gis.com/photo-gallery/110ff3f0-8296-428b-8368-2b960b43caf6.jpg",
+   "title": "Кухня с серо-зелёными фасадами",
+   "text": "Пенал под технику, верх под дерево и подсветка."
+  },
+  {
+   "src": "https://i2.photo.2gis.com/photo-gallery/e47ced69-8d0c-4b88-88da-201f47f1a972.jpg",
+   "title": "Кухня с графитовыми пеналами",
+   "text": "Белые фасады и столешница под мрамор."
+  },
+  {
+   "src": "https://i8.photo.2gis.com/photo-gallery/64ea0038-3a0b-4218-b45c-19aa56995843.jpg",
+   "title": "Кухня с кирпичной стеной",
+   "text": "Белые фасады со стеклом в переплёте и вытяжка."
+  },
+  {
+   "src": "https://i9.photo.2gis.com/photo-gallery/db197dc5-7612-4f70-9665-15473cf218fb.jpg",
+   "title": "Кухня с подсветкой",
+   "text": "Верхние шкафы под тёмное дерево и белый низ."
+  },
+  {
+   "src": "https://i6.photo.2gis.com/photo-gallery/1244f826-d681-47bf-a1b0-09a562fa0fc9.jpg",
+   "title": "Кухня-столовая",
+   "text": "Фасады под дерево до потолка и круглый стол."
+  }
+ ],
+ "steps_photos": [
+  "https://i3.photo.2gis.com/photo-gallery/043f67ea-488f-4a60-bf49-7ffad2251dea.jpg",
+  "https://i3.photo.2gis.com/photo-gallery/44f399ea-9b94-4b45-902d-badf9e25ef60.jpg",
+  "https://i7.photo.2gis.com/photo-gallery/f50929c7-5762-415b-927b-c3012bb42e63.jpg",
+  "https://i7.photo.2gis.com/photo-gallery/1d426211-6fe7-45f5-90fc-aaeb880d5fef.jpg"
+ ],
+ "review_photo": "https://i5.photo.2gis.com/photo-gallery/756b2146-735e-4d6d-91ba-67aa96e711ca.jpg",
+ "reviews": [
+  {
+   "name": "Ольга О.",
+   "text": "Обращаемся уже второй раз к Алексею с заказом кухни. Очень довольны результатом! Качество и обслуживание на самом высоком уровне! Спасибо за Вашу работу!"
+  },
+  {
+   "name": "Людмила С.",
+   "text": "Сделали зелёную кухню высотой под потолок, все предусмотрели по ящикам, удобным механизмам и фурнитуре, готова она была в срок. Спасибо за работу и новую кухню! Я очень довольна."
+  },
+  {
+   "name": "Юлия Т.",
+   "text": "Все понравилось, от этапа проектирования до непосредственной установки. Заказывала в дуэте кухню и шкафы в санузлы. Результатом осталась очень довольна. Если когда-нибудь накоплю на еще одну квартиру, то заказывать буду тут же."
+  }
+ ]
+}

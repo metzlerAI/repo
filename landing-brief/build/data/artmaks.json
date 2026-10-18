@@ -1,0 +1,71 @@
+{
+ "id": "artmaks",
+ "variant": "auto",
+ "accent": "#5a7fc0",
+ "point": {
+  "lat": 51.66758,
+  "lon": 39.188925
+ },
+ "hours": "Ежедневно с 11:00 до 18:00",
+ "hero": {
+  "src": "https://i4.photo.2gis.com/photo-gallery/70284e40-c22f-4905-9ba1-d4cd2c685507.jpg",
+  "caption": "",
+  "src_desktop": "https://i6.photo.2gis.com/photo-gallery/2432e67f-f905-4ad3-9828-03571575d6b0.jpg",
+  "crop_desktop": [
+   0,
+   0.12,
+   1,
+   0.67
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i4.photo.2gis.com/photo-gallery/ba9b6fa9-29fc-4b89-924b-b536e820af6e.jpg",
+   "title": "Угловая кухня",
+   "text": "Синие нижние фасады, белый верх и стена под мрамор."
+  },
+  {
+   "src": "https://i9.photo.2gis.com/photo-gallery/f25b1ee8-5b24-446f-9578-a33a1f78535e.jpg",
+   "title": "Кухня с колонной под технику",
+   "text": "Серо-голубые фасады и подсветка над столешницей."
+  },
+  {
+   "src": "https://i6.photo.2gis.com/photo-gallery/3dbabeb9-e284-42d1-8bb6-2a9c146b8a4d.jpg",
+   "title": "Кухня с фасадами под дерево",
+   "text": "Верхние шкафы под дерево и белый низ."
+  },
+  {
+   "src": "https://i8.photo.2gis.com/photo-gallery/f716d55f-2610-4e50-96db-c678543fdbb7.jpg",
+   "title": "Кухня с витриной",
+   "text": "Светлые фасады и шкаф со стеклом и подсветкой."
+  },
+  {
+   "src": "https://i2.photo.2gis.com/photo-gallery/295c5066-a606-475d-bb85-bfbe758f7afd.jpg",
+   "title": "Кухня со столешницей у окна",
+   "text": "Фасады цвета мокко, пенал под технику и длинная столешница."
+  },
+  {
+   "src": "https://i5.photo.2gis.com/photo-gallery/ec4b3464-3895-46ae-9673-3d55b1d1994f.jpg",
+   "title": "Прихожая",
+   "text": "Тумба, зеркало и рифлёная панель."
+  }
+ ],
+ "steps_photos": [
+  "https://i8.photo.2gis.com/photo-gallery/d3b6f981-2951-423c-a301-70bf9097e618.jpg",
+  "https://i4.photo.2gis.com/photo-gallery/66ba2aba-4402-4c39-aa95-9a4ee9424455.jpg",
+  "https://i8.photo.2gis.com/photo-gallery/3f7ace33-73b2-41b0-97f5-e24152e258eb.jpg",
+  "https://i3.photo.2gis.com/photo-gallery/56b6f3c7-1e52-4caf-b9ce-e4a9ef833969.jpg"
+ ],
+ "review_photo": "https://i9.photo.2gis.com/photo-gallery/680af838-8af0-4893-b17d-1970b14ab47c.jpg",
+ "storefront": "https://i9.photo.2gis.com/photo-gallery/5d9eb83a-0bb2-433a-8f70-fff5966dc73f.jpg",
+ "reviews": [
+  {
+   "name": "Диана К.",
+   "text": "В компании Artmax я заказывала разработку моей новой кухни и могу отдать должное - справились отлично. Результат радует, кухня, как с картинки. По многим параметрам осталась довольна."
+  },
+  {
+   "name": "Людмила Е.",
+   "text": "Заказали кухонный гарнитур, гардеробную и мебель в санузел по дизайн проекту, воплотили картинку в реальность. Все сделали отлично, качественно. Понравилось, что учли все пожелания и выполнили работу быстро."
+  }
+ ]
+}

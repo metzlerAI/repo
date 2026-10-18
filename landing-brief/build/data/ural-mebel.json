@@ -1,0 +1,67 @@
+{
+ "id": "ural-mebel",
+ "variant": "auto",
+ "accent": "#a5703f",
+ "point": {
+  "lat": 51.798556,
+  "lon": 55.108969
+ },
+ "hours": "пн-пт 09:00-18:00, сб-вс выходной",
+ "hero": {
+  "src": "https://i4.photo.2gis.com/images/branch/0/30258560085055340_5460.jpg",
+  "caption": "",
+  "src_desktop": "https://i4.photo.2gis.com/images/branch/0/30258560085055340_5460.jpg",
+  "crop_desktop": [
+   0,
+   0.1,
+   1,
+   0.7
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i5.photo.2gis.com/images/branch/0/30258560084278787_52fd.jpg",
+   "title": "Кухня под дерево",
+   "text": "Нижние фасады под дерево и стена под камень."
+  },
+  {
+   "src": "https://i1.photo.2gis.com/images/branch/0/30258560080784756_edf4.jpg",
+   "title": "Стенка под телевизор",
+   "text": "Белые шкафы, ниша для телевизора и комод."
+  },
+  {
+   "src": "https://i8.photo.2gis.com/images/branch/0/30258560082304940_9d55.jpg",
+   "title": "Шкаф под бетон",
+   "text": "Фасады под бетон и длинные чёрные ручки."
+  },
+  {
+   "src": "https://i7.photo.2gis.com/images/branch/0/30258560082431671_8e1d.jpg",
+   "title": "Шкаф в спальню",
+   "text": "Открытые полки и ящики внизу."
+  },
+  {
+   "src": "https://i7.photo.2gis.com/images/branch/0/30258560082817388_5a8a.jpg",
+   "title": "Шкаф в санузле",
+   "text": "Фасад под дерево над инсталляцией."
+  },
+  {
+   "src": "https://i1.photo.2gis.com/images/branch/0/30258560083468110_7fe1.jpg",
+   "title": "Спальня",
+   "text": "Кровать с мягким изголовьем и тумбы."
+  }
+ ],
+ "steps_photos": [
+  "https://i4.photo.2gis.com/images/branch/0/30258560085051354_1292.jpg"
+ ],
+ "storefront": "https://i2.photo.2gis.com/photo-gallery/f9a6ee8f-88de-4707-ae17-549fca42f6f4.jpg",
+ "reviews": [
+  {
+   "name": "Нина Н.",
+   "text": "Компания, которой можно доверять! Грамотные и специалисты, которые знают свое дело с человеческим отношением."
+  },
+  {
+   "name": "Вадим",
+   "text": "Заказывали кухню. По нашему дизайну с нестандартными решениями. Все сделали как и хотелось, кое где подсказали, кое где исправили наши решения по своему опыту."
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "id": "purpur",
+ "variant": "auto",
+ "accent": "#6f9a83",
+ "point": {
+  "lat": 55.141593,
+  "lon": 61.47482
+ },
+ "hours": "пн-пт 09:00-18:00, сб 10:00-14:00, вс выходной",
+ "hero": {
+  "src": "https://i1.photo.2gis.com/photo-gallery/6a7117f2-6cd1-4798-8b96-a0fd3f8df727.jpg",
+  "caption": "",
+  "src_desktop": "https://i0.photo.2gis.com/photo-gallery/6da83991-fd5c-405b-b29f-868517f96c50.jpg",
+  "crop_desktop": [
+   0,
+   0.1,
+   1,
+   0.85
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i0.photo.2gis.com/photo-gallery/df4d723f-9660-4130-a30f-f934f34a56ef.jpg",
+   "title": "Угловая кухня",
+   "text": "Фасады цвета мокко, столешница под мрамор и пенал под холодильник."
+  },
+  {
+   "src": "https://i6.photo.2gis.com/photo-gallery/0a3ddd1c-c8f2-4594-b241-5b6555163d21.jpg",
+   "title": "Детская",
+   "text": "Синие шкафы и полки с подсветкой."
+  },
+  {
+   "src": "https://i7.photo.2gis.com/photo-gallery/ae38c595-ec60-419f-af87-d912880f4ba8.jpg",
+   "title": "Кухня с обеденной зоной",
+   "text": "Белые фасады, верхние шкафы под дерево и круглый стол."
+  },
+  {
+   "src": "https://i1.photo.2gis.com/photo-gallery/ab6ad419-6d20-4b39-abf2-efe2ec6fb555.jpg",
+   "title": "Кухня с островом",
+   "text": "Тёмные пеналы, белый глянцевый верх и небольшой остров."
+  },
+  {
+   "src": "https://i7.photo.2gis.com/photo-gallery/f83a4775-81b6-41f9-a703-e9f7363c71e4.jpg",
+   "title": "Шкафы со стеклянными дверцами",
+   "text": "Белые шкафы с решётчатыми дверцами и подсветкой."
+  },
+  {
+   "src": "https://i8.photo.2gis.com/photo-gallery/82f3deb3-b483-4f9d-b171-55cbac6f1861.jpg",
+   "title": "Рабочее место у окна",
+   "text": "Стол с ящиками и стеллажи по бокам окна."
+  }
+ ],
+ "steps_photos": [
+  "https://i3.photo.2gis.com/photo-gallery/64d2d8a8-628e-429f-afa9-b6c9746de9c2.jpg",
+  "https://i4.photo.2gis.com/photo-gallery/89b7de60-760d-4dd9-8a24-d18a22fc84e9.jpg",
+  "https://i8.photo.2gis.com/photo-gallery/2c9d1201-4240-4609-9169-c9eb51ef1ee8.jpg",
+  "https://i5.photo.2gis.com/photo-gallery/d32a678c-75bc-4651-b72a-4c8a98f9e770.jpg"
+ ],
+ "review_photo": "https://i4.photo.2gis.com/photo-gallery/32c348e3-abdc-4d05-a601-af122256ad7b.jpg",
+ "reviews": [
+  {
+   "name": "Маргарита Б.",
+   "text": "В данную студию обратились по рекомендации знакомых. У меня в голове была картинк шкафа в прихожую и здесь мне помогли воплотить ее в реальность. Теперь хожу и кайфую от результата."
+  },
+  {
+   "name": "Евгения М.",
+   "text": "Обращаемся в PurPur уже не первый раз! Сделали нам кухню мечты! Хочу сказать огромное спасибо за профессионализм в своём деле, качество и индивидуальный подход! Успехов Вам!"
+  },
+  {
+   "name": "Екатерина О.",
+   "text": "Делали нам кухню, результатом очень довольны. Очень грамотная консультация по выбору фурнитуры, подсветки и других материалов."
+  }
+ ]
+}

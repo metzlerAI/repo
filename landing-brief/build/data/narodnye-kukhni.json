@@ -1,0 +1,74 @@
+{
+ "id": "narodnye-kukhni",
+ "variant": "auto",
+ "accent": "#6f9e8a",
+ "point": {
+  "lat": 54.978355,
+  "lon": 73.44066
+ },
+ "hours": "пн выходной, вт-сб 10:00-18:00, вс выходной",
+ "hero": {
+  "src": "https://i6.photo.2gis.com/images/branch/0/30258560162481972_35ba.jpg",
+  "caption": "",
+  "src_desktop": "https://i6.photo.2gis.com/images/branch/0/30258560097233195_6b2b.jpg",
+  "crop_desktop": [
+   0,
+   0,
+   1,
+   1
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i3.photo.2gis.com/photo-gallery/dd2dd2be-7dc9-4860-b593-abd395d246ab.jpg",
+   "title": "Кухня с обеденной зоной",
+   "text": "Фасады под дерево, стена под мрамор и круглый стол."
+  },
+  {
+   "src": "https://i0.photo.2gis.com/images/branch/0/30258560084720232_4425.jpg",
+   "title": "Кухня с холодильником в нише",
+   "text": "Тёмно-зелёный низ, верхние шкафы под дерево и белая плитка."
+  },
+  {
+   "src": "https://i2.photo.2gis.com/images/branch/0/30258560083767355_e0ce.jpg",
+   "title": "Бирюзовая кухня",
+   "text": "Яркие нижние фасады и светлый верх."
+  },
+  {
+   "src": "https://i4.photo.2gis.com/photo-gallery/85b661c7-4ea0-4cc6-8328-935793ed817a.jpg",
+   "title": "Светлая кухня",
+   "text": "Фасады цвета капучино и стена под мрамор."
+  },
+  {
+   "src": "https://i3.photo.2gis.com/images/branch/0/30258560162481945_940e.jpg",
+   "title": "Кухня с белым верхом",
+   "text": "Белые фасады до потолка и обеденный стол."
+  },
+  {
+   "src": "https://i8.photo.2gis.com/images/branch/0/30258560083617779_2d25.jpg",
+   "title": "П-образная кухня",
+   "text": "Белые фасады с филёнкой и столешница под дерево."
+  }
+ ],
+ "steps_photos": [
+  "https://i1.photo.2gis.com/images/branch/0/30258560162482090_9472.jpg",
+  "https://i2.photo.2gis.com/images/branch/0/30258560097233207_e4fa.jpg",
+  "https://i5.photo.2gis.com/images/branch/0/30258560162481947_d16a.jpg",
+  "https://i2.photo.2gis.com/images/branch/0/30258560097233200_cb39.jpg"
+ ],
+ "review_photo": "https://i8.photo.2gis.com/images/branch/0/30258560162482038_e507.jpg",
+ "reviews": [
+  {
+   "name": "Нина К.",
+   "text": "Купила кухню очень довольна! буду обращаться еще! Галина, Петр вы супер."
+  },
+  {
+   "name": "Наталья П.",
+   "text": "Изготовление кухни на твёрдую 5! Отдельное спасибо Галине. С уверенностью могу рекомендовать обращаться в \"Народные кухни\"."
+  },
+  {
+   "name": "Анна С.",
+   "text": "Хотела выразить благодарность всей команде салона \"Народные кухни\" за проделанную работу! Кухня удалась! Я даже не ожидала, что будет так красиво! Спасибо!"
+  }
+ ]
+}

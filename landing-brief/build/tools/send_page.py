@@ -1,9 +1,10 @@
 """Страница рассылки пачки: по карточке на фирму с текстом, кнопками и альбомом скринов.
 
-Запуск: python3 tools/send_page.py [пачка]   (пачки: 1 — Краснодар, rossiya — фирмы из baza-rossiya.xlsx; по умолчанию 1)
+Запуск: python3 tools/send_page.py [пачка]   (пачки: 1 — Краснодар, rossiya и rossiya-2 — фирмы из baza-rossiya.xlsx; по умолчанию 1)
 Берёт companies.json и out/<id>/desktop-NN.png (их делает shoot.js).
 Кладёт в landing-brief/send/: пачка-<пачка>.html и скрины/<id>/01.jpg…, видео страница берёт прямо из out/<id>/demo.mp4.
 Архив пачка-<пачка>.zip повторяет папки репозитория (send/… и out/<id>/demo.mp4), поэтому страница в нём тоже видит видео. Видео, которого ещё нет, страница помечает жёлтым.
+Пачки из FLAT (rossiya-2) без скринов: в архиве страница и видео в одной папке, видео названы «16 Нова, Махачкала.mp4».
 Тексты сообщений и пометки по фирмам лежат ниже, в PACKS.
 """
 import html
@@ -51,6 +52,27 @@ FIRMS_RU = [
          flags=["Telegram в 2ГИС ведёт в группу, лучше писать в WhatsApp"]),
     dict(id="tekstura", hello=HELLO_RU),
 ]
+
+# Россия-2 (строки 16-50). wa_only: Telegram в 2ГИС ведёт в канал или не существует, пишем в WhatsApp (решения 18.10.2026)
+FIRMS_RU2 = [dict(id=x, hello=HELLO_RU) for x in (
+    "nova", "eksklyuziv", "borodikhin", "stil-kukhni", "sibir-interer", "artmaks", "purpur", "mastermebel05",
+    "korpus-dizayn", "loft-point", "babich", "papa-mozhet", "mdf-tekhnologii", "trio", "osnova-kukhni", "proekt-m",
+    "teremok", "kukhni-ekspert", "mebel-darom", "narodnye-kukhni", "khvoya", "akcent", "papokarlo", "am", "mebel25",
+    "fiamma", "atom", "master-hamster", "novye-kukhni", "ural-mebel", "fabrika-kukhni", "lavka")]
+RU2_NOTES = {
+    "nova": dict(dead=True), "eksklyuziv": dict(dead=True), "borodikhin": dict(dead=True),
+    "stil-kukhni": dict(dead=True, wa_only=True), "sibir-interer": dict(dead=True), "babich": dict(dead=True),
+    "trio": dict(dead=True, wa_only=True), "osnova-kukhni": dict(wa_only=True),
+    "mebel25": dict(extra=", только Telegram-канал", wa_only=True),
+    "lavka": dict(extra=", только Taplink", flags=["Telegram на личный аккаунт «Лиза Карпова»: можно туда или в WhatsApp"]),
+    "kukhni-ekspert": dict(flags=["салон сети «Кухни Экспресс»: у сети свой сайт есть, у салона нет"]),
+    "mdf-tekhnologii": dict(flags=["цех крашеных фасадов: макет про фасады, не про кухни"]),
+    "teremok": dict(flags=["в отзывах в основном пиломатериалы: похоже, ещё и лесоторговля"]),
+    "ural-mebel": dict(flags=["в отзыве упомянут «официальный сайт»: перед отправкой вбей телефон в Яндекс"]),
+    "akcent": dict(flags=["фото от владельца нет, в макете фото посетителей"]),
+}
+for f in FIRMS_RU2:
+    f.update(RU2_NOTES.get(f["id"], {}))
 
 FIRMS = [
     dict(id="simmetriya"),
@@ -115,15 +137,22 @@ def video(cid):
     return f"../out/{cid}/demo.mp4" if (OUT / cid / "demo.mp4").exists() else None
 
 
-def card(n, f, c):
+def flat_name(c):
+    """Имя видео в архиве пачки без скринов: «16 Нова, Махачкала.mp4»."""
+    return f'{c["n"]} {c["name"].replace("|", "")}, {c["city"]}.mp4'
+
+
+def card(n, f, c, flat=False):
     cid = f["id"]
     text = message(f, c)
-    imgs = album(cid)
+    imgs = [] if flat else album(cid)
     vid = video(cid)
+    if vid and flat == "zip":
+        vid = quote(flat_name(c))
     if not vid:
         f.setdefault("flags", []).insert(0, "видео ещё не готово: текст про видео, без него не отправляй")
     phone_raw = re.sub(r"\D", "", c.get("wa") or c["phone"])
-    if c.get("tg") and not f.get("tg_by_phone"):
+    if c.get("tg") and not f.get("tg_by_phone") and not f.get("wa_only"):
         tg, how = c["tg"], "Telegram"
     elif f.get("tg_by_phone"):
         tg, how = f"https://t.me/+{phone_raw}", "Telegram по номеру WhatsApp"
@@ -140,10 +169,18 @@ def card(n, f, c):
     js_text = html.escape(json.dumps(text, ensure_ascii=False))
     if vid:
         cover = f'<video class="cover" src="{vid}" controls muted preload="metadata"></video>'
-        step3 = f"3. Перетащи в чат файл <b>out/{cid}/demo.mp4</b>, в поле «Подпись» вставь текст и отправь."
+        step3 = f"3. Перетащи в чат файл <b>{html.escape(flat_name(c)) if flat == "zip" else f'out/{cid}/demo.mp4'}</b>, в поле «Подпись» вставь текст и отправь."
     else:
-        cover = f'<a class="cover" href="{imgs[0]}" target="_blank"><img src="{imgs[0]}" alt=""></a>'
+        cover = (f'<a class="cover" href="{imgs[0]}" target="_blank"><img src="{imgs[0]}" alt=""></a>' if imgs else
+                 '<div class="cover nov">видео ещё нет</div>')
         step3 = f"3. Видео <b>out/{cid}/demo.mp4</b> ещё не собрано. Когда появится, запусти tools/send_page.py ещё раз."
+    city = f', {html.escape(c["city"])}' if c.get("city") else ""
+    if flat:
+        return f"""<div class="card" id="{cid}"><div class="top"><label><input type="checkbox" data-id="{cid}"> {c["n"]}. <b>{html.escape(c["name"])}</b>{city}</label>
+<span>{how} · {html.escape(c["phone"])} · <a href="{c["card"]}" target="_blank">2ГИС</a></span></div>{flags}
+<div class="body">{cover}<div class="r"><pre>{html.escape(text)}</pre>
+<div class="bt">{buttons}<button onclick="cp(this,{js_text})">2. Копировать текст</button></div>
+<small>{step3}</small></div></div></div>"""
     return f"""<div class="card" id="{cid}"><div class="top"><label><input type="checkbox" data-id="{cid}"> {n}. <b>{html.escape(c["name"])}</b></label>
 <span>{how} · {html.escape(c["phone"])} · <a href="{c["card"]}" target="_blank">2ГИС</a></span></div>{flags}
 <div class="body">{cover}<div class="r"><pre>{html.escape(text)}</pre>
@@ -164,7 +201,7 @@ h1{font-size:22px} .rule{background:#fff;border-radius:12px;padding:14px 18px;ma
 .bt{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 8px} .bt a,.bt button{border:0;border-radius:8px;padding:9px 14px;font:600 14px/1.2 inherit;font-family:inherit;cursor:pointer;background:#e9e9e4;color:#111;text-decoration:none}
 .bt .b1{background:#2b5cff;color:#fff}
 .strip{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:6px} .strip img{display:block;width:84px;height:56px;object-fit:cover;object-position:top;border-radius:6px;border:1px solid #ddd}
-small{opacity:.7;display:block}
+small{opacity:.7;display:block} .nov{width:240px;height:150px;border-radius:10px;background:#fff4d6;display:flex;align-items:center;justify-content:center;flex:none}
 @media(max-width:640px){.body{flex-direction:column} .cover img,video.cover{width:100%;height:200px}}
 </style></head><body><h1>{title}: {count} сообщений</h1>
 <div class="rule"><b>Правила:</b> с рабочего Telegram, не больше 10-15 новых в день. Порядок: открыть чат, перетащить видео, в поле «Подпись» вставить текст, отправить, поставить галочку. Видео и текст уходят одним сообщением.
@@ -181,7 +218,8 @@ const s=()=>c.closest('.card').classList.toggle('done',c.checked);s();c.onchange
 """
 
 
-PACKS = {"1": ("Пачка 1", FIRMS), "rossiya": ("Пачка «Россия»", FIRMS_RU)}
+PACKS = {"1": ("Пачка 1", FIRMS), "rossiya": ("Пачка «Россия»", FIRMS_RU), "rossiya-2": ("Пачка «Россия-2»", FIRMS_RU2)}
+FLAT = {"rossiya-2"}  # только видео и список: в архиве всё в одной папке, видео названы «16 Нова, Махачкала.mp4»
 
 
 def main():
@@ -189,10 +227,24 @@ def main():
     title, firms = PACKS[pack]
     companies = {c["id"]: c for c in json.loads((ROOT / "companies.json").read_text(encoding="utf-8"))}
     SHOTS.mkdir(parents=True, exist_ok=True)
-    cards = "\n".join(card(i, f, companies[f["id"]]) for i, f in enumerate(firms, 1))
+
+    def render(flat=False):
+        cards = "\n".join(card(i, dict(f, flags=list(f.get("flags", []))), companies[f["id"]], flat)
+                           for i, f in enumerate(firms, 1))
+        return PAGE.replace("{cards}", cards).replace("{title}", title).replace("{count}", str(len(firms)))
+
     page = SEND / f"пачка-{pack}.html"
-    page.write_text(PAGE.replace("{cards}", cards).replace("{title}", title).replace("{count}", str(len(firms))), encoding="utf-8")
+    page.write_text(render("repo" if pack in FLAT else False), encoding="utf-8")
     ids = {f["id"] for f in firms}
+    if pack in FLAT:
+        with zipfile.ZipFile(SEND / f"пачка-{pack}.zip", "w", zipfile.ZIP_STORED) as z:  # mp4 уже сжаты
+            z.writestr(page.name, render("zip"))
+            for f in firms:
+                c = companies[f["id"]]
+                if (OUT / f["id"] / "demo.mp4").exists():
+                    z.write(OUT / f["id"] / "demo.mp4", flat_name(c))
+        print(page, "и", SEND / f"пачка-{pack}.zip")
+        return
     with zipfile.ZipFile(SEND / f"пачка-{pack}.zip", "w", zipfile.ZIP_DEFLATED) as z:
         z.write(page, f"send/{page.name}")
         for p in sorted(SHOTS.rglob("*.jpg")):

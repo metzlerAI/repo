@@ -1,0 +1,75 @@
+{
+ "id": "trio",
+ "variant": "auto",
+ "accent": "#5f9a78",
+ "point": {
+  "lat": 51.556757,
+  "lon": 46.045641
+ },
+ "hours": "Ежедневно с 10:00 до 20:00",
+ "hero": {
+  "src": "https://i9.photo.2gis.com/photo-gallery/1122a62f-c618-4e1a-9c0d-68bf4c0109ad.jpg",
+  "caption": "",
+  "src_desktop": "https://i4.photo.2gis.com/photo-gallery/17432709-0a58-4e30-bc8b-9b94b0db20ad.jpg",
+  "crop_desktop": [
+   0,
+   0.1,
+   1,
+   0.65
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i9.photo.2gis.com/photo-gallery/77805ff4-76c9-43e5-a758-c412eff05b82.jpg",
+   "title": "Кухня с обеденной зоной",
+   "text": "Светлые фасады до потолка и круглый стол."
+  },
+  {
+   "src": "https://i0.photo.2gis.com/photo-gallery/0a633af6-66d9-4a21-980b-9c0334655003.jpg",
+   "title": "Кухня с чёрной столешницей",
+   "text": "Белые фасады, столешница и стена под чёрный мрамор."
+  },
+  {
+   "src": "https://i8.photo.2gis.com/photo-gallery/5fe31f77-37c3-4b57-9791-9b3d76ddbdd6.jpg",
+   "title": "Угловая кухня",
+   "text": "Фасады под бетон, белый верх и подсветка."
+  },
+  {
+   "src": "https://i9.photo.2gis.com/photo-gallery/a4aff40f-1ff9-442c-aa69-4fde3f2fd1e0.jpg",
+   "title": "Кухня с витриной",
+   "text": "Мятные фасады и шкаф со стеклом."
+  },
+  {
+   "src": "https://i9.photo.2gis.com/photo-gallery/b6c97f77-347e-4bc8-8ef8-f7ff16312a41.jpg",
+   "title": "Графитовая кухня",
+   "text": "Тёмные фасады без ручек и чёрная столешница."
+  },
+  {
+   "src": "https://i2.photo.2gis.com/photo-gallery/4797421f-3a06-419f-a280-ac993ad603b5.jpg",
+   "title": "Шкаф во всю стену",
+   "text": "Белые фасады и тонкие вставки между дверцами."
+  }
+ ],
+ "steps_photos": [
+  "https://i3.photo.2gis.com/photo-gallery/a95deaa6-1d56-4060-a1b5-b6fb918e6e25.jpg",
+  "https://i2.photo.2gis.com/photo-gallery/988d54b6-c96a-425f-8a90-d91345bb924f.jpg",
+  "https://i0.photo.2gis.com/photo-gallery/0f8d7e0c-928d-4776-8dba-4bca024b0824.jpg",
+  "https://i6.photo.2gis.com/photo-gallery/60d6c0f5-df04-4991-9d1f-055198daf092.jpg"
+ ],
+ "review_photo": "https://i4.photo.2gis.com/photo-gallery/ff8f15f0-0aa6-40ce-8de4-5ce185f0ae7d.jpg",
+ "storefront": "https://i7.photo.2gis.com/photo-gallery/c2d9a0cc-f917-4116-b2ba-ea5a6cd133af.jpg",
+ "reviews": [
+  {
+   "name": "Оксана А.",
+   "text": "Спасибо за кухню и все учтённые нюансы и советы, цвет очень дорого смотрится, столешница одним полотном и раковина установленная под столешницей это особый вид эстетического наслаждения!"
+  },
+  {
+   "name": "Ирина К.",
+   "text": "Заказывали у ребят кухню и остались очень довольны. Качество исполнения, установки- все на высоте! Все в срок! Теперь моя кухня самая красивая и уютная! От души рекомендую компанию «Трио»!"
+  },
+  {
+   "name": "Алёна Г.",
+   "text": "Эту кухню я увидела в салоне «Трио» и поняла, что хочу именно ее. Мне понравилось все, сразу представила ее в своем интерьере. Цвет подходящий, люблю светлые помещения и мебель."
+  }
+ ]
+}

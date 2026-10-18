@@ -1,0 +1,74 @@
+{
+ "id": "loft-point",
+ "variant": "auto",
+ "accent": "#5f7f8a",
+ "point": {
+  "lat": 56.322753,
+  "lon": 44.026076
+ },
+ "hours": "Ежедневно с 08:00 до 22:00",
+ "hero": {
+  "src": "https://i0.photo.2gis.com/photo-gallery/cba75cba-759a-4833-913e-c9029662897b.jpg",
+  "caption": "",
+  "src_desktop": "https://i2.photo.2gis.com/photo-gallery/3fab1e4b-76ab-4ecd-ab6d-b65197e942a9.jpg",
+  "crop_desktop": [
+   0,
+   0,
+   1,
+   1
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i1.photo.2gis.com/photo-gallery/4ebee157-5c0c-40aa-be9d-36483d454875.jpg",
+   "title": "Шкаф с синими фасадами",
+   "text": "Гладкие фасады и латунные ручки-кнопки."
+  },
+  {
+   "src": "https://i1.photo.2gis.com/photo-gallery/d457d926-2594-4689-97d1-2226ebf1159d.jpg",
+   "title": "Спальня",
+   "text": "Шкафы до потолка с длинными ручками и стеновые панели."
+  },
+  {
+   "src": "https://i6.photo.2gis.com/photo-gallery/bc44d0d9-a271-4540-a27a-ed5667b1ddd4.jpg",
+   "title": "Зона для телевизора",
+   "text": "Стеллажи под дерево и рабочий стол у стены."
+  },
+  {
+   "src": "https://i6.photo.2gis.com/photo-gallery/d0e0a50f-3e38-4a26-8aa8-429d580235d6.jpg",
+   "title": "Кухня-гостиная",
+   "text": "Светлая кухня, обеденный стол и шкаф рядом."
+  },
+  {
+   "src": "https://i1.photo.2gis.com/photo-gallery/9472099f-6b6b-4cbc-a424-e92b795176ff.jpg",
+   "title": "Лоджия",
+   "text": "Диван на встроенном основании и панели под дерево."
+  },
+  {
+   "src": "https://i0.photo.2gis.com/photo-gallery/d7f67ef0-868d-44b8-91e1-942b68ab1b30.jpg",
+   "title": "Комната с рабочим местом",
+   "text": "Белые шкафы, стол у окна и тумба с ящиками."
+  }
+ ],
+ "steps_photos": [
+  "https://i8.photo.2gis.com/photo-gallery/5650d466-5bbe-4233-b2da-817ea594dff2.jpg",
+  "https://i8.photo.2gis.com/photo-gallery/0ef9218f-728b-4d11-840d-90805418a16d.jpg",
+  "https://i4.photo.2gis.com/photo-gallery/5f4d64e4-169f-4716-a270-e446bc36fd99.jpg",
+  "https://i6.photo.2gis.com/photo-gallery/bccda62e-228f-4643-a318-a2ba58f11930.jpg"
+ ],
+ "review_photo": "https://i8.photo.2gis.com/photo-gallery/05b7531d-c127-45c1-bc08-eace21b4165b.jpg",
+ "reviews": [
+  {
+   "name": "Анна Л.",
+   "text": "Заказывали шкаф, всё сделали очень качественно. Шкаф получился именно таким, как мы хотели, выглядит отлично и очень удобный. Подход к работе профессиональный: сделали замер, предложили разные варианты, подсказали по деталям."
+  },
+  {
+   "name": "Анна К.",
+   "text": "Заказали мебель в детскую комнату, остались крайне довольны! Очень подробно разработали проект, учли все наши пожелания. Ожидания были оправданы все 110%."
+  },
+  {
+   "name": "Петр И.",
+   "text": "Заказали шкаф, ребята прям умнички большие всё сделали грамотно. Ну а качество просто огонь."
+  }
+ ]
+}

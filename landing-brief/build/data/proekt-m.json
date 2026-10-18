@@ -1,0 +1,74 @@
+{
+ "id": "proekt-m",
+ "variant": "auto",
+ "accent": "#7fa39a",
+ "point": {
+  "lat": 56.489794,
+  "lon": 84.945467
+ },
+ "hours": "Ежедневно с 09:00 до 21:00",
+ "hero": {
+  "src": "https://i6.photo.2gis.com/photo-gallery/92ca81ac-2ea6-4af5-a422-dbe6e99f9b90.jpg",
+  "caption": "",
+  "src_desktop": "https://i9.photo.2gis.com/photo-gallery/ea4e161e-21b8-4f71-87ef-80cda34a7cd7.jpg",
+  "crop_desktop": [
+   0,
+   0,
+   1,
+   1
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i4.photo.2gis.com/photo-gallery/6b1a2d92-be58-4831-893e-4853ce32c720.jpg",
+   "title": "Кухня-столовая",
+   "text": "Зелёные фасады, панели под дерево и большой стол."
+  },
+  {
+   "src": "https://i1.photo.2gis.com/photo-gallery/fc4228bd-1f66-441b-bf50-fc91dcc3ede0.jpg",
+   "title": "Кухня с филёнкой",
+   "text": "Серо-голубые фасады до потолка и плитка с узором."
+  },
+  {
+   "src": "https://i1.photo.2gis.com/photo-gallery/6650a69d-18d4-4416-be24-da1c82293b72.jpg",
+   "title": "Шкаф в спальню",
+   "text": "Голубые фасады с филёнкой и латунные ручки."
+  },
+  {
+   "src": "https://i6.photo.2gis.com/photo-gallery/9d6575a8-ed12-4ff4-a4ab-e2dfc6d37d82.jpg",
+   "title": "Детская",
+   "text": "Шкаф с круглыми окошками и диван у стены."
+  },
+  {
+   "src": "https://i3.photo.2gis.com/photo-gallery/6ffe5c9e-c602-4bd3-8b18-840251231cd3.jpg",
+   "title": "Кухня-гостиная",
+   "text": "Тёмные фасады и обеденный стол у окна."
+  },
+  {
+   "src": "https://i0.photo.2gis.com/photo-gallery/93271daf-e55d-4f26-91d0-23a12c1be720.jpg",
+   "title": "Стена с телевизором",
+   "text": "Панели под дерево, тумба и подсветка."
+  }
+ ],
+ "steps_photos": [
+  "https://i4.photo.2gis.com/photo-gallery/6175201a-d58c-4721-a974-d38416e61bbe.jpg",
+  "https://i8.photo.2gis.com/photo-gallery/0c1feac7-6386-4841-9e27-154a44bf72d8.jpg",
+  "https://i6.photo.2gis.com/photo-gallery/1ec0f2ec-26e3-4bc1-9169-8e8ef000e3af.jpg",
+  "https://i6.photo.2gis.com/photo-gallery/44fbb951-39bf-47d6-b4c3-702bbaed263a.jpg"
+ ],
+ "review_photo": "https://i1.photo.2gis.com/photo-gallery/ee2fcb5a-4434-4d92-bc6c-d4fc59a2ed37.jpg",
+ "reviews": [
+  {
+   "name": "Вячеслав А.",
+   "text": "Заказывал 2 шкафа. Все понравилось. От заказа до исполнения. Процессы настроены. Ребята стараются. Сами предлагают оптимальные варианты. Рекомендую."
+  },
+  {
+   "name": "Вера Ю.",
+   "text": "Отличная компания. Полностью делали корпусную мебель в квартиру: шкафы, кухню, комод. Качество мебели выше всяких похвал. Дизайн, эргономика, удобство в использовании на самом высоком уровне."
+  },
+  {
+   "name": "Алина В.",
+   "text": "Заказали мебель во всю квартиру под ключ, на замерах проговорили подробно обо всех нюансах, все было учтено. Спасибо менеджеру Жанне за согласование!"
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "id": "atom",
+ "variant": "auto",
+ "accent": "#7fa592",
+ "point": {
+  "lat": 48.453816,
+  "lon": 135.110859
+ },
+ "hours": "Ежедневно с 08:00 до 20:00",
+ "hero": {
+  "src": "https://i0.photo.2gis.com/photo-gallery/acc0574c-13b1-443e-9897-30bec59b66b4.jpg",
+  "caption": "",
+  "src_desktop": "https://i7.photo.2gis.com/photo-gallery/f931f15f-2190-4636-9720-f59a2f47f59f.jpg",
+  "crop_desktop": [
+   0,
+   0.15,
+   1,
+   0.7
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i7.photo.2gis.com/photo-gallery/f931f15f-2190-4636-9720-f59a2f47f59f.jpg",
+   "title": "Кухня под мрамор",
+   "text": "Чёрные фасады с рисунком мрамора и белые верхние шкафы."
+  },
+  {
+   "src": "https://i7.photo.2gis.com/photo-gallery/52588ad6-bf9b-4331-b75c-63beb5f6e2c5.jpg",
+   "title": "Угловая кухня",
+   "text": "Белые фасады, витрина с подсветкой и столешница под дерево."
+  },
+  {
+   "src": "https://i3.photo.2gis.com/photo-gallery/cf2d25af-a6da-4bf3-89ad-5f50c0c0df59.jpg",
+   "title": "Кухня с графитовым низом",
+   "text": "Белый верх и ниша под дерево."
+  },
+  {
+   "src": "https://i7.photo.2gis.com/photo-gallery/2ad3f69d-23ef-4da0-bda5-1bddde332a2a.jpg",
+   "title": "Прихожая",
+   "text": "Шкаф-купе, открытые полки и скамья под дерево."
+  },
+  {
+   "src": "https://i1.photo.2gis.com/photo-gallery/9e943954-ded6-4a1b-8e6c-767bc0b4f67a.jpg",
+   "title": "Ванная",
+   "text": "Белые шкафы, ниша с подсветкой и тумба."
+  },
+  {
+   "src": "https://i1.photo.2gis.com/photo-gallery/0d2959ef-c1e9-484c-bd43-4406e7caf53f.jpg",
+   "title": "Прямая кухня",
+   "text": "Белый низ, верхние шкафы под дерево и подсветка."
+  }
+ ],
+ "steps_photos": [
+  "https://i9.photo.2gis.com/photo-gallery/6b693c51-6b81-4b79-bf7e-aaf61546c544.jpg",
+  "https://i7.photo.2gis.com/photo-gallery/5d18b484-40f3-40a5-8a75-3c3abfa4ecbc.jpg",
+  "https://i1.photo.2gis.com/photo-gallery/35d0675e-7df4-4def-9cf3-af9c4cf8a456.jpg",
+  "https://i5.photo.2gis.com/photo-gallery/39996eaa-92db-4fb9-8313-c4aa4b340bd6.jpg"
+ ],
+ "review_photo": "https://i4.photo.2gis.com/photo-gallery/f81416a6-2eea-4c74-886a-d485f2d3d2b0.jpg",
+ "reviews": [
+  {
+   "name": "Анастасия Р.",
+   "text": "Прекрасная компания! Мужчины- отличные мастера! Сделали кухню быстро и качественно! Сергей всегда на связи, помог скорректировать проект, подсказал по материалам!"
+  },
+  {
+   "name": "Анна К.",
+   "text": "Не могу налюбоваться своей кухней выполнили заказ быстро и качественно! Будем рекомендовать своим друзьям только вас."
+  },
+  {
+   "name": "Ольга М.",
+   "text": "Кухня изготовлена очень качественно, интересный дизайн проект, с учетом всех наших пожеланий! Отличный сервис! Рекомендую с удовольствием!"
+  }
+ ]
+}

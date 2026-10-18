@@ -1,0 +1,64 @@
+{
+ "id": "master-hamster",
+ "variant": "auto",
+ "accent": "#c98a5e",
+ "point": {
+  "lat": 43.169527,
+  "lon": 131.933715
+ },
+ "hours": "пн-пт 09:00-19:00, сб-вс выходной",
+ "hero": {
+  "src": "https://i2.photo.2gis.com/photo-gallery/19d6b02f-085b-4c43-a6e4-305aef02ac46.jpg",
+  "caption": "",
+  "src_desktop": "https://i2.photo.2gis.com/photo-gallery/19d6b02f-085b-4c43-a6e4-305aef02ac46.jpg",
+  "crop_desktop": [
+   0,
+   0.1,
+   1,
+   0.65
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i9.photo.2gis.com/photo-gallery/76115a04-97a2-4a77-a7fa-826c8c427980.jpg",
+   "title": "Короб под бойлер",
+   "text": "Панели под дерево вокруг бойлера и труб."
+  },
+  {
+   "src": "https://i4.photo.2gis.com/photo-gallery/959dc294-f4c0-4d71-ba7c-c4ab70e7b759.jpg",
+   "title": "Шкаф до потолка",
+   "text": "Светлые фасады без ручек на виду."
+  },
+  {
+   "src": "https://i6.photo.2gis.com/photo-gallery/5fd84177-ab8d-45d0-8034-94e8a6131af9.jpg",
+   "title": "Шкаф с серыми фасадами",
+   "text": "Гладкие фасады во всю стену."
+  },
+  {
+   "src": "https://i1.photo.2gis.com/photo-gallery/34eb2dcf-a2de-4cdf-ba90-f92b5b3f3855.jpg",
+   "title": "Ниша со штангой",
+   "text": "Белый корпус и штанга для одежды."
+  },
+  {
+   "src": "https://i2.photo.2gis.com/photo-gallery/1e40e584-fc32-4188-ad4a-a583acc98f34.jpg",
+   "title": "Фасады под дерево",
+   "text": "Светлый декор под дерево."
+  }
+ ],
+ "steps_photos": [],
+ "storefront": "https://i1.photo.2gis.com/photo-gallery/db2f03bf-bfa5-4bcc-8acd-45cb33cb9d4e.jpg",
+ "reviews": [
+  {
+   "name": "Светлана К.",
+   "text": "Делали дверцы в туалете закрыть водонагреватель и трубы. Очень довольна! От замера до результата."
+  },
+  {
+   "name": "Валерия К.",
+   "text": "Заказывала у ребят кухню, все сделали красиво. Хороший подход к работе, приятные люди. Спасибо, советую."
+  },
+  {
+   "name": "Марина Ч.",
+   "text": "Заказывала шкаф - купе по индивидуальным размерам. Сделали замеры, предоставили и утвердили со мной проект шкафа, все нюансы мастер указал. Установили в назначенный срок, качество отменное Рекомендую!"
+  }
+ ]
+}

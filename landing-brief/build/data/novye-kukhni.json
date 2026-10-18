@@ -1,0 +1,66 @@
+{
+ "id": "novye-kukhni",
+ "variant": "auto",
+ "accent": "#4f86d9",
+ "point": {
+  "lat": 54.970006,
+  "lon": 73.412045
+ },
+ "hours": "пн выходной, вт-сб 10:00-18:00, вс выходной",
+ "hero": {
+  "src": "https://i0.photo.2gis.com/photo-gallery/7579408a-3476-4a0c-b427-417e08b3f887.jpg",
+  "caption": "",
+  "src_desktop": "https://i0.photo.2gis.com/photo-gallery/7579408a-3476-4a0c-b427-417e08b3f887.jpg",
+  "crop_desktop": [
+   0,
+   0.1,
+   1,
+   0.65
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i1.photo.2gis.com/photo-gallery/363c5c2e-defc-4ad7-a2d4-ef4d7278728a.jpg",
+   "title": "Кухня с узорной плиткой",
+   "text": "Белые фасады с филёнкой и плитка с орнаментом."
+  },
+  {
+   "src": "https://i5.photo.2gis.com/photo-gallery/6d6e535a-6610-41d5-bae2-9f52dce65f81.jpg",
+   "title": "Угловая кухня",
+   "text": "Белые фасады с филёнкой и столешница под дерево."
+  },
+  {
+   "src": "https://i7.photo.2gis.com/photo-gallery/11d87407-791c-442b-aa81-d09680159892.jpg",
+   "title": "П-образная кухня",
+   "text": "Светлые фасады вдоль трёх стен."
+  },
+  {
+   "src": "https://i0.photo.2gis.com/photo-gallery/744e6f2d-942f-4606-8848-f0a449e98657.jpg",
+   "title": "Кухня с графитовым низом",
+   "text": "Белый верх и плитка-кабанчик."
+  },
+  {
+   "src": "https://i2.photo.2gis.com/photo-gallery/dfc1bb79-ab29-420e-942a-88477f9f361a.jpg",
+   "title": "Кухня с бирюзовым верхом",
+   "text": "Белый низ и столешница под дерево."
+  },
+  {
+   "src": "https://i0.photo.2gis.com/photo-gallery/59cd4934-a1f7-4b13-8998-2291c7f67a65.jpg",
+   "title": "Кухня под мрамор",
+   "text": "Графитовый низ, светлый верх и стена под мрамор."
+  }
+ ],
+ "steps_photos": [],
+ "review_photo": "https://i9.photo.2gis.com/images/branch/0/30258560169629315_f1c0.jpg",
+ "storefront": "https://i2.photo.2gis.com/photo-gallery/aaada2c9-dbf6-4af4-a115-d5d42bc17d5c.jpg",
+ "reviews": [
+  {
+   "name": "Галина А.",
+   "text": "Нужна была современная и элегантная угловая кухня. Обратилась по рекомендации в Новые кухни и осталась очень довольна. Спасибо за качественное изготовление и установку кухни."
+  },
+  {
+   "name": "Юлия К.",
+   "text": "Сегодня поставили нашу замечательную кухню. Всё сделано так, как я и хотела. Отдельно хотелось сказать большое спасибо Наталье, замечательный консультант всё наглядно показала и рассказала. Спасибо Вам за красоту и наш уют."
+  }
+ ]
+}

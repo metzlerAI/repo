@@ -69,6 +69,17 @@ TEXTS = {
         menu=[("Диваны", [("Прямой диван", ""), ("Угловой диван", "")]),
               ("Кресла", [("Кресло", ""), ("Перетяжка", "за диван")])],
         price_note="Точную цену называем, когда выбраны размер, механизм и ткань."),
+    "Мебельные фасады": dict(  # цех крашеных фасадов (Мдф-Технологии): шьют новые и перекрашивают старые
+        line="Крашеные мебельные фасады в Краснодаре",
+        intro="Делаем крашеные фасады МДФ по вашим размерам и перекрашиваем старые: для кухонь, шкафов, дверей и столов.",
+        steps=[("Пишете", "Оставляете заявку или пишете в WhatsApp."),
+               ("Размеры", "Обсуждаем размеры, фрезеровку и цвет."),
+               ("Цена", "Называем точную стоимость."),
+               ("Покраска", "Изготавливаем и красим фасады.")],
+        menu=[("Фасады", [("Крашеный фасад", "за квадратный метр"), ("С фрезеровкой", "за квадратный метр")]),
+              ("Покраска", [("Старые фасады", "за квадратный метр"), ("Двери и столы", "за изделие")])],
+        price_note="Точную цену называем, когда известны размеры, фрезеровка и цвет.",
+        visit_h="Приезжайте в цех"),
 }
 TEXTS_TABLES = dict(
     line="Обеденные столы и стулья в Краснодаре",
@@ -258,6 +269,19 @@ QUIZZES = {
             dict(t="Как можно скорее", d=""), dict(t="В течение месяца", d=""),
             dict(t="Через 1-3 месяца", d=""), dict(t="Пока присматриваюсь", d="")]),
     ]),
+    "facades": dict(h="Сколько будут стоить ваши фасады", pre=2, steps=[
+        dict(q="Что нужно сделать?", opts=[
+            dict(t="Новые фасады", d="по вашим размерам"), dict(t="Перекрасить старые", d=""),
+            dict(t="Покрасить дверь", d=""), dict(t="Стол или тумба", d="")]),
+        dict(q="Для какой мебели?", opts=[
+            dict(t="Кухня", d=""), dict(t="Шкаф", d=""), dict(t="Ванная", d=""), dict(t="Другое", d="")]),
+        dict(q="Какая отделка нравится?", opts=[
+            dict(t="Матовая эмаль", d=""), dict(t="Глянец", d=""),
+            dict(t="С фрезеровкой", d="узор или филёнка"), dict(t="Пока не знаю", d="подскажем")]),
+        dict(q="Когда нужно?", opts=[
+            dict(t="Как можно скорее", d=""), dict(t="В течение месяца", d=""),
+            dict(t="Через 1-3 месяца", d=""), dict(t="Пока присматриваюсь", d="")]),
+    ]),
     "tables": dict(h="Подберём стол за минуту", pre=2, steps=[
         dict(q="Сколько человек за столом?", opts=[
             dict(t="2-4", d=""), dict(t="4-6", d=""), dict(t="6-8", d=""), dict(t="Больше 8", d="")]),
@@ -278,7 +302,7 @@ def variant_for(c, d):
         return d["variant"]
     if UK:
         return {"Fitted furniture": "fitted_en", "Builders": "builder_en"}.get(c["rubric"], "kitchen_en")
-    return {"Детская мебель": "kids", "Мягкая мебель": "soft"}.get(c["rubric"], "kitchen")
+    return {"Детская мебель": "kids", "Мягкая мебель": "soft", "Мебельные фасады": "facades"}.get(c["rubric"], "kitchen")
 
 CAM_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 8h3l1.5-2h7L17 8h3v11H4z" stroke-linejoin="round"/><circle cx="12" cy="13" r="3.5"/></svg>'
 
@@ -402,16 +426,17 @@ def build(cid, companies, env):
         if not UK and not c.get("wa"):
             text = text.replace("WhatsApp", "Telegram")
         s = {"verb": verb, "text": text, "img": None}
-        if i < len(photos):
-            save_photo(photos[i], img / f"s{i + 1}.jpg", max_w=900)
+        if i < len(photos):  # фото шага: ссылка или {"src", "crop"}, если надо срезать логотип
+            p = photos[i] if isinstance(photos[i], dict) else {"src": photos[i]}
+            save_photo(p["src"], img / f"s{i + 1}.jpg", max_w=900, crop=p.get("crop"))
             s["img"] = f"s{i + 1}.jpg"
         steps.append(s)
     t["steps"] = steps
 
     if d.get("review_photo"):
-        save_photo(d["review_photo"], img / "review.jpg", max_w=1100)
+        save_photo(d["review_photo"], img / "review.jpg", max_w=1100, crop=d.get("review_crop"))
     if d.get("storefront"):
-        save_photo(d["storefront"], img / "place.jpg", max_w=2000)
+        save_photo(d["storefront"], img / "place.jpg", max_w=2000, crop=d.get("storefront_crop"))
     has_map = bool(d.get("point")) and save_map(d["point"], img / "map.png")
 
     c["phone_raw"] = c.get("tel") or "+" + re.sub(r"\D", "", c["phone"])

@@ -1,0 +1,74 @@
+{
+ "id": "mebel25",
+ "variant": "auto",
+ "accent": "#8fb3a3",
+ "point": {
+  "lat": 43.148731,
+  "lon": 131.936089
+ },
+ "hours": "пн-пт 10:00-19:00, сб 11:00-17:00, вс выходной",
+ "hero": {
+  "src": "https://i6.photo.2gis.com/photo-gallery/a3ae8f76-0b25-4367-9edc-2ac108e9a41c.jpg",
+  "caption": "",
+  "src_desktop": "https://i6.photo.2gis.com/photo-gallery/9b2b7b6e-24b2-4b47-95a8-a53662cc22f5.jpg",
+  "crop_desktop": [
+   0,
+   0,
+   1,
+   1
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i5.photo.2gis.com/photo-gallery/95574c91-a784-4e87-8f8b-0975ac2184c0.jpg",
+   "title": "Кухня с мятными фасадами",
+   "text": "Мятный низ, верхние шкафы под дерево и подсветка."
+  },
+  {
+   "src": "https://i9.photo.2gis.com/images/branch/0/30258560083378508_1f7f.jpg",
+   "title": "Синяя кухня в стиле лофт",
+   "text": "Синие фасады, открытые полки и кирпичная стена."
+  },
+  {
+   "src": "https://i4.photo.2gis.com/photo-gallery/d91a4147-c511-474d-b426-a05d50aad697.jpg",
+   "title": "Кухня с обеденным столом",
+   "text": "Светлые фасады, верх под дерево и стол-полуостров."
+  },
+  {
+   "src": "https://i0.photo.2gis.com/photo-gallery/4e74d35e-cec5-4a81-94a9-4809c2561b58.jpg",
+   "title": "Кухня с барной стойкой",
+   "text": "Белые фасады, тёмные пеналы и стойка под мрамор."
+  },
+  {
+   "src": "https://i4.photo.2gis.com/photo-gallery/500cd9fd-3413-4809-83f1-118caa384268.jpg",
+   "title": "Графитовая кухня",
+   "text": "Ниша под дерево и витрина с подсветкой."
+  },
+  {
+   "src": "https://i7.photo.2gis.com/photo-gallery/0acd43c6-691a-4967-8e61-750e9edbb338.jpg",
+   "title": "Кухня-гостиная",
+   "text": "Светлые фасады и остров с барными стульями."
+  }
+ ],
+ "steps_photos": [
+  "https://i3.photo.2gis.com/photo-gallery/6fb0204b-cea3-41f2-ac27-a988d7286df9.jpg",
+  "https://i2.photo.2gis.com/photo-gallery/72aecfbe-cffd-4644-9be7-476fcd942247.jpg",
+  "https://i9.photo.2gis.com/photo-gallery/9a00a05a-1c1a-46d6-bfda-151944838a2d.jpg",
+  "https://i0.photo.2gis.com/photo-gallery/abe00171-5cb6-40e9-ba6d-6675e914298a.jpg"
+ ],
+ "review_photo": "https://i7.photo.2gis.com/photo-gallery/83b718fe-23f4-4e42-b565-f64e724e8227.jpg",
+ "reviews": [
+  {
+   "name": "Марина Л.",
+   "text": "Делали мебель на заказ, все очень понравилось, ребят рекомендую, буду обращаться теперь только сюда."
+  },
+  {
+   "name": "Наталья",
+   "text": "Заказывали кухню, остались очень довольны. Учли все пожелания, помогли с дизайном, всё изготовили и установили в срок. Качество отличное, кухня получилась удобной и стильной. Стоит уже 2 года, почти как новая. Рекомендуем."
+  },
+  {
+   "name": "Геннадий",
+   "text": "Одним словом супер, спасибо вашей команде за проделанную работу!"
+  }
+ ]
+}

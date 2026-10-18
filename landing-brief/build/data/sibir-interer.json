@@ -1,0 +1,75 @@
+{
+ "id": "sibir-interer",
+ "variant": "auto",
+ "accent": "#b08a64",
+ "point": {
+  "lat": 53.336136,
+  "lon": 83.753887
+ },
+ "hours": "пн-сб 10:00-18:00, вс выходной",
+ "hero": {
+  "src": "https://i7.photo.2gis.com/photo-gallery/3571de03-d4c4-4013-b5c8-3aa3f31f9d64.jpg",
+  "caption": "",
+  "src_desktop": "https://i0.photo.2gis.com/photo-gallery/da2c92e3-eef9-4b9a-9f40-1dbeece47f97.jpg",
+  "crop_desktop": [
+   0,
+   0.2,
+   1,
+   0.75
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i6.photo.2gis.com/photo-gallery/913b169e-592d-4124-87f7-e33b7fbd489e.jpg",
+   "title": "Кухня с фасадами под дерево",
+   "text": "Нижние фасады под дерево, столешница под камень и подсветка."
+  },
+  {
+   "src": "https://i7.photo.2gis.com/photo-gallery/ccbef312-b697-4f0d-948b-a290bea8aae7.jpg",
+   "title": "Белая кухня с обеденной зоной",
+   "text": "Белые фасады, столешница под дерево и стол посередине."
+  },
+  {
+   "src": "https://i3.photo.2gis.com/photo-gallery/8efa6f34-36e2-4f35-b594-bbe5171d1513.jpg",
+   "title": "Шкаф-купе",
+   "text": "Двери с тонированными вставками во всю стену."
+  },
+  {
+   "src": "https://i9.photo.2gis.com/photo-gallery/d3462a57-5597-44a0-958d-4c5fff2c09c8.jpg",
+   "title": "Кухня с классическими фасадами",
+   "text": "Светлые фасады с филёнкой и пенал под холодильник."
+  },
+  {
+   "src": "https://i6.photo.2gis.com/photo-gallery/6faa84e6-9b96-4e46-81fd-37cf1abe715e.jpg",
+   "title": "Кухня с островом",
+   "text": "Розовые фасады и остров со светлой столешницей."
+  },
+  {
+   "src": "https://i0.photo.2gis.com/photo-gallery/3323dab2-c1f1-4143-8ecc-91f3fa6be8d4.jpg",
+   "title": "Прихожая",
+   "text": "Белые шкафы с филёнкой, зеркало и полка."
+  }
+ ],
+ "steps_photos": [
+  "https://i6.photo.2gis.com/images/branch/0/30258560115956985_1c97.jpg",
+  "https://i8.photo.2gis.com/photo-gallery/106f8a2b-278b-4adf-ba1d-ba511f49586e.jpg",
+  "https://i3.photo.2gis.com/images/branch/0/30258560115967784_cd4e.jpg",
+  "https://i2.photo.2gis.com/photo-gallery/f1fe5055-40e8-4108-a8b0-84a4b82f4945.jpg"
+ ],
+ "review_photo": "https://i8.photo.2gis.com/photo-gallery/054006f2-6f73-4c54-8a43-76bd5a558a44.jpg",
+ "storefront": "https://i4.photo.2gis.com/photo-gallery/d996d926-33c0-4b89-ac5c-5443b2cadea0.jpg",
+ "reviews": [
+  {
+   "name": "Андрей К.",
+   "text": "Сегодня нам установили мебель в детскую, мы в ВОСТОРГЕ. Спасибо вам за красоту которую вы создаёте."
+  },
+  {
+   "name": "Ульяна Т.",
+   "text": "Кухня получилась шикарная! Все сделали так, как я и мечтала. Цвета кухни и удобство всех ящиков и шкафов на высшем уровне."
+  },
+  {
+   "name": "Раиса Ф.",
+   "text": "Заказывали кухню и шкаф в этой компании. Сделали в срок, все получилось красиво, как на картинке. Спасибо за работу, рекомендую!"
+  }
+ ]
+}

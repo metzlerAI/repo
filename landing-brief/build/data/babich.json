@@ -1,0 +1,74 @@
+{
+ "id": "babich",
+ "variant": "auto",
+ "accent": "#5e9ea0",
+ "point": {
+  "lat": 57.674108,
+  "lon": 39.821135
+ },
+ "hours": "пн-пт 09:00-20:00, сб-вс 10:00-18:00",
+ "hero": {
+  "src": "https://i3.photo.2gis.com/photo-gallery/5cb4bcde-4be9-4393-b015-08b42c10c275.jpg",
+  "caption": "",
+  "src_desktop": "https://i8.photo.2gis.com/images/branch/0/30258560053932326_e4ba.jpg",
+  "crop_desktop": [
+   0,
+   0,
+   1,
+   1
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i3.photo.2gis.com/photo-gallery/c869f17b-38c2-4b20-9035-3b52c0fd08ec.jpg",
+   "title": "Кухня с островом",
+   "text": "Остров со столешницей под мрамор и светлые фасады."
+  },
+  {
+   "src": "https://i7.photo.2gis.com/photo-gallery/a7ca5ac6-062e-4afa-9020-c92f9c41f71d.jpg",
+   "title": "Классическая кухня",
+   "text": "Синие фасады с филёнкой и светлые витрины."
+  },
+  {
+   "src": "https://i0.photo.2gis.com/photo-gallery/adde8afc-cb2c-4d52-8713-efdd1c57862d.jpg",
+   "title": "Зелёная кухня",
+   "text": "Тёмно-зелёные фасады, вытяжка и встроенная духовка."
+  },
+  {
+   "src": "https://i6.photo.2gis.com/photo-gallery/968c5002-e492-4d89-b274-01c0fc5a8513.jpg",
+   "title": "Кухня с обеденным столом",
+   "text": "Графитовые фасады, ниша под дерево и стол у окна."
+  },
+  {
+   "src": "https://i7.photo.2gis.com/images/branch/0/30258560053932403_2c80.jpg",
+   "title": "Шкаф-купе",
+   "text": "Двери из панелей разных оттенков."
+  },
+  {
+   "src": "https://i8.photo.2gis.com/photo-gallery/4c843a3d-d91c-41b6-846e-94238bfad2d5.jpg",
+   "title": "Кухня со столешницей под мрамор",
+   "text": "Белые фасады и подсветка под шкафами."
+  }
+ ],
+ "steps_photos": [
+  "https://i6.photo.2gis.com/photo-gallery/1f6261f7-c47c-4667-bd27-6778dacf936c.jpg",
+  "https://i1.photo.2gis.com/images/branch/0/30258560053932945_0bf4.jpg",
+  "https://i7.photo.2gis.com/photo-gallery/56f071e0-43ae-4b55-8bcf-ffc62eec44f6.jpg",
+  "https://i1.photo.2gis.com/images/branch/0/30258560053932982_b25b.jpg"
+ ],
+ "review_photo": "https://i0.photo.2gis.com/photo-gallery/ffbc3d28-35c6-45ee-b3ad-1fe8ee7c1f33.jpg",
+ "reviews": [
+  {
+   "name": "Саша К.",
+   "text": "Заказываю не впервые раз здесь мебель и однозначно буду обращаться еще, очень положительное впечатление от компании, добросовестный, отзывчивый, коммуникабельный слаженный коллектив! Спасибо за красивую и качественную мебель!"
+  },
+  {
+   "name": "Ирина В.",
+   "text": "Давно мечтали с мужем сделать зеркальный шкаф мечты и вот сбылось под Новый год благодаря мебельной компании Бабич. Скажу одно, получилось лучше, чем мы планировали!"
+  },
+  {
+   "name": "Владимир Б.",
+   "text": "Это просто шедевр! Самый лучший подход в Ярославле к клиенту!"
+  }
+ ]
+}

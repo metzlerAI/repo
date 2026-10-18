@@ -1,0 +1,149 @@
+{
+ "id": "mastermebel05",
+ "variant": "auto",
+ "accent": "#b08a55",
+ "point": {
+  "lat": 42.93534,
+  "lon": 47.564395
+ },
+ "hours": "пн-чт 10:00-13:00, 14:00-18:00, пт 00:00-13:00, 14:00-24:00, сб-вс 10:00-13:00, 14:00-18:00",
+ "hero": {
+  "src": "https://i4.photo.2gis.com/photo-gallery/7fe20fa8-234d-4224-9dad-ba7747b7cb18.jpg",
+  "caption": "",
+  "src_desktop": "https://i4.photo.2gis.com/photo-gallery/7fe20fa8-234d-4224-9dad-ba7747b7cb18.jpg",
+  "crop_desktop": [
+   0,
+   0.2,
+   1,
+   0.75
+  ],
+  "crop": [
+   0,
+   0.18,
+   1,
+   1
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://i4.photo.2gis.com/photo-gallery/722da4dc-0cfc-4266-9d82-d5bf57432ad8.jpg",
+   "title": "Прихожая",
+   "text": "Рифлёные фасады, латунные ручки и банкетка.",
+   "crop": [
+    0,
+    0.18,
+    1,
+    1
+   ]
+  },
+  {
+   "src": "https://i6.photo.2gis.com/photo-gallery/7456ec37-050e-4538-8cc6-44d568ff3feb.jpg",
+   "title": "Шкаф в спальню",
+   "text": "Белые фасады с филёнкой, зеркала и латунные ручки.",
+   "crop": [
+    0,
+    0.18,
+    1,
+    1
+   ]
+  },
+  {
+   "src": "https://i9.photo.2gis.com/photo-gallery/e338c6dc-0c7a-4587-9b4e-4caf8d328b47.jpg",
+   "title": "Шкаф во всю стену",
+   "text": "Белые фасады без ручек на виду.",
+   "crop": [
+    0,
+    0.18,
+    1,
+    1
+   ]
+  },
+  {
+   "src": "https://i2.photo.2gis.com/photo-gallery/a8fc97aa-153a-4cd4-8506-a867aceccb48.jpg",
+   "title": "Шкаф с арками",
+   "text": "Белые фасады с рельефными арками.",
+   "crop": [
+    0,
+    0.18,
+    1,
+    1
+   ]
+  },
+  {
+   "src": "https://i0.photo.2gis.com/photo-gallery/73bba298-4e15-4578-896a-445e632cc8bc.jpg",
+   "title": "Шкаф под бетон",
+   "text": "Серые фасады и длинные чёрные ручки.",
+   "crop": [
+    0,
+    0.18,
+    1,
+    1
+   ]
+  },
+  {
+   "src": "https://i7.photo.2gis.com/photo-gallery/de196d31-0f66-4f98-9357-5190c04470c2.jpg",
+   "title": "Кабинет",
+   "text": "Стол под дерево и стеновые панели.",
+   "crop": [
+    0,
+    0.18,
+    1,
+    1
+   ]
+  }
+ ],
+ "steps_photos": [
+  {
+   "src": "https://i2.photo.2gis.com/photo-gallery/97eb2ba0-29f6-4ebb-baaa-7ecf4cb23c1a.jpg",
+   "crop": [
+    0,
+    0.18,
+    1,
+    1
+   ]
+  },
+  {
+   "src": "https://i1.photo.2gis.com/photo-gallery/896c0ae6-ab72-484a-9d2b-daa0d882d619.jpg",
+   "crop": [
+    0,
+    0.18,
+    1,
+    1
+   ]
+  },
+  {
+   "src": "https://i4.photo.2gis.com/photo-gallery/ea80410b-b7ea-488e-ba6a-f56224c4ccff.jpg",
+   "crop": [
+    0,
+    0.18,
+    1,
+    1
+   ]
+  },
+  {
+   "src": "https://i6.photo.2gis.com/photo-gallery/f76a6c1d-5651-438d-af0a-682509f65185.jpg",
+   "crop": [
+    0,
+    0.18,
+    1,
+    1
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Абдулла А.",
+   "text": "Если вы хотите приобрести качественную мебель, обращайтесь к ним. Ахмеду отдельное спасибо за быструю консультацию и оперативную работу."
+  },
+  {
+   "name": "Нурайбат А.",
+   "text": "Работа на высшем уровне, приняли и обслужили грамотно, быстро. Спасибо большое за вашу работу!"
+  },
+  {
+   "name": "Аминат К.",
+   "text": "Ответственная фирма. Все в срок и самое главное качество. Фурнитура только самая лучшая! Заказала три шкафа. Советую."
+  }
+ ],
+ "display_vw": 8.6,
+ "display_min": "2rem"
+}
